@@ -1,0 +1,12 @@
+
+===== run 2026-04-22T19:12:06Z batch_size=1 lang=CZ_DUB,CZ_SUB (https://github.com/Olbrasoft/sledujtetocz-to-prehrajto/actions/runs/24797541184) =====
+[19:12:07] step=batch-start count=1 backlog=636 uploads=0 moderated=0
+[19:12:07] step=login
+[19:12:08] step=login done
+[19:12:08] step=iteration 1/1
+[19:12:08] step=film start upload_id=100943 cr_film_id=31505 name='Fabian a vražedná svatba (2026) CZ titulky'
+[19:12:08] step=cdn-resolve upload_id=100943 cdn=data11
+[19:12:09] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/b1651a9a7c47177850f3d57d5da8b4cb
+[19:12:09] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/b1651a9a7c47177850f3d57d5da8b4cb
+[19:12:10] step=download FAILED upload_id=100943 after 0.7s err=curl exit=22 stderr=curl: (22) The requested URL returned error: 403
+[19:12:10] step=batch-end succeeded=0 failed=1 total_uploads=0 batch_dur=1.6s avg_per_film=0s backlog_remaining=636 eta_hours=None

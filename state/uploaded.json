@@ -2,8 +2,22 @@
   "schema_version": 1,
   "account": "filmy.prehrajto@email.cz",
   "source": "sledujteto.cz",
-  "last_updated": null,
+  "last_updated": "2026-04-22T19:12:10Z",
   "uploads": [],
   "moderated_out": [],
-  "failed_attempts": []
+  "failed_attempts": [
+    {
+      "sledujteto_file_id": 100943,
+      "cr_film_id": 31505,
+      "cr_slug": "fabian-a-vrazedna-svatba",
+      "title": "Fabian a vražedná svatba",
+      "year": 2026,
+      "reason": "download_failed: curl exit=22 stderr=curl: (22) The requested URL returned error: 403",
+      "failed_at": "2026-04-22T19:12:10Z",
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 0.7
+      }
+    }
+  ]
 }
