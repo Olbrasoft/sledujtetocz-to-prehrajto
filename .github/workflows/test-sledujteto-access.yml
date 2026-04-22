@@ -1,0 +1,73 @@
+name: test-sledujteto-access
+
+# Ověří, že GitHub runner (ubuntu-latest, Azure USA) vidí sledujteto.cz CDN.
+# Spustit ručně před prvním sync runem.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    name: Probe sledujteto CDN connectivity
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Runner IP / geo
+        run: |
+          echo "=== Runner IP ==="
+          curl -s https://ipinfo.io/json || true
+
+      - name: www.sledujteto.cz — add-file-link
+        run: |
+          echo "=== POST https://www.sledujteto.cz/services/add-file-link ==="
+          curl -s --max-time 15 -X POST "https://www.sledujteto.cz/services/add-file-link" \
+            -H "Content-Type: application/json;charset=UTF-8" \
+            -H "Accept: application/json, text/plain, */*" \
+            -H "User-Agent: Mozilla/5.0" \
+            -H "Referer: https://www.sledujteto.cz/" \
+            -H "requested-with-angularjs: true" \
+            -d '{"params":{"id":100943}}' | head -c 1000 || true
+          echo ""
+
+      - name: data11.sledujteto.cz — add-file-link
+        run: |
+          echo "=== POST https://data11.sledujteto.cz/services/add-file-link ==="
+          curl -s --max-time 15 -X POST "https://data11.sledujteto.cz/services/add-file-link" \
+            -H "Content-Type: application/json;charset=UTF-8" \
+            -H "Accept: application/json, text/plain, */*" \
+            -H "User-Agent: Mozilla/5.0" \
+            -H "Referer: https://www.sledujteto.cz/" \
+            -H "requested-with-angularjs: true" \
+            -d '{"params":{"id":100943}}' | head -c 1000 || true
+          echo ""
+
+      - name: Python resolver end-to-end
+        run: |
+          python3 src/resolve_sledujteto_cdn.py 100943 data11 || echo "RESOLVER FAILED"
+
+      - name: data11 Range probe
+        run: |
+          set -e
+          VIDEO_URL=$(python3 src/resolve_sledujteto_cdn.py 100943 data11 2>/dev/null || true)
+          if [ -z "$VIDEO_URL" ]; then
+            echo "no URL to probe"; exit 0
+          fi
+          echo "=== HEAD + Range bytes=0-1023 on $VIDEO_URL ==="
+          curl -sI --max-time 15 \
+            -H "User-Agent: Mozilla/5.0" \
+            -H "Referer: https://www.sledujteto.cz/" \
+            -H "Range: bytes=0-1023" \
+            "$VIDEO_URL" | head -20
+
+      - name: sledujteto.aspfree.cz proxy (CZ relay)
+        env:
+          PROXY_KEY: ${{ secrets.SLEDUJTETO_PROXY_KEY }}
+        run: |
+          if [ -z "$PROXY_KEY" ]; then
+            echo "SLEDUJTETO_PROXY_KEY secret missing — skip"; exit 0
+          fi
+          echo "=== GET https://sledujteto.aspfree.cz/Hash.ashx?id=100943 ==="
+          curl -s --max-time 20 "https://sledujteto.aspfree.cz/Hash.ashx?id=100943&key=$PROXY_KEY" | head -c 1500 || true
+          echo ""
