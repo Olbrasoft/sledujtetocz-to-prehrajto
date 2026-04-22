@@ -314,3 +314,235 @@
 [20:35:29] step=film done upload_id=86214 total=89.1s (cdn=0.8s + download=34.2s + upload=54.0s)
 [20:35:29] step=state-saved upload_id=86214 (total uploads=26)
 [20:35:29] step=batch-end succeeded=20 failed=0 total_uploads=26 batch_dur=2550.3s avg_per_film=127.5s backlog_remaining=610 eta_hours=21.6
+
+===== run 2026-04-22T20:37:56Z batch_size=100 lang=CZ_DUB,CZ_SUB (https://github.com/Olbrasoft/sledujtetocz-to-prehrajto/actions/runs/24801404165) =====
+[20:37:57] step=batch-start count=100 backlog=636 uploads=26 moderated=0
+[20:37:57] step=login
+[20:37:58] step=login done
+[20:37:58] step=iteration 1/100
+[20:37:58] step=film start upload_id=82289 cr_film_id=31383 name='Blažiny lekce (2024) CZ Dabing'
+[20:37:58] step=cdn-resolve upload_id=82289 cdn=data11
+[20:37:59] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/1caa1dec2c0dfa1f27400aaab1b965c9
+[20:37:59] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/1caa1dec2c0dfa1f27400aaab1b965c9
+[20:39:05] step=download done upload_id=82289 size=2097069263 dur=66.2s speed=31.7MB/s
+[20:39:05] step=upload start upload_id=82289 size=2097069263
+[20:40:32] step=upload done upload_id=82289 video_id=24088507 dur=86.7s speed=24.2MB/s
+[20:40:32] step=cleanup unlinked Blažiny lekce (2024) CZ Dabing.mp4
+[20:40:32] step=film done upload_id=82289 total=153.9s (cdn=0.8s + download=66.2s + upload=86.7s)
+[20:40:32] step=state-saved upload_id=82289 (total uploads=27)
+[20:40:32] step=iteration 2/100
+[20:40:32] step=film start upload_id=84428 cr_film_id=31399 name='Escape (2024) CZ titulky'
+[20:40:32] step=cdn-resolve upload_id=84428 cdn=data10
+[20:40:33] step=cdn-resolve done 1.1s → https://data10.sledujteto.cz/player/index/sledujteto/5bfb867adb343fbd0cdc953577ff3052
+[20:40:33] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/5bfb867adb343fbd0cdc953577ff3052
+[20:41:40] step=download done upload_id=84428 size=2029690137 dur=67.0s speed=30.3MB/s
+[20:41:40] step=upload start upload_id=84428 size=2029690137
+[20:43:13] step=upload done upload_id=84428 video_id=24088567 dur=93.1s speed=21.8MB/s
+[20:43:13] step=cleanup unlinked Escape (2024) CZ titulky.mp4
+[20:43:13] step=film done upload_id=84428 total=161.4s (cdn=1.1s + download=67.0s + upload=93.1s)
+[20:43:13] step=state-saved upload_id=84428 (total uploads=28)
+[20:43:13] step=iteration 3/100
+[20:43:13] step=film start upload_id=74666 cr_film_id=31405 name='Mahárádža (2024) CZ titulky'
+[20:43:13] step=cdn-resolve upload_id=74666 cdn=data11
+[20:43:14] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/030ae6674e8ef056c0a7e795cc88c89c
+[20:43:14] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/030ae6674e8ef056c0a7e795cc88c89c
+[20:44:35] step=download done upload_id=74666 size=2596504890 dur=81.3s speed=31.9MB/s
+[20:44:35] step=upload start upload_id=74666 size=2596504890
+[20:46:37] step=upload done upload_id=74666 video_id=24088623 dur=122.0s speed=21.3MB/s
+[20:46:38] step=cleanup unlinked Mahárádža (2024) CZ titulky.mp4
+[20:46:38] step=film done upload_id=74666 total=204.3s (cdn=0.9s + download=81.3s + upload=122.0s)
+[20:46:38] step=state-saved upload_id=74666 (total uploads=29)
+[20:46:38] step=iteration 4/100
+[20:46:38] step=film start upload_id=77977 cr_film_id=31421 name='Bílá odvaha (2024) CZ titulky'
+[20:46:38] step=cdn-resolve upload_id=77977 cdn=data10
+[20:46:38] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/c2d42adddc7eff9871d9def7fa4c61c3
+[20:46:38] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/c2d42adddc7eff9871d9def7fa4c61c3
+[20:48:00] step=download done upload_id=77977 size=2565721717 dur=81.1s speed=31.6MB/s
+[20:48:00] step=upload start upload_id=77977 size=2565721717
+[20:50:15] step=upload done upload_id=77977 video_id=24088661 dur=135.0s speed=19.0MB/s
+[20:50:15] step=cleanup unlinked Bílá odvaha (2024) CZ titulky.mp4
+[20:50:15] step=film done upload_id=77977 total=217.2s (cdn=0.9s + download=81.1s + upload=135.0s)
+[20:50:15] step=state-saved upload_id=77977 (total uploads=30)
+[20:50:15] step=iteration 5/100
+[20:50:15] step=film start upload_id=77321 cr_film_id=31430 name='Wallbanger (2024) CZ titulky'
+[20:50:15] step=cdn-resolve upload_id=77321 cdn=data11
+[20:50:16] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/a39691912fdf2772ac2d4bbaee87892c
+[20:50:16] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a39691912fdf2772ac2d4bbaee87892c
+[20:51:27] step=download done upload_id=77321 size=2122038103 dur=71.1s speed=29.8MB/s
+[20:51:27] step=upload start upload_id=77321 size=2122038103
+[20:53:02] step=upload done upload_id=77321 video_id=24088706 dur=95.2s speed=22.3MB/s
+[20:53:02] step=cleanup unlinked Wallbanger (2024) CZ titulky.mp4
+[20:53:02] step=film done upload_id=77321 total=167.3s (cdn=0.8s + download=71.1s + upload=95.2s)
+[20:53:02] step=state-saved upload_id=77321 (total uploads=31)
+[20:53:02] step=iteration 6/100
+[20:53:02] step=film start upload_id=91044 cr_film_id=31435 name='Mateřský instinkt (2024) CZ Dabing'
+[20:53:02] step=cdn-resolve upload_id=91044 cdn=data11
+[20:53:03] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/b6a844d19fc47768122d142b341bb8f5
+[20:53:03] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/b6a844d19fc47768122d142b341bb8f5
+[20:54:16] step=download done upload_id=91044 size=2299370313 dur=73.1s speed=31.5MB/s
+[20:54:16] step=upload start upload_id=91044 size=2299370313
+[20:56:10] step=upload done upload_id=91044 video_id=24088736 dur=113.9s speed=20.2MB/s
+[20:56:10] step=cleanup unlinked Mateřský instinkt (2024) CZ Dabing.mp4
+[20:56:10] step=film done upload_id=91044 total=187.9s (cdn=0.8s + download=73.1s + upload=113.9s)
+[20:56:10] step=state-saved upload_id=91044 (total uploads=32)
+[20:56:10] step=iteration 7/100
+[20:56:10] step=film start upload_id=69332 cr_film_id=31437 name='Pět rande naslepo (2024) CZ titulky'
+[20:56:10] step=cdn-resolve upload_id=69332 cdn=data11
+[20:56:11] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/f98858a8c40ca149fddad58a76f55b2b
+[20:56:11] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/f98858a8c40ca149fddad58a76f55b2b
+[20:57:04] step=download done upload_id=69332 size=1669419070 dur=53.5s speed=31.2MB/s
+[20:57:04] step=upload start upload_id=69332 size=1669419070
+[20:58:18] step=upload done upload_id=69332 video_id=24088763 dur=73.8s speed=22.6MB/s
+[20:58:18] step=cleanup unlinked Pět rande naslepo (2024) CZ titulky.mp4
+[20:58:18] step=film done upload_id=69332 total=128.2s (cdn=0.7s + download=53.5s + upload=73.8s)
+[20:58:18] step=state-saved upload_id=69332 (total uploads=33)
+[20:58:18] step=iteration 8/100
+[20:58:18] step=film start upload_id=97207 cr_film_id=31440 name='Operace Raqqa (2024) CZ Dabing'
+[20:58:18] step=cdn-resolve upload_id=97207 cdn=data11
+[20:58:19] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/30db806e1646ce6fcff296567522c525
+[20:58:19] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/30db806e1646ce6fcff296567522c525
+[20:59:13] step=download done upload_id=97207 size=1692376538 dur=53.5s speed=31.6MB/s
+[20:59:13] step=upload start upload_id=97207 size=1692376538
+[21:00:27] step=upload done upload_id=97207 video_id=24088805 dur=74.8s speed=22.6MB/s
+[21:00:28] step=cleanup unlinked Operace Raqqa (2024) CZ Dabing.mp4
+[21:00:28] step=film done upload_id=97207 total=129.4s (cdn=0.9s + download=53.5s + upload=74.8s)
+[21:00:28] step=state-saved upload_id=97207 (total uploads=34)
+[21:00:28] step=iteration 9/100
+[21:00:28] step=film start upload_id=75234 cr_film_id=31444 name='Divoký Paňdžáb (2024) CZ titulky'
+[21:00:28] step=cdn-resolve upload_id=75234 cdn=data11
+[21:00:28] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/1a3a24462067275b8892167183e111a8
+[21:00:28] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/1a3a24462067275b8892167183e111a8
+[21:01:37] step=download done upload_id=75234 size=2188090480 dur=68.9s speed=31.8MB/s
+[21:01:37] step=upload start upload_id=75234 size=2188090480
+[21:04:02] step=upload done upload_id=75234 video_id=24088846 dur=144.5s speed=15.1MB/s
+[21:04:02] step=cleanup unlinked Divoký Paňdžáb (2024) CZ titulky.mp4
+[21:04:02] step=film done upload_id=75234 total=214.4s (cdn=0.9s + download=68.9s + upload=144.5s)
+[21:04:02] step=state-saved upload_id=75234 (total uploads=35)
+[21:04:02] step=iteration 10/100
+[21:04:02] step=film start upload_id=80567 cr_film_id=31445 name='विजय 69 (2024) CZ titulky'
+[21:04:02] step=cdn-resolve upload_id=80567 cdn=data11
+[21:04:03] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/cf5d9c119bcf1f1b7889182896c0513e
+[21:04:03] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/cf5d9c119bcf1f1b7889182896c0513e
+[21:05:10] step=download done upload_id=80567 size=2219546365 dur=67.4s speed=32.9MB/s
+[21:05:10] step=upload start upload_id=80567 size=2219546365
+[21:07:22] step=upload done upload_id=80567 video_id=24088906 dur=131.6s speed=16.9MB/s
+[21:07:22] step=cleanup unlinked विजय 69 (2024) CZ titulky.mp4
+[21:07:22] step=film done upload_id=80567 total=200.0s (cdn=0.7s + download=67.4s + upload=131.6s)
+[21:07:22] step=state-saved upload_id=80567 (total uploads=36)
+[21:07:22] step=iteration 11/100
+[21:07:22] step=film start upload_id=84304 cr_film_id=31447 name='Cunk on Life (2024) CZ titulky'
+[21:07:22] step=cdn-resolve upload_id=84304 cdn=data11
+[21:07:23] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/24b0ca9890480254913a4f2c32b717c0
+[21:07:23] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/24b0ca9890480254913a4f2c32b717c0
+[21:08:09] step=download done upload_id=84304 size=1407750781 dur=45.9s speed=30.7MB/s
+[21:08:09] step=upload start upload_id=84304 size=1407750781
+[21:09:15] step=upload done upload_id=84304 video_id=24088980 dur=66.3s speed=21.2MB/s
+[21:09:15] step=cleanup unlinked Cunk on Life (2024) CZ titulky.mp4
+[21:09:15] step=film done upload_id=84304 total=113.2s (cdn=0.8s + download=45.9s + upload=66.3s)
+[21:09:15] step=state-saved upload_id=84304 (total uploads=37)
+[21:09:15] step=iteration 12/100
+[21:09:15] step=film start upload_id=97433 cr_film_id=31455 name='Moje slunce (2024) CZ Dabing'
+[21:09:15] step=cdn-resolve upload_id=97433 cdn=data11
+[21:09:16] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/a169fe59e7d468f67beba1e12b49a3b5
+[21:09:16] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a169fe59e7d468f67beba1e12b49a3b5
+[21:09:58] step=download done upload_id=97433 size=1325280173 dur=41.5s speed=31.9MB/s
+[21:09:58] step=upload start upload_id=97433 size=1325280173
+[21:11:07] step=upload done upload_id=97433 video_id=24089008 dur=68.9s speed=19.2MB/s
+[21:11:07] step=cleanup unlinked Moje slunce (2024) CZ Dabing.mp4
+[21:11:07] step=film done upload_id=97433 total=111.5s (cdn=0.9s + download=41.5s + upload=68.9s)
+[21:11:07] step=state-saved upload_id=97433 (total uploads=38)
+[21:11:07] step=iteration 13/100
+[21:11:07] step=film start upload_id=78040 cr_film_id=31463 name='The Air He Breathes (2024) CZ titulky'
+[21:11:07] step=cdn-resolve upload_id=78040 cdn=data11
+[21:11:08] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/31f9061f0cd59ff22c472841758075ed
+[21:11:08] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/31f9061f0cd59ff22c472841758075ed
+[21:12:05] step=download done upload_id=78040 size=1902468006 dur=57.6s speed=33.0MB/s
+[21:12:05] step=upload start upload_id=78040 size=1902468006
+[21:13:50] step=upload done upload_id=78040 video_id=24089060 dur=104.6s speed=18.2MB/s
+[21:13:50] step=cleanup unlinked The Air He Breathes (2024) CZ titulky.mp4
+[21:13:50] step=film done upload_id=78040 total=163.3s (cdn=0.8s + download=57.6s + upload=104.6s)
+[21:13:50] step=state-saved upload_id=78040 (total uploads=39)
+[21:13:50] step=iteration 14/100
+[21:13:50] step=film start upload_id=75500 cr_film_id=31470 name='Žralok vážící 2700 kg (2024) CZ Dabing'
+[21:13:50] step=cdn-resolve upload_id=75500 cdn=data11
+[21:13:51] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/ababe1024cc366f0f8263f83454f6925
+[21:13:51] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/ababe1024cc366f0f8263f83454f6925
+[21:15:14] step=download done upload_id=75500 size=2676535441 dur=82.8s speed=32.3MB/s
+[21:15:14] step=upload start upload_id=75500 size=2676535441
+[21:18:03] step=upload done upload_id=75500 video_id=24089147 dur=169.5s speed=15.8MB/s
+[21:18:03] step=cleanup unlinked Žralok vážící 2700 kg (2024) CZ Dabing.mp4
+[21:18:03] step=film done upload_id=75500 total=253.2s (cdn=0.8s + download=82.8s + upload=169.5s)
+[21:18:03] step=state-saved upload_id=75500 (total uploads=40)
+[21:18:03] step=iteration 15/100
+[21:18:03] step=film start upload_id=77874 cr_film_id=31472 name='Život z druhý ruky (2024) CZ titulky'
+[21:18:03] step=cdn-resolve upload_id=77874 cdn=data11
+[21:18:04] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/3bf4feef32c4c65066237905b2904b0c
+[21:18:04] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/3bf4feef32c4c65066237905b2904b0c
+[21:19:06] step=download done upload_id=77874 size=2014654492 dur=62.1s speed=32.4MB/s
+[21:19:06] step=upload start upload_id=77874 size=2014654492
+[21:20:31] step=upload done upload_id=77874 video_id=24089269 dur=84.6s speed=23.8MB/s
+[21:20:31] step=cleanup unlinked Život z druhý ruky (2024) CZ titulky.mp4
+[21:20:31] step=film done upload_id=77874 total=147.8s (cdn=0.8s + download=62.1s + upload=84.6s)
+[21:20:31] step=state-saved upload_id=77874 (total uploads=41)
+[21:20:31] step=iteration 16/100
+[21:20:31] step=film start upload_id=77140 cr_film_id=31473 name='Neslýchané: Vražda Aira McNaira (2024) CZ Dabing'
+[21:20:31] step=cdn-resolve upload_id=77140 cdn=data10
+[21:20:32] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/47a56cd23d24e0d25b377a8e5b89c543
+[21:20:32] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/47a56cd23d24e0d25b377a8e5b89c543
+[21:21:51] step=download done upload_id=77140 size=2416223890 dur=79.2s speed=30.5MB/s
+[21:21:51] step=upload start upload_id=77140 size=2416223890
+[21:24:05] step=upload done upload_id=77140 video_id=24089358 dur=133.9s speed=18.0MB/s
+[21:24:05] step=cleanup unlinked Neslýchané: Vražda Aira McNaira (2024) CZ Dabing.mp4
+[21:24:05] step=film done upload_id=77140 total=214.1s (cdn=0.8s + download=79.2s + upload=133.9s)
+[21:24:05] step=state-saved upload_id=77140 (total uploads=42)
+[21:24:05] step=iteration 17/100
+[21:24:05] step=film start upload_id=102974 cr_film_id=31476 name='Stín vítězství (2024) CZ titulky'
+[21:24:05] step=cdn-resolve upload_id=102974 cdn=data11
+[21:24:06] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/7d66db9c11ad33b202aec61b13d9f193
+[21:24:06] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/7d66db9c11ad33b202aec61b13d9f193
+[21:25:37] step=download done upload_id=102974 size=3006846510 dur=91.5s speed=32.9MB/s
+[21:25:37] step=upload start upload_id=102974 size=3006846510
+[21:28:21] step=upload done upload_id=102974 video_id=24089443 dur=163.8s speed=18.4MB/s
+[21:28:21] step=cleanup unlinked Stín vítězství (2024) CZ titulky.mp4
+[21:28:21] step=film done upload_id=102974 total=256.2s (cdn=0.8s + download=91.5s + upload=163.8s)
+[21:28:21] step=state-saved upload_id=102974 (total uploads=43)
+[21:28:21] step=iteration 18/100
+[21:28:21] step=film start upload_id=78272 cr_film_id=31477 name='Bangkok na hraně: Nebe i peklo (2024) CZ titulky'
+[21:28:21] step=cdn-resolve upload_id=78272 cdn=data11
+[21:28:22] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/44f71eded086790e53ad93ded81e8293
+[21:28:22] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/44f71eded086790e53ad93ded81e8293
+[21:29:51] step=download done upload_id=78272 size=2917972856 dur=89.2s speed=32.7MB/s
+[21:29:51] step=upload start upload_id=78272 size=2917972856
+[21:32:16] step=upload done upload_id=78272 video_id=24089524 dur=144.3s speed=20.2MB/s
+[21:32:16] step=cleanup unlinked Bangkok na hraně: Nebe i peklo (2024) CZ titulky.mp4
+[21:32:16] step=film done upload_id=78272 total=234.5s (cdn=0.8s + download=89.2s + upload=144.3s)
+[21:32:16] step=state-saved upload_id=78272 (total uploads=44)
+[21:32:16] step=iteration 19/100
+[21:32:16] step=film start upload_id=78209 cr_film_id=31478 name='Zmizení z vězení: Láska na útěku (2024) CZ Dabing'
+[21:32:16] step=cdn-resolve upload_id=78209 cdn=data10
+[21:32:17] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/568bfc800d2507f39a5825905ce77db4
+[21:32:17] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/568bfc800d2507f39a5825905ce77db4
+[21:33:11] step=download done upload_id=78209 size=1628870438 dur=54.6s speed=29.8MB/s
+[21:33:11] step=upload start upload_id=78209 size=1628870438
+[21:34:34] step=upload done upload_id=78209 video_id=24089589 dur=82.8s speed=19.7MB/s
+[21:34:34] step=cleanup unlinked Zmizení z vězení: Láska na útěku (2024) CZ Dabing.mp4
+[21:34:34] step=film done upload_id=78209 total=138.5s (cdn=0.8s + download=54.6s + upload=82.8s)
+[21:34:34] step=state-saved upload_id=78209 (total uploads=45)
+[21:34:34] step=iteration 20/100
+[21:34:34] step=film start upload_id=102179 cr_film_id=31481 name='The Cellar (2024) CZ titulky'
+[21:34:34] step=cdn-resolve upload_id=102179 cdn=data11
+[21:34:35] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/70ecc08747f4ff33d0a60fe6e3b865bc
+[21:34:35] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/70ecc08747f4ff33d0a60fe6e3b865bc
+[21:35:03] step=download done upload_id=102179 size=842063916 dur=27.7s speed=30.4MB/s
+[21:35:03] step=upload start upload_id=102179 size=842063916
+[21:35:48] step=upload done upload_id=102179 video_id=24089628 dur=44.9s speed=18.8MB/s
+[21:35:48] step=cleanup unlinked The Cellar (2024) CZ titulky.mp4
+[21:35:48] step=film done upload_id=102179 total=73.6s (cdn=0.8s + download=27.7s + upload=44.9s)
+[21:35:48] step=state-saved upload_id=102179 (total uploads=46)
+[21:35:48] step=iteration 21/100
+[21:35:48] step=film start upload_id=79771 cr_film_id=31482 name='LEGO Marvel Avengers: Operace Demolice (2024) CZ Dabing'
+[21:35:48] step=cdn-resolve upload_id=79771 cdn=data10
+[21:35:49] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/4de0aceaa212081f9cba5434b8660b10
+[21:35:49] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/4de0aceaa212081f9cba5434b8660b10
+[21:36:46] step=download done upload_id=79771 size=1564100258 dur=57.8s speed=27.1MB/s
+[21:36:46] step=upload start upload_id=79771 size=1564100258

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "account": "filmy.prehrajto@email.cz",
   "source": "sledujteto.cz",
-  "last_updated": "2026-04-22T20:35:29Z",
+  "last_updated": "2026-04-22T21:35:48Z",
   "uploads": [
     {
       "sledujteto_file_id": 100943,
@@ -525,6 +525,406 @@
         "download_sec": 34.2,
         "upload_sec": 54.0,
         "total_sec": 89.1
+      }
+    },
+    {
+      "sledujteto_file_id": 82289,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31383,
+      "cr_slug": "blaziny-lekce",
+      "title": "Blažiny lekce",
+      "year": 2024,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24088507,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T20:40:32Z",
+      "status": "processing",
+      "size_bytes": 2097069263,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 66.2,
+        "upload_sec": 86.7,
+        "total_sec": 153.9
+      }
+    },
+    {
+      "sledujteto_file_id": 84428,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 31399,
+      "cr_slug": "escape",
+      "title": "Escape",
+      "year": 2024,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24088567,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T20:43:13Z",
+      "status": "processing",
+      "size_bytes": 2029690137,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 67.0,
+        "upload_sec": 93.1,
+        "total_sec": 161.4
+      }
+    },
+    {
+      "sledujteto_file_id": 74666,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31405,
+      "cr_slug": "maharadza",
+      "title": "Mahárádža",
+      "year": 2024,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24088623,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T20:46:38Z",
+      "status": "processing",
+      "size_bytes": 2596504890,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 81.3,
+        "upload_sec": 122.0,
+        "total_sec": 204.3
+      }
+    },
+    {
+      "sledujteto_file_id": 77977,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 31421,
+      "cr_slug": "bila-odvaha",
+      "title": "Bílá odvaha",
+      "year": 2024,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24088661,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T20:50:15Z",
+      "status": "processing",
+      "size_bytes": 2565721717,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 81.1,
+        "upload_sec": 135.0,
+        "total_sec": 217.2
+      }
+    },
+    {
+      "sledujteto_file_id": 77321,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31430,
+      "cr_slug": "wallbanger",
+      "title": "Wallbanger",
+      "year": 2024,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24088706,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T20:53:02Z",
+      "status": "processing",
+      "size_bytes": 2122038103,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 71.1,
+        "upload_sec": 95.2,
+        "total_sec": 167.3
+      }
+    },
+    {
+      "sledujteto_file_id": 91044,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31435,
+      "cr_slug": "matersky-instinkt-2024",
+      "title": "Mateřský instinkt",
+      "year": 2024,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24088736,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T20:56:10Z",
+      "status": "processing",
+      "size_bytes": 2299370313,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 73.1,
+        "upload_sec": 113.9,
+        "total_sec": 187.9
+      }
+    },
+    {
+      "sledujteto_file_id": 69332,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31437,
+      "cr_slug": "pet-rande-naslepo",
+      "title": "Pět rande naslepo",
+      "year": 2024,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24088763,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T20:58:18Z",
+      "status": "processing",
+      "size_bytes": 1669419070,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 53.5,
+        "upload_sec": 73.8,
+        "total_sec": 128.2
+      }
+    },
+    {
+      "sledujteto_file_id": 97207,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31440,
+      "cr_slug": "operace-raqqa",
+      "title": "Operace Raqqa",
+      "year": 2024,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24088805,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T21:00:28Z",
+      "status": "processing",
+      "size_bytes": 1692376538,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 53.5,
+        "upload_sec": 74.8,
+        "total_sec": 129.4
+      }
+    },
+    {
+      "sledujteto_file_id": 75234,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31444,
+      "cr_slug": "divoky-pandzab",
+      "title": "Divoký Paňdžáb",
+      "year": 2024,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24088846,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T21:04:02Z",
+      "status": "processing",
+      "size_bytes": 2188090480,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 68.9,
+        "upload_sec": 144.5,
+        "total_sec": 214.4
+      }
+    },
+    {
+      "sledujteto_file_id": 80567,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31445,
+      "cr_slug": "69",
+      "title": "विजय 69",
+      "year": 2024,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24088906,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T21:07:22Z",
+      "status": "processing",
+      "size_bytes": 2219546365,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 67.4,
+        "upload_sec": 131.6,
+        "total_sec": 200.0
+      }
+    },
+    {
+      "sledujteto_file_id": 84304,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31447,
+      "cr_slug": "cunk-on-life",
+      "title": "Cunk on Life",
+      "year": 2024,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24088980,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T21:09:15Z",
+      "status": "processing",
+      "size_bytes": 1407750781,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 45.9,
+        "upload_sec": 66.3,
+        "total_sec": 113.2
+      }
+    },
+    {
+      "sledujteto_file_id": 97433,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31455,
+      "cr_slug": "moje-slunce",
+      "title": "Moje slunce",
+      "year": 2024,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24089008,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T21:11:07Z",
+      "status": "processing",
+      "size_bytes": 1325280173,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 41.5,
+        "upload_sec": 68.9,
+        "total_sec": 111.5
+      }
+    },
+    {
+      "sledujteto_file_id": 78040,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31463,
+      "cr_slug": "the-air-he-breathes",
+      "title": "The Air He Breathes",
+      "year": 2024,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24089060,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T21:13:50Z",
+      "status": "processing",
+      "size_bytes": 1902468006,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 57.6,
+        "upload_sec": 104.6,
+        "total_sec": 163.3
+      }
+    },
+    {
+      "sledujteto_file_id": 75500,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31470,
+      "cr_slug": "zralok-vazici-2700-kg",
+      "title": "Žralok vážící 2700 kg",
+      "year": 2024,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24089147,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T21:18:03Z",
+      "status": "processing",
+      "size_bytes": 2676535441,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 82.8,
+        "upload_sec": 169.5,
+        "total_sec": 253.2
+      }
+    },
+    {
+      "sledujteto_file_id": 77874,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31472,
+      "cr_slug": "zivot-z-druhy-ruky",
+      "title": "Život z druhý ruky",
+      "year": 2024,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24089269,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T21:20:31Z",
+      "status": "processing",
+      "size_bytes": 2014654492,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 62.1,
+        "upload_sec": 84.6,
+        "total_sec": 147.8
+      }
+    },
+    {
+      "sledujteto_file_id": 77140,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 31473,
+      "cr_slug": "neslychane-vrazda-aira-mcnaira",
+      "title": "Neslýchané: Vražda Aira McNaira",
+      "year": 2024,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24089358,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T21:24:05Z",
+      "status": "processing",
+      "size_bytes": 2416223890,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 79.2,
+        "upload_sec": 133.9,
+        "total_sec": 214.1
+      }
+    },
+    {
+      "sledujteto_file_id": 102974,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31476,
+      "cr_slug": "stin-vitezstvi",
+      "title": "Stín vítězství",
+      "year": 2024,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24089443,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T21:28:21Z",
+      "status": "processing",
+      "size_bytes": 3006846510,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 91.5,
+        "upload_sec": 163.8,
+        "total_sec": 256.2
+      }
+    },
+    {
+      "sledujteto_file_id": 78272,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31477,
+      "cr_slug": "bangkok-na-hrane-nebe-i-peklo",
+      "title": "Bangkok na hraně: Nebe i peklo",
+      "year": 2024,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24089524,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T21:32:16Z",
+      "status": "processing",
+      "size_bytes": 2917972856,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 89.2,
+        "upload_sec": 144.3,
+        "total_sec": 234.5
+      }
+    },
+    {
+      "sledujteto_file_id": 78209,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 31478,
+      "cr_slug": "zmizeni-z-vezeni-laska-na-uteku",
+      "title": "Zmizení z vězení: Láska na útěku",
+      "year": 2024,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24089589,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T21:34:34Z",
+      "status": "processing",
+      "size_bytes": 1628870438,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 54.6,
+        "upload_sec": 82.8,
+        "total_sec": 138.5
+      }
+    },
+    {
+      "sledujteto_file_id": 102179,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31481,
+      "cr_slug": "the-cellar-2024",
+      "title": "The Cellar",
+      "year": 2024,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24089628,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T21:35:48Z",
+      "status": "processing",
+      "size_bytes": 842063916,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 27.7,
+        "upload_sec": 44.9,
+        "total_sec": 73.6
       }
     }
   ],
