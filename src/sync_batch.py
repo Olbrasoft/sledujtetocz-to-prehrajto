@@ -61,11 +61,14 @@ def safe_filename(name: str) -> str:
 
 def download(url: str, dest: Path, timeout_sec: int = 1800) -> int:
     """Curl download s --fail + speed-limit. Vrací size v bajtech, raise při chybě."""
+    # Sledujteto data{N} CDN vyžaduje Range header — bez něj vrací 403.
+    # `bytes=0-` říká "od začátku do konce", server odpoví 206 s plnou content-length.
     cmd = [
         "curl", "-fL", url,
         "-H", "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
         "-H", "Referer: https://www.sledujteto.cz/",
+        "-H", "Range: bytes=0-",
         "--max-time", str(timeout_sec),
         "--speed-time", "60", "--speed-limit", "10000",
         "-s", "-S",
