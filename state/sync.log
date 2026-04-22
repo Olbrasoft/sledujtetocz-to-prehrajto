@@ -10,3 +10,20 @@
 [19:12:09] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/b1651a9a7c47177850f3d57d5da8b4cb
 [19:12:10] step=download FAILED upload_id=100943 after 0.7s err=curl exit=22 stderr=curl: (22) The requested URL returned error: 403
 [19:12:10] step=batch-end succeeded=0 failed=1 total_uploads=0 batch_dur=1.6s avg_per_film=0s backlog_remaining=636 eta_hours=None
+
+===== run 2026-04-22T19:13:30Z batch_size=1 lang=CZ_DUB,CZ_SUB (https://github.com/Olbrasoft/sledujtetocz-to-prehrajto/actions/runs/24797601628) =====
+[19:13:31] step=batch-start count=1 backlog=636 uploads=0 moderated=0
+[19:13:31] step=login
+[19:13:33] step=login done
+[19:13:33] step=iteration 1/1
+[19:13:33] step=film start upload_id=100943 cr_film_id=31505 name='Fabian a vražedná svatba (2026) CZ titulky'
+[19:13:33] step=cdn-resolve upload_id=100943 cdn=data11
+[19:13:34] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/1f209d2d4de2930f92bc993a2e008f2c
+[19:13:34] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/1f209d2d4de2930f92bc993a2e008f2c
+[19:14:59] step=download done upload_id=100943 size=1983861090 dur=85.4s speed=23.2MB/s
+[19:14:59] step=upload start upload_id=100943 size=1983861090
+[19:16:53] step=upload done upload_id=100943 video_id=24087324 dur=114.3s speed=17.4MB/s
+[19:16:54] step=cleanup unlinked Fabian a vražedná svatba (2026) CZ titulky.mp4
+[19:16:54] step=film done upload_id=100943 total=200.8s (cdn=0.9s + download=85.4s + upload=114.3s)
+[19:16:54] step=state-saved upload_id=100943 (total uploads=1)
+[19:16:54] step=batch-end succeeded=1 failed=0 total_uploads=1 batch_dur=200.8s avg_per_film=200.8s backlog_remaining=635 eta_hours=35.4
