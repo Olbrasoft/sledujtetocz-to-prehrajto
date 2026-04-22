@@ -27,3 +27,64 @@
 [19:16:54] step=film done upload_id=100943 total=200.8s (cdn=0.9s + download=85.4s + upload=114.3s)
 [19:16:54] step=state-saved upload_id=100943 (total uploads=1)
 [19:16:54] step=batch-end succeeded=1 failed=0 total_uploads=1 batch_dur=200.8s avg_per_film=200.8s backlog_remaining=635 eta_hours=35.4
+
+===== run 2026-04-22T19:24:55Z batch_size=5 lang=CZ_DUB,CZ_SUB (https://github.com/Olbrasoft/sledujtetocz-to-prehrajto/actions/runs/24798119956) =====
+[19:24:56] step=batch-start count=5 backlog=636 uploads=1 moderated=0
+[19:24:56] step=login
+[19:24:57] step=login done
+[19:24:57] step=iteration 1/5
+[19:24:57] step=film start upload_id=82420 cr_film_id=31543 name='17 (2026) CZ Dabing'
+[19:24:57] step=cdn-resolve upload_id=82420 cdn=data10
+[19:24:58] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/c37917adee1d827cddf4151081a22df4
+[19:24:58] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/c37917adee1d827cddf4151081a22df4
+[19:27:04] step=download done upload_id=82420 size=3788355679 dur=125.6s speed=30.2MB/s
+[19:27:04] step=upload start upload_id=82420 size=3788355679
+[19:29:57] step=upload done upload_id=82420 video_id=24087519 dur=173.7s speed=21.8MB/s
+[19:29:57] step=cleanup unlinked 17 (2026) CZ Dabing.mp4
+[19:29:57] step=film done upload_id=82420 total=300.4s (cdn=0.9s + download=125.6s + upload=173.7s)
+[19:29:57] step=state-saved upload_id=82420 (total uploads=2)
+[19:29:57] step=iteration 2/5
+[19:29:57] step=film start upload_id=99480 cr_film_id=31443 name='The Lost Tiger (2025) CZ titulky'
+[19:29:57] step=cdn-resolve upload_id=99480 cdn=data11
+[19:29:58] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/e17b9af3428ea46f993e21973ca5dc73
+[19:29:58] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/e17b9af3428ea46f993e21973ca5dc73
+[19:31:16] step=download done upload_id=99480 size=2334296199 dur=78.2s speed=29.9MB/s
+[19:31:16] step=upload start upload_id=99480 size=2334296199
+[19:32:59] step=upload done upload_id=99480 video_id=24087588 dur=102.1s speed=22.9MB/s
+[19:32:59] step=cleanup unlinked The Lost Tiger (2025) CZ titulky.mp4
+[19:32:59] step=film done upload_id=99480 total=181.4s (cdn=0.9s + download=78.2s + upload=102.1s)
+[19:32:59] step=state-saved upload_id=99480 (total uploads=3)
+[19:32:59] step=iteration 3/5
+[19:32:59] step=film start upload_id=100463 cr_film_id=31452 name='Láska z nebes (2025) CZ Dabing'
+[19:32:59] step=cdn-resolve upload_id=100463 cdn=data11
+[19:33:00] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/bf46f83a3893cf616d50d674c6634c10
+[19:33:00] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/bf46f83a3893cf616d50d674c6634c10
+[19:34:04] step=download done upload_id=100463 size=1994857369 dur=64.9s speed=30.7MB/s
+[19:34:04] step=upload start upload_id=100463 size=1994857369
+[19:36:03] step=upload done upload_id=100463 video_id=24087644 dur=118.6s speed=16.8MB/s
+[19:36:03] step=cleanup unlinked Láska z nebes (2025) CZ Dabing.mp4
+[19:36:03] step=film done upload_id=100463 total=184.4s (cdn=0.7s + download=64.9s + upload=118.6s)
+[19:36:03] step=state-saved upload_id=100463 (total uploads=4)
+[19:36:03] step=iteration 4/5
+[19:36:03] step=film start upload_id=93517 cr_film_id=31459 name='Nepřátelé (2025) CZ titulky'
+[19:36:03] step=cdn-resolve upload_id=93517 cdn=data11
+[19:36:04] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/89c6ce1ae885814c22e2b4b32217f3ea
+[19:36:04] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/89c6ce1ae885814c22e2b4b32217f3ea
+[19:37:08] step=download done upload_id=93517 size=2052327574 dur=64.1s speed=32.0MB/s
+[19:37:08] step=upload start upload_id=93517 size=2052327574
+[19:38:47] step=upload done upload_id=93517 video_id=24087710 dur=98.6s speed=20.8MB/s
+[19:38:47] step=cleanup unlinked Nepřátelé (2025) CZ titulky.mp4
+[19:38:47] step=film done upload_id=93517 total=163.8s (cdn=0.7s + download=64.1s + upload=98.6s)
+[19:38:47] step=state-saved upload_id=93517 (total uploads=5)
+[19:38:47] step=iteration 5/5
+[19:38:47] step=film start upload_id=74915 cr_film_id=31471 name='From Darkness to Light (2025) CZ titulky'
+[19:38:47] step=cdn-resolve upload_id=74915 cdn=data10
+[19:38:48] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/537bf4559c3da971bd4abacbd679de51
+[19:38:48] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/537bf4559c3da971bd4abacbd679de51
+[19:39:50] step=download done upload_id=74915 size=1868408855 dur=62.5s speed=29.9MB/s
+[19:39:50] step=upload start upload_id=74915 size=1868408855
+[19:41:14] step=upload done upload_id=74915 video_id=24087741 dur=83.2s speed=22.5MB/s
+[19:41:14] step=cleanup unlinked From Darkness to Light (2025) CZ titulky.mp4
+[19:41:14] step=film done upload_id=74915 total=146.8s (cdn=0.9s + download=62.5s + upload=83.2s)
+[19:41:14] step=state-saved upload_id=74915 (total uploads=6)
+[19:41:14] step=batch-end succeeded=5 failed=0 total_uploads=6 batch_dur=976.8s avg_per_film=195.4s backlog_remaining=630 eta_hours=34.2

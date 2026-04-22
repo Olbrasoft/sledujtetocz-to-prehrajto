@@ -2,7 +2,7 @@
   "schema_version": 1,
   "account": "filmy.prehrajto@email.cz",
   "source": "sledujteto.cz",
-  "last_updated": "2026-04-22T19:16:54Z",
+  "last_updated": "2026-04-22T19:41:14Z",
   "uploads": [
     {
       "sledujteto_file_id": 100943,
@@ -22,6 +22,106 @@
         "download_sec": 85.4,
         "upload_sec": 114.3,
         "total_sec": 200.8
+      }
+    },
+    {
+      "sledujteto_file_id": 82420,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 31543,
+      "cr_slug": "17",
+      "title": "17",
+      "year": 2026,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24087519,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T19:29:57Z",
+      "status": "processing",
+      "size_bytes": 3788355679,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 125.6,
+        "upload_sec": 173.7,
+        "total_sec": 300.4
+      }
+    },
+    {
+      "sledujteto_file_id": 99480,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31443,
+      "cr_slug": "the-lost-tiger",
+      "title": "The Lost Tiger",
+      "year": 2025,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24087588,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T19:32:59Z",
+      "status": "processing",
+      "size_bytes": 2334296199,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 78.2,
+        "upload_sec": 102.1,
+        "total_sec": 181.4
+      }
+    },
+    {
+      "sledujteto_file_id": 100463,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31452,
+      "cr_slug": "laska-z-nebes",
+      "title": "Láska z nebes",
+      "year": 2025,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24087644,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T19:36:03Z",
+      "status": "processing",
+      "size_bytes": 1994857369,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 64.9,
+        "upload_sec": 118.6,
+        "total_sec": 184.4
+      }
+    },
+    {
+      "sledujteto_file_id": 93517,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31459,
+      "cr_slug": "nepratele-2025",
+      "title": "Nepřátelé",
+      "year": 2025,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24087710,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T19:38:47Z",
+      "status": "processing",
+      "size_bytes": 2052327574,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 64.1,
+        "upload_sec": 98.6,
+        "total_sec": 163.8
+      }
+    },
+    {
+      "sledujteto_file_id": 74915,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 31471,
+      "cr_slug": "from-darkness-to-light",
+      "title": "From Darkness to Light",
+      "year": 2025,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24087741,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-22T19:41:14Z",
+      "status": "processing",
+      "size_bytes": 1868408855,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 62.5,
+        "upload_sec": 83.2,
+        "total_sec": 146.8
       }
     }
   ],
