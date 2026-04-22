@@ -62,7 +62,10 @@
         "download_sec": 78.2,
         "upload_sec": 102.1,
         "total_sec": 181.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-22T19:54:42Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 100463,

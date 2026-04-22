@@ -1,0 +1,650 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e7] [cursor=pointer]:
+      - text: Ohodnoťte web
+      - img [ref=e8]
+    - generic [ref=e10]:
+      - heading "Dejte nám vědět, co si myslíte o našem webu" [level=2] [ref=e11]:
+        - text: Dejte nám vědět,
+        - text: co si myslíte o našem webu
+      - generic [ref=e13]:
+        - generic [ref=e14] [cursor=pointer]:
+          - img "1" [ref=e15]
+          - generic [ref=e16]: špatný
+        - img "2" [ref=e18] [cursor=pointer]
+        - img "3" [ref=e20] [cursor=pointer]
+        - img "4" [ref=e22] [cursor=pointer]
+        - generic [ref=e23] [cursor=pointer]:
+          - img "5" [ref=e24]
+          - generic [ref=e25]: skvělý
+      - textbox "Napište, co máte na srdci" [ref=e27]
+      - button "Odeslat hodnocení" [ref=e29] [cursor=pointer]
+  - banner [ref=e30]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: Aktivujte si PREMIUM na měsíc zdarma.
+        - link "Aktivovat zdarma" [ref=e35] [cursor=pointer]:
+          - /url: "#card-verification"
+      - list [ref=e38]:
+        - listitem [ref=e39]:
+          - link "Můj účet Můj účet" [ref=e40] [cursor=pointer]:
+            - /url: /profil
+            - img "Můj účet" [ref=e41]
+            - text: Můj účet
+        - listitem [ref=e43]:
+          - strong [ref=e44]: "Premium:"
+          - text: 27 dní
+        - listitem [ref=e45]:
+          - link "Prodloužit" [ref=e46] [cursor=pointer]:
+            - /url: /cenik
+        - listitem [ref=e47]:
+          - link "Odhlásit se" [ref=e48] [cursor=pointer]:
+            - /url: /odhlasit-se
+        - listitem [ref=e49]:
+          - generic [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+            - img [ref=e62]
+    - generic [ref=e64]:
+      - link "Prehraj.to" [ref=e66] [cursor=pointer]:
+        - /url: /
+      - search [ref=e70]:
+        - generic [ref=e71]:
+          - searchbox "Hledejte, zadejte název" [ref=e72]
+          - button [ref=e73] [cursor=pointer]
+  - main [ref=e74]:
+    - generic [ref=e75]:
+      - navigation [ref=e76]:
+        - list [ref=e80]:
+          - listitem [ref=e81]:
+            - link "Domů" [ref=e82] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e83]:
+            - link "Nahrát soubor" [ref=e84] [cursor=pointer]:
+              - /url: /profil/nahrat-soubor
+          - listitem [ref=e85]:
+            - link "Můj účet" [ref=e86] [cursor=pointer]:
+              - /url: /profil
+          - listitem [ref=e87]:
+            - link "Právě sledované uživateli" [ref=e88] [cursor=pointer]:
+              - /url: /nejsledovanejsi-online-videa
+      - generic [ref=e91]:
+        - complementary [ref=e92]:
+          - generic [ref=e94]:
+            - strong [ref=e96]: Přihlášený uživatel
+            - generic [ref=e97]: filmy.prehrajto@email.cz
+            - link "Odhlásit se" [ref=e98] [cursor=pointer]:
+              - /url: /odhlasit-se
+          - separator [ref=e99]
+          - navigation [ref=e101]:
+            - list [ref=e102]:
+              - listitem [ref=e103]:
+                - link " Moje sekce" [ref=e104] [cursor=pointer]:
+                  - /url: /profil
+              - listitem [ref=e105]:
+                - link " Moje data" [ref=e106] [cursor=pointer]:
+                  - /url: /profil/prehrana-videa
+              - list [ref=e107]:
+                - listitem [ref=e108]:
+                  - link " Přehraná videa" [ref=e109] [cursor=pointer]:
+                    - /url: /profil/prehrana-videa
+                - listitem [ref=e110]:
+                  - link " Oblíbená videa" [ref=e111] [cursor=pointer]:
+                    - /url: /oblibena-videa
+                - listitem [ref=e112]:
+                  - link " Nahraná videa" [ref=e113] [cursor=pointer]:
+                    - /url: /profil/nahrana-videa
+              - listitem [ref=e114]:
+                - link " Provizní upload účet" [ref=e115] [cursor=pointer]:
+                  - /url: /provize
+              - list [ref=e116]:
+                - listitem [ref=e117]:
+                  - link " Přehled provizí" [ref=e118] [cursor=pointer]:
+                    - /url: /provize/prehled
+                - listitem [ref=e119]:
+                  - link " Přehled výplat" [ref=e120] [cursor=pointer]:
+                    - /url: /provize/vyplaty
+              - listitem [ref=e121]:
+                - link " Statistiky" [ref=e122] [cursor=pointer]:
+                  - /url: /profil/statistiky
+              - listitem [ref=e123]:
+                - link " Vouchery" [ref=e124] [cursor=pointer]:
+                  - /url: /profil/vouchery
+              - listitem [ref=e125]:
+                - link " Faktury" [ref=e126] [cursor=pointer]:
+                  - /url: /profil/faktury
+              - listitem [ref=e127]:
+                - link " Správa přihl. zař." [ref=e128] [cursor=pointer]:
+                  - /url: /profil/sprava-prihlasenych-zarizeni
+              - listitem [ref=e129]:
+                - link " Nastavení" [ref=e130] [cursor=pointer]:
+                  - /url: /profil/nastaveni
+              - listitem [ref=e131]:
+                - link " Smazat účet" [ref=e132] [cursor=pointer]:
+                  - /url: /profil/nastaveni/delete
+        - generic [ref=e134]:
+          - heading "Nahraná videa" [level=1] [ref=e137]
+          - generic [ref=e138]:
+            - generic [ref=e139]:
+              - text: "*"
+              - link "Nová složka" [ref=e140] [cursor=pointer]:
+                - /url: "#create-new-folder"
+            - link "Soukromé soubory" [ref=e142] [cursor=pointer]:
+              - /url: /profil/nahrana-videa?filterIsPrivate=1
+            - link "Smazané" [ref=e144] [cursor=pointer]:
+              - /url: /profil/nahrana-videa?filterIsDeleted=1
+          - generic [ref=e150]:
+            - generic [ref=e151] [cursor=pointer]: Vyhledávání
+            - textbox "Vyhledávání..." [ref=e152]
+            - button "Hledat v souborech" [ref=e153] [cursor=pointer]:
+              - generic [ref=e154]: Hledat v souborech
+          - generic [ref=e155]:
+            - generic [ref=e157]:
+              - generic [ref=e158] [cursor=pointer]: "Vaše složky:"
+              - combobox [ref=e159]:
+                - generic [ref=e161] [cursor=pointer]: Výchozí složka
+            - generic [ref=e163]:
+              - generic [ref=e164] [cursor=pointer]: "Seřadit podle:"
+              - combobox [ref=e165]:
+                - generic [ref=e167] [cursor=pointer]: Data
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - generic [ref=e173]:
+                - generic [ref=e174]:
+                  - heading "Na skle maľované (1980) CZ (Zpracovává se)" [level=3] [ref=e176]
+                  - generic [ref=e177]:
+                    - generic [ref=e178]:
+                      - list [ref=e180]:
+                        - listitem [ref=e181]:
+                          - link "Změnit složku" [ref=e182] [cursor=pointer]:
+                            - /url: /profil/uprava-slozky-videa?videoId=24087343
+                        - listitem [ref=e183]:
+                          - link "18" [ref=e184] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087343&do=uploadedVideoListing-toggleIsErotic
+                            - generic [ref=e185]: "18"
+                        - listitem [ref=e186]:
+                          - combobox [ref=e187]
+                      - list [ref=e192]:
+                        - listitem [ref=e193]:
+                          - link "Globální" [ref=e194] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087343&do=uploadedVideoListing-toggleIsPrivate
+                        - listitem [ref=e195]:
+                          - link "Smazat" [ref=e196] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087343&do=uploadedVideoListing-deleteVideo
+                        - listitem [ref=e197]
+                    - generic [ref=e200]:
+                      - list [ref=e201]:
+                        - listitem [ref=e202]:
+                          - strong [ref=e204]: 1.18 GB
+                      - list [ref=e205]:
+                        - listitem [ref=e206]:
+                          - link "Detail souboru" [ref=e207] [cursor=pointer]:
+                            - /url: /na-skle-malovane-1980-cz-mp4/423f1452334bbbd2
+                        - listitem [ref=e208]:
+                          - link "Název a popis" [ref=e209] [cursor=pointer]:
+                            - /url: file-desc-11
+                        - listitem [ref=e210]:
+                          - link "Statistiky" [ref=e211] [cursor=pointer]:
+                            - /url: file-desc-21
+                        - listitem [ref=e212]:
+                          - link "Titulky (0)" [ref=e213] [cursor=pointer]:
+                            - /url: file-desc-31
+                - img "https://thumb.prehrajto.cz//4/2/3/f/1/4/423f1452334bbbd2/1.jpg" [ref=e215]
+              - generic [ref=e219]:
+                - generic [ref=e220]:
+                  - heading "Fabian a vražedná svatba (2026) CZ titulky (Zpracovává se)" [level=3] [ref=e222]
+                  - generic [ref=e223]:
+                    - generic [ref=e224]:
+                      - list [ref=e226]:
+                        - listitem [ref=e227]:
+                          - link "Změnit složku" [ref=e228] [cursor=pointer]:
+                            - /url: /profil/uprava-slozky-videa?videoId=24087324
+                        - listitem [ref=e229]:
+                          - link "18" [ref=e230] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087324&do=uploadedVideoListing-toggleIsErotic
+                            - generic [ref=e231]: "18"
+                        - listitem [ref=e232]:
+                          - combobox [ref=e233]
+                      - list [ref=e238]:
+                        - listitem [ref=e239]:
+                          - link "Globální" [ref=e240] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087324&do=uploadedVideoListing-toggleIsPrivate
+                        - listitem [ref=e241]:
+                          - link "Smazat" [ref=e242] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087324&do=uploadedVideoListing-deleteVideo
+                        - listitem [ref=e243]
+                    - generic [ref=e246]:
+                      - list [ref=e247]:
+                        - listitem [ref=e248]:
+                          - strong [ref=e250]: 1.85 GB
+                      - list [ref=e251]:
+                        - listitem [ref=e252]:
+                          - link "Detail souboru" [ref=e253] [cursor=pointer]:
+                            - /url: /fabian-a-vrazedna-svatba-2026-cz-titulky-mp4/c7d08b8d4a80ed68
+                        - listitem [ref=e254]:
+                          - link "Název a popis" [ref=e255] [cursor=pointer]:
+                            - /url: file-desc-12
+                        - listitem [ref=e256]:
+                          - link "Statistiky" [ref=e257] [cursor=pointer]:
+                            - /url: file-desc-22
+                        - listitem [ref=e258]:
+                          - link "Titulky (0)" [ref=e259] [cursor=pointer]:
+                            - /url: file-desc-32
+                - img "https://thumb.prehrajto.cz//c/7/d/0/8/b/c7d08b8d4a80ed68/1.jpg" [ref=e261]
+              - generic [ref=e265]:
+                - generic [ref=e266]:
+                  - heading "Dribling (1987) CZ (Zpracovává se)" [level=3] [ref=e268]
+                  - generic [ref=e269]:
+                    - generic [ref=e270]:
+                      - list [ref=e272]:
+                        - listitem [ref=e273]:
+                          - link "Změnit složku" [ref=e274] [cursor=pointer]:
+                            - /url: /profil/uprava-slozky-videa?videoId=24087294
+                        - listitem [ref=e275]:
+                          - link "18" [ref=e276] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087294&do=uploadedVideoListing-toggleIsErotic
+                            - generic [ref=e277]: "18"
+                        - listitem [ref=e278]:
+                          - combobox [ref=e279]
+                      - list [ref=e284]:
+                        - listitem [ref=e285]:
+                          - link "Globální" [ref=e286] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087294&do=uploadedVideoListing-toggleIsPrivate
+                        - listitem [ref=e287]:
+                          - link "Smazat" [ref=e288] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087294&do=uploadedVideoListing-deleteVideo
+                        - listitem [ref=e289]
+                    - generic [ref=e292]:
+                      - list [ref=e293]:
+                        - listitem [ref=e294]:
+                          - strong [ref=e296]: 345.93 MB
+                      - list [ref=e297]:
+                        - listitem [ref=e298]:
+                          - link "Detail souboru" [ref=e299] [cursor=pointer]:
+                            - /url: /dribling-1987-cz-mp4/717b6a6429f44b57
+                        - listitem [ref=e300]:
+                          - link "Název a popis" [ref=e301] [cursor=pointer]:
+                            - /url: file-desc-13
+                        - listitem [ref=e302]:
+                          - link "Statistiky" [ref=e303] [cursor=pointer]:
+                            - /url: file-desc-23
+                        - listitem [ref=e304]:
+                          - link "Titulky (0)" [ref=e305] [cursor=pointer]:
+                            - /url: file-desc-33
+                - img "https://thumb.prehrajto.cz//7/1/7/b/6/a/717b6a6429f44b57/1.jpg" [ref=e307]
+              - generic [ref=e311]:
+                - generic [ref=e312]:
+                  - heading "Miliónový chlap (1988) CZ (Zpracovává se)" [level=3] [ref=e314]
+                  - generic [ref=e315]:
+                    - generic [ref=e316]:
+                      - list [ref=e318]:
+                        - listitem [ref=e319]:
+                          - link "Změnit složku" [ref=e320] [cursor=pointer]:
+                            - /url: /profil/uprava-slozky-videa?videoId=24087257
+                        - listitem [ref=e321]:
+                          - link "18" [ref=e322] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087257&do=uploadedVideoListing-toggleIsErotic
+                            - generic [ref=e323]: "18"
+                        - listitem [ref=e324]:
+                          - combobox [ref=e325]
+                      - list [ref=e330]:
+                        - listitem [ref=e331]:
+                          - link "Globální" [ref=e332] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087257&do=uploadedVideoListing-toggleIsPrivate
+                        - listitem [ref=e333]:
+                          - link "Smazat" [ref=e334] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087257&do=uploadedVideoListing-deleteVideo
+                        - listitem [ref=e335]
+                    - generic [ref=e338]:
+                      - list [ref=e339]:
+                        - listitem [ref=e340]:
+                          - strong [ref=e342]: 669.7 MB
+                      - list [ref=e343]:
+                        - listitem [ref=e344]:
+                          - link "Detail souboru" [ref=e345] [cursor=pointer]:
+                            - /url: /milionovy-chlap-1988-cz-mp4/a9201084a4ca1fe2
+                        - listitem [ref=e346]:
+                          - link "Název a popis" [ref=e347] [cursor=pointer]:
+                            - /url: file-desc-14
+                        - listitem [ref=e348]:
+                          - link "Statistiky" [ref=e349] [cursor=pointer]:
+                            - /url: file-desc-24
+                        - listitem [ref=e350]:
+                          - link "Titulky (0)" [ref=e351] [cursor=pointer]:
+                            - /url: file-desc-34
+                - img "https://thumb.prehrajto.cz//a/9/2/0/1/0/a9201084a4ca1fe2/1.jpg" [ref=e353]
+              - generic [ref=e357]:
+                - generic [ref=e358]:
+                  - heading "Indián a sestřička (2006) CZ" [level=3] [ref=e360]
+                  - generic [ref=e361]:
+                    - generic [ref=e362]:
+                      - list [ref=e364]:
+                        - listitem [ref=e365]:
+                          - link "Změnit složku" [ref=e366] [cursor=pointer]:
+                            - /url: /profil/uprava-slozky-videa?videoId=24087199
+                        - listitem [ref=e367]:
+                          - link "18" [ref=e368] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087199&do=uploadedVideoListing-toggleIsErotic
+                            - generic [ref=e369]: "18"
+                        - listitem [ref=e370]:
+                          - combobox [ref=e371]
+                      - list [ref=e376]:
+                        - listitem [ref=e377]:
+                          - link "Globální" [ref=e378] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087199&do=uploadedVideoListing-toggleIsPrivate
+                        - listitem [ref=e379]:
+                          - link "Smazat" [ref=e380] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087199&do=uploadedVideoListing-deleteVideo
+                        - listitem [ref=e381]
+                    - generic [ref=e384]:
+                      - list [ref=e385]:
+                        - listitem [ref=e386]:
+                          - strong [ref=e388]: 350.12 MB
+                      - list [ref=e389]:
+                        - listitem [ref=e390]:
+                          - link "Detail souboru" [ref=e391] [cursor=pointer]:
+                            - /url: /indian-a-sestricka-2006-cz-mp4/5edf9ad7eb49ce20
+                        - listitem [ref=e392]:
+                          - link "Název a popis" [ref=e393] [cursor=pointer]:
+                            - /url: file-desc-15
+                        - listitem [ref=e394]:
+                          - link "Statistiky" [ref=e395] [cursor=pointer]:
+                            - /url: file-desc-25
+                        - listitem [ref=e396]:
+                          - link "Titulky (0)" [ref=e397] [cursor=pointer]:
+                            - /url: file-desc-35
+                - img "https://thumb.prehrajto.cz//5/e/d/f/9/a/5edf9ad7eb49ce20/1.jpg" [ref=e399]
+              - generic [ref=e403]:
+                - generic [ref=e404]:
+                  - heading "Illicit (2020) CZ Dabing (Zpracovává se)" [level=3] [ref=e406]
+                  - generic [ref=e407]:
+                    - generic [ref=e408]:
+                      - list [ref=e410]:
+                        - listitem [ref=e411]:
+                          - link "Změnit složku" [ref=e412] [cursor=pointer]:
+                            - /url: /profil/uprava-slozky-videa?videoId=24087109
+                        - listitem [ref=e413]:
+                          - link "18" [ref=e414] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087109&do=uploadedVideoListing-toggleIsErotic
+                            - generic [ref=e415]: "18"
+                        - listitem [ref=e416]:
+                          - combobox [ref=e417]
+                      - list [ref=e422]:
+                        - listitem [ref=e423]:
+                          - link "Globální" [ref=e424] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087109&do=uploadedVideoListing-toggleIsPrivate
+                        - listitem [ref=e425]:
+                          - link "Smazat" [ref=e426] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087109&do=uploadedVideoListing-deleteVideo
+                        - listitem [ref=e427]
+                    - generic [ref=e430]:
+                      - list [ref=e431]:
+                        - listitem [ref=e432]:
+                          - strong [ref=e434]: 696.03 MB
+                      - list [ref=e435]:
+                        - listitem [ref=e436]:
+                          - link "Detail souboru" [ref=e437] [cursor=pointer]:
+                            - /url: /illicit-2020-cz-dabing-mp4/fd7be69044a33da7
+                        - listitem [ref=e438]:
+                          - link "Název a popis" [ref=e439] [cursor=pointer]:
+                            - /url: file-desc-16
+                        - listitem [ref=e440]:
+                          - link "Statistiky" [ref=e441] [cursor=pointer]:
+                            - /url: file-desc-26
+                        - listitem [ref=e442]:
+                          - link "Titulky (0)" [ref=e443] [cursor=pointer]:
+                            - /url: file-desc-36
+                - img "https://thumb.prehrajto.cz//f/d/7/b/e/6/fd7be69044a33da7/1.jpg" [ref=e445]
+              - generic [ref=e449]:
+                - generic [ref=e450]:
+                  - heading "Dr. Jekyll a pan Hyde (2000) CZ Dabing (Zpracovává se)" [level=3] [ref=e452]
+                  - generic [ref=e453]:
+                    - generic [ref=e454]:
+                      - list [ref=e456]:
+                        - listitem [ref=e457]:
+                          - link "Změnit složku" [ref=e458] [cursor=pointer]:
+                            - /url: /profil/uprava-slozky-videa?videoId=24087082
+                        - listitem [ref=e459]:
+                          - link "18" [ref=e460] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087082&do=uploadedVideoListing-toggleIsErotic
+                            - generic [ref=e461]: "18"
+                        - listitem [ref=e462]:
+                          - combobox [ref=e463]
+                      - list [ref=e468]:
+                        - listitem [ref=e469]:
+                          - link "Globální" [ref=e470] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087082&do=uploadedVideoListing-toggleIsPrivate
+                        - listitem [ref=e471]:
+                          - link "Smazat" [ref=e472] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24087082&do=uploadedVideoListing-deleteVideo
+                        - listitem [ref=e473]
+                    - generic [ref=e476]:
+                      - list [ref=e477]:
+                        - listitem [ref=e478]:
+                          - strong [ref=e480]: 878.79 MB
+                      - list [ref=e481]:
+                        - listitem [ref=e482]:
+                          - link "Detail souboru" [ref=e483] [cursor=pointer]:
+                            - /url: /dr-jekyll-a-pan-hyde-2000-cz-dabing/7922ab2835252fb7
+                        - listitem [ref=e484]:
+                          - link "Název a popis" [ref=e485] [cursor=pointer]:
+                            - /url: file-desc-17
+                        - listitem [ref=e486]:
+                          - link "Statistiky" [ref=e487] [cursor=pointer]:
+                            - /url: file-desc-27
+                        - listitem [ref=e488]:
+                          - link "Titulky (0)" [ref=e489] [cursor=pointer]:
+                            - /url: file-desc-37
+                - img "https://thumb.prehrajto.cz//7/9/2/2/a/b/7922ab2835252fb7/1.jpg" [ref=e491]
+              - generic [ref=e495]:
+                - generic [ref=e496]:
+                  - heading "Kouzelné zrcadlo aneb dokonalost neznamená štěstí (2019) CZ Dabing" [level=3] [ref=e498]
+                  - generic [ref=e499]:
+                    - generic [ref=e500]:
+                      - list [ref=e502]:
+                        - listitem [ref=e503]:
+                          - link "Změnit složku" [ref=e504] [cursor=pointer]:
+                            - /url: /profil/uprava-slozky-videa?videoId=24086936
+                        - listitem [ref=e505]:
+                          - link "18" [ref=e506] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24086936&do=uploadedVideoListing-toggleIsErotic
+                            - generic [ref=e507]: "18"
+                        - listitem [ref=e508]:
+                          - combobox [ref=e509]
+                      - list [ref=e514]:
+                        - listitem [ref=e515]:
+                          - link "Globální" [ref=e516] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24086936&do=uploadedVideoListing-toggleIsPrivate
+                        - listitem [ref=e517]:
+                          - link "Smazat" [ref=e518] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24086936&do=uploadedVideoListing-deleteVideo
+                        - listitem [ref=e519]
+                    - generic [ref=e522]:
+                      - list [ref=e523]:
+                        - listitem [ref=e524]:
+                          - strong [ref=e526]: 651.88 MB
+                      - list [ref=e527]:
+                        - listitem [ref=e528]:
+                          - link "Detail souboru" [ref=e529] [cursor=pointer]:
+                            - /url: /kouzelne-zrcadlo-aneb-dokonalost-neznamena-stesti-2019-cz-dabing-mp4/92c543e71f4e1931
+                        - listitem [ref=e530]:
+                          - link "Název a popis" [ref=e531] [cursor=pointer]:
+                            - /url: file-desc-18
+                        - listitem [ref=e532]:
+                          - link "Statistiky" [ref=e533] [cursor=pointer]:
+                            - /url: file-desc-28
+                        - listitem [ref=e534]:
+                          - link "Titulky (0)" [ref=e535] [cursor=pointer]:
+                            - /url: file-desc-38
+                - img "https://thumb.prehrajto.cz//9/2/c/5/4/3/92c543e71f4e1931/1.jpg" [ref=e537]
+              - generic [ref=e541]:
+                - generic [ref=e542]:
+                  - heading "Secret Ninja, Roaring Tiger (1982) CZ Dabing" [level=3] [ref=e544]
+                  - generic [ref=e545]:
+                    - generic [ref=e546]:
+                      - list [ref=e548]:
+                        - listitem [ref=e549]:
+                          - link "Změnit složku" [ref=e550] [cursor=pointer]:
+                            - /url: /profil/uprava-slozky-videa?videoId=24086679
+                        - listitem [ref=e551]:
+                          - link "18" [ref=e552] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24086679&do=uploadedVideoListing-toggleIsErotic
+                            - generic [ref=e553]: "18"
+                        - listitem [ref=e554]:
+                          - combobox [ref=e555]
+                      - list [ref=e560]:
+                        - listitem [ref=e561]:
+                          - link "Globální" [ref=e562] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24086679&do=uploadedVideoListing-toggleIsPrivate
+                        - listitem [ref=e563]:
+                          - link "Smazat" [ref=e564] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24086679&do=uploadedVideoListing-deleteVideo
+                        - listitem [ref=e565]
+                    - generic [ref=e568]:
+                      - list [ref=e569]:
+                        - listitem [ref=e570]:
+                          - strong [ref=e572]: 238.79 MB
+                      - list [ref=e573]:
+                        - listitem [ref=e574]:
+                          - link "Detail souboru" [ref=e575] [cursor=pointer]:
+                            - /url: /secret-ninja-roaring-tiger-1982-cz-dabing-mp4/ac66ec25dc9779c3
+                        - listitem [ref=e576]:
+                          - link "Název a popis" [ref=e577] [cursor=pointer]:
+                            - /url: file-desc-19
+                        - listitem [ref=e578]:
+                          - link "Statistiky" [ref=e579] [cursor=pointer]:
+                            - /url: file-desc-29
+                        - listitem [ref=e580]:
+                          - link "Titulky (0)" [ref=e581] [cursor=pointer]:
+                            - /url: file-desc-39
+                - img "https://thumb.prehrajto.cz//a/c/6/6/e/c/ac66ec25dc9779c3/1.jpg" [ref=e583]
+              - generic [ref=e587]:
+                - generic [ref=e588]:
+                  - heading "Forsvundet til Halloween (2021) CZ Dabing" [level=3] [ref=e590]
+                  - generic [ref=e591]:
+                    - generic [ref=e592]:
+                      - list [ref=e594]:
+                        - listitem [ref=e595]:
+                          - link "Změnit složku" [ref=e596] [cursor=pointer]:
+                            - /url: /profil/uprava-slozky-videa?videoId=24086628
+                        - listitem [ref=e597]:
+                          - link "18" [ref=e598] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24086628&do=uploadedVideoListing-toggleIsErotic
+                            - generic [ref=e599]: "18"
+                        - listitem [ref=e600]:
+                          - combobox [ref=e601]
+                      - list [ref=e606]:
+                        - listitem [ref=e607]:
+                          - link "Globální" [ref=e608] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24086628&do=uploadedVideoListing-toggleIsPrivate
+                        - listitem [ref=e609]:
+                          - link "Smazat" [ref=e610] [cursor=pointer]:
+                            - /url: /profil/nahrana-videa?uploadedVideoListing-videoId=24086628&do=uploadedVideoListing-deleteVideo
+                        - listitem [ref=e611]
+                    - generic [ref=e614]:
+                      - list [ref=e615]:
+                        - listitem [ref=e616]:
+                          - strong [ref=e618]: 741.21 MB
+                      - list [ref=e619]:
+                        - listitem [ref=e620]:
+                          - link "Detail souboru" [ref=e621] [cursor=pointer]:
+                            - /url: /forsvundet-til-halloween-2021-cz-dabing-mp4/29a401d6c45b3785
+                        - listitem [ref=e622]:
+                          - link "Název a popis" [ref=e623] [cursor=pointer]:
+                            - /url: file-desc-110
+                        - listitem [ref=e624]:
+                          - link "Statistiky" [ref=e625] [cursor=pointer]:
+                            - /url: file-desc-210
+                        - listitem [ref=e626]:
+                          - link "Titulky (0)" [ref=e627] [cursor=pointer]:
+                            - /url: file-desc-310
+                - img "https://thumb.prehrajto.cz//2/9/a/4/0/1/29a401d6c45b3785/1.jpg" [ref=e629]
+            - generic [ref=e630]:
+              - generic [ref=e631]:
+                - link "1" [ref=e632] [cursor=pointer]:
+                  - /url: /profil/nahrana-videa
+                - link "2" [ref=e633] [cursor=pointer]:
+                  - /url: /profil/nahrana-videa?uploadedVideoListing-visualPaginator-page=2
+                - link "3" [ref=e634] [cursor=pointer]:
+                  - /url: /profil/nahrana-videa?uploadedVideoListing-visualPaginator-page=3
+                - link "4" [ref=e635] [cursor=pointer]:
+                  - /url: /profil/nahrana-videa?uploadedVideoListing-visualPaginator-page=4
+                - link "14" [ref=e636] [cursor=pointer]:
+                  - /url: /profil/nahrana-videa?uploadedVideoListing-visualPaginator-page=14
+                - link "28" [ref=e637] [cursor=pointer]:
+                  - /url: /profil/nahrana-videa?uploadedVideoListing-visualPaginator-page=28
+                - link "41" [ref=e638] [cursor=pointer]:
+                  - /url: /profil/nahrana-videa?uploadedVideoListing-visualPaginator-page=41
+              - link "Zobrazit další" [ref=e640] [cursor=pointer]:
+                - /url: /profil/nahrana-videa?uploadedVideoListing-visualPaginator-page=2
+    - generic [ref=e641]:
+      - generic [ref=e644]:
+        - generic [ref=e645]:
+          - heading "Soubory" [level=2] [ref=e646]
+          - list [ref=e647]:
+            - listitem [ref=e648]:
+              - link "Nahrát soubor" [ref=e649] [cursor=pointer]:
+                - /url: /profil/nahrat-soubor
+                - img [ref=e650]
+                - text: Nahrát soubor
+        - generic [ref=e652]:
+          - heading "Rychlé odkazy" [level=2] [ref=e653]
+          - list [ref=e654]:
+            - listitem [ref=e655]:
+              - link "Jak na to?" [ref=e656] [cursor=pointer]:
+                - /url: /jak-na-to
+                - img [ref=e657]
+                - text: Jak na to?
+            - listitem [ref=e659]:
+              - link "Podmínky" [ref=e660] [cursor=pointer]:
+                - /url: /podminky
+                - img [ref=e661]
+                - text: Podmínky
+            - listitem [ref=e663]:
+              - link "Informace o zpracování osobních údajů" [ref=e664] [cursor=pointer]:
+                - /url: /ochrana-osobnich-udaju
+                - img [ref=e665]
+                - text: Informace o zpracování osobních údajů
+            - listitem [ref=e667]:
+              - link "Partnerský program" [ref=e668] [cursor=pointer]:
+                - /url: /front/partner-registration
+                - img [ref=e669]
+                - text: Partnerský program
+            - listitem [ref=e671]:
+              - link "Google TV" [ref=e672] [cursor=pointer]:
+                - /url: /google-tv
+                - img [ref=e673]
+                - text: Google TV
+            - listitem [ref=e676]:
+              - link "Mobilní aplikace pro Android" [ref=e677] [cursor=pointer]:
+                - /url: /android-app
+                - img [ref=e678]
+                - text: Mobilní aplikace pro Android
+        - generic [ref=e680]:
+          - heading "Kontakt" [level=2] [ref=e681]
+          - list [ref=e682]:
+            - listitem [ref=e683]:
+              - link "Kontaktní informace" [ref=e684] [cursor=pointer]:
+                - /url: /kontaktni-informace
+                - img [ref=e685]
+                - text: Kontaktní informace
+            - listitem [ref=e687]:
+              - link "Často kladené otázky" [ref=e688] [cursor=pointer]:
+                - /url: /faq
+                - img [ref=e689]
+                - text: Často kladené otázky
+            - listitem [ref=e691]:
+              - link "Nahlásit soubor" [ref=e692] [cursor=pointer]:
+                - /url: /nahlasit-nelegalni-soubor
+                - img [ref=e693]
+                - text: Nahlásit soubor
+            - listitem [ref=e695]:
+              - link "Návrhy na zlepšení" [ref=e696] [cursor=pointer]:
+                - /url: /navrhy-na-zlepseni
+                - img [ref=e697]
+                - text: Návrhy na zlepšení
+      - separator [ref=e699]
+      - generic [ref=e702]:
+        - paragraph [ref=e704]: © 2026 Přehraj.to
+        - link "Prehraj.to" [ref=e706] [cursor=pointer]:
+          - /url: /
+    - text: "* * *"
