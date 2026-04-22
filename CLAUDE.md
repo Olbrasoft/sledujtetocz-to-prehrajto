@@ -54,18 +54,18 @@ HTTP 206 s `video/mp4`, 1.98 GB file. Z GitHub runneru uvidíme v testu.
 
 ## Přístupy
 
-- **Přehraj.to**: `filmy.prehrajto@email.cz` / `***REDACTED-PASSWORD***`
-  (viz `~/Dokumenty/přístupy/prehrajto.md`, sdílený účet s prehrajto-sync).
-- **Aspone proxy secret**: v `Olbrasoft/SledujteToCzProxy/src/SledujteToCzProxy/Hash.ashx`
-  (const `SharedSecret`). Hodnota `***REDACTED-PROXY-SECRET***`.
+Citlivé údaje (heslo k Prehraj.to, aspone proxy shared secret, přihlášení na
+Seznam schránku) nikdy necommitujeme. Kompletní tabulka přístupů je u
+uživatele lokálně v `~/Dokumenty/přístupy/prehrajto.md` a spol.
 
 ## GitHub Secrets (nutné před prvním runem)
 
-```
-PREHRAJTO_EMAIL      = filmy.prehrajto@email.cz
-PREHRAJTO_PASSWORD   = ***REDACTED-PASSWORD***
-SLEDUJTETO_PROXY_KEY = ***REDACTED-PROXY-SECRET***
-```
+Nastavit přes `gh secret set <NAME>` nebo v GitHub UI → Settings → Secrets.
+
+- `PREHRAJTO_EMAIL` — login e-mail k Prehraj.to účtu.
+- `PREHRAJTO_PASSWORD` — heslo k Prehraj.to.
+- `SLEDUJTETO_PROXY_KEY` — sdílený secret pro `Olbrasoft/SledujteToCzProxy`
+  (musí souhlasit s konstantou `SharedSecret` v `Hash.ashx` v tamtom repu).
 
 ## Konvence
 
