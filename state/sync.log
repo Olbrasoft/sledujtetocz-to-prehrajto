@@ -4959,3 +4959,836 @@
 [18:19:27] step=film done upload_id=44699 total=37.5s (cdn=0.6s + download=15.9s + upload=20.9s)
 [18:19:27] step=state-saved upload_id=44699 (total uploads=442)
 [18:19:27] step=batch-end succeeded=100 failed=0 total_uploads=442 batch_dur=12389.5s avg_per_film=123.9s backlog_remaining=194 eta_hours=6.7
+
+===== run 2026-04-23T18:20:18Z batch_size=100 lang=CZ_DUB,CZ_SUB (https://github.com/Olbrasoft/sledujtetocz-to-prehrajto/actions/runs/24851572419) =====
+[18:20:19] step=batch-start count=100 backlog=636 uploads=442 moderated=0
+[18:20:19] step=login
+[18:20:20] step=login done
+[18:20:20] step=iteration 1/100
+[18:20:20] step=film start upload_id=44705 cr_film_id=29991 name='Casino Royale (1967) CZ Dabing'
+[18:20:20] step=cdn-resolve upload_id=44705 cdn=data11
+[18:20:21] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/0249c4029b2cea9cb0502db4590e53b6
+[18:20:21] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/0249c4029b2cea9cb0502db4590e53b6
+[18:22:38] step=download done upload_id=44705 size=3438470803 dur=137.2s speed=25.1MB/s
+[18:22:38] step=upload start upload_id=44705 size=3438470803
+[18:25:42] step=upload done upload_id=44705 video_id=24123324 dur=183.8s speed=18.7MB/s
+[18:25:43] step=cleanup unlinked Casino Royale (1967) CZ Dabing.mp4
+[18:25:43] step=film done upload_id=44705 total=322.3s (cdn=0.9s + download=137.2s + upload=183.8s)
+[18:25:43] step=state-saved upload_id=44705 (total uploads=443)
+[18:25:43] step=iteration 2/100
+[18:25:43] step=film start upload_id=99286 cr_film_id=30089 name='Vzpoura (1967) CZ titulky'
+[18:25:43] step=cdn-resolve upload_id=99286 cdn=data11
+[18:25:44] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/a98dbb98111908ece016bf1fe25393c0
+[18:25:44] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a98dbb98111908ece016bf1fe25393c0
+[18:26:14] step=download done upload_id=99286 size=661660769 dur=30.1s speed=22.0MB/s
+[18:26:14] step=upload start upload_id=99286 size=661660769
+[18:27:20] step=upload done upload_id=99286 video_id=24123388 dur=66.6s speed=9.9MB/s
+[18:27:20] step=cleanup unlinked Vzpoura (1967) CZ titulky.mp4
+[18:27:20] step=film done upload_id=99286 total=97.7s (cdn=0.9s + download=30.1s + upload=66.6s)
+[18:27:20] step=state-saved upload_id=99286 (total uploads=444)
+[18:27:20] step=iteration 3/100
+[18:27:20] step=film start upload_id=103662 cr_film_id=30135 name='Kulka pro generála (1967) CZ Dabing'
+[18:27:20] step=cdn-resolve upload_id=103662 cdn=data11
+[18:27:21] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/22893b5677204d681bc0fc54e944121d
+[18:27:21] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/22893b5677204d681bc0fc54e944121d
+[18:31:05] step=download done upload_id=103662 size=5357415990 dur=223.9s speed=23.9MB/s
+[18:31:05] step=upload start upload_id=103662 size=5357415990
+[18:36:00] step=upload done upload_id=103662 video_id=24123504 dur=295.2s speed=18.1MB/s
+[18:36:01] step=cleanup unlinked Kulka pro generála (1967) CZ Dabing.mp4
+[18:36:01] step=film done upload_id=103662 total=520.3s (cdn=0.8s + download=223.9s + upload=295.2s)
+[18:36:01] step=state-saved upload_id=103662 (total uploads=445)
+[18:36:01] step=iteration 4/100
+[18:36:01] step=film start upload_id=44711 cr_film_id=30202 name='Kdybych byl špión (1967) CZ Dabing'
+[18:36:01] step=cdn-resolve upload_id=44711 cdn=data11
+[18:36:02] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/f676c0203e2529cb43f45b13dbd2cf02
+[18:36:02] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/f676c0203e2529cb43f45b13dbd2cf02
+[18:36:24] step=download done upload_id=44711 size=467661122 dur=22.3s speed=21.0MB/s
+[18:36:24] step=upload start upload_id=44711 size=467661122
+[18:36:51] step=upload done upload_id=44711 video_id=24123650 dur=27.2s speed=17.2MB/s
+[18:36:51] step=cleanup unlinked Kdybych byl špión (1967) CZ Dabing.mp4
+[18:36:51] step=film done upload_id=44711 total=50.4s (cdn=0.8s + download=22.3s + upload=27.2s)
+[18:36:51] step=state-saved upload_id=44711 (total uploads=446)
+[18:36:51] step=iteration 5/100
+[18:36:51] step=film start upload_id=94577 cr_film_id=30347 name='Westerplatte (1967) CZ Dabing'
+[18:36:51] step=cdn-resolve upload_id=94577 cdn=data10
+[18:36:52] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/345e35c593e85c581f38308b23b52c3a
+[18:36:52] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/345e35c593e85c581f38308b23b52c3a
+[18:38:31] step=download done upload_id=94577 size=2419696026 dur=99.1s speed=24.4MB/s
+[18:38:31] step=upload start upload_id=94577 size=2419696026
+[18:41:19] step=upload done upload_id=94577 video_id=24123713 dur=168.0s speed=14.4MB/s
+[18:41:20] step=cleanup unlinked Westerplatte (1967) CZ Dabing.mp4
+[18:41:20] step=film done upload_id=94577 total=268.5s (cdn=1.0s + download=99.1s + upload=168.0s)
+[18:41:20] step=state-saved upload_id=94577 (total uploads=447)
+[18:41:20] step=iteration 6/100
+[18:41:20] step=film start upload_id=95376 cr_film_id=30487 name='Padlí hrdinové (1967) CZ Dabing'
+[18:41:20] step=cdn-resolve upload_id=95376 cdn=data11
+[18:41:21] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/8828c234b68adb6bcb39d34528db6a24
+[18:41:21] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/8828c234b68adb6bcb39d34528db6a24
+[18:41:56] step=download done upload_id=95376 size=784756803 dur=35.0s speed=22.4MB/s
+[18:41:56] step=upload start upload_id=95376 size=784756803
+[18:42:40] step=upload done upload_id=95376 video_id=24123816 dur=44.0s speed=17.8MB/s
+[18:42:40] step=cleanup unlinked Padlí hrdinové (1967) CZ Dabing.mp4
+[18:42:40] step=film done upload_id=95376 total=80.0s (cdn=0.9s + download=35.0s + upload=44.0s)
+[18:42:40] step=state-saved upload_id=95376 (total uploads=448)
+[18:42:40] step=iteration 7/100
+[18:42:40] step=film start upload_id=83394 cr_film_id=31286 name='Jak Honza ke štěstí přišel (1967) CZ Dabing'
+[18:42:40] step=cdn-resolve upload_id=83394 cdn=data11
+[18:42:40] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/012b5283cbecf3cb41147bbebb8caabe
+[18:42:40] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/012b5283cbecf3cb41147bbebb8caabe
+[18:44:15] step=download done upload_id=83394 size=2483001381 dur=94.9s speed=26.2MB/s
+[18:44:15] step=upload start upload_id=83394 size=2483001381
+[18:46:50] step=upload done upload_id=83394 video_id=24123876 dur=155.1s speed=16.0MB/s
+[18:46:51] step=cleanup unlinked Jak Honza ke štěstí přišel (1967) CZ Dabing.mp4
+[18:46:51] step=film done upload_id=83394 total=251.1s (cdn=0.8s + download=94.9s + upload=155.1s)
+[18:46:51] step=state-saved upload_id=83394 (total uploads=449)
+[18:46:51] step=iteration 8/100
+[18:46:51] step=film start upload_id=44733 cr_film_id=29942 name='Batman (1966) CZ Dabing'
+[18:46:51] step=cdn-resolve upload_id=44733 cdn=data11
+[18:46:52] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/71d4c1f028b037c5eeeefadcfb1e8dd4
+[18:46:52] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/71d4c1f028b037c5eeeefadcfb1e8dd4
+[18:47:27] step=download done upload_id=44733 size=816159544 dur=35.3s speed=23.1MB/s
+[18:47:27] step=upload start upload_id=44733 size=816159544
+[18:48:52] step=upload done upload_id=44733 video_id=24123949 dur=84.9s speed=9.6MB/s
+[18:48:52] step=cleanup unlinked Batman (1966) CZ Dabing.mp4
+[18:48:52] step=film done upload_id=44733 total=121.2s (cdn=0.8s + download=35.3s + upload=84.9s)
+[18:48:52] step=state-saved upload_id=44733 (total uploads=450)
+[18:48:52] step=iteration 9/100
+[18:48:52] step=film start upload_id=98968 cr_film_id=30052 name='Hon na lišku (1966) CZ Dabing'
+[18:48:52] step=cdn-resolve upload_id=98968 cdn=data11
+[18:48:53] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/742008bef86abfb6a085f3061d36fe06
+[18:48:53] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/742008bef86abfb6a085f3061d36fe06
+[18:50:42] step=download done upload_id=98968 size=2550935343 dur=109.3s speed=23.3MB/s
+[18:50:42] step=upload start upload_id=98968 size=2550935343
+[18:54:34] step=upload done upload_id=98968 video_id=24124010 dur=231.4s speed=11.0MB/s
+[18:54:34] step=cleanup unlinked Hon na lišku (1966) CZ Dabing.mp4
+[18:54:34] step=film done upload_id=98968 total=341.9s (cdn=0.8s + download=109.3s + upload=231.4s)
+[18:54:34] step=state-saved upload_id=98968 (total uploads=451)
+[18:54:34] step=iteration 10/100
+[18:54:34] step=film start upload_id=31055 cr_film_id=30161 name='Divocí andělé (1966) CZ Dabing'
+[18:54:34] step=cdn-resolve upload_id=31055 cdn=data10
+[18:54:35] step=cdn-resolve done 1.1s → https://data10.sledujteto.cz/player/index/sledujteto/510a87fd1d52b10e9d8e76f2f99b4f0e
+[18:54:35] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/510a87fd1d52b10e9d8e76f2f99b4f0e
+[18:56:11] step=download done upload_id=31055 size=2308587631 dur=95.9s speed=24.1MB/s
+[18:56:11] step=upload start upload_id=31055 size=2308587631
+[18:58:39] step=upload done upload_id=31055 video_id=24124112 dur=148.1s speed=15.6MB/s
+[18:58:39] step=cleanup unlinked Divocí andělé (1966) CZ Dabing.mp4
+[18:58:39] step=film done upload_id=31055 total=245.4s (cdn=1.1s + download=95.9s + upload=148.1s)
+[18:58:39] step=state-saved upload_id=31055 (total uploads=452)
+[18:58:39] step=iteration 11/100
+[18:58:39] step=film start upload_id=44735 cr_film_id=30217 name='Nesprávná truhla (1966) CZ Dabing'
+[18:58:39] step=cdn-resolve upload_id=44735 cdn=data11
+[18:58:40] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/c26e103d88594ed644c43fc784c9b1d0
+[18:58:40] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/c26e103d88594ed644c43fc784c9b1d0
+[18:59:32] step=download done upload_id=44735 size=773746302 dur=51.5s speed=15.0MB/s
+[18:59:32] step=upload start upload_id=44735 size=773746302
+[19:00:22] step=upload done upload_id=44735 video_id=24124169 dur=49.9s speed=15.5MB/s
+[19:00:22] step=cleanup unlinked Nesprávná truhla (1966) CZ Dabing.mp4
+[19:00:22] step=film done upload_id=44735 total=102.7s (cdn=1.1s + download=51.5s + upload=49.9s)
+[19:00:22] step=state-saved upload_id=44735 (total uploads=453)
+[19:00:22] step=iteration 12/100
+[19:00:22] step=film start upload_id=99707 cr_film_id=30253 name='Dr. Goldfoot a jeho sexbomby (1966) CZ Dabing'
+[19:00:22] step=cdn-resolve upload_id=99707 cdn=data11
+[19:00:23] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/3aec450e8e7f3393778c1cbc04f39465
+[19:00:23] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/3aec450e8e7f3393778c1cbc04f39465
+[19:03:11] step=download done upload_id=99707 size=4002521473 dur=168.6s speed=23.7MB/s
+[19:03:11] step=upload start upload_id=99707 size=4002521473
+[19:08:18] step=upload done upload_id=99707 video_id=24124236 dur=306.6s speed=13.1MB/s
+[19:08:18] step=cleanup unlinked Dr. Goldfoot a jeho sexbomby (1966) CZ Dabing.mp4
+[19:08:18] step=film done upload_id=99707 total=476.3s (cdn=0.6s + download=168.6s + upload=306.6s)
+[19:08:18] step=state-saved upload_id=99707 (total uploads=454)
+[19:08:18] step=iteration 13/100
+[19:08:18] step=film start upload_id=44748 cr_film_id=30302 name='Synové Velké medvědice (1966) CZ Dabing'
+[19:08:18] step=cdn-resolve upload_id=44748 cdn=data11
+[19:08:19] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/ce66cd2e8987b1469e0cc8c7b85d4be3
+[19:08:19] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/ce66cd2e8987b1469e0cc8c7b85d4be3
+[19:10:10] step=download done upload_id=44748 size=2928975321 dur=110.8s speed=26.4MB/s
+[19:10:10] step=upload start upload_id=44748 size=2928975321
+[19:13:25] step=upload done upload_id=44748 video_id=24124379 dur=195.1s speed=15.0MB/s
+[19:13:26] step=cleanup unlinked Synové Velké medvědice (1966) CZ Dabing.mp4
+[19:13:26] step=film done upload_id=44748 total=307.4s (cdn=1.1s + download=110.8s + upload=195.1s)
+[19:13:26] step=state-saved upload_id=44748 (total uploads=455)
+[19:13:26] step=iteration 14/100
+[19:13:26] step=film start upload_id=44789 cr_film_id=30042 name='Vládkyně Ayesha (1965) CZ Dabing'
+[19:13:26] step=cdn-resolve upload_id=44789 cdn=data11
+[19:13:26] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/16d70a3421dbcc6ddef589ff5fe251af
+[19:13:26] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/16d70a3421dbcc6ddef589ff5fe251af
+[19:13:56] step=download done upload_id=44789 size=676934044 dur=30.0s speed=22.6MB/s
+[19:13:56] step=upload start upload_id=44789 size=676934044
+[19:14:36] step=upload done upload_id=44789 video_id=24124458 dur=39.2s speed=17.3MB/s
+[19:14:36] step=cleanup unlinked Vládkyně Ayesha (1965) CZ Dabing.mp4
+[19:14:36] step=film done upload_id=44789 total=70.1s (cdn=0.8s + download=30.0s + upload=39.2s)
+[19:14:36] step=state-saved upload_id=44789 (total uploads=456)
+[19:14:36] step=iteration 15/100
+[19:14:36] step=film start upload_id=44787 cr_film_id=30075 name='Pahorek (1965) CZ Dabing'
+[19:14:36] step=cdn-resolve upload_id=44787 cdn=data11
+[19:14:37] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/a704cbaf54345dc0a13feddcedbf2713
+[19:14:37] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a704cbaf54345dc0a13feddcedbf2713
+[19:15:14] step=download done upload_id=44787 size=946058276 dur=37.9s speed=25.0MB/s
+[19:15:14] step=upload start upload_id=44787 size=946058276
+[19:16:17] step=upload done upload_id=44787 video_id=24124491 dur=62.9s speed=15.0MB/s
+[19:16:18] step=cleanup unlinked Pahorek (1965) CZ Dabing.mp4
+[19:16:18] step=film done upload_id=44787 total=101.8s (cdn=0.8s + download=37.9s + upload=62.9s)
+[19:16:18] step=state-saved upload_id=44787 (total uploads=457)
+[19:16:18] step=iteration 16/100
+[19:16:18] step=film start upload_id=44870 cr_film_id=30298 name='Le pistole non discutono (1964) CZ titulky'
+[19:16:18] step=cdn-resolve upload_id=44870 cdn=data11
+[19:16:18] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/e20544f699f8146043d7414cfd9e2e70
+[19:16:18] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/e20544f699f8146043d7414cfd9e2e70
+[19:16:49] step=download done upload_id=44870 size=718907027 dur=31.0s speed=23.2MB/s
+[19:16:49] step=upload start upload_id=44870 size=718907027
+[19:17:44] step=upload done upload_id=44870 video_id=24124521 dur=54.6s speed=13.2MB/s
+[19:17:44] step=cleanup unlinked Le pistole non discutono (1964) CZ titulky.mp4
+[19:17:44] step=film done upload_id=44870 total=86.6s (cdn=0.9s + download=31.0s + upload=54.6s)
+[19:17:44] step=state-saved upload_id=44870 (total uploads=458)
+[19:17:44] step=iteration 17/100
+[19:17:44] step=film start upload_id=44849 cr_film_id=30301 name='Máte doma lva? (1964) CZ Dabing'
+[19:17:44] step=cdn-resolve upload_id=44849 cdn=data11
+[19:17:45] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/0a2a443d422318c84b2f8b4746c2b383
+[19:17:45] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/0a2a443d422318c84b2f8b4746c2b383
+[19:18:24] step=download done upload_id=44849 size=968942140 dur=39.4s speed=24.6MB/s
+[19:18:24] step=upload start upload_id=44849 size=968942140
+[19:19:20] step=upload done upload_id=44849 video_id=24124555 dur=55.2s speed=17.6MB/s
+[19:19:20] step=cleanup unlinked Máte doma lva? (1964) CZ Dabing.mp4
+[19:19:20] step=film done upload_id=44849 total=95.7s (cdn=0.9s + download=39.4s + upload=55.2s)
+[19:19:20] step=state-saved upload_id=44849 (total uploads=459)
+[19:19:20] step=iteration 18/100
+[19:19:20] step=film start upload_id=87770 cr_film_id=31130 name='Domácí víno (1964) CZ Dabing'
+[19:19:20] step=cdn-resolve upload_id=87770 cdn=data11
+[19:19:21] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/f4fc2199ced29f63550b5aa7462e512e
+[19:19:21] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/f4fc2199ced29f63550b5aa7462e512e
+[19:22:08] step=download done upload_id=87770 size=3960007604 dur=167.7s speed=23.6MB/s
+[19:22:08] step=upload start upload_id=87770 size=3960007604
+[19:26:46] step=upload done upload_id=87770 video_id=24124721 dur=277.4s speed=14.3MB/s
+[19:26:46] step=cleanup unlinked Domácí víno (1964) CZ Dabing.mp4
+[19:26:46] step=film done upload_id=87770 total=446.5s (cdn=0.9s + download=167.7s + upload=277.4s)
+[19:26:46] step=state-saved upload_id=87770 (total uploads=460)
+[19:26:46] step=iteration 19/100
+[19:26:46] step=film start upload_id=58294 cr_film_id=31155 name='S čím kdo zachází (1964) CZ Dabing'
+[19:26:46] step=cdn-resolve upload_id=58294 cdn=data11
+[19:26:47] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/b5d297f95a280881e0fa95da69f4e346
+[19:26:47] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/b5d297f95a280881e0fa95da69f4e346
+[19:27:14] step=download done upload_id=58294 size=596930090 dur=26.5s speed=22.5MB/s
+[19:27:14] step=upload start upload_id=58294 size=596930090
+[19:27:56] step=upload done upload_id=58294 video_id=24125053 dur=42.7s speed=14.0MB/s
+[19:27:57] step=cleanup unlinked S čím kdo zachází (1964) CZ Dabing.mp4
+[19:27:57] step=film done upload_id=58294 total=70.2s (cdn=0.9s + download=26.5s + upload=42.7s)
+[19:27:57] step=state-saved upload_id=58294 (total uploads=461)
+[19:27:57] step=iteration 20/100
+[19:27:57] step=film start upload_id=61855 cr_film_id=29923 name='Cléo od pěti do sedmi (1962) CZ Dabing'
+[19:27:57] step=cdn-resolve upload_id=61855 cdn=data11
+[19:27:57] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/1cfdf56d4eb5835085fa3ff82aebd529
+[19:27:57] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/1cfdf56d4eb5835085fa3ff82aebd529
+[19:29:04] step=download done upload_id=61855 size=1608427888 dur=66.1s speed=24.3MB/s
+[19:29:04] step=upload start upload_id=61855 size=1608427888
+[19:30:41] step=upload done upload_id=61855 video_id=24125083 dur=97.1s speed=16.6MB/s
+[19:30:41] step=cleanup unlinked Cléo od pěti do sedmi (1962) CZ Dabing.mp4
+[19:30:41] step=film done upload_id=61855 total=164.3s (cdn=0.9s + download=66.1s + upload=97.1s)
+[19:30:41] step=state-saved upload_id=61855 (total uploads=462)
+[19:30:41] step=iteration 21/100
+[19:30:41] step=film start upload_id=97509 cr_film_id=30117 name='Peklo je pro hrdiny (1962) CZ Dabing'
+[19:30:41] step=cdn-resolve upload_id=97509 cdn=data10
+[19:30:42] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/5b324d624bbaf7a08cb0a26c16ac2def
+[19:30:42] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/5b324d624bbaf7a08cb0a26c16ac2def
+[19:33:26] step=download done upload_id=97509 size=4180645673 dur=164.0s speed=25.5MB/s
+[19:33:26] step=upload start upload_id=97509 size=4180645673
+[19:38:47] step=upload done upload_id=97509 video_id=24125148 dur=321.3s speed=13.0MB/s
+[19:38:48] step=cleanup unlinked Peklo je pro hrdiny (1962) CZ Dabing.mp4
+[19:38:48] step=film done upload_id=97509 total=486.8s (cdn=1.0s + download=164.0s + upload=321.3s)
+[19:38:48] step=state-saved upload_id=97509 (total uploads=463)
+[19:38:48] step=iteration 22/100
+[19:38:48] step=film start upload_id=99868 cr_film_id=30150 name='Gorgo (1961) CZ Dabing'
+[19:38:48] step=cdn-resolve upload_id=99868 cdn=data11
+[19:38:49] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/a7ba3ff131f4f12fd3419b5f0ee013d7
+[19:38:49] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a7ba3ff131f4f12fd3419b5f0ee013d7
+[19:40:25] step=download done upload_id=99868 size=2196188525 dur=96.7s speed=22.7MB/s
+[19:40:25] step=upload start upload_id=99868 size=2196188525
+[19:42:29] step=upload done upload_id=99868 video_id=24125248 dur=123.2s speed=17.8MB/s
+[19:42:29] step=cleanup unlinked Gorgo (1961) CZ Dabing.mp4
+[19:42:29] step=film done upload_id=99868 total=221.2s (cdn=1.0s + download=96.7s + upload=123.2s)
+[19:42:29] step=state-saved upload_id=99868 (total uploads=464)
+[19:42:29] step=iteration 23/100
+[19:42:29] step=film start upload_id=44925 cr_film_id=30342 name='Madame Sans-Gêne (1961) CZ Dabing'
+[19:42:29] step=cdn-resolve upload_id=44925 cdn=data11
+[19:42:30] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/ff1338591a1f6fbbe98c5491a1bea021
+[19:42:30] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/ff1338591a1f6fbbe98c5491a1bea021
+[19:43:31] step=download done upload_id=44925 size=1585193646 dur=61.3s speed=25.9MB/s
+[19:43:31] step=upload start upload_id=44925 size=1585193646
+[19:45:37] step=upload done upload_id=44925 video_id=24125297 dur=125.8s speed=12.6MB/s
+[19:45:37] step=cleanup unlinked Madame Sans-Gêne (1961) CZ Dabing.mp4
+[19:45:37] step=film done upload_id=44925 total=188.1s (cdn=0.8s + download=61.3s + upload=125.8s)
+[19:45:37] step=state-saved upload_id=44925 (total uploads=465)
+[19:45:37] step=iteration 24/100
+[19:45:37] step=film start upload_id=99531 cr_film_id=29920 name='Dannyho jedenáctka (1960) CZ Dabing'
+[19:45:37] step=cdn-resolve upload_id=99531 cdn=data11
+[19:45:38] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/b996736d7ef55dd1ead1d0370ba4c5b0
+[19:45:38] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/b996736d7ef55dd1ead1d0370ba4c5b0
+[19:47:08] step=download done upload_id=99531 size=2241283119 dur=90.3s speed=24.8MB/s
+[19:47:08] step=upload start upload_id=99531 size=2241283119
+[19:49:18] step=upload done upload_id=99531 video_id=24125361 dur=130.4s speed=17.2MB/s
+[19:49:19] step=cleanup unlinked Dannyho jedenáctka (1960) CZ Dabing.mp4
+[19:49:19] step=film done upload_id=99531 total=221.8s (cdn=0.8s + download=90.3s + upload=130.4s)
+[19:49:19] step=state-saved upload_id=99531 (total uploads=466)
+[19:49:19] step=iteration 25/100
+[19:49:19] step=film start upload_id=76624 cr_film_id=29963 name='Rocco a jeho bratři (1960) CZ titulky'
+[19:49:19] step=cdn-resolve upload_id=76624 cdn=data11
+[19:49:20] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/c3474a0e51abeba5495681bea71910c4
+[19:49:20] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/c3474a0e51abeba5495681bea71910c4
+[19:49:54] step=download done upload_id=76624 size=827371821 dur=34.8s speed=23.8MB/s
+[19:49:54] step=upload start upload_id=76624 size=827371821
+[19:50:45] step=upload done upload_id=76624 video_id=24125417 dur=51.1s speed=16.2MB/s
+[19:50:46] step=cleanup unlinked Rocco a jeho bratři (1960) CZ titulky.mp4
+[19:50:46] step=film done upload_id=76624 total=86.8s (cdn=0.9s + download=34.8s + upload=51.1s)
+[19:50:46] step=state-saved upload_id=76624 (total uploads=467)
+[19:50:46] step=iteration 26/100
+[19:50:46] step=film start upload_id=44964 cr_film_id=30227 name='Křižáci (1960) CZ Dabing'
+[19:50:46] step=cdn-resolve upload_id=44964 cdn=data11
+[19:50:46] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/14de3e482b2acf77379cffe6090d939c
+[19:50:46] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/14de3e482b2acf77379cffe6090d939c
+[19:52:07] step=download done upload_id=44964 size=2078104208 dur=80.8s speed=25.7MB/s
+[19:52:07] step=upload start upload_id=44964 size=2078104208
+[19:54:06] step=upload done upload_id=44964 video_id=24125486 dur=118.8s speed=17.5MB/s
+[19:54:06] step=cleanup unlinked Křižáci (1960) CZ Dabing.mp4
+[19:54:06] step=film done upload_id=44964 total=200.7s (cdn=0.8s + download=80.8s + upload=118.8s)
+[19:54:06] step=state-saved upload_id=44964 (total uploads=468)
+[19:54:06] step=iteration 27/100
+[19:54:06] step=film start upload_id=67041 cr_film_id=31261 name='Byt (1960) CZ Dabing'
+[19:54:06] step=cdn-resolve upload_id=67041 cdn=data11
+[19:54:07] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/0bf9a1d1c25dc718ffc28d5be2d4c5dd
+[19:54:07] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/0bf9a1d1c25dc718ffc28d5be2d4c5dd
+[19:54:35] step=download done upload_id=67041 size=588447569 dur=27.4s speed=21.5MB/s
+[19:54:35] step=upload start upload_id=67041 size=588447569
+[19:55:19] step=upload done upload_id=67041 video_id=24125578 dur=44.4s speed=13.3MB/s
+[19:55:19] step=cleanup unlinked Byt (1960) CZ Dabing.mp4
+[19:55:19] step=film done upload_id=67041 total=72.9s (cdn=1.1s + download=27.4s + upload=44.4s)
+[19:55:19] step=state-saved upload_id=67041 (total uploads=469)
+[19:55:19] step=iteration 28/100
+[19:55:19] step=film start upload_id=44985 cr_film_id=29933 name='Most (1959) CZ Dabing'
+[19:55:19] step=cdn-resolve upload_id=44985 cdn=data11
+[19:55:20] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/6e65cad1819a07ab1f7d10814f9547e2
+[19:55:20] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/6e65cad1819a07ab1f7d10814f9547e2
+[19:56:10] step=download done upload_id=44985 size=1187065680 dur=50.0s speed=23.7MB/s
+[19:56:10] step=upload start upload_id=44985 size=1187065680
+[19:57:43] step=upload done upload_id=44985 video_id=24125616 dur=93.5s speed=12.7MB/s
+[19:57:44] step=cleanup unlinked Most (1959) CZ Dabing.mp4
+[19:57:44] step=film done upload_id=44985 total=144.4s (cdn=0.8s + download=50.0s + upload=93.5s)
+[19:57:44] step=state-saved upload_id=44985 (total uploads=470)
+[19:57:44] step=iteration 29/100
+[19:57:44] step=film start upload_id=45016 cr_film_id=30362 name='O věcech nadpřirozených (1959) CZ Dabing'
+[19:57:44] step=cdn-resolve upload_id=45016 cdn=data11
+[19:57:44] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/0da7831271bf8b6e5696a4d2cc743cac
+[19:57:44] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/0da7831271bf8b6e5696a4d2cc743cac
+[19:58:58] step=download done upload_id=45016 size=1704060367 dur=74.0s speed=23.0MB/s
+[19:58:58] step=upload start upload_id=45016 size=1704060367
+[20:00:35] step=upload done upload_id=45016 video_id=24125654 dur=96.6s speed=17.6MB/s
+[20:00:35] step=cleanup unlinked O věcech nadpřirozených (1959) CZ Dabing.mp4
+[20:00:35] step=film done upload_id=45016 total=171.4s (cdn=0.6s + download=74.0s + upload=96.6s)
+[20:00:35] step=state-saved upload_id=45016 (total uploads=471)
+[20:00:35] step=iteration 30/100
+[20:00:35] step=film start upload_id=45045 cr_film_id=30345 name='Vlčí jáma (1958) CZ Dabing'
+[20:00:35] step=cdn-resolve upload_id=45045 cdn=data11
+[20:00:36] step=cdn-resolve done 1.2s → https://data11.sledujteto.cz/player/index/sledujteto/451ecb9e7fa02ad598ce65ed964be24e
+[20:00:36] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/451ecb9e7fa02ad598ce65ed964be24e
+[20:01:23] step=download done upload_id=45045 size=1038103624 dur=46.5s speed=22.3MB/s
+[20:01:23] step=upload start upload_id=45045 size=1038103624
+[20:02:31] step=upload done upload_id=45045 video_id=24125692 dur=68.7s speed=15.1MB/s
+[20:02:31] step=cleanup unlinked Vlčí jáma (1958) CZ Dabing.mp4
+[20:02:31] step=film done upload_id=45045 total=116.5s (cdn=1.2s + download=46.5s + upload=68.7s)
+[20:02:32] step=state-saved upload_id=45045 (total uploads=472)
+[20:02:32] step=iteration 31/100
+[20:02:32] step=film start upload_id=45039 cr_film_id=30235 name='Doktor hledá místo (1957) CZ Dabing'
+[20:02:32] step=cdn-resolve upload_id=45039 cdn=data11
+[20:02:32] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/f1fa517b44cb9ea99d291e2e2ff17742
+[20:02:32] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/f1fa517b44cb9ea99d291e2e2ff17742
+[20:03:04] step=download done upload_id=45039 size=745535419 dur=31.8s speed=23.4MB/s
+[20:03:04] step=upload start upload_id=45039 size=745535419
+[20:04:05] step=upload done upload_id=45039 video_id=24125722 dur=61.1s speed=12.2MB/s
+[20:04:05] step=cleanup unlinked Doktor hledá místo (1957) CZ Dabing.mp4
+[20:04:05] step=film done upload_id=45039 total=93.8s (cdn=0.9s + download=31.8s + upload=61.1s)
+[20:04:05] step=state-saved upload_id=45039 (total uploads=473)
+[20:04:05] step=iteration 32/100
+[20:04:05] step=film start upload_id=75158 cr_film_id=30243 name='Sněhová královna (1957) CZ Dabing'
+[20:04:05] step=cdn-resolve upload_id=75158 cdn=data10
+[20:04:07] step=cdn-resolve done 1.2s → https://data10.sledujteto.cz/player/index/sledujteto/3560e04dc62b4036248c73f1018353f3
+[20:04:07] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/3560e04dc62b4036248c73f1018353f3
+[20:04:48] step=download done upload_id=75158 size=951623856 dur=41.6s speed=22.9MB/s
+[20:04:48] step=upload start upload_id=75158 size=951623856
+[20:05:46] step=upload done upload_id=75158 video_id=24125760 dur=57.9s speed=16.4MB/s
+[20:05:46] step=cleanup unlinked Sněhová královna (1957) CZ Dabing.mp4
+[20:05:46] step=film done upload_id=75158 total=100.8s (cdn=1.2s + download=41.6s + upload=57.9s)
+[20:05:46] step=state-saved upload_id=75158 (total uploads=474)
+[20:05:46] step=iteration 33/100
+[20:05:46] step=film start upload_id=99424 cr_film_id=30084 name='Bob hazardér (1956) CZ Dabing'
+[20:05:46] step=cdn-resolve upload_id=99424 cdn=data10
+[20:05:47] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/9fe06f6c13bb9ee19011c1a905f801c2
+[20:05:47] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/9fe06f6c13bb9ee19011c1a905f801c2
+[20:06:41] step=download done upload_id=99424 size=1277125702 dur=54.1s speed=23.6MB/s
+[20:06:41] step=upload start upload_id=99424 size=1277125702
+[20:08:10] step=upload done upload_id=99424 video_id=24125795 dur=89.0s speed=14.3MB/s
+[20:08:10] step=cleanup unlinked Bob hazardér (1956) CZ Dabing.mp4
+[20:08:10] step=film done upload_id=99424 total=144.3s (cdn=1.0s + download=54.1s + upload=89.0s)
+[20:08:10] step=state-saved upload_id=99424 (total uploads=475)
+[20:08:10] step=iteration 34/100
+[20:08:10] step=film start upload_id=45108 cr_film_id=30146 name='Pronásledování na moři (1955) CZ titulky'
+[20:08:10] step=cdn-resolve upload_id=45108 cdn=data11
+[20:08:12] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/41d854503fa88b2e03961ccb13e58796
+[20:08:12] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/41d854503fa88b2e03961ccb13e58796
+[20:08:34] step=download done upload_id=45108 size=473469700 dur=22.3s speed=21.2MB/s
+[20:08:34] step=upload start upload_id=45108 size=473469700
+[20:09:27] step=upload done upload_id=45108 video_id=24125847 dur=53.4s speed=8.9MB/s
+[20:09:27] step=cleanup unlinked Pronásledování na moři (1955) CZ titulky.mp4
+[20:09:27] step=film done upload_id=45108 total=76.9s (cdn=1.1s + download=22.3s + upload=53.4s)
+[20:09:27] step=state-saved upload_id=45108 (total uploads=476)
+[20:09:27] step=iteration 35/100
+[20:09:27] step=film start upload_id=27803 cr_film_id=30226 name='Operace Frankton (1955) CZ Dabing'
+[20:09:27] step=cdn-resolve upload_id=27803 cdn=data11
+[20:09:28] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/265bf8826c22cfb9dbba39d2aa60107e
+[20:09:28] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/265bf8826c22cfb9dbba39d2aa60107e
+[20:10:04] step=download done upload_id=27803 size=794002104 dur=35.7s speed=22.2MB/s
+[20:10:04] step=upload start upload_id=27803 size=794002104
+[20:10:59] step=upload done upload_id=27803 video_id=24125883 dur=54.8s speed=14.5MB/s
+[20:10:59] step=cleanup unlinked Operace Frankton (1955) CZ Dabing.mp4
+[20:10:59] step=film done upload_id=27803 total=91.7s (cdn=1.1s + download=35.7s + upload=54.8s)
+[20:10:59] step=state-saved upload_id=27803 (total uploads=477)
+[20:10:59] step=iteration 36/100
+[20:10:59] step=film start upload_id=45120 cr_film_id=30234 name='Doktor na moři (1955) CZ Dabing'
+[20:10:59] step=cdn-resolve upload_id=45120 cdn=data11
+[20:11:00] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/153a353e345e669106a700f36b83a1ea
+[20:11:00] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/153a353e345e669106a700f36b83a1ea
+[20:11:53] step=download done upload_id=45120 size=1269520695 dur=52.7s speed=24.1MB/s
+[20:11:53] step=upload start upload_id=45120 size=1269520695
+[20:13:06] step=upload done upload_id=45120 video_id=24125924 dur=73.4s speed=17.3MB/s
+[20:13:06] step=cleanup unlinked Doktor na moři (1955) CZ Dabing.mp4
+[20:13:06] step=film done upload_id=45120 total=127.0s (cdn=0.8s + download=52.7s + upload=73.4s)
+[20:13:06] step=state-saved upload_id=45120 (total uploads=478)
+[20:13:06] step=iteration 37/100
+[20:13:06] step=film start upload_id=90843 cr_film_id=30421 name='Tanková brigáda (1955) CZ Dabing'
+[20:13:06] step=cdn-resolve upload_id=90843 cdn=data10
+[20:13:07] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/425872694c78c6abab0923272c060c70
+[20:13:07] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/425872694c78c6abab0923272c060c70
+[20:14:50] step=download done upload_id=90843 size=2496578137 dur=102.6s speed=24.3MB/s
+[20:14:50] step=upload start upload_id=90843 size=2496578137
+[20:17:05] step=upload done upload_id=90843 video_id=24125973 dur=134.9s speed=18.5MB/s
+[20:17:05] step=cleanup unlinked Tanková brigáda (1955) CZ Dabing.mp4
+[20:17:05] step=film done upload_id=90843 total=238.9s (cdn=1.0s + download=102.6s + upload=134.9s)
+[20:17:05] step=state-saved upload_id=90843 (total uploads=479)
+[20:17:05] step=iteration 38/100
+[20:17:05] step=film start upload_id=45148 cr_film_id=29922 name='Silnice (1954) CZ titulky'
+[20:17:05] step=cdn-resolve upload_id=45148 cdn=data11
+[20:17:06] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/825871203d434e8891f6302d4f5091b0
+[20:17:06] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/825871203d434e8891f6302d4f5091b0
+[20:17:53] step=download done upload_id=45148 size=1069276320 dur=47.1s speed=22.7MB/s
+[20:17:53] step=upload start upload_id=45148 size=1069276320
+[20:18:57] step=upload done upload_id=45148 video_id=24126029 dur=64.3s speed=16.6MB/s
+[20:18:58] step=cleanup unlinked Silnice (1954) CZ titulky.mp4
+[20:18:58] step=film done upload_id=45148 total=112.6s (cdn=1.1s + download=47.1s + upload=64.3s)
+[20:18:58] step=state-saved upload_id=45148 (total uploads=480)
+[20:18:58] step=iteration 39/100
+[20:18:58] step=film start upload_id=45192 cr_film_id=30162 name='Genevieve (1953) CZ Dabing'
+[20:18:58] step=cdn-resolve upload_id=45192 cdn=data11
+[20:18:58] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/6ec1d79d7953672eb35c79ed49bb70e8
+[20:18:58] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/6ec1d79d7953672eb35c79ed49bb70e8
+[20:19:29] step=download done upload_id=45192 size=679433094 dur=30.6s speed=22.2MB/s
+[20:19:29] step=upload start upload_id=45192 size=679433094
+[20:20:05] step=upload done upload_id=45192 video_id=24126058 dur=35.9s speed=18.9MB/s
+[20:20:05] step=cleanup unlinked Genevieve (1953) CZ Dabing.mp4
+[20:20:05] step=film done upload_id=45192 total=67.4s (cdn=0.8s + download=30.6s + upload=35.9s)
+[20:20:05] step=state-saved upload_id=45192 (total uploads=481)
+[20:20:05] step=iteration 40/100
+[20:20:05] step=film start upload_id=45182 cr_film_id=30223 name='Meč a růže (1953) CZ Dabing'
+[20:20:05] step=cdn-resolve upload_id=45182 cdn=data11
+[20:20:06] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/36a1d5c3d0ae455cf59814cf5d3fb910
+[20:20:06] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/36a1d5c3d0ae455cf59814cf5d3fb910
+[20:21:02] step=download done upload_id=45182 size=1403357703 dur=56.4s speed=24.9MB/s
+[20:21:02] step=upload start upload_id=45182 size=1403357703
+[20:22:21] step=upload done upload_id=45182 video_id=24126082 dur=78.6s speed=17.9MB/s
+[20:22:21] step=cleanup unlinked Meč a růže (1953) CZ Dabing.mp4
+[20:22:21] step=film done upload_id=45182 total=136.1s (cdn=0.9s + download=56.4s + upload=78.6s)
+[20:22:21] step=state-saved upload_id=45182 (total uploads=482)
+[20:22:21] step=iteration 41/100
+[20:22:21] step=film start upload_id=103586 cr_film_id=30230 name='Tři mušketýři (1953) CZ Dabing'
+[20:22:21] step=cdn-resolve upload_id=103586 cdn=data11
+[20:22:22] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/cddd76b45292c2345206e59bc6b2a8e7
+[20:22:22] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/cddd76b45292c2345206e59bc6b2a8e7
+[20:25:04] step=download done upload_id=103586 size=4139854396 dur=162.4s speed=25.5MB/s
+[20:25:04] step=upload start upload_id=103586 size=4139854396
+[20:28:59] step=upload done upload_id=103586 video_id=24126131 dur=234.6s speed=17.6MB/s
+[20:29:00] step=cleanup unlinked Tři mušketýři (1953) CZ Dabing.mp4
+[20:29:00] step=film done upload_id=103586 total=398.4s (cdn=0.8s + download=162.4s + upload=234.6s)
+[20:29:00] step=state-saved upload_id=103586 (total uploads=483)
+[20:29:00] step=iteration 42/100
+[20:29:00] step=film start upload_id=45203 cr_film_id=30331 name='Čin lásky (1953) CZ Dabing'
+[20:29:00] step=cdn-resolve upload_id=45203 cdn=data11
+[20:29:00] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/4fbcc3683e69bc6d7787c6524a57920e
+[20:29:00] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/4fbcc3683e69bc6d7787c6524a57920e
+[20:29:36] step=download done upload_id=45203 size=840871308 dur=35.8s speed=23.5MB/s
+[20:29:36] step=upload start upload_id=45203 size=840871308
+[20:30:24] step=upload done upload_id=45203 video_id=24126195 dur=47.5s speed=17.7MB/s
+[20:30:24] step=cleanup unlinked Čin lásky (1953) CZ Dabing.mp4
+[20:30:24] step=film done upload_id=45203 total=84.3s (cdn=0.8s + download=35.8s + upload=47.5s)
+[20:30:24] step=state-saved upload_id=45203 (total uploads=484)
+[20:30:24] step=iteration 43/100
+[20:30:24] step=film start upload_id=45188 cr_film_id=30346 name='Hrdina Černého moře (1953) CZ Dabing'
+[20:30:24] step=cdn-resolve upload_id=45188 cdn=data11
+[20:30:25] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/6551c0085af85d48b5fbcc146b4cc324
+[20:30:25] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/6551c0085af85d48b5fbcc146b4cc324
+[20:31:04] step=download done upload_id=45188 size=948802927 dur=39.5s speed=24.0MB/s
+[20:31:04] step=upload start upload_id=45188 size=948802927
+[20:32:03] step=upload done upload_id=45188 video_id=24126213 dur=59.3s speed=16.0MB/s
+[20:32:04] step=cleanup unlinked Hrdina Černého moře (1953) CZ Dabing.mp4
+[20:32:04] step=film done upload_id=45188 total=99.7s (cdn=0.8s + download=39.5s + upload=59.3s)
+[20:32:04] step=state-saved upload_id=45188 (total uploads=485)
+[20:32:04] step=iteration 44/100
+[20:32:04] step=film start upload_id=45286 cr_film_id=29949 name='Orfeus (1950) CZ titulky'
+[20:32:04] step=cdn-resolve upload_id=45286 cdn=data11
+[20:32:04] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/7dd901e22cd9ade89b31bd82ba64b0d9
+[20:32:04] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/7dd901e22cd9ade89b31bd82ba64b0d9
+[20:32:31] step=download done upload_id=45286 size=513142913 dur=26.7s speed=19.2MB/s
+[20:32:31] step=upload start upload_id=45286 size=513142913
+[20:32:59] step=upload done upload_id=45286 video_id=24126238 dur=27.8s speed=18.5MB/s
+[20:32:59] step=cleanup unlinked Orfeus (1950) CZ titulky.mp4
+[20:32:59] step=film done upload_id=45286 total=55.2s (cdn=0.6s + download=26.7s + upload=27.8s)
+[20:32:59] step=state-saved upload_id=45286 (total uploads=486)
+[20:32:59] step=iteration 45/100
+[20:32:59] step=film start upload_id=45274 cr_film_id=30130 name='Mladík s trumpetou (1950) CZ titulky'
+[20:32:59] step=cdn-resolve upload_id=45274 cdn=data11
+[20:33:00] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/c67cd2fb54587bc2fbdada32b56322d5
+[20:33:00] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/c67cd2fb54587bc2fbdada32b56322d5
+[20:33:41] step=download done upload_id=45274 size=975193307 dur=41.0s speed=23.8MB/s
+[20:33:41] step=upload start upload_id=45274 size=975193307
+[20:34:38] step=upload done upload_id=45274 video_id=24126267 dur=57.3s speed=17.0MB/s
+[20:34:38] step=cleanup unlinked Mladík s trumpetou (1950) CZ titulky.mp4
+[20:34:38] step=film done upload_id=45274 total=99.2s (cdn=0.8s + download=41.0s + upload=57.3s)
+[20:34:38] step=state-saved upload_id=45274 (total uploads=487)
+[20:34:38] step=iteration 46/100
+[20:34:38] step=film start upload_id=89710 cr_film_id=30188 name='Kronika jedné lásky (1950) CZ Dabing'
+[20:34:38] step=cdn-resolve upload_id=89710 cdn=data11
+[20:34:39] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/124706978d7fc69ccbb53976df8bde7b
+[20:34:39] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/124706978d7fc69ccbb53976df8bde7b
+[20:35:03] step=download done upload_id=89710 size=540728465 dur=24.0s speed=22.5MB/s
+[20:35:03] step=upload start upload_id=89710 size=540728465
+[20:35:35] step=upload done upload_id=89710 video_id=24126284 dur=32.3s speed=16.7MB/s
+[20:35:35] step=cleanup unlinked Kronika jedné lásky (1950) CZ Dabing.mp4
+[20:35:35] step=film done upload_id=89710 total=57.3s (cdn=1.0s + download=24.0s + upload=32.3s)
+[20:35:35] step=state-saved upload_id=89710 (total uploads=488)
+[20:35:35] step=iteration 47/100
+[20:35:35] step=film start upload_id=45283 cr_film_id=31156 name='Případ dr. Kováře (1950) CZ Dabing'
+[20:35:35] step=cdn-resolve upload_id=45283 cdn=data11
+[20:35:36] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/dd2dd57282c873094e24a2c6e3624c41
+[20:35:36] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/dd2dd57282c873094e24a2c6e3624c41
+[20:36:07] step=download done upload_id=45283 size=680841406 dur=31.0s speed=22.0MB/s
+[20:36:07] step=upload start upload_id=45283 size=680841406
+[20:36:48] step=upload done upload_id=45283 video_id=24126308 dur=41.3s speed=16.5MB/s
+[20:36:48] step=cleanup unlinked Případ dr. Kováře (1950) CZ Dabing.mp4
+[20:36:48] step=film done upload_id=45283 total=73.0s (cdn=0.6s + download=31.0s + upload=41.3s)
+[20:36:48] step=state-saved upload_id=45283 (total uploads=489)
+[20:36:48] step=iteration 48/100
+[20:36:48] step=film start upload_id=45232 cr_film_id=30029 name='Bílý žár (1949) CZ Dabing'
+[20:36:48] step=cdn-resolve upload_id=45232 cdn=data11
+[20:36:50] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/3d6b95650512bd4568fd6401f2e71fe5
+[20:36:50] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/3d6b95650512bd4568fd6401f2e71fe5
+[20:37:27] step=download done upload_id=45232 size=904103230 dur=37.3s speed=24.2MB/s
+[20:37:27] step=upload start upload_id=45232 size=904103230
+[20:38:15] step=upload done upload_id=45232 video_id=24126334 dur=48.3s speed=18.7MB/s
+[20:38:15] step=cleanup unlinked Bílý žár (1949) CZ Dabing.mp4
+[20:38:15] step=film done upload_id=45232 total=86.9s (cdn=1.1s + download=37.3s + upload=48.3s)
+[20:38:15] step=state-saved upload_id=45232 (total uploads=490)
+[20:38:15] step=iteration 49/100
+[20:38:15] step=film start upload_id=45234 cr_film_id=30114 name='Ve městě (1949) CZ titulky'
+[20:38:15] step=cdn-resolve upload_id=45234 cdn=data11
+[20:38:16] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/52c249014deeb6f814d02dd962bb1704
+[20:38:16] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/52c249014deeb6f814d02dd962bb1704
+[20:38:54] step=download done upload_id=45234 size=942561657 dur=37.9s speed=24.9MB/s
+[20:38:54] step=upload start upload_id=45234 size=942561657
+[20:39:44] step=upload done upload_id=45234 video_id=24126359 dur=49.7s speed=19.0MB/s
+[20:39:44] step=cleanup unlinked Ve městě (1949) CZ titulky.mp4
+[20:39:44] step=film done upload_id=45234 total=88.6s (cdn=0.9s + download=37.9s + upload=49.7s)
+[20:39:44] step=state-saved upload_id=45234 (total uploads=491)
+[20:39:44] step=iteration 50/100
+[20:39:44] step=film start upload_id=96931 cr_film_id=29978 name='Oliver Twist (1948) CZ Dabing'
+[20:39:44] step=cdn-resolve upload_id=96931 cdn=data11
+[20:39:45] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/da059a34454a2ca37d18badf897bdbfc
+[20:39:45] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/da059a34454a2ca37d18badf897bdbfc
+[20:40:53] step=download done upload_id=96931 size=1726651554 dur=68.4s speed=25.2MB/s
+[20:40:53] step=upload start upload_id=96931 size=1726651554
+[20:42:35] step=upload done upload_id=96931 video_id=24126405 dur=101.6s speed=17.0MB/s
+[20:42:35] step=cleanup unlinked Oliver Twist (1948) CZ Dabing.mp4
+[20:42:35] step=film done upload_id=96931 total=171.2s (cdn=1.0s + download=68.4s + upload=101.6s)
+[20:42:35] step=state-saved upload_id=96931 (total uploads=492)
+[20:42:35] step=iteration 51/100
+[20:42:35] step=film start upload_id=45355 cr_film_id=29927 name='Pryč od minulosti (1947) CZ Dabing'
+[20:42:35] step=cdn-resolve upload_id=45355 cdn=data11
+[20:42:36] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/81d8741189603ccddc19ecf25be80b3f
+[20:42:36] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/81d8741189603ccddc19ecf25be80b3f
+[20:43:10] step=download done upload_id=45355 size=763726775 dur=34.1s speed=22.4MB/s
+[20:43:10] step=upload start upload_id=45355 size=763726775
+[20:43:57] step=upload done upload_id=45355 video_id=24126461 dur=47.1s speed=16.2MB/s
+[20:43:57] step=cleanup unlinked Pryč od minulosti (1947) CZ Dabing.mp4
+[20:43:57] step=film done upload_id=45355 total=82.2s (cdn=0.8s + download=34.1s + upload=47.1s)
+[20:43:57] step=state-saved upload_id=45355 (total uploads=493)
+[20:43:57] step=iteration 52/100
+[20:43:57] step=film start upload_id=45347 cr_film_id=29945 name='Dáma ze Šanghaje (1947) CZ titulky'
+[20:43:57] step=cdn-resolve upload_id=45347 cdn=data11
+[20:43:58] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/bfcb3c3f77cd100b78639a0c150f3fa5
+[20:43:58] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/bfcb3c3f77cd100b78639a0c150f3fa5
+[20:44:51] step=download done upload_id=45347 size=1225561231 dur=52.4s speed=23.4MB/s
+[20:44:51] step=upload start upload_id=45347 size=1225561231
+[20:46:00] step=upload done upload_id=45347 video_id=24126502 dur=69.7s speed=17.6MB/s
+[20:46:00] step=cleanup unlinked Dáma ze Šanghaje (1947) CZ titulky.mp4
+[20:46:00] step=film done upload_id=45347 total=123.1s (cdn=0.8s + download=52.4s + upload=69.7s)
+[20:46:00] step=state-saved upload_id=45347 (total uploads=494)
+[20:46:00] step=iteration 53/100
+[20:46:00] step=film start upload_id=45358 cr_film_id=30097 name='Křížový výslech (1947) CZ Dabing'
+[20:46:00] step=cdn-resolve upload_id=45358 cdn=data11
+[20:46:01] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/7a2515488e205c45c46f5b03a9e92d46
+[20:46:01] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/7a2515488e205c45c46f5b03a9e92d46
+[20:46:21] step=download done upload_id=45358 size=451881424 dur=20.4s speed=22.2MB/s
+[20:46:21] step=upload start upload_id=45358 size=451881424
+[20:46:49] step=upload done upload_id=45358 video_id=24126537 dur=27.8s speed=16.3MB/s
+[20:46:49] step=cleanup unlinked Křížový výslech (1947) CZ Dabing.mp4
+[20:46:49] step=film done upload_id=45358 total=48.9s (cdn=0.6s + download=20.4s + upload=27.8s)
+[20:46:49] step=state-saved upload_id=45358 (total uploads=495)
+[20:46:49] step=iteration 54/100
+[20:46:49] step=film start upload_id=98822 cr_film_id=29928 name='Nejlepší léta našeho života (1946) CZ Dabing'
+[20:46:49] step=cdn-resolve upload_id=98822 cdn=data10
+[20:46:50] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/993c62a2e1de5a1f9e6b69409c27b9c7
+[20:46:50] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/993c62a2e1de5a1f9e6b69409c27b9c7
+[20:48:11] step=download done upload_id=98822 size=1985904292 dur=80.9s speed=24.5MB/s
+[20:48:11] step=upload start upload_id=98822 size=1985904292
+[20:50:19] step=upload done upload_id=98822 video_id=24126575 dur=128.2s speed=15.5MB/s
+[20:50:20] step=cleanup unlinked Nejlepší léta našeho života (1946) CZ Dabing.mp4
+[20:50:20] step=film done upload_id=98822 total=210.3s (cdn=1.0s + download=80.9s + upload=128.2s)
+[20:50:20] step=state-saved upload_id=98822 (total uploads=496)
+[20:50:20] step=iteration 55/100
+[20:50:20] step=film start upload_id=45405 cr_film_id=29936 name='Život je krásný (1946) CZ Dabing'
+[20:50:20] step=cdn-resolve upload_id=45405 cdn=data11
+[20:50:21] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/a58ae41b62ae8f39b9d9b4c9c2056885
+[20:50:21] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a58ae41b62ae8f39b9d9b4c9c2056885
+[20:51:10] step=download done upload_id=45405 size=1108119886 dur=48.8s speed=22.7MB/s
+[20:51:10] step=upload start upload_id=45405 size=1108119886
+[20:52:09] step=upload done upload_id=45405 video_id=24126615 dur=58.9s speed=18.8MB/s
+[20:52:09] step=cleanup unlinked Život je krásný (1946) CZ Dabing.mp4
+[20:52:09] step=film done upload_id=45405 total=109.0s (cdn=1.1s + download=48.8s + upload=58.9s)
+[20:52:09] step=state-saved upload_id=45405 (total uploads=497)
+[20:52:09] step=iteration 56/100
+[20:52:09] step=film start upload_id=45391 cr_film_id=29946 name='Rozdvojená duše (1945) CZ Dabing'
+[20:52:09] step=cdn-resolve upload_id=45391 cdn=data11
+[20:52:09] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/290b895fdc5dcd5b5f0ee94a7194a460
+[20:52:09] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/290b895fdc5dcd5b5f0ee94a7194a460
+[20:52:57] step=download done upload_id=45391 size=1086356020 dur=47.4s speed=22.9MB/s
+[20:52:57] step=upload start upload_id=45391 size=1086356020
+[20:53:57] step=upload done upload_id=45391 video_id=24126638 dur=60.4s speed=18.0MB/s
+[20:53:57] step=cleanup unlinked Rozdvojená duše (1945) CZ Dabing.mp4
+[20:53:57] step=film done upload_id=45391 total=108.7s (cdn=0.8s + download=47.4s + upload=60.4s)
+[20:53:57] step=state-saved upload_id=45391 (total uploads=498)
+[20:53:57] step=iteration 57/100
+[20:53:57] step=film start upload_id=45393 cr_film_id=30051 name='Rozmarný duch (1945) CZ Dabing'
+[20:53:57] step=cdn-resolve upload_id=45393 cdn=data11
+[20:53:58] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/82b81336eb6204f55510b51dae8f8dfa
+[20:53:58] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/82b81336eb6204f55510b51dae8f8dfa
+[20:54:23] step=download done upload_id=45393 size=577745657 dur=24.5s speed=23.6MB/s
+[20:54:23] step=upload start upload_id=45393 size=577745657
+[20:54:54] step=upload done upload_id=45393 video_id=24126659 dur=31.7s speed=18.2MB/s
+[20:54:54] step=cleanup unlinked Rozmarný duch (1945) CZ Dabing.mp4
+[20:54:54] step=film done upload_id=45393 total=57.0s (cdn=0.8s + download=24.5s + upload=31.7s)
+[20:54:54] step=state-saved upload_id=45393 (total uploads=499)
+[20:54:54] step=iteration 58/100
+[20:54:54] step=film start upload_id=45385 cr_film_id=30067 name='Mít a nemít (1945) CZ titulky'
+[20:54:54] step=cdn-resolve upload_id=45385 cdn=data11
+[20:54:55] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/cc148e04793bad06e5a0dcd7ba93b036
+[20:54:55] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/cc148e04793bad06e5a0dcd7ba93b036
+[20:55:24] step=download done upload_id=45385 size=666548561 dur=28.8s speed=23.1MB/s
+[20:55:24] step=upload start upload_id=45385 size=666548561
+[20:56:00] step=upload done upload_id=45385 video_id=24126674 dur=35.7s speed=18.7MB/s
+[20:56:00] step=cleanup unlinked Mít a nemít (1945) CZ titulky.mp4
+[20:56:00] step=film done upload_id=45385 total=65.4s (cdn=0.8s + download=28.8s + upload=35.7s)
+[20:56:00] step=state-saved upload_id=45385 (total uploads=500)
+[20:56:00] step=iteration 59/100
+[20:56:00] step=film start upload_id=45392 cr_film_id=29970 name='Ivan Hrozný (1944) CZ titulky'
+[20:56:00] step=cdn-resolve upload_id=45392 cdn=data11
+[20:56:01] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/43062dec03bbff2db4e80180624488ee
+[20:56:01] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/43062dec03bbff2db4e80180624488ee
+[20:56:48] step=download done upload_id=45392 size=1089820455 dur=47.3s speed=23.0MB/s
+[20:56:48] step=upload start upload_id=45392 size=1089820455
+[20:58:01] step=upload done upload_id=45392 video_id=24126697 dur=73.3s speed=14.9MB/s
+[20:58:01] step=cleanup unlinked Ivan Hrozný (1944) CZ titulky.mp4
+[20:58:01] step=film done upload_id=45392 total=121.6s (cdn=0.8s + download=47.3s + upload=73.3s)
+[20:58:01] step=state-saved upload_id=45392 (total uploads=501)
+[20:58:01] step=iteration 60/100
+[20:58:01] step=film start upload_id=45440 cr_film_id=30094 name='Komu zvoní hrana (1943) CZ Dabing'
+[20:58:01] step=cdn-resolve upload_id=45440 cdn=data11
+[20:58:03] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/a84e487b802ea110e31f525e2e00f048
+[20:58:03] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a84e487b802ea110e31f525e2e00f048
+[20:58:52] step=download done upload_id=45440 size=1155982572 dur=49.1s speed=23.5MB/s
+[20:58:52] step=upload start upload_id=45440 size=1155982572
+[20:59:51] step=upload done upload_id=45440 video_id=24126724 dur=59.0s speed=19.6MB/s
+[20:59:51] step=cleanup unlinked Komu zvoní hrana (1943) CZ Dabing.mp4
+[20:59:51] step=film done upload_id=45440 total=109.3s (cdn=1.1s + download=49.1s + upload=59.0s)
+[20:59:51] step=state-saved upload_id=45440 (total uploads=502)
+[20:59:51] step=iteration 61/100
+[20:59:51] step=film start upload_id=97900 cr_film_id=29916 name='Být či nebýt (1942) CZ titulky'
+[20:59:51] step=cdn-resolve upload_id=97900 cdn=data11
+[20:59:52] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/93a5fdd78caffc86d22af7751dcee923
+[20:59:52] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/93a5fdd78caffc86d22af7751dcee923
+[21:00:40] step=download done upload_id=97900 size=1191945019 dur=48.6s speed=24.5MB/s
+[21:00:40] step=upload start upload_id=97900 size=1191945019
+[21:01:44] step=upload done upload_id=97900 video_id=24126753 dur=64.2s speed=18.6MB/s
+[21:01:45] step=cleanup unlinked Být či nebýt (1942) CZ titulky.mp4
+[21:01:45] step=film done upload_id=97900 total=113.8s (cdn=0.8s + download=48.6s + upload=64.2s)
+[21:01:45] step=state-saved upload_id=97900 (total uploads=503)
+[21:01:45] step=iteration 62/100
+[21:01:45] step=film start upload_id=45504 cr_film_id=30073 name='Pan Smith s manželkou (1941) CZ titulky'
+[21:01:45] step=cdn-resolve upload_id=45504 cdn=data11
+[21:01:45] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/74604337d363b0f418cfea8878aa3273
+[21:01:45] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/74604337d363b0f418cfea8878aa3273
+[21:02:06] step=download done upload_id=45504 size=471317842 dur=20.8s speed=22.7MB/s
+[21:02:06] step=upload start upload_id=45504 size=471317842
+[21:02:33] step=upload done upload_id=45504 video_id=24126775 dur=27.2s speed=17.3MB/s
+[21:02:33] step=cleanup unlinked Pan Smith s manželkou (1941) CZ titulky.mp4
+[21:02:33] step=film done upload_id=45504 total=48.7s (cdn=0.7s + download=20.8s + upload=27.2s)
+[21:02:33] step=state-saved upload_id=45504 (total uploads=504)
+[21:02:33] step=iteration 63/100
+[21:02:33] step=film start upload_id=45472 cr_film_id=29962 name='Žid Süss (1940) CZ titulky'
+[21:02:33] step=cdn-resolve upload_id=45472 cdn=data11
+[21:02:34] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/98adf5c39b80c2451d367c56b861e89d
+[21:02:34] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/98adf5c39b80c2451d367c56b861e89d
+[21:03:26] step=download done upload_id=45472 size=1272020296 dur=52.3s speed=24.3MB/s
+[21:03:26] step=upload start upload_id=45472 size=1272020296
+[21:04:34] step=upload done upload_id=45472 video_id=24126801 dur=67.3s speed=18.9MB/s
+[21:04:34] step=cleanup unlinked Žid Süss (1940) CZ titulky.mp4
+[21:04:34] step=film done upload_id=45472 total=120.7s (cdn=0.9s + download=52.3s + upload=67.3s)
+[21:04:34] step=state-saved upload_id=45472 (total uploads=505)
+[21:04:34] step=iteration 64/100
+[21:04:34] step=film start upload_id=45468 cr_film_id=29992 name='Zloděj z Bagdádu (1940) CZ Dabing'
+[21:04:34] step=cdn-resolve upload_id=45468 cdn=data11
+[21:04:35] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/9d0d3c6ba5bc921b5515aa2e61ec72c4
+[21:04:35] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/9d0d3c6ba5bc921b5515aa2e61ec72c4
+[21:05:08] step=download done upload_id=45468 size=787826182 dur=33.4s speed=23.6MB/s
+[21:05:08] step=upload start upload_id=45468 size=787826182
+[21:05:52] step=upload done upload_id=45468 video_id=24126825 dur=43.9s speed=17.9MB/s
+[21:05:52] step=cleanup unlinked Zloděj z Bagdádu (1940) CZ Dabing.mp4
+[21:05:52] step=film done upload_id=45468 total=78.3s (cdn=0.8s + download=33.4s + upload=43.9s)
+[21:05:52] step=state-saved upload_id=45468 (total uploads=506)
+[21:05:52] step=iteration 65/100
+[21:05:52] step=film start upload_id=45458 cr_film_id=30082 name='Zahraniční dopisovatel (1940) CZ Dabing'
+[21:05:52] step=cdn-resolve upload_id=45458 cdn=data11
+[21:05:53] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/aec5f718f4d30a8bed38a021dc04378e
+[21:05:53] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/aec5f718f4d30a8bed38a021dc04378e
+[21:06:20] step=download done upload_id=45458 size=633557730 dur=26.8s speed=23.6MB/s
+[21:06:20] step=upload start upload_id=45458 size=633557730
+[21:06:56] step=upload done upload_id=45458 video_id=24126848 dur=35.6s speed=17.8MB/s
+[21:06:56] step=cleanup unlinked Zahraniční dopisovatel (1940) CZ Dabing.mp4
+[21:06:56] step=film done upload_id=45458 total=63.3s (cdn=0.9s + download=26.8s + upload=35.6s)
+[21:06:56] step=state-saved upload_id=45458 (total uploads=507)
+[21:06:56] step=iteration 66/100
+[21:06:56] step=film start upload_id=45525 cr_film_id=30138 name='Bouřlivá dvacátá léta (1939) CZ titulky'
+[21:06:56] step=cdn-resolve upload_id=45525 cdn=data11
+[21:06:56] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/d02fa622e5fd3e9ce7434b62931d7027
+[21:06:56] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/d02fa622e5fd3e9ce7434b62931d7027
+[21:07:39] step=download done upload_id=45525 size=1016366198 dur=42.8s speed=23.7MB/s
+[21:07:39] step=upload start upload_id=45525 size=1016366198
+[21:08:36] step=upload done upload_id=45525 video_id=24126872 dur=57.3s speed=17.7MB/s
+[21:08:36] step=cleanup unlinked Bouřlivá dvacátá léta (1939) CZ titulky.mp4
+[21:08:36] step=film done upload_id=45525 total=100.9s (cdn=0.7s + download=42.8s + upload=57.3s)
+[21:08:36] step=state-saved upload_id=45525 (total uploads=508)
+[21:08:36] step=iteration 67/100
+[21:08:37] step=film start upload_id=45632 cr_film_id=30085 name='Pépé le Moko (1937) CZ Dabing'
+[21:08:37] step=cdn-resolve upload_id=45632 cdn=data11
+[21:08:37] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/01f14865c8c565fbf24462f38ab97f91
+[21:08:37] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/01f14865c8c565fbf24462f38ab97f91
+[21:09:03] step=download done upload_id=45632 size=599571600 dur=25.6s speed=23.4MB/s
+[21:09:03] step=upload start upload_id=45632 size=599571600
+[21:09:41] step=upload done upload_id=45632 video_id=24126897 dur=38.4s speed=15.6MB/s
+[21:09:42] step=cleanup unlinked Pépé le Moko (1937) CZ Dabing.mp4
+[21:09:42] step=film done upload_id=45632 total=65.0s (cdn=0.9s + download=25.6s + upload=38.4s)
+[21:09:42] step=state-saved upload_id=45632 (total uploads=509)
+[21:09:42] step=iteration 68/100
+[21:09:42] step=film start upload_id=45671 cr_film_id=30149 name='Vichry pustiny (1936) CZ Dabing'
+[21:09:42] step=cdn-resolve upload_id=45671 cdn=data11
+[21:09:43] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/71c8bbe3ea371e88ca1c992b9121fc65
+[21:09:43] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/71c8bbe3ea371e88ca1c992b9121fc65
+[21:10:02] step=download done upload_id=45671 size=434635271 dur=19.5s speed=22.3MB/s
+[21:10:02] step=upload start upload_id=45671 size=434635271
+[21:10:29] step=upload done upload_id=45671 video_id=24126912 dur=26.8s speed=16.2MB/s
+[21:10:29] step=cleanup unlinked Vichry pustiny (1936) CZ Dabing.mp4
+[21:10:29] step=film done upload_id=45671 total=47.5s (cdn=1.1s + download=19.5s + upload=26.8s)
+[21:10:29] step=state-saved upload_id=45671 (total uploads=510)
+[21:10:29] step=iteration 69/100
+[21:10:29] step=film start upload_id=45691 cr_film_id=30151 name='Vánoční koleda (1935) CZ Dabing'
+[21:10:29] step=cdn-resolve upload_id=45691 cdn=data11
+[21:10:30] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/0534db286db1530a2352a2f027fe0031
+[21:10:30] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/0534db286db1530a2352a2f027fe0031
+[21:10:57] step=download done upload_id=45691 size=646295420 dur=27.4s speed=23.6MB/s
+[21:10:57] step=upload start upload_id=45691 size=646295420
+[21:11:37] step=upload done upload_id=45691 video_id=24126929 dur=39.7s speed=16.3MB/s
+[21:11:37] step=cleanup unlinked Vánoční koleda (1935) CZ Dabing.mp4
+[21:11:37] step=film done upload_id=45691 total=68.0s (cdn=0.8s + download=27.4s + upload=39.7s)
+[21:11:37] step=state-saved upload_id=45691 (total uploads=511)
+[21:11:37] step=iteration 70/100
+[21:11:37] step=film start upload_id=45705 cr_film_id=30166 name='Trojka z mravů (1933) CZ Dabing'
+[21:11:37] step=cdn-resolve upload_id=45705 cdn=data11
+[21:11:38] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/255fab0f7e8e40e462df7566e9bf6209
+[21:11:38] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/255fab0f7e8e40e462df7566e9bf6209
+[21:12:08] step=download done upload_id=45705 size=717942828 dur=30.3s speed=23.7MB/s
+[21:12:08] step=upload start upload_id=45705 size=717942828
+[21:12:51] step=upload done upload_id=45705 video_id=24126942 dur=42.3s speed=17.0MB/s
+[21:12:51] step=cleanup unlinked Trojka z mravů (1933) CZ Dabing.mp4
+[21:12:51] step=film done upload_id=45705 total=73.7s (cdn=1.0s + download=30.3s + upload=42.3s)
+[21:12:51] step=state-saved upload_id=45705 (total uploads=512)
+[21:12:51] step=iteration 71/100
+[21:12:51] step=film start upload_id=45749 cr_film_id=29929 name='Světla velkoměsta (1931) CZ titulky'
+[21:12:51] step=cdn-resolve upload_id=45749 cdn=data11
+[21:12:52] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/cf8caa6cc506e54e33226ff893ee0481
+[21:12:52] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/cf8caa6cc506e54e33226ff893ee0481
+[21:13:30] step=download done upload_id=45749 size=890905210 dur=38.3s speed=23.3MB/s
+[21:13:30] step=upload start upload_id=45749 size=890905210
+[21:14:18] step=upload done upload_id=45749 video_id=24126961 dur=47.8s speed=18.6MB/s
+[21:14:18] step=cleanup unlinked Světla velkoměsta (1931) CZ titulky.mp4
+[21:14:18] step=film done upload_id=45749 total=87.0s (cdn=0.9s + download=38.3s + upload=47.8s)
+[21:14:18] step=state-saved upload_id=45749 (total uploads=513)
+[21:14:18] step=iteration 72/100
+[21:14:18] step=film start upload_id=99211 cr_film_id=29925 name='Východ slunce (1927) CZ Dabing'
+[21:14:18] step=cdn-resolve upload_id=99211 cdn=data11
+[21:14:18] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/3d680b82995c312f3d64d709cc840bec
+[21:14:18] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/3d680b82995c312f3d64d709cc840bec
+[21:14:44] step=download done upload_id=99211 size=598096719 dur=25.5s speed=23.5MB/s
+[21:14:44] step=upload start upload_id=99211 size=598096719
+[21:15:18] step=upload done upload_id=99211 video_id=24126984 dur=34.1s speed=17.5MB/s
+[21:15:18] step=cleanup unlinked Východ slunce (1927) CZ Dabing.mp4
+[21:15:18] step=film done upload_id=99211 total=60.3s (cdn=0.6s + download=25.5s + upload=34.1s)
+[21:15:18] step=state-saved upload_id=99211 (total uploads=514)
+[21:15:18] step=iteration 73/100
+[21:15:18] step=film start upload_id=68239 cr_film_id=30201 name='Čarodějnictví v průběhu věků (1922) CZ titulky'
+[21:15:18] step=cdn-resolve upload_id=68239 cdn=data10
+[21:15:19] step=cdn-resolve done 1.1s → https://data10.sledujteto.cz/player/index/sledujteto/bc95b5e42685e41ee910426a25ba1a56
+[21:15:19] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/bc95b5e42685e41ee910426a25ba1a56
+[21:16:31] step=download done upload_id=68239 size=1718013605 dur=71.5s speed=24.0MB/s
+[21:16:31] step=upload start upload_id=68239 size=1718013605
+[21:18:02] step=upload done upload_id=68239 video_id=24127011 dur=91.9s speed=18.7MB/s
+[21:18:03] step=cleanup unlinked Čarodějnictví v průběhu věků (1922) CZ titulky.mp4
+[21:18:03] step=film done upload_id=68239 total=164.6s (cdn=1.1s + download=71.5s + upload=91.9s)
+[21:18:03] step=state-saved upload_id=68239 (total uploads=515)
+[21:18:03] step=iteration 74/100
+[21:18:03] step=film start upload_id=99224 cr_film_id=30204 name='Vozka smrti (1921) CZ titulky'
+[21:18:03] step=cdn-resolve upload_id=99224 cdn=data11
+[21:18:04] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/f6a62f4509b6d80d17134536ecd93e5e
+[21:18:04] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/f6a62f4509b6d80d17134536ecd93e5e
+[21:19:26] step=download done upload_id=99224 size=1730977827 dur=82.1s speed=21.1MB/s
+[21:19:26] step=upload start upload_id=99224 size=1730977827
+[21:21:26] step=upload done upload_id=99224 video_id=24127067 dur=119.9s speed=14.4MB/s
+[21:21:26] step=cleanup unlinked Vozka smrti (1921) CZ titulky.mp4
+[21:21:26] step=film done upload_id=99224 total=203.1s (cdn=0.9s + download=82.1s + upload=119.9s)
+[21:21:26] step=state-saved upload_id=99224 (total uploads=516)
+[21:21:26] step=iteration 75/100
+[21:21:26] step=film start upload_id=77984 cr_film_id=31484 name='Taylor a Travis: Příběh opravdové lásky CZ Dabing'
+[21:21:26] step=cdn-resolve upload_id=77984 cdn=data10
+[21:21:27] step=cdn-resolve done 1.1s → https://data10.sledujteto.cz/player/index/sledujteto/53b18a90087060c82bf9be6e762380a8
+[21:21:27] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/53b18a90087060c82bf9be6e762380a8
+[21:22:32] step=download done upload_id=77984 size=1572612192 dur=65.1s speed=24.2MB/s
+[21:22:32] step=upload start upload_id=77984 size=1572612192
+[21:24:01] step=upload done upload_id=77984 video_id=24127105 dur=89.0s speed=17.7MB/s
+[21:24:01] step=cleanup unlinked Taylor a Travis: Příběh opravdové lásky CZ Dabing.mp4
+[21:24:01] step=film done upload_id=77984 total=155.4s (cdn=1.1s + download=65.1s + upload=89.0s)
+[21:24:01] step=state-saved upload_id=77984 (total uploads=517)
+[21:24:01] step=iteration 76/100
+[21:24:01] step=batch-end backlog vyčerpán
+[21:24:01] step=batch-end succeeded=75 failed=0 total_uploads=517 batch_dur=11020.8s avg_per_film=146.9s backlog_remaining=119 eta_hours=4.9
