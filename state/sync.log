@@ -5792,3 +5792,11 @@
 [21:24:01] step=iteration 76/100
 [21:24:01] step=batch-end backlog vyčerpán
 [21:24:01] step=batch-end succeeded=75 failed=0 total_uploads=517 batch_dur=11020.8s avg_per_film=146.9s backlog_remaining=119 eta_hours=4.9
+
+===== run 2026-04-23T21:24:49Z batch_size=100 lang=CZ_DUB,CZ_SUB (https://github.com/Olbrasoft/sledujtetocz-to-prehrajto/actions/runs/24859609059) =====
+[21:24:49] step=batch-start count=100 backlog=636 uploads=517 moderated=0
+[21:24:49] step=login
+[21:24:51] step=login done
+[21:24:51] step=iteration 1/100
+[21:24:51] step=batch-end backlog vyčerpán
+[21:24:51] step=batch-end succeeded=0 failed=0 total_uploads=517 batch_dur=0.0s avg_per_film=0s backlog_remaining=119 eta_hours=None
