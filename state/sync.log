@@ -546,3 +546,1082 @@
 [21:35:49] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/4de0aceaa212081f9cba5434b8660b10
 [21:36:46] step=download done upload_id=79771 size=1564100258 dur=57.8s speed=27.1MB/s
 [21:36:46] step=upload start upload_id=79771 size=1564100258
+
+===== run 2026-04-22T22:32:59Z batch_size=100 lang=CZ_DUB,CZ_SUB (https://github.com/Olbrasoft/sledujtetocz-to-prehrajto/actions/runs/24806112989) =====
+[22:32:59] step=batch-start count=100 backlog=636 uploads=46 moderated=0
+[22:32:59] step=login
+[22:33:01] step=login done
+[22:33:01] step=iteration 1/100
+[22:33:01] step=film start upload_id=79771 cr_film_id=31482 name='LEGO Marvel Avengers: Operace Demolice (2024) CZ Dabing'
+[22:33:01] step=cdn-resolve upload_id=79771 cdn=data10
+[22:33:02] step=cdn-resolve done 1.1s → https://data10.sledujteto.cz/player/index/sledujteto/825ba0f49e0aa1190c18a263cfa0c940
+[22:33:02] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/825ba0f49e0aa1190c18a263cfa0c940
+[22:34:12] step=download done upload_id=79771 size=1564100258 dur=70.1s speed=22.3MB/s
+[22:34:12] step=upload start upload_id=79771 size=1564100258
+[22:35:52] step=upload done upload_id=79771 video_id=24092551 dur=100.0s speed=15.6MB/s
+[22:35:52] step=cleanup unlinked LEGO Marvel Avengers: Operace Demolice (2024) CZ Dabing.mp4
+[22:35:52] step=film done upload_id=79771 total=171.4s (cdn=1.1s + download=70.1s + upload=100.0s)
+[22:35:52] step=state-saved upload_id=79771 (total uploads=47)
+[22:35:52] step=iteration 2/100
+[22:35:52] step=film start upload_id=79058 cr_film_id=31483 name='Bratři Menendézovi (2024) CZ Dabing'
+[22:35:52] step=cdn-resolve upload_id=79058 cdn=data10
+[22:35:53] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/a181ffce133a7bf316fcd1515f5df20a
+[22:35:53] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/a181ffce133a7bf316fcd1515f5df20a
+[22:39:01] step=download done upload_id=79058 size=4420336055 dur=187.8s speed=23.5MB/s
+[22:39:01] step=upload start upload_id=79058 size=4420336055
+[22:43:41] step=upload done upload_id=79058 video_id=24092842 dur=279.5s speed=15.8MB/s
+[22:43:41] step=cleanup unlinked Bratři Menendézovi (2024) CZ Dabing.mp4
+[22:43:41] step=film done upload_id=79058 total=468.9s (cdn=1.0s + download=187.8s + upload=279.5s)
+[22:43:41] step=state-saved upload_id=79058 (total uploads=48)
+[22:43:41] step=iteration 3/100
+[22:43:41] step=film start upload_id=79387 cr_film_id=31486 name='Štěstí a tak (2024) CZ titulky'
+[22:43:41] step=cdn-resolve upload_id=79387 cdn=data11
+[22:43:42] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/80b606a6ed857ddebec890dd76860b03
+[22:43:42] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/80b606a6ed857ddebec890dd76860b03
+[22:45:05] step=download done upload_id=79387 size=1904089940 dur=82.5s speed=23.1MB/s
+[22:45:05] step=upload start upload_id=79387 size=1904089940
+[22:47:02] step=upload done upload_id=79387 video_id=24093132 dur=117.1s speed=16.3MB/s
+[22:47:02] step=cleanup unlinked Štěstí a tak (2024) CZ titulky.mp4
+[22:47:02] step=film done upload_id=79387 total=200.8s (cdn=1.0s + download=82.5s + upload=117.1s)
+[22:47:02] step=state-saved upload_id=79387 (total uploads=49)
+[22:47:02] step=iteration 4/100
+[22:47:02] step=film start upload_id=82306 cr_film_id=31489 name='MARIE (2024) CZ Dabing'
+[22:47:02] step=cdn-resolve upload_id=82306 cdn=data10
+[22:47:03] step=cdn-resolve done 1.2s → https://data10.sledujteto.cz/player/index/sledujteto/bfbecde2eeab36d9251a5ccbfafd735d
+[22:47:03] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/bfbecde2eeab36d9251a5ccbfafd735d
+[22:48:24] step=download done upload_id=82306 size=1799063969 dur=80.4s speed=22.4MB/s
+[22:48:24] step=upload start upload_id=82306 size=1799063969
+[22:50:05] step=upload done upload_id=82306 video_id=24093291 dur=101.3s speed=17.8MB/s
+[22:50:05] step=cleanup unlinked MARIE (2024) CZ Dabing.mp4
+[22:50:05] step=film done upload_id=82306 total=183.1s (cdn=1.2s + download=80.4s + upload=101.3s)
+[22:50:05] step=state-saved upload_id=82306 (total uploads=50)
+[22:50:05] step=iteration 5/100
+[22:50:05] step=film start upload_id=90057 cr_film_id=31490 name='Ani se nenaděješ a už se jmenuješ (2024) CZ Dabing'
+[22:50:05] step=cdn-resolve upload_id=90057 cdn=data11
+[22:50:06] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/baa868eb1788c6639bd05c37ed92138e
+[22:50:06] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/baa868eb1788c6639bd05c37ed92138e
+[22:50:44] step=download done upload_id=90057 size=860762198 dur=38.4s speed=22.4MB/s
+[22:50:44] step=upload start upload_id=90057 size=860762198
+[22:51:43] step=upload done upload_id=90057 video_id=24093401 dur=58.4s speed=14.7MB/s
+[22:51:43] step=cleanup unlinked Ani se nenaděješ a už se jmenuješ (2024) CZ Dabing.mp4
+[22:51:43] step=film done upload_id=90057 total=97.7s (cdn=0.8s + download=38.4s + upload=58.4s)
+[22:51:43] step=state-saved upload_id=90057 (total uploads=51)
+[22:51:43] step=iteration 6/100
+[22:51:43] step=film start upload_id=78579 cr_film_id=31491 name='Assembled: Jak se natáčel Deadpool & Wolverine (2024) CZ Dabing'
+[22:51:43] step=cdn-resolve upload_id=78579 cdn=data11
+[22:51:44] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/24c2d93f44276a3a95f529e7c93400a2
+[22:51:44] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/24c2d93f44276a3a95f529e7c93400a2
+[22:53:21] step=download done upload_id=78579 size=2302441664 dur=97.4s speed=23.6MB/s
+[22:53:21] step=upload start upload_id=78579 size=2302441664
+[22:56:34] step=upload done upload_id=78579 video_id=24093516 dur=192.6s speed=12.0MB/s
+[22:56:34] step=cleanup unlinked Assembled: Jak se natáčel Deadpool & Wolverine (2024) CZ Dabing.mp4
+[22:56:34] step=film done upload_id=78579 total=291.3s (cdn=0.9s + download=97.4s + upload=192.6s)
+[22:56:34] step=state-saved upload_id=78579 (total uploads=52)
+[22:56:34] step=iteration 7/100
+[22:56:34] step=film start upload_id=83920 cr_film_id=31496 name='Avicii: Moje poslední show (2024) CZ Dabing'
+[22:56:34] step=cdn-resolve upload_id=83920 cdn=data10
+[22:56:35] step=cdn-resolve done 1.1s → https://data10.sledujteto.cz/player/index/sledujteto/457815570d10d0f842ad37dd27fe7751
+[22:56:35] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/457815570d10d0f842ad37dd27fe7751
+[22:57:53] step=download done upload_id=83920 size=1739094264 dur=77.6s speed=22.4MB/s
+[22:57:53] step=upload start upload_id=83920 size=1739094264
+[22:59:36] step=upload done upload_id=83920 video_id=24093700 dur=102.9s speed=16.9MB/s
+[22:59:36] step=cleanup unlinked Avicii: Moje poslední show (2024) CZ Dabing.mp4
+[22:59:36] step=film done upload_id=83920 total=181.8s (cdn=1.1s + download=77.6s + upload=102.9s)
+[22:59:36] step=state-saved upload_id=83920 (total uploads=53)
+[22:59:36] step=iteration 8/100
+[22:59:36] step=film start upload_id=100512 cr_film_id=31544 name='Ozempic: Hollywoodská posedlost (2024) CZ Dabing'
+[22:59:36] step=cdn-resolve upload_id=100512 cdn=data11
+[22:59:37] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/76795ab9350e67f11bc6c830c923a42f
+[22:59:37] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/76795ab9350e67f11bc6c830c923a42f
+[23:01:21] step=download done upload_id=100512 size=2468044172 dur=104.6s speed=23.6MB/s
+[23:01:21] step=upload start upload_id=100512 size=2468044172
+[23:03:44] step=upload done upload_id=100512 video_id=24093859 dur=142.1s speed=17.4MB/s
+[23:03:44] step=cleanup unlinked Ozempic: Hollywoodská posedlost (2024) CZ Dabing.mp4
+[23:03:44] step=film done upload_id=100512 total=247.9s (cdn=0.8s + download=104.6s + upload=142.1s)
+[23:03:44] step=state-saved upload_id=100512 (total uploads=54)
+[23:03:44] step=iteration 9/100
+[23:03:44] step=film start upload_id=76890 cr_film_id=30877 name='Nina a ježkovo tajemství (2023) CZ Dabing'
+[23:03:44] step=cdn-resolve upload_id=76890 cdn=data10
+[23:03:45] step=cdn-resolve done 1.4s → https://data10.sledujteto.cz/player/index/sledujteto/fa86b755cc298a4c30ca6fbf429caf05
+[23:03:45] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/fa86b755cc298a4c30ca6fbf429caf05
+[23:04:18] step=download done upload_id=76890 size=681069269 dur=32.5s speed=21.0MB/s
+[23:04:18] step=upload start upload_id=76890 size=681069269
+[23:05:11] step=upload done upload_id=76890 video_id=24093987 dur=52.9s speed=12.9MB/s
+[23:05:11] step=cleanup unlinked Nina a ježkovo tajemství (2023) CZ Dabing.mp4
+[23:05:11] step=film done upload_id=76890 total=86.8s (cdn=1.4s + download=32.5s + upload=52.9s)
+[23:05:11] step=state-saved upload_id=76890 (total uploads=55)
+[23:05:11] step=iteration 10/100
+[23:05:11] step=film start upload_id=68398 cr_film_id=31238 name='Něha (2023) CZ Dabing'
+[23:05:11] step=cdn-resolve upload_id=68398 cdn=data10
+[23:05:12] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/99836c2664d2a9c2287effe8e33be5ec
+[23:05:12] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/99836c2664d2a9c2287effe8e33be5ec
+[23:06:09] step=download done upload_id=68398 size=1271877497 dur=57.8s speed=22.0MB/s
+[23:06:09] step=upload start upload_id=68398 size=1271877497
+[23:07:40] step=upload done upload_id=68398 video_id=24094081 dur=91.0s speed=14.0MB/s
+[23:07:41] step=cleanup unlinked Něha (2023) CZ Dabing.mp4
+[23:07:41] step=film done upload_id=68398 total=150.0s (cdn=1.0s + download=57.8s + upload=91.0s)
+[23:07:41] step=state-saved upload_id=68398 (total uploads=56)
+[23:07:41] step=iteration 11/100
+[23:07:41] step=film start upload_id=66530 cr_film_id=31262 name='Elfni mě (2023) CZ titulky'
+[23:07:41] step=cdn-resolve upload_id=66530 cdn=data11
+[23:07:41] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/87acac3156c4c52a43e1e08fa2e681b6
+[23:07:41] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/87acac3156c4c52a43e1e08fa2e681b6
+[23:09:05] step=download done upload_id=66530 size=1973146543 dur=83.9s speed=23.5MB/s
+[23:09:05] step=upload start upload_id=66530 size=1973146543
+[23:11:13] step=upload done upload_id=66530 video_id=24094204 dur=127.5s speed=15.5MB/s
+[23:11:13] step=cleanup unlinked Elfni mě (2023) CZ titulky.mp4
+[23:11:13] step=film done upload_id=66530 total=212.4s (cdn=0.8s + download=83.9s + upload=127.5s)
+[23:11:13] step=state-saved upload_id=66530 (total uploads=57)
+[23:11:13] step=iteration 12/100
+[23:11:13] step=film start upload_id=75993 cr_film_id=31280 name='Holčička (2023) CZ Dabing'
+[23:11:13] step=cdn-resolve upload_id=75993 cdn=data11
+[23:11:14] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/d3c4870453d765302db0b3a31a3555e7
+[23:11:14] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/d3c4870453d765302db0b3a31a3555e7
+[23:11:55] step=download done upload_id=75993 size=898251434 dur=40.6s speed=22.1MB/s
+[23:11:55] step=upload start upload_id=75993 size=898251434
+[23:12:48] step=upload done upload_id=75993 video_id=24094336 dur=53.6s speed=16.8MB/s
+[23:12:48] step=cleanup unlinked Holčička (2023) CZ Dabing.mp4
+[23:12:48] step=film done upload_id=75993 total=95.2s (cdn=0.9s + download=40.6s + upload=53.6s)
+[23:12:48] step=state-saved upload_id=75993 (total uploads=58)
+[23:12:48] step=iteration 13/100
+[23:12:48] step=film start upload_id=65876 cr_film_id=31288 name='Zvěstovatel (2023) CZ Dabing'
+[23:12:48] step=cdn-resolve upload_id=65876 cdn=data11
+[23:12:50] step=cdn-resolve done 1.2s → https://data11.sledujteto.cz/player/index/sledujteto/df1966e6b4da567ae8aefb691b087313
+[23:12:50] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/df1966e6b4da567ae8aefb691b087313
+[23:13:15] step=download done upload_id=65876 size=546704893 dur=25.4s speed=21.5MB/s
+[23:13:15] step=upload start upload_id=65876 size=546704893
+[23:13:53] step=upload done upload_id=65876 video_id=24094401 dur=38.0s speed=14.4MB/s
+[23:13:53] step=cleanup unlinked Zvěstovatel (2023) CZ Dabing.mp4
+[23:13:53] step=film done upload_id=65876 total=64.6s (cdn=1.2s + download=25.4s + upload=38.0s)
+[23:13:53] step=state-saved upload_id=65876 (total uploads=59)
+[23:13:53] step=iteration 14/100
+[23:13:53] step=film start upload_id=68285 cr_film_id=31293 name='Nultého června (2023) CZ titulky'
+[23:13:53] step=cdn-resolve upload_id=68285 cdn=data11
+[23:13:54] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/d28323340190162cd6e09df24dbdbbcd
+[23:13:54] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/d28323340190162cd6e09df24dbdbbcd
+[23:15:20] step=download done upload_id=68285 size=2006424348 dur=86.0s speed=23.3MB/s
+[23:15:20] step=upload start upload_id=68285 size=2006424348
+[23:17:24] step=upload done upload_id=68285 video_id=24094503 dur=124.1s speed=16.2MB/s
+[23:17:24] step=cleanup unlinked Nultého června (2023) CZ titulky.mp4
+[23:17:24] step=film done upload_id=68285 total=211.2s (cdn=0.9s + download=86.0s + upload=124.1s)
+[23:17:24] step=state-saved upload_id=68285 (total uploads=60)
+[23:17:24] step=iteration 15/100
+[23:17:24] step=film start upload_id=58100 cr_film_id=31303 name='Vražda Grace Millane: Speciál o falešnosti (2023) CZ Dabing'
+[23:17:24] step=cdn-resolve upload_id=58100 cdn=data11
+[23:17:25] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/7a3874e7f41ba0e06666ba4b122cc974
+[23:17:25] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/7a3874e7f41ba0e06666ba4b122cc974
+[23:17:47] step=download done upload_id=58100 size=475544023 dur=21.9s speed=21.7MB/s
+[23:17:47] step=upload start upload_id=58100 size=475544023
+[23:18:18] step=upload done upload_id=58100 video_id=24094623 dur=30.6s speed=15.5MB/s
+[23:18:18] step=cleanup unlinked Vražda Grace Millane: Speciál o falešnosti (2023) CZ Dabing.mp4
+[23:18:18] step=film done upload_id=58100 total=53.4s (cdn=0.8s + download=21.9s + upload=30.6s)
+[23:18:18] step=state-saved upload_id=58100 (total uploads=61)
+[23:18:18] step=iteration 16/100
+[23:18:18] step=film start upload_id=61846 cr_film_id=31328 name='Vesnice (2023) CZ titulky'
+[23:18:18] step=cdn-resolve upload_id=61846 cdn=data11
+[23:18:18] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/5dfd5b926c0585179dfb0bdbd3d9e603
+[23:18:18] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/5dfd5b926c0585179dfb0bdbd3d9e603
+[23:20:01] step=download done upload_id=61846 size=2405188982 dur=102.4s speed=23.5MB/s
+[23:20:01] step=upload start upload_id=61846 size=2405188982
+[23:22:35] step=upload done upload_id=61846 video_id=24094722 dur=154.7s speed=15.5MB/s
+[23:22:36] step=cleanup unlinked Vesnice (2023) CZ titulky.mp4
+[23:22:36] step=film done upload_id=61846 total=258.1s (cdn=0.6s + download=102.4s + upload=154.7s)
+[23:22:36] step=state-saved upload_id=61846 (total uploads=62)
+[23:22:36] step=iteration 17/100
+[23:22:36] step=film start upload_id=69846 cr_film_id=31334 name='Všechno dobře dopadne (2023) CZ Dabing'
+[23:22:36] step=cdn-resolve upload_id=69846 cdn=data10
+[23:22:37] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/7b95e5da34b8bcb91b6d03319d78eace
+[23:22:37] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/7b95e5da34b8bcb91b6d03319d78eace
+[23:23:51] step=download done upload_id=69846 size=1631716201 dur=74.1s speed=22.0MB/s
+[23:23:51] step=upload start upload_id=69846 size=1631716201
+[23:25:41] step=upload done upload_id=69846 video_id=24094857 dur=110.4s speed=14.8MB/s
+[23:25:41] step=cleanup unlinked Všechno dobře dopadne (2023) CZ Dabing.mp4
+[23:25:41] step=film done upload_id=69846 total=185.7s (cdn=1.0s + download=74.1s + upload=110.4s)
+[23:25:41] step=state-saved upload_id=69846 (total uploads=63)
+[23:25:41] step=iteration 18/100
+[23:25:41] step=film start upload_id=61206 cr_film_id=31344 name='Oběť/Podezřelá (2023) CZ titulky'
+[23:25:41] step=cdn-resolve upload_id=61206 cdn=data11
+[23:25:42] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/087acd89ebf92b30723c700f45aa4e43
+[23:25:42] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/087acd89ebf92b30723c700f45aa4e43
+[23:27:05] step=download done upload_id=61206 size=1947724165 dur=82.9s speed=23.5MB/s
+[23:27:05] step=upload start upload_id=61206 size=1947724165
+[23:28:57] step=upload done upload_id=61206 video_id=24094946 dur=112.2s speed=17.4MB/s
+[23:28:58] step=cleanup unlinked Oběť_Podezřelá (2023) CZ titulky.mp4
+[23:28:58] step=film done upload_id=61206 total=196.2s (cdn=0.8s + download=82.9s + upload=112.2s)
+[23:28:58] step=state-saved upload_id=61206 (total uploads=64)
+[23:28:58] step=iteration 19/100
+[23:28:58] step=film start upload_id=60644 cr_film_id=31353 name='Víkendový trapas (2023) CZ titulky'
+[23:28:58] step=cdn-resolve upload_id=60644 cdn=data11
+[23:28:58] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/98e607f79c14b09e3d7a322290b8eb00
+[23:28:58] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/98e607f79c14b09e3d7a322290b8eb00
+[23:30:16] step=download done upload_id=60644 size=1818613240 dur=77.7s speed=23.4MB/s
+[23:30:16] step=upload start upload_id=60644 size=1818613240
+[23:32:18] step=upload done upload_id=60644 video_id=24094995 dur=122.1s speed=14.9MB/s
+[23:32:18] step=cleanup unlinked Víkendový trapas (2023) CZ titulky.mp4
+[23:32:18] step=film done upload_id=60644 total=200.9s (cdn=0.9s + download=77.7s + upload=122.1s)
+[23:32:18] step=state-saved upload_id=60644 (total uploads=65)
+[23:32:18] step=iteration 20/100
+[23:32:18] step=film start upload_id=59480 cr_film_id=31357 name='Bono a The Edge A Sort of Homecoming s Davem Lettermanem (2023) CZ titulky'
+[23:32:18] step=cdn-resolve upload_id=59480 cdn=data11
+[23:32:19] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/15b106f6c5e50ad2f14c011ed141b815
+[23:32:19] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/15b106f6c5e50ad2f14c011ed141b815
+[23:33:34] step=download done upload_id=59480 size=1736520067 dur=74.7s speed=23.2MB/s
+[23:33:34] step=upload start upload_id=59480 size=1736520067
+[23:35:24] step=upload done upload_id=59480 video_id=24095044 dur=109.9s speed=15.8MB/s
+[23:35:24] step=cleanup unlinked Bono a The Edge A Sort of Homecoming s Davem Lettermanem (2023) CZ titulky.mp4
+[23:35:24] step=film done upload_id=59480 total=185.7s (cdn=0.8s + download=74.7s + upload=109.9s)
+[23:35:24] step=state-saved upload_id=59480 (total uploads=66)
+[23:35:24] step=iteration 21/100
+[23:35:24] step=film start upload_id=75384 cr_film_id=31358 name='Mimi (2023) CZ Dabing'
+[23:35:24] step=cdn-resolve upload_id=75384 cdn=data11
+[23:35:25] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/82a003d349ecf1d71c4711e99ed26764
+[23:35:25] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/82a003d349ecf1d71c4711e99ed26764
+[23:36:36] step=download done upload_id=75384 size=1622450464 dur=70.7s speed=22.9MB/s
+[23:36:36] step=upload start upload_id=75384 size=1622450464
+[23:38:20] step=upload done upload_id=75384 video_id=24095109 dur=104.4s speed=15.5MB/s
+[23:38:20] step=cleanup unlinked Mimi (2023) CZ Dabing.mp4
+[23:38:20] step=film done upload_id=75384 total=176.2s (cdn=0.9s + download=70.7s + upload=104.4s)
+[23:38:20] step=state-saved upload_id=75384 (total uploads=67)
+[23:38:20] step=iteration 22/100
+[23:38:20] step=film start upload_id=61639 cr_film_id=31378 name='Aha, já rostu! (2023) CZ titulky'
+[23:38:20] step=cdn-resolve upload_id=61639 cdn=data11
+[23:38:21] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/e0b6f2e68c180784bedac704f923c019
+[23:38:21] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/e0b6f2e68c180784bedac704f923c019
+[23:39:39] step=download done upload_id=61639 size=1801902019 dur=78.1s speed=23.1MB/s
+[23:39:39] step=upload start upload_id=61639 size=1801902019
+[23:41:27] step=upload done upload_id=61639 video_id=24095151 dur=107.7s speed=16.7MB/s
+[23:41:27] step=cleanup unlinked Aha, já rostu! (2023) CZ titulky.mp4
+[23:41:27] step=film done upload_id=61639 total=186.9s (cdn=0.9s + download=78.1s + upload=107.7s)
+[23:41:27] step=state-saved upload_id=61639 (total uploads=68)
+[23:41:27] step=iteration 23/100
+[23:41:27] step=film start upload_id=62665 cr_film_id=31381 name='Zasvěcení (2023) CZ titulky'
+[23:41:27] step=cdn-resolve upload_id=62665 cdn=data11
+[23:41:28] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/4c44403760b6c6d10accc0bb2093692e
+[23:41:28] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/4c44403760b6c6d10accc0bb2093692e
+[23:43:02] step=download done upload_id=62665 size=2210306271 dur=94.3s speed=23.4MB/s
+[23:43:02] step=upload start upload_id=62665 size=2210306271
+[23:45:27] step=upload done upload_id=62665 video_id=24095228 dur=144.3s speed=15.3MB/s
+[23:45:27] step=cleanup unlinked Zasvěcení (2023) CZ titulky.mp4
+[23:45:27] step=film done upload_id=62665 total=239.8s (cdn=1.0s + download=94.3s + upload=144.3s)
+[23:45:27] step=state-saved upload_id=62665 (total uploads=69)
+[23:45:27] step=iteration 24/100
+[23:45:27] step=film start upload_id=62281 cr_film_id=31382 name='Příběhy chtíče 2 (2023) CZ titulky'
+[23:45:27] step=cdn-resolve upload_id=62281 cdn=data11
+[23:45:28] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/18e99e0347b36b6389535a1f3e8535f6
+[23:45:28] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/18e99e0347b36b6389535a1f3e8535f6
+[23:47:18] step=download done upload_id=62281 size=2622772131 dur=110.5s speed=23.7MB/s
+[23:47:18] step=upload start upload_id=62281 size=2622772131
+[23:49:55] step=upload done upload_id=62281 video_id=24095309 dur=156.3s speed=16.8MB/s
+[23:49:55] step=cleanup unlinked Příběhy chtíče 2 (2023) CZ titulky.mp4
+[23:49:55] step=film done upload_id=62281 total=268.0s (cdn=0.8s + download=110.5s + upload=156.3s)
+[23:49:55] step=state-saved upload_id=62281 (total uploads=70)
+[23:49:55] step=iteration 25/100
+[23:49:55] step=film start upload_id=84066 cr_film_id=31384 name='Sámán (2023) CZ Dabing'
+[23:49:55] step=cdn-resolve upload_id=84066 cdn=data10
+[23:49:56] step=cdn-resolve done 1.3s → https://data10.sledujteto.cz/player/index/sledujteto/882464366540f65168b48a217ff89caf
+[23:49:56] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/882464366540f65168b48a217ff89caf
+[23:51:52] step=download done upload_id=84066 size=2584447445 dur=116.3s speed=22.2MB/s
+[23:51:52] step=upload start upload_id=84066 size=2584447445
+[23:54:53] step=upload done upload_id=84066 video_id=24095351 dur=180.8s speed=14.3MB/s
+[23:54:54] step=cleanup unlinked Sámán (2023) CZ Dabing.mp4
+[23:54:54] step=film done upload_id=84066 total=298.7s (cdn=1.3s + download=116.3s + upload=180.8s)
+[23:54:54] step=state-saved upload_id=84066 (total uploads=71)
+[23:54:54] step=iteration 26/100
+[23:54:54] step=film start upload_id=81877 cr_film_id=31385 name='Vánoce s vévodou (2023) CZ Dabing'
+[23:54:54] step=cdn-resolve upload_id=81877 cdn=data11
+[23:54:54] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/2abbba18da6d5bd39a6a29a35e7ae996
+[23:54:54] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/2abbba18da6d5bd39a6a29a35e7ae996
+[23:56:32] step=download done upload_id=81877 size=2299876952 dur=98.1s speed=23.4MB/s
+[23:56:32] step=upload start upload_id=81877 size=2299876952
+[23:58:45] step=upload done upload_id=81877 video_id=24095419 dur=132.6s speed=17.3MB/s
+[23:58:45] step=cleanup unlinked Vánoce s vévodou (2023) CZ Dabing.mp4
+[23:58:45] step=film done upload_id=81877 total=231.8s (cdn=0.8s + download=98.1s + upload=132.6s)
+[23:58:45] step=state-saved upload_id=81877 (total uploads=72)
+[23:58:45] step=iteration 27/100
+[23:58:45] step=film start upload_id=61081 cr_film_id=31392 name='YOU AND ME (2023) CZ titulky'
+[23:58:45] step=cdn-resolve upload_id=61081 cdn=data11
+[23:58:46] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/8e10aeb64df01447fd98569d6569f10f
+[23:58:46] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/8e10aeb64df01447fd98569d6569f10f
+[00:00:32] step=download done upload_id=61081 size=2480480117 dur=106.2s speed=23.4MB/s
+[00:00:32] step=upload start upload_id=61081 size=2480480117
+[00:03:14] step=upload done upload_id=61081 video_id=24095477 dur=161.6s speed=15.3MB/s
+[00:03:14] step=cleanup unlinked YOU AND ME (2023) CZ titulky.mp4
+[00:03:14] step=film done upload_id=61081 total=269.0s (cdn=0.8s + download=106.2s + upload=161.6s)
+[00:03:14] step=state-saved upload_id=61081 (total uploads=73)
+[00:03:14] step=iteration 28/100
+[00:03:14] step=film start upload_id=64260 cr_film_id=31400 name='Čestné skautské: Tajné složky amerických skautů (2023) CZ Dabing'
+[00:03:14] step=cdn-resolve upload_id=64260 cdn=data11
+[00:03:15] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/9c9d832f6d4f0224edbee43850d9c286
+[00:03:15] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/9c9d832f6d4f0224edbee43850d9c286
+[00:04:41] step=download done upload_id=64260 size=1994469333 dur=86.2s speed=23.1MB/s
+[00:04:41] step=upload start upload_id=64260 size=1994469333
+[00:06:56] step=upload done upload_id=64260 video_id=24095539 dur=134.4s speed=14.8MB/s
+[00:06:56] step=cleanup unlinked Čestné skautské: Tajné složky amerických skautů (2023) CZ Dabing.mp4
+[00:06:56] step=film done upload_id=64260 total=221.7s (cdn=0.8s + download=86.2s + upload=134.4s)
+[00:06:56] step=state-saved upload_id=64260 (total uploads=74)
+[00:06:56] step=iteration 29/100
+[00:06:56] step=film start upload_id=73384 cr_film_id=31406 name='Robert De Niro: Mlčení jako zbraň (2023) CZ Dabing'
+[00:06:56] step=cdn-resolve upload_id=73384 cdn=data11
+[00:06:57] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/758872e0524268af85047bbc07913ede
+[00:06:57] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/758872e0524268af85047bbc07913ede
+[00:08:04] step=download done upload_id=73384 size=1553918697 dur=67.5s speed=23.0MB/s
+[00:08:04] step=upload start upload_id=73384 size=1553918697
+[00:09:41] step=upload done upload_id=73384 video_id=24095588 dur=96.8s speed=16.1MB/s
+[00:09:41] step=cleanup unlinked Robert De Niro: Mlčení jako zbraň (2023) CZ Dabing.mp4
+[00:09:41] step=film done upload_id=73384 total=165.4s (cdn=0.9s + download=67.5s + upload=96.8s)
+[00:09:41] step=state-saved upload_id=73384 (total uploads=75)
+[00:09:41] step=iteration 30/100
+[00:09:41] step=film start upload_id=68917 cr_film_id=31409 name='Kufr - uvězněná (2023) CZ titulky'
+[00:09:41] step=cdn-resolve upload_id=68917 cdn=data11
+[00:09:42] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/582b1d5d42bf35f2ae88d9ae79497568
+[00:09:42] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/582b1d5d42bf35f2ae88d9ae79497568
+[00:10:37] step=download done upload_id=68917 size=1255448557 dur=54.4s speed=23.1MB/s
+[00:10:37] step=upload start upload_id=68917 size=1255448557
+[00:11:50] step=upload done upload_id=68917 video_id=24095634 dur=73.1s speed=17.2MB/s
+[00:11:50] step=cleanup unlinked Kufr - uvězněná (2023) CZ titulky.mp4
+[00:11:50] step=film done upload_id=68917 total=128.5s (cdn=0.9s + download=54.4s + upload=73.1s)
+[00:11:50] step=state-saved upload_id=68917 (total uploads=76)
+[00:11:50] step=iteration 31/100
+[00:11:50] step=film start upload_id=72677 cr_film_id=31412 name='Between Us (2023) CZ titulky'
+[00:11:50] step=cdn-resolve upload_id=72677 cdn=data10
+[00:11:51] step=cdn-resolve done 1.1s → https://data10.sledujteto.cz/player/index/sledujteto/8f2ed7fc8ecd127274ce100e801ca64e
+[00:11:51] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/8f2ed7fc8ecd127274ce100e801ca64e
+[00:13:30] step=download done upload_id=72677 size=2136366187 dur=99.2s speed=21.5MB/s
+[00:13:30] step=upload start upload_id=72677 size=2136366187
+[00:15:33] step=upload done upload_id=72677 video_id=24095684 dur=123.0s speed=17.4MB/s
+[00:15:34] step=cleanup unlinked Between Us (2023) CZ titulky.mp4
+[00:15:34] step=film done upload_id=72677 total=223.6s (cdn=1.1s + download=99.2s + upload=123.0s)
+[00:15:34] step=state-saved upload_id=72677 (total uploads=77)
+[00:15:34] step=iteration 32/100
+[00:15:34] step=film start upload_id=75363 cr_film_id=31422 name='Dora: Say Hola to Adventure! (2023) CZ Dabing'
+[00:15:34] step=cdn-resolve upload_id=75363 cdn=data10
+[00:15:35] step=cdn-resolve done 1.1s → https://data10.sledujteto.cz/player/index/sledujteto/ab07cbac09b879517e2d2640fc170c95
+[00:15:35] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/ab07cbac09b879517e2d2640fc170c95
+[00:16:44] step=download done upload_id=75363 size=1464654586 dur=69.5s speed=21.1MB/s
+[00:16:44] step=upload start upload_id=75363 size=1464654586
+[00:18:15] step=upload done upload_id=75363 video_id=24095754 dur=90.4s speed=16.2MB/s
+[00:18:15] step=cleanup unlinked Dora: Say Hola to Adventure! (2023) CZ Dabing.mp4
+[00:18:15] step=film done upload_id=75363 total=161.2s (cdn=1.1s + download=69.5s + upload=90.4s)
+[00:18:15] step=state-saved upload_id=75363 (total uploads=78)
+[00:18:15] step=iteration 33/100
+[00:18:15] step=film start upload_id=95128 cr_film_id=31454 name='Hitler - Jak se rodí monstrum (2023) CZ Dabing'
+[00:18:15] step=cdn-resolve upload_id=95128 cdn=data10
+[00:18:16] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/57b90b72ee9720fe3e56288754e3c8a1
+[00:18:16] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/57b90b72ee9720fe3e56288754e3c8a1
+[00:19:41] step=download done upload_id=95128 size=1810380203 dur=84.9s speed=21.3MB/s
+[00:19:41] step=upload start upload_id=95128 size=1810380203
+[00:22:16] step=upload done upload_id=95128 video_id=24095803 dur=155.2s speed=11.7MB/s
+[00:22:16] step=cleanup unlinked Hitler - Jak se rodí monstrum (2023) CZ Dabing.mp4
+[00:22:16] step=film done upload_id=95128 total=241.3s (cdn=1.0s + download=84.9s + upload=155.2s)
+[00:22:16] step=state-saved upload_id=95128 (total uploads=79)
+[00:22:16] step=iteration 34/100
+[00:22:16] step=film start upload_id=103601 cr_film_id=30915 name='Dragon Ball Super: Superhrdinové (2022) CZ Dabing'
+[00:22:16] step=cdn-resolve upload_id=103601 cdn=data11
+[00:22:17] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/a5779ee869eea768c7ef85f405a2fddc
+[00:22:17] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a5779ee869eea768c7ef85f405a2fddc
+[00:24:20] step=download done upload_id=103601 size=2935396701 dur=123.2s speed=23.8MB/s
+[00:24:20] step=upload start upload_id=103601 size=2935396701
+[00:27:51] step=upload done upload_id=103601 video_id=24095875 dur=210.4s speed=14.0MB/s
+[00:27:51] step=cleanup unlinked Dragon Ball Super: Superhrdinové (2022) CZ Dabing.mp4
+[00:27:51] step=film done upload_id=103601 total=335.0s (cdn=1.0s + download=123.2s + upload=210.4s)
+[00:27:51] step=state-saved upload_id=103601 (total uploads=80)
+[00:27:51] step=iteration 35/100
+[00:27:51] step=film start upload_id=89541 cr_film_id=31021 name='Sbohem, pane Haffmanne (2022) CZ Dabing'
+[00:27:51] step=cdn-resolve upload_id=89541 cdn=data10
+[00:27:52] step=cdn-resolve done 1.3s → https://data10.sledujteto.cz/player/index/sledujteto/3777a625a23017b2fcf35067323c04f1
+[00:27:52] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/3777a625a23017b2fcf35067323c04f1
+[00:29:02] step=download done upload_id=89541 size=1471746129 dur=69.9s speed=21.1MB/s
+[00:29:02] step=upload start upload_id=89541 size=1471746129
+[00:30:43] step=upload done upload_id=89541 video_id=24095946 dur=100.7s speed=14.6MB/s
+[00:30:43] step=cleanup unlinked Sbohem, pane Haffmanne (2022) CZ Dabing.mp4
+[00:30:43] step=film done upload_id=89541 total=172.0s (cdn=1.3s + download=69.9s + upload=100.7s)
+[00:30:43] step=state-saved upload_id=89541 (total uploads=81)
+[00:30:43] step=iteration 36/100
+[00:30:43] step=film start upload_id=58292 cr_film_id=31134 name='Puppet Master: Doktor Death (2022) CZ titulky'
+[00:30:43] step=cdn-resolve upload_id=58292 cdn=data11
+[00:30:44] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/dff2aff0cf5cf94d1f7e5d748688b75b
+[00:30:44] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/dff2aff0cf5cf94d1f7e5d748688b75b
+[00:31:51] step=download done upload_id=58292 size=1440030043 dur=67.2s speed=21.4MB/s
+[00:31:51] step=upload start upload_id=58292 size=1440030043
+[00:33:19] step=upload done upload_id=58292 video_id=24095994 dur=88.0s speed=16.4MB/s
+[00:33:19] step=cleanup unlinked Puppet Master: Doktor Death (2022) CZ titulky.mp4
+[00:33:19] step=film done upload_id=58292 total=156.4s (cdn=1.0s + download=67.2s + upload=88.0s)
+[00:33:19] step=state-saved upload_id=58292 (total uploads=82)
+[00:33:19] step=iteration 37/100
+[00:33:19] step=film start upload_id=61698 cr_film_id=31138 name='Íá (2022) CZ Dabing'
+[00:33:19] step=cdn-resolve upload_id=61698 cdn=data11
+[00:33:20] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/3b6796bfeffe79d64fde8441168d4a1e
+[00:33:20] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/3b6796bfeffe79d64fde8441168d4a1e
+[00:34:09] step=download done upload_id=61698 size=1103891184 dur=48.6s speed=22.7MB/s
+[00:34:09] step=upload start upload_id=61698 size=1103891184
+[00:35:16] step=upload done upload_id=61698 video_id=24096041 dur=67.1s speed=16.5MB/s
+[00:35:16] step=cleanup unlinked Íá (2022) CZ Dabing.mp4
+[00:35:16] step=film done upload_id=61698 total=116.7s (cdn=0.8s + download=48.6s + upload=67.1s)
+[00:35:16] step=state-saved upload_id=61698 (total uploads=83)
+[00:35:16] step=iteration 38/100
+[00:35:16] step=film start upload_id=46999 cr_film_id=31142 name='Navždy jiná liga (2022) CZ titulky'
+[00:35:16] step=cdn-resolve upload_id=46999 cdn=data11
+[00:35:17] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/b894a597f2ae8fe29d4c24e98b6b12ca
+[00:35:17] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/b894a597f2ae8fe29d4c24e98b6b12ca
+[00:36:38] step=download done upload_id=46999 size=1878050735 dur=80.9s speed=23.2MB/s
+[00:36:38] step=upload start upload_id=46999 size=1878050735
+[00:38:31] step=upload done upload_id=46999 video_id=24096082 dur=113.2s speed=16.6MB/s
+[00:38:31] step=cleanup unlinked Navždy jiná liga (2022) CZ titulky.mp4
+[00:38:31] step=film done upload_id=46999 total=195.2s (cdn=0.9s + download=80.9s + upload=113.2s)
+[00:38:31] step=state-saved upload_id=46999 (total uploads=84)
+[00:38:31] step=iteration 39/100
+[00:38:31] step=film start upload_id=69614 cr_film_id=31154 name='Mrzout hledá Escort (2022) CZ Dabing'
+[00:38:31] step=cdn-resolve upload_id=69614 cdn=data11
+[00:38:32] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/f43a588a1707905c86fca56d8b78b02c
+[00:38:32] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/f43a588a1707905c86fca56d8b78b02c
+[00:40:17] step=download done upload_id=69614 size=2465432465 dur=104.7s speed=23.5MB/s
+[00:40:17] step=upload start upload_id=69614 size=2465432465
+[00:42:56] step=upload done upload_id=69614 video_id=24096134 dur=158.7s speed=15.5MB/s
+[00:42:56] step=cleanup unlinked Mrzout hledá Escort (2022) CZ Dabing.mp4
+[00:42:56] step=film done upload_id=69614 total=264.6s (cdn=0.8s + download=104.7s + upload=158.7s)
+[00:42:56] step=state-saved upload_id=69614 (total uploads=85)
+[00:42:56] step=iteration 40/100
+[00:42:56] step=film start upload_id=63054 cr_film_id=31157 name='Zatracená práce (2022) CZ Dabing'
+[00:42:56] step=cdn-resolve upload_id=63054 cdn=data11
+[00:42:57] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/db692dc2121ecb25a84ae197efa64a40
+[00:42:57] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/db692dc2121ecb25a84ae197efa64a40
+[00:44:13] step=download done upload_id=63054 size=1768744859 dur=76.7s speed=23.1MB/s
+[00:44:13] step=upload start upload_id=63054 size=1768744859
+[00:45:59] step=upload done upload_id=63054 video_id=24096195 dur=105.8s speed=16.7MB/s
+[00:46:00] step=cleanup unlinked Zatracená práce (2022) CZ Dabing.mp4
+[00:46:00] step=film done upload_id=63054 total=183.6s (cdn=0.8s + download=76.7s + upload=105.8s)
+[00:46:00] step=state-saved upload_id=63054 (total uploads=86)
+[00:46:00] step=iteration 41/100
+[00:46:00] step=film start upload_id=58398 cr_film_id=31160 name='Le Visiteur du futur (2022) CZ titulky'
+[00:46:00] step=cdn-resolve upload_id=58398 cdn=data11
+[00:46:00] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/c663c193a8755889b7cd9ba92f7c5c6f
+[00:46:00] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/c663c193a8755889b7cd9ba92f7c5c6f
+[00:47:29] step=download done upload_id=58398 size=2059628495 dur=88.4s speed=23.3MB/s
+[00:47:29] step=upload start upload_id=58398 size=2059628495
+[00:49:33] step=upload done upload_id=58398 video_id=24096246 dur=124.1s speed=16.6MB/s
+[00:49:33] step=cleanup unlinked Le Visiteur du futur (2022) CZ titulky.mp4
+[00:49:33] step=film done upload_id=58398 total=213.6s (cdn=0.9s + download=88.4s + upload=124.1s)
+[00:49:33] step=state-saved upload_id=58398 (total uploads=87)
+[00:49:33] step=iteration 42/100
+[00:49:33] step=film start upload_id=53707 cr_film_id=31168 name='Pohotovost (2022) CZ titulky'
+[00:49:33] step=cdn-resolve upload_id=53707 cdn=data11
+[00:49:34] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/737089f8e365c9b73b81d5ffcc98b82c
+[00:49:34] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/737089f8e365c9b73b81d5ffcc98b82c
+[00:51:07] step=download done upload_id=53707 size=2151566216 dur=92.7s speed=23.2MB/s
+[00:51:07] step=upload start upload_id=53707 size=2151566216
+[00:53:09] step=upload done upload_id=53707 video_id=24096379 dur=122.6s speed=17.5MB/s
+[00:53:09] step=cleanup unlinked Pohotovost (2022) CZ titulky.mp4
+[00:53:09] step=film done upload_id=53707 total=216.3s (cdn=0.8s + download=92.7s + upload=122.6s)
+[00:53:09] step=state-saved upload_id=53707 (total uploads=88)
+[00:53:09] step=iteration 43/100
+[00:53:09] step=film start upload_id=45838 cr_film_id=31182 name='Svatba mé šéfové (2022) CZ Dabing'
+[00:53:09] step=cdn-resolve upload_id=45838 cdn=data11
+[00:53:11] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/b06b231594ff9289cf5bdb8d8323619b
+[00:53:11] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/b06b231594ff9289cf5bdb8d8323619b
+[00:54:34] step=download done upload_id=45838 size=2021719447 dur=83.5s speed=24.2MB/s
+[00:54:34] step=upload start upload_id=45838 size=2021719447
+[00:56:40] step=upload done upload_id=45838 video_id=24096494 dur=125.4s speed=16.1MB/s
+[00:56:40] step=cleanup unlinked Svatba mé šéfové (2022) CZ Dabing.mp4
+[00:56:40] step=film done upload_id=45838 total=210.3s (cdn=1.1s + download=83.5s + upload=125.4s)
+[00:56:40] step=state-saved upload_id=45838 (total uploads=89)
+[00:56:40] step=iteration 44/100
+[00:56:40] step=film start upload_id=98231 cr_film_id=31192 name='Pamfir (2022) CZ titulky'
+[00:56:40] step=cdn-resolve upload_id=98231 cdn=data11
+[00:56:41] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/dc9aeafe709d73f8ab0fdbf208a7e841
+[00:56:41] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/dc9aeafe709d73f8ab0fdbf208a7e841
+[00:58:05] step=download done upload_id=98231 size=1961525602 dur=84.6s speed=23.2MB/s
+[00:58:05] step=upload start upload_id=98231 size=1961525602
+[01:00:16] step=upload done upload_id=98231 video_id=24096598 dur=131.0s speed=15.0MB/s
+[01:00:17] step=cleanup unlinked Pamfir (2022) CZ titulky.mp4
+[01:00:17] step=film done upload_id=98231 total=216.7s (cdn=0.8s + download=84.6s + upload=131.0s)
+[01:00:17] step=state-saved upload_id=98231 (total uploads=90)
+[01:00:17] step=iteration 45/100
+[01:00:17] step=film start upload_id=60269 cr_film_id=31219 name='Rooney (2022) CZ titulky'
+[01:00:17] step=cdn-resolve upload_id=60269 cdn=data11
+[01:00:17] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/53af4238291811548290d575f1ba0b96
+[01:00:17] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/53af4238291811548290d575f1ba0b96
+[01:01:43] step=download done upload_id=60269 size=2066516901 dur=85.3s speed=24.2MB/s
+[01:01:43] step=upload start upload_id=60269 size=2066516901
+[01:03:42] step=upload done upload_id=60269 video_id=24096639 dur=118.9s speed=17.4MB/s
+[01:03:42] step=cleanup unlinked Rooney (2022) CZ titulky.mp4
+[01:03:42] step=film done upload_id=60269 total=205.3s (cdn=0.9s + download=85.3s + upload=118.9s)
+[01:03:42] step=state-saved upload_id=60269 (total uploads=91)
+[01:03:42] step=iteration 46/100
+[01:03:42] step=film start upload_id=50275 cr_film_id=31227 name='The Bezonians (2022) CZ titulky'
+[01:03:42] step=cdn-resolve upload_id=50275 cdn=data11
+[01:03:43] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/a9f66547403e419a5796e32f9b6d4c36
+[01:03:43] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a9f66547403e419a5796e32f9b6d4c36
+[01:05:02] step=download done upload_id=50275 size=1818187733 dur=79.0s speed=23.0MB/s
+[01:05:02] step=upload start upload_id=50275 size=1818187733
+[01:06:49] step=upload done upload_id=50275 video_id=24096671 dur=107.5s speed=16.9MB/s
+[01:06:50] step=cleanup unlinked The Bezonians (2022) CZ titulky.mp4
+[01:06:50] step=film done upload_id=50275 total=187.7s (cdn=1.0s + download=79.0s + upload=107.5s)
+[01:06:50] step=state-saved upload_id=50275 (total uploads=92)
+[01:06:50] step=iteration 47/100
+[01:06:50] step=film start upload_id=56115 cr_film_id=31228 name='Krylya nad Berlinom (2022) CZ titulky'
+[01:06:50] step=cdn-resolve upload_id=56115 cdn=data11
+[01:06:50] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/ad091c179ffd41635baebbb5e186e839
+[01:06:50] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/ad091c179ffd41635baebbb5e186e839
+[01:08:33] step=download done upload_id=56115 size=2363293833 dur=102.4s speed=23.1MB/s
+[01:08:33] step=upload start upload_id=56115 size=2363293833
+[01:10:58] step=upload done upload_id=56115 video_id=24096726 dur=145.2s speed=16.3MB/s
+[01:10:58] step=cleanup unlinked Krylya nad Berlinom (2022) CZ titulky.mp4
+[01:10:58] step=film done upload_id=56115 total=248.6s (cdn=0.6s + download=102.4s + upload=145.2s)
+[01:10:58] step=state-saved upload_id=56115 (total uploads=93)
+[01:10:58] step=iteration 48/100
+[01:10:58] step=film start upload_id=59919 cr_film_id=31230 name='The Test (2022) CZ Dabing'
+[01:10:58] step=cdn-resolve upload_id=59919 cdn=data11
+[01:10:59] step=cdn-resolve done 1.2s → https://data11.sledujteto.cz/player/index/sledujteto/2696a21d6ef89c39027b9d6487675731
+[01:10:59] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/2696a21d6ef89c39027b9d6487675731
+[01:11:39] step=download done upload_id=59919 size=917938445 dur=40.0s speed=22.9MB/s
+[01:11:39] step=upload start upload_id=59919 size=917938445
+[01:13:06] step=upload done upload_id=59919 video_id=24096767 dur=86.7s speed=10.6MB/s
+[01:13:06] step=cleanup unlinked The Test (2022) CZ Dabing.mp4
+[01:13:06] step=film done upload_id=59919 total=128.0s (cdn=1.2s + download=40.0s + upload=86.7s)
+[01:13:06] step=state-saved upload_id=59919 (total uploads=94)
+[01:13:06] step=iteration 49/100
+[01:13:06] step=film start upload_id=68240 cr_film_id=31235 name='Mladí Titáni a DC Super Hero Girls: Chaos v mnohovesmíru (2022) CZ Dabing'
+[01:13:06] step=cdn-resolve upload_id=68240 cdn=data10
+[01:13:07] step=cdn-resolve done 1.1s → https://data10.sledujteto.cz/player/index/sledujteto/2767b56617ea6720667a900c52ce7874
+[01:13:07] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/2767b56617ea6720667a900c52ce7874
+[01:14:04] step=download done upload_id=68240 size=1224034301 dur=56.7s speed=21.6MB/s
+[01:14:04] step=upload start upload_id=68240 size=1224034301
+[01:16:07] step=upload done upload_id=68240 video_id=24096806 dur=123.5s speed=9.9MB/s
+[01:16:08] step=cleanup unlinked Mladí Titáni a DC Super Hero Girls: Chaos v mnohovesmíru (2022) CZ Dabing.mp4
+[01:16:08] step=film done upload_id=68240 total=181.5s (cdn=1.1s + download=56.7s + upload=123.5s)
+[01:16:08] step=state-saved upload_id=68240 (total uploads=95)
+[01:16:08] step=iteration 50/100
+[01:16:08] step=film start upload_id=56336 cr_film_id=31239 name='Clotildin potomek (2022) CZ Dabing'
+[01:16:08] step=cdn-resolve upload_id=56336 cdn=data11
+[01:16:09] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/16da99b952cc65cd7e9fb7cec012ab2d
+[01:16:09] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/16da99b952cc65cd7e9fb7cec012ab2d
+[01:19:01] step=download done upload_id=56336 size=4115571298 dur=172.3s speed=23.9MB/s
+[01:19:01] step=upload start upload_id=56336 size=4115571298
+[01:23:19] step=upload done upload_id=56336 video_id=24096867 dur=258.6s speed=15.9MB/s
+[01:23:20] step=cleanup unlinked Clotildin potomek (2022) CZ Dabing.mp4
+[01:23:20] step=film done upload_id=56336 total=432.4s (cdn=1.0s + download=172.3s + upload=258.6s)
+[01:23:20] step=state-saved upload_id=56336 (total uploads=96)
+[01:23:20] step=iteration 51/100
+[01:23:20] step=film start upload_id=90701 cr_film_id=31240 name='Teritorium (2022) CZ Dabing'
+[01:23:20] step=cdn-resolve upload_id=90701 cdn=data11
+[01:23:21] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/9b28c0f1f92486d9496851e579cd074c
+[01:23:21] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/9b28c0f1f92486d9496851e579cd074c
+[01:24:21] step=download done upload_id=90701 size=1386608992 dur=60.4s speed=23.0MB/s
+[01:24:21] step=upload start upload_id=90701 size=1386608992
+[01:26:13] step=upload done upload_id=90701 video_id=24096947 dur=111.9s speed=12.4MB/s
+[01:26:13] step=cleanup unlinked Teritorium (2022) CZ Dabing.mp4
+[01:26:13] step=film done upload_id=90701 total=173.4s (cdn=0.9s + download=60.4s + upload=111.9s)
+[01:26:13] step=state-saved upload_id=90701 (total uploads=97)
+[01:26:13] step=iteration 52/100
+[01:26:13] step=film start upload_id=72041 cr_film_id=31247 name='Divoké pobřeží!! (2022) CZ Dabing'
+[01:26:13] step=cdn-resolve upload_id=72041 cdn=data11
+[01:26:14] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/bdd8029fae692b3ed69296f6120ddd56
+[01:26:14] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/bdd8029fae692b3ed69296f6120ddd56
+[01:28:32] step=download done upload_id=72041 size=3235394832 dur=138.1s speed=23.4MB/s
+[01:28:32] step=upload start upload_id=72041 size=3235394832
+[01:32:24] step=upload done upload_id=72041 video_id=24097028 dur=232.0s speed=13.9MB/s
+[01:32:25] step=cleanup unlinked Divoké pobřeží!! (2022) CZ Dabing.mp4
+[01:32:25] step=film done upload_id=72041 total=371.4s (cdn=0.9s + download=138.1s + upload=232.0s)
+[01:32:25] step=state-saved upload_id=72041 (total uploads=98)
+[01:32:25] step=iteration 53/100
+[01:32:25] step=film start upload_id=74776 cr_film_id=31251 name='Zuza v zahradách (2022) CZ Dabing'
+[01:32:25] step=cdn-resolve upload_id=74776 cdn=data11
+[01:32:26] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/67e938db63d8a77b03b8c8fe39d88e8c
+[01:32:26] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/67e938db63d8a77b03b8c8fe39d88e8c
+[01:32:42] step=download done upload_id=74776 size=321380445 dur=16.0s speed=20.1MB/s
+[01:32:42] step=upload start upload_id=74776 size=321380445
+[01:33:04] step=upload done upload_id=74776 video_id=24097166 dur=22.8s speed=14.1MB/s
+[01:33:04] step=cleanup unlinked Zuza v zahradách (2022) CZ Dabing.mp4
+[01:33:04] step=film done upload_id=74776 total=39.7s (cdn=0.8s + download=16.0s + upload=22.8s)
+[01:33:04] step=state-saved upload_id=74776 (total uploads=99)
+[01:33:04] step=iteration 54/100
+[01:33:04] step=film start upload_id=51301 cr_film_id=31253 name='Mo Gilligan: There's Mo to Life (2022) CZ titulky'
+[01:33:04] step=cdn-resolve upload_id=51301 cdn=data11
+[01:33:05] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/d9185d05abaf4562ad53483f4ca2ce45
+[01:33:05] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/d9185d05abaf4562ad53483f4ca2ce45
+[01:34:04] step=download done upload_id=51301 size=1348996908 dur=58.5s speed=23.1MB/s
+[01:34:04] step=upload start upload_id=51301 size=1348996908
+[01:35:25] step=upload done upload_id=51301 video_id=24097214 dur=80.6s speed=16.7MB/s
+[01:35:25] step=cleanup unlinked Mo Gilligan: There's Mo to Life (2022) CZ titulky.mp4
+[01:35:25] step=film done upload_id=51301 total=140.3s (cdn=1.0s + download=58.5s + upload=80.6s)
+[01:35:25] step=state-saved upload_id=51301 (total uploads=100)
+[01:35:25] step=iteration 55/100
+[01:35:25] step=film start upload_id=64668 cr_film_id=31265 name='Wagnerovci: Putinova stínová armáda (2022) CZ Dabing'
+[01:35:25] step=cdn-resolve upload_id=64668 cdn=data11
+[01:35:25] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/523772e1933f59b5f7d8d69823f03cea
+[01:35:25] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/523772e1933f59b5f7d8d69823f03cea
+[01:37:23] step=download done upload_id=64668 size=2752509332 dur=117.5s speed=23.4MB/s
+[01:37:23] step=upload start upload_id=64668 size=2752509332
+[01:40:08] step=upload done upload_id=64668 video_id=24097327 dur=164.7s speed=16.7MB/s
+[01:40:08] step=cleanup unlinked Wagnerovci: Putinova stínová armáda (2022) CZ Dabing.mp4
+[01:40:08] step=film done upload_id=64668 total=283.2s (cdn=0.6s + download=117.5s + upload=164.7s)
+[01:40:08] step=state-saved upload_id=64668 (total uploads=101)
+[01:40:08] step=iteration 56/100
+[01:40:08] step=film start upload_id=52974 cr_film_id=31273 name='Líbánky s mámou (2022) CZ titulky'
+[01:40:08] step=cdn-resolve upload_id=52974 cdn=data11
+[01:40:09] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/616be8f70e444d81fef12400f0657fc7
+[01:40:09] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/616be8f70e444d81fef12400f0657fc7
+[01:41:46] step=download done upload_id=52974 size=2259576415 dur=96.6s speed=23.4MB/s
+[01:41:46] step=upload start upload_id=52974 size=2259576415
+[01:44:06] step=upload done upload_id=52974 video_id=24097441 dur=140.8s speed=16.0MB/s
+[01:44:07] step=cleanup unlinked Líbánky s mámou (2022) CZ titulky.mp4
+[01:44:07] step=film done upload_id=52974 total=238.7s (cdn=1.0s + download=96.6s + upload=140.8s)
+[01:44:07] step=state-saved upload_id=52974 (total uploads=102)
+[01:44:07] step=iteration 57/100
+[01:44:07] step=film start upload_id=56010 cr_film_id=31276 name='Tutanchamon – poslední výstava (2022) CZ titulky'
+[01:44:07] step=cdn-resolve upload_id=56010 cdn=data11
+[01:44:07] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/cc13ae26f3265d54ef81e4cdcc03294c
+[01:44:07] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/cc13ae26f3265d54ef81e4cdcc03294c
+[01:46:06] step=download done upload_id=56010 size=2797973140 dur=118.5s speed=23.6MB/s
+[01:46:06] step=upload start upload_id=56010 size=2797973140
+[01:48:57] step=upload done upload_id=56010 video_id=24097561 dur=170.7s speed=16.4MB/s
+[01:48:57] step=cleanup unlinked Tutanchamon – poslední výstava (2022) CZ titulky.mp4
+[01:48:57] step=film done upload_id=56010 total=290.5s (cdn=0.9s + download=118.5s + upload=170.7s)
+[01:48:57] step=state-saved upload_id=56010 (total uploads=103)
+[01:48:57] step=iteration 58/100
+[01:48:57] step=film start upload_id=57413 cr_film_id=31277 name='Hawa (2022) CZ titulky'
+[01:48:57] step=cdn-resolve upload_id=57413 cdn=data11
+[01:48:58] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/f334a1a1f4e1da9d19906d73909f5d7b
+[01:48:58] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/f334a1a1f4e1da9d19906d73909f5d7b
+[01:50:30] step=download done upload_id=57413 size=2150953619 dur=92.0s speed=23.4MB/s
+[01:50:30] step=upload start upload_id=57413 size=2150953619
+[01:52:38] step=upload done upload_id=57413 video_id=24097746 dur=128.3s speed=16.8MB/s
+[01:52:39] step=cleanup unlinked Hawa (2022) CZ titulky.mp4
+[01:52:39] step=film done upload_id=57413 total=221.4s (cdn=0.8s + download=92.0s + upload=128.3s)
+[01:52:39] step=state-saved upload_id=57413 (total uploads=104)
+[01:52:39] step=iteration 59/100
+[01:52:39] step=film start upload_id=55773 cr_film_id=31278 name='Sidney (2022) CZ titulky'
+[01:52:39] step=cdn-resolve upload_id=55773 cdn=data11
+[01:52:39] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/1e7881e6a65727d87e340e907777be3f
+[01:52:39] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/1e7881e6a65727d87e340e907777be3f
+[01:54:14] step=download done upload_id=55773 size=2208426959 dur=94.9s speed=23.3MB/s
+[01:54:14] step=upload start upload_id=55773 size=2208426959
+[01:56:29] step=upload done upload_id=55773 video_id=24097902 dur=134.6s speed=16.4MB/s
+[01:56:29] step=cleanup unlinked Sidney (2022) CZ titulky.mp4
+[01:56:29] step=film done upload_id=55773 total=230.6s (cdn=0.7s + download=94.9s + upload=134.6s)
+[01:56:29] step=state-saved upload_id=55773 (total uploads=105)
+[01:56:29] step=iteration 60/100
+[01:56:29] step=film start upload_id=54372 cr_film_id=31302 name='Klenot (2022) CZ titulky'
+[01:56:29] step=cdn-resolve upload_id=54372 cdn=data11
+[01:56:30] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/452a7041fd801361299c2d9a5da1762e
+[01:56:30] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/452a7041fd801361299c2d9a5da1762e
+[01:57:43] step=download done upload_id=54372 size=1676140179 dur=73.0s speed=23.0MB/s
+[01:57:43] step=upload start upload_id=54372 size=1676140179
+[01:59:45] step=upload done upload_id=54372 video_id=24098043 dur=121.5s speed=13.8MB/s
+[01:59:45] step=cleanup unlinked Klenot (2022) CZ titulky.mp4
+[01:59:45] step=film done upload_id=54372 total=195.8s (cdn=1.1s + download=73.0s + upload=121.5s)
+[01:59:45] step=state-saved upload_id=54372 (total uploads=106)
+[01:59:45] step=iteration 61/100
+[01:59:45] step=film start upload_id=54768 cr_film_id=31304 name='Vysoké nároky (2022) CZ titulky'
+[01:59:45] step=cdn-resolve upload_id=54768 cdn=data11
+[01:59:46] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/ae4d3561fa040349699759a79ef4a590
+[01:59:46] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/ae4d3561fa040349699759a79ef4a590
+[02:01:13] step=download done upload_id=54768 size=2025503854 dur=87.0s speed=23.3MB/s
+[02:01:13] step=upload start upload_id=54768 size=2025503854
+[02:03:25] step=upload done upload_id=54768 video_id=24098175 dur=131.7s speed=15.4MB/s
+[02:03:25] step=cleanup unlinked Vysoké nároky (2022) CZ titulky.mp4
+[02:03:25] step=film done upload_id=54768 total=219.8s (cdn=0.8s + download=87.0s + upload=131.7s)
+[02:03:25] step=state-saved upload_id=54768 (total uploads=107)
+[02:03:25] step=iteration 62/100
+[02:03:25] step=film start upload_id=54946 cr_film_id=31307 name='Zpěv srdce (2022) CZ titulky'
+[02:03:25] step=cdn-resolve upload_id=54946 cdn=data11
+[02:03:26] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/02d982ae4a90675f828d9e46e0bd097d
+[02:03:26] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/02d982ae4a90675f828d9e46e0bd097d
+[02:04:50] step=download done upload_id=54946 size=1961900479 dur=84.8s speed=23.1MB/s
+[02:04:50] step=upload start upload_id=54946 size=1961900479
+[02:06:48] step=upload done upload_id=54946 video_id=24098314 dur=117.1s speed=16.8MB/s
+[02:06:48] step=cleanup unlinked Zpěv srdce (2022) CZ titulky.mp4
+[02:06:48] step=film done upload_id=54946 total=203.0s (cdn=0.8s + download=84.8s + upload=117.1s)
+[02:06:48] step=state-saved upload_id=54946 (total uploads=108)
+[02:06:48] step=iteration 63/100
+[02:06:48] step=film start upload_id=55487 cr_film_id=31308 name='Letecké riziko (2022) CZ titulky'
+[02:06:48] step=cdn-resolve upload_id=55487 cdn=data11
+[02:06:49] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/3c968a82237ce82073a0ded1ed51ddbd
+[02:06:49] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/3c968a82237ce82073a0ded1ed51ddbd
+[02:08:15] step=download done upload_id=55487 size=2018488900 dur=86.6s speed=23.3MB/s
+[02:08:15] step=upload start upload_id=55487 size=2018488900
+[02:10:30] step=upload done upload_id=55487 video_id=24098444 dur=134.8s speed=15.0MB/s
+[02:10:30] step=cleanup unlinked Letecké riziko (2022) CZ titulky.mp4
+[02:10:30] step=film done upload_id=55487 total=222.5s (cdn=0.8s + download=86.6s + upload=134.8s)
+[02:10:30] step=state-saved upload_id=55487 (total uploads=109)
+[02:10:30] step=iteration 64/100
+[02:10:30] step=film start upload_id=56696 cr_film_id=31311 name='Ďáblovi v patách: Divoký svět Johna McAfee (2022) CZ Dabing'
+[02:10:30] step=cdn-resolve upload_id=56696 cdn=data11
+[02:10:31] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/4e65d9b1b104f2d7250a3f4ef4233dde
+[02:10:31] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/4e65d9b1b104f2d7250a3f4ef4233dde
+[02:12:42] step=download done upload_id=56696 size=3061128396 dur=130.4s speed=23.5MB/s
+[02:12:42] step=upload start upload_id=56696 size=3061128396
+[02:15:46] step=upload done upload_id=56696 video_id=24098621 dur=184.4s speed=16.6MB/s
+[02:15:47] step=cleanup unlinked Ďáblovi v patách: Divoký svět Johna McAfee (2022) CZ Dabing.mp4
+[02:15:47] step=film done upload_id=56696 total=316.2s (cdn=1.0s + download=130.4s + upload=184.4s)
+[02:15:47] step=state-saved upload_id=56696 (total uploads=110)
+[02:15:47] step=iteration 65/100
+[02:15:47] step=film start upload_id=56659 cr_film_id=31312 name='Královský jezdec (2022) CZ titulky'
+[02:15:47] step=cdn-resolve upload_id=56659 cdn=data11
+[02:15:48] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/d1f00bf74858867c11744ff26634663a
+[02:15:48] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/d1f00bf74858867c11744ff26634663a
+[02:17:12] step=download done upload_id=56659 size=1975464899 dur=84.4s speed=23.4MB/s
+[02:17:12] step=upload start upload_id=56659 size=1975464899
+[02:19:22] step=upload done upload_id=56659 video_id=24098795 dur=129.7s speed=15.2MB/s
+[02:19:22] step=cleanup unlinked Královský jezdec (2022) CZ titulky.mp4
+[02:19:22] step=film done upload_id=56659 total=215.3s (cdn=1.0s + download=84.4s + upload=129.7s)
+[02:19:22] step=state-saved upload_id=56659 (total uploads=111)
+[02:19:22] step=iteration 66/100
+[02:19:22] step=film start upload_id=55325 cr_film_id=31315 name='Kája + Oliva a duch, který musel zmizet (2022) CZ Dabing'
+[02:19:22] step=cdn-resolve upload_id=55325 cdn=data11
+[02:19:23] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/ce03a4906e3d6d9784f841a5cd80ea9e
+[02:19:23] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/ce03a4906e3d6d9784f841a5cd80ea9e
+[02:20:24] step=download done upload_id=55325 size=1370354576 dur=61.6s speed=22.2MB/s
+[02:20:24] step=upload start upload_id=55325 size=1370354576
+[02:21:48] step=upload done upload_id=55325 video_id=24098917 dur=83.5s speed=16.4MB/s
+[02:21:48] step=cleanup unlinked Kája + Oliva a duch, který musel zmizet (2022) CZ Dabing.mp4
+[02:21:48] step=film done upload_id=55325 total=146.3s (cdn=1.0s + download=61.6s + upload=83.5s)
+[02:21:48] step=state-saved upload_id=55325 (total uploads=112)
+[02:21:48] step=iteration 67/100
+[02:21:48] step=film start upload_id=71601 cr_film_id=31320 name='Mimi & Líza: Zahrada (2022) CZ Dabing'
+[02:21:48] step=cdn-resolve upload_id=71601 cdn=data10
+[02:21:49] step=cdn-resolve done 1.3s → https://data10.sledujteto.cz/player/index/sledujteto/f419f3263117f92212f6812abd44857f
+[02:21:49] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/f419f3263117f92212f6812abd44857f
+[02:23:23] step=download done upload_id=71601 size=1981517724 dur=93.2s speed=21.3MB/s
+[02:23:23] step=upload start upload_id=71601 size=1981517724
+[02:25:21] step=upload done upload_id=71601 video_id=24099027 dur=118.8s speed=16.7MB/s
+[02:25:22] step=cleanup unlinked Mimi & Líza: Zahrada (2022) CZ Dabing.mp4
+[02:25:22] step=film done upload_id=71601 total=213.5s (cdn=1.3s + download=93.2s + upload=118.8s)
+[02:25:22] step=state-saved upload_id=71601 (total uploads=113)
+[02:25:22] step=iteration 68/100
+[02:25:22] step=film start upload_id=56508 cr_film_id=31323 name='Divoký je vítr (2022) CZ titulky'
+[02:25:22] step=cdn-resolve upload_id=56508 cdn=data11
+[02:25:22] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/0b5a77ce18728a4ace12bb360c988320
+[02:25:22] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/0b5a77ce18728a4ace12bb360c988320
+[02:27:14] step=download done upload_id=56508 size=2622478185 dur=111.3s speed=23.6MB/s
+[02:27:14] step=upload start upload_id=56508 size=2622478185
+[02:29:44] step=upload done upload_id=56508 video_id=24099172 dur=150.8s speed=17.4MB/s
+[02:29:45] step=cleanup unlinked Divoký je vítr (2022) CZ titulky.mp4
+[02:29:45] step=film done upload_id=56508 total=263.2s (cdn=0.8s + download=111.3s + upload=150.8s)
+[02:29:45] step=state-saved upload_id=56508 (total uploads=114)
+[02:29:45] step=iteration 69/100
+[02:29:45] step=film start upload_id=60703 cr_film_id=31325 name='Noční režisér (2022) CZ titulky'
+[02:29:45] step=cdn-resolve upload_id=60703 cdn=data11
+[02:29:46] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/132e05916c993a7f70381138b4731b31
+[02:29:46] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/132e05916c993a7f70381138b4731b31
+[02:30:35] step=download done upload_id=60703 size=1109578252 dur=48.9s speed=22.7MB/s
+[02:30:35] step=upload start upload_id=60703 size=1109578252
+[02:31:43] step=upload done upload_id=60703 video_id=24099281 dur=68.4s speed=16.2MB/s
+[02:31:43] step=cleanup unlinked Noční režisér (2022) CZ titulky.mp4
+[02:31:43] step=film done upload_id=60703 total=118.3s (cdn=0.9s + download=48.9s + upload=68.4s)
+[02:31:43] step=state-saved upload_id=60703 (total uploads=115)
+[02:31:43] step=iteration 70/100
+[02:31:43] step=film start upload_id=57458 cr_film_id=31331 name='Zaříkávači slonů (2022) CZ Dabing'
+[02:31:43] step=cdn-resolve upload_id=57458 cdn=data11
+[02:31:44] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/6ae7a64bce07db719f150bfceaeff165
+[02:31:44] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/6ae7a64bce07db719f150bfceaeff165
+[02:33:21] step=download done upload_id=57458 size=2260707534 dur=97.0s speed=23.3MB/s
+[02:33:21] step=upload start upload_id=57458 size=2260707534
+[02:35:32] step=upload done upload_id=57458 video_id=24099379 dur=130.5s speed=17.3MB/s
+[02:35:32] step=cleanup unlinked Zaříkávači slonů (2022) CZ Dabing.mp4
+[02:35:32] step=film done upload_id=57458 total=228.7s (cdn=1.0s + download=97.0s + upload=130.5s)
+[02:35:32] step=state-saved upload_id=57458 (total uploads=116)
+[02:35:32] step=iteration 71/100
+[02:35:32] step=film start upload_id=54874 cr_film_id=31336 name='Carter (2022) CZ titulky'
+[02:35:32] step=cdn-resolve upload_id=54874 cdn=data11
+[02:35:33] step=cdn-resolve done 1.2s → https://data11.sledujteto.cz/player/index/sledujteto/2335b600ccd7550234230815b38e46af
+[02:35:33] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/2335b600ccd7550234230815b38e46af
+[02:37:30] step=download done upload_id=54874 size=2746068662 dur=116.8s speed=23.5MB/s
+[02:37:30] step=upload start upload_id=54874 size=2746068662
+[02:40:25] step=upload done upload_id=54874 video_id=24099531 dur=175.1s speed=15.7MB/s
+[02:40:25] step=cleanup unlinked Carter (2022) CZ titulky.mp4
+[02:40:25] step=film done upload_id=54874 total=293.4s (cdn=1.2s + download=116.8s + upload=175.1s)
+[02:40:25] step=state-saved upload_id=54874 (total uploads=117)
+[02:40:25] step=iteration 72/100
+[02:40:25] step=film start upload_id=57275 cr_film_id=31337 name='Konec krále delfínů (2022) CZ Dabing'
+[02:40:25] step=cdn-resolve upload_id=57275 cdn=data11
+[02:40:26] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/bdcd7db570b8cc0f2016d7e3eaf15ed4
+[02:40:26] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/bdcd7db570b8cc0f2016d7e3eaf15ed4
+[02:43:12] step=download done upload_id=57275 size=3961332924 dur=166.2s speed=23.8MB/s
+[02:43:12] step=upload start upload_id=57275 size=3961332924
+[02:47:13] step=upload done upload_id=57275 video_id=24099726 dur=240.7s speed=16.5MB/s
+[02:47:14] step=cleanup unlinked Konec krále delfínů (2022) CZ Dabing.mp4
+[02:47:14] step=film done upload_id=57275 total=408.4s (cdn=1.1s + download=166.2s + upload=240.7s)
+[02:47:14] step=state-saved upload_id=57275 (total uploads=118)
+[02:47:14] step=iteration 73/100
+[02:47:14] step=film start upload_id=57514 cr_film_id=31340 name='Údolí klokanů (2022) CZ Dabing'
+[02:47:14] step=cdn-resolve upload_id=57514 cdn=data11
+[02:47:14] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/a06f2e7aba1a43de941c7a5e895ee88b
+[02:47:14] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a06f2e7aba1a43de941c7a5e895ee88b
+[02:49:28] step=download done upload_id=57514 size=3137189086 dur=133.1s speed=23.6MB/s
+[02:49:28] step=upload start upload_id=57514 size=3137189086
+[02:52:36] step=upload done upload_id=57514 video_id=24099936 dur=188.1s speed=16.7MB/s
+[02:52:36] step=cleanup unlinked Údolí klokanů (2022) CZ Dabing.mp4
+[02:52:36] step=film done upload_id=57514 total=322.5s (cdn=0.8s + download=133.1s + upload=188.1s)
+[02:52:36] step=state-saved upload_id=57514 (total uploads=119)
+[02:52:36] step=iteration 74/100
+[02:52:36] step=film start upload_id=57856 cr_film_id=31341 name='Tom Papa: To je den! (2022) CZ titulky'
+[02:52:36] step=cdn-resolve upload_id=57856 cdn=data11
+[02:52:37] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/6f4669919b1ee34e6d43c06f9ddecc23
+[02:52:37] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/6f4669919b1ee34e6d43c06f9ddecc23
+[02:53:29] step=download done upload_id=57856 size=1190743856 dur=52.1s speed=22.9MB/s
+[02:53:29] step=upload start upload_id=57856 size=1190743856
+[02:54:38] step=upload done upload_id=57856 video_id=24100061 dur=68.9s speed=17.3MB/s
+[02:54:38] step=cleanup unlinked Tom Papa: To je den! (2022) CZ titulky.mp4
+[02:54:38] step=film done upload_id=57856 total=122.0s (cdn=0.8s + download=52.1s + upload=68.9s)
+[02:54:38] step=state-saved upload_id=57856 (total uploads=120)
+[02:54:38] step=iteration 75/100
+[02:54:38] step=film start upload_id=92995 cr_film_id=31426 name='Robin Williams - smát se až k slzám (2022) CZ Dabing'
+[02:54:38] step=cdn-resolve upload_id=92995 cdn=data10
+[02:54:39] step=cdn-resolve done 1.3s → https://data10.sledujteto.cz/player/index/sledujteto/300534a2385cafd64120aa3e8b4400dd
+[02:54:39] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/300534a2385cafd64120aa3e8b4400dd
+[02:56:42] step=download done upload_id=92995 size=2637585338 dur=122.6s speed=21.5MB/s
+[02:56:42] step=upload start upload_id=92995 size=2637585338
+[02:59:16] step=upload done upload_id=92995 video_id=24100165 dur=153.9s speed=17.1MB/s
+[02:59:16] step=cleanup unlinked Robin Williams - smát se až k slzám (2022) CZ Dabing.mp4
+[02:59:16] step=film done upload_id=92995 total=278.1s (cdn=1.3s + download=122.6s + upload=153.9s)
+[02:59:16] step=state-saved upload_id=92995 (total uploads=121)
+[02:59:16] step=iteration 76/100
+[02:59:16] step=film start upload_id=55358 cr_film_id=31494 name='Špinarka (divadelní záznam) (2022) CZ Dabing'
+[02:59:16] step=cdn-resolve upload_id=55358 cdn=data11
+[02:59:17] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/a576a9bf88d34ae050d9c8f72e5244d9
+[02:59:17] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a576a9bf88d34ae050d9c8f72e5244d9
+[03:03:04] step=download done upload_id=55358 size=5379807412 dur=227.1s speed=23.7MB/s
+[03:03:04] step=upload start upload_id=55358 size=5379807412
+[03:08:21] step=upload done upload_id=55358 video_id=24100381 dur=316.7s speed=17.0MB/s
+[03:08:21] step=cleanup unlinked Špinarka (divadelní záznam) (2022) CZ Dabing.mp4
+[03:08:21] step=film done upload_id=55358 total=545.1s (cdn=0.8s + download=227.1s + upload=316.7s)
+[03:08:21] step=state-saved upload_id=55358 (total uploads=122)
+[03:08:21] step=iteration 77/100
+[03:08:21] step=film start upload_id=44879 cr_film_id=30896 name='Peter Tatchell: Láska a nenávist (2021) CZ titulky'
+[03:08:21] step=cdn-resolve upload_id=44879 cdn=data11
+[03:08:22] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/bb5a42e06c55a9834555f5f946c74a43
+[03:08:22] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/bb5a42e06c55a9834555f5f946c74a43
+[03:09:44] step=download done upload_id=44879 size=1869205541 dur=82.3s speed=22.7MB/s
+[03:09:44] step=upload start upload_id=44879 size=1869205541
+[03:11:41] step=upload done upload_id=44879 video_id=24100604 dur=117.0s speed=16.0MB/s
+[03:11:42] step=cleanup unlinked Peter Tatchell: Láska a nenávist (2021) CZ titulky.mp4
+[03:11:42] step=film done upload_id=44879 total=200.4s (cdn=0.8s + download=82.3s + upload=117.0s)
+[03:11:42] step=state-saved upload_id=44879 (total uploads=123)
+[03:11:42] step=iteration 78/100
+[03:11:42] step=film start upload_id=39572 cr_film_id=30952 name='Co se stalo s panem Čcha? (2021) CZ titulky'
+[03:11:42] step=cdn-resolve upload_id=39572 cdn=data11
+[03:11:42] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/759990051fe7cdc4e5c48f3797c03fd4
+[03:11:42] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/759990051fe7cdc4e5c48f3797c03fd4
+[03:13:12] step=download done upload_id=39572 size=2094374578 dur=90.1s speed=23.2MB/s
+[03:13:12] step=upload start upload_id=39572 size=2094374578
+[03:15:21] step=upload done upload_id=39572 video_id=24100724 dur=128.6s speed=16.3MB/s
+[03:15:21] step=cleanup unlinked Co se stalo s panem Čcha? (2021) CZ titulky.mp4
+[03:15:21] step=film done upload_id=39572 total=219.5s (cdn=0.6s + download=90.1s + upload=128.6s)
+[03:15:21] step=state-saved upload_id=39572 (total uploads=124)
+[03:15:21] step=iteration 79/100
+[03:15:21] step=film start upload_id=65158 cr_film_id=30974 name='Las Rojas (2021) CZ Dabing'
+[03:15:21] step=cdn-resolve upload_id=65158 cdn=data11
+[03:15:22] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/06be29352b14cdb70007cba4ab2ba32a
+[03:15:22] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/06be29352b14cdb70007cba4ab2ba32a
+[03:16:36] step=download done upload_id=65158 size=1741212124 dur=74.2s speed=23.5MB/s
+[03:16:36] step=upload start upload_id=65158 size=1741212124
+[03:18:29] step=upload done upload_id=65158 video_id=24100850 dur=112.4s speed=15.5MB/s
+[03:18:29] step=cleanup unlinked Las Rojas (2021) CZ Dabing.mp4
+[03:18:29] step=film done upload_id=65158 total=187.8s (cdn=1.0s + download=74.2s + upload=112.4s)
+[03:18:29] step=state-saved upload_id=65158 (total uploads=125)
+[03:18:29] step=iteration 80/100
+[03:18:29] step=film start upload_id=46759 cr_film_id=31045 name='Pray Away: Očista modlitbou (2021) CZ titulky'
+[03:18:29] step=cdn-resolve upload_id=46759 cdn=data11
+[03:18:30] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/29744e240187cb8bef9763560edb3194
+[03:18:30] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/29744e240187cb8bef9763560edb3194
+[03:19:59] step=download done upload_id=46759 size=2081359463 dur=89.5s speed=23.3MB/s
+[03:19:59] step=upload start upload_id=46759 size=2081359463
+[03:22:29] step=upload done upload_id=46759 video_id=24100954 dur=149.2s speed=14.0MB/s
+[03:22:29] step=cleanup unlinked Pray Away: Očista modlitbou (2021) CZ titulky.mp4
+[03:22:29] step=film done upload_id=46759 total=239.8s (cdn=0.8s + download=89.5s + upload=149.2s)
+[03:22:29] step=state-saved upload_id=46759 (total uploads=126)
+[03:22:29] step=iteration 81/100
+[03:22:29] step=film start upload_id=86305 cr_film_id=31086 name='Úžasný svět (2021) CZ titulky'
+[03:22:29] step=cdn-resolve upload_id=86305 cdn=data11
+[03:22:30] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/45adc6f1809745fa5d8edd9ce20f8192
+[03:22:30] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/45adc6f1809745fa5d8edd9ce20f8192
+[03:24:16] step=download done upload_id=86305 size=2506574306 dur=105.9s speed=23.7MB/s
+[03:24:16] step=upload start upload_id=86305 size=2506574306
+[03:26:54] step=upload done upload_id=86305 video_id=24101057 dur=158.5s speed=15.8MB/s
+[03:26:55] step=cleanup unlinked Úžasný svět (2021) CZ titulky.mp4
+[03:26:55] step=film done upload_id=86305 total=265.8s (cdn=1.1s + download=105.9s + upload=158.5s)
+[03:26:55] step=state-saved upload_id=86305 (total uploads=127)
+[03:26:55] step=iteration 82/100
+[03:26:55] step=film start upload_id=63815 cr_film_id=31094 name='Karen (2021) CZ Dabing'
+[03:26:55] step=cdn-resolve upload_id=63815 cdn=data11
+[03:26:56] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/9875e92d94c4b9d4b4cc60a969e25fe9
+[03:26:56] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/9875e92d94c4b9d4b4cc60a969e25fe9
+[03:28:31] step=download done upload_id=63815 size=2240644368 dur=95.5s speed=23.5MB/s
+[03:28:31] step=upload start upload_id=63815 size=2240644368
+[03:30:46] step=upload done upload_id=63815 video_id=24101167 dur=135.0s speed=16.6MB/s
+[03:30:46] step=cleanup unlinked Karen (2021) CZ Dabing.mp4
+[03:30:46] step=film done upload_id=63815 total=231.7s (cdn=0.8s + download=95.5s + upload=135.0s)
+[03:30:46] step=state-saved upload_id=63815 (total uploads=128)
+[03:30:46] step=iteration 83/100
+[03:30:46] step=film start upload_id=48898 cr_film_id=31100 name='Zero to Hero (2021) CZ titulky'
+[03:30:46] step=cdn-resolve upload_id=48898 cdn=data11
+[03:30:47] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/b75bf74537524f2cced155c498138acb
+[03:30:47] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/b75bf74537524f2cced155c498138acb
+[03:32:17] step=download done upload_id=48898 size=2103059392 dur=89.5s speed=23.5MB/s
+[03:32:17] step=upload start upload_id=48898 size=2103059392
+[03:35:02] step=upload done upload_id=48898 video_id=24101273 dur=165.1s speed=12.7MB/s
+[03:35:02] step=cleanup unlinked Zero to Hero (2021) CZ titulky.mp4
+[03:35:02] step=film done upload_id=48898 total=255.8s (cdn=0.9s + download=89.5s + upload=165.1s)
+[03:35:02] step=state-saved upload_id=48898 (total uploads=129)
+[03:35:02] step=iteration 84/100
+[03:35:02] step=film start upload_id=43390 cr_film_id=31101 name='HOMUNCULUS (2021) CZ titulky'
+[03:35:02] step=cdn-resolve upload_id=43390 cdn=data11
+[03:35:03] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/353802d9b2134199581288db63de71b7
+[03:35:03] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/353802d9b2134199581288db63de71b7
+[03:36:45] step=download done upload_id=43390 size=2376208445 dur=101.6s speed=23.4MB/s
+[03:36:45] step=upload start upload_id=43390 size=2376208445
+[03:39:17] step=upload done upload_id=43390 video_id=24101397 dur=152.4s speed=15.6MB/s
+[03:39:17] step=cleanup unlinked HOMUNCULUS (2021) CZ titulky.mp4
+[03:39:17] step=film done upload_id=43390 total=255.2s (cdn=0.9s + download=101.6s + upload=152.4s)
+[03:39:17] step=state-saved upload_id=43390 (total uploads=130)
+[03:39:17] step=iteration 85/100
+[03:39:17] step=film start upload_id=41129 cr_film_id=31106 name='Poslední Paradiso (2021) CZ titulky'
+[03:39:17] step=cdn-resolve upload_id=41129 cdn=data11
+[03:39:18] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/8158516bba856307cee201b1eaeb634e
+[03:39:18] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/8158516bba856307cee201b1eaeb634e
+[03:40:07] step=download done upload_id=41129 size=1096217307 dur=48.6s speed=22.6MB/s
+[03:40:07] step=upload start upload_id=41129 size=1096217307
+[03:41:12] step=upload done upload_id=41129 video_id=24101484 dur=65.2s speed=16.8MB/s
+[03:41:12] step=cleanup unlinked Poslední Paradiso (2021) CZ titulky.mp4
+[03:41:12] step=film done upload_id=41129 total=114.8s (cdn=0.9s + download=48.6s + upload=65.2s)
+[03:41:12] step=state-saved upload_id=41129 (total uploads=131)
+[03:41:12] step=iteration 86/100
+[03:41:12] step=film start upload_id=49865 cr_film_id=31122 name='Asakusa Kid (2021) CZ titulky'
+[03:41:12] step=cdn-resolve upload_id=49865 cdn=data11
+[03:41:13] step=cdn-resolve done 1.2s → https://data11.sledujteto.cz/player/index/sledujteto/a7a0cfca442e268e6883523a72c595c1
+[03:41:13] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a7a0cfca442e268e6883523a72c595c1
+[03:43:01] step=download done upload_id=49865 size=2522509471 dur=108.0s speed=23.4MB/s
+[03:43:01] step=upload start upload_id=49865 size=2522509471
+[03:46:04] step=upload done upload_id=49865 video_id=24101563 dur=182.8s speed=13.8MB/s
+[03:46:05] step=cleanup unlinked Asakusa Kid (2021) CZ titulky.mp4
+[03:46:05] step=film done upload_id=49865 total=292.3s (cdn=1.2s + download=108.0s + upload=182.8s)
+[03:46:05] step=state-saved upload_id=49865 (total uploads=132)
+[03:46:05] step=iteration 87/100
+[03:46:05] step=film start upload_id=50011 cr_film_id=31129 name='Pod hladinou s Cousteauem (2021) CZ titulky'
+[03:46:05] step=cdn-resolve upload_id=50011 cdn=data11
+[03:46:05] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/efa1a52eef8f30015f110c485e989660
+[03:46:05] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/efa1a52eef8f30015f110c485e989660
+[03:47:28] step=download done upload_id=50011 size=1921111169 dur=82.3s speed=23.3MB/s
+[03:47:28] step=upload start upload_id=50011 size=1921111169
+[03:49:32] step=upload done upload_id=50011 video_id=24101680 dur=124.7s speed=15.4MB/s
+[03:49:33] step=cleanup unlinked Pod hladinou s Cousteauem (2021) CZ titulky.mp4
+[03:49:33] step=film done upload_id=50011 total=208.1s (cdn=0.8s + download=82.3s + upload=124.7s)
+[03:49:33] step=state-saved upload_id=50011 (total uploads=133)
+[03:49:33] step=iteration 88/100
+[03:49:33] step=film start upload_id=40954 cr_film_id=31135 name='Co by udělala Sophia Loren? (2021) CZ titulky'
+[03:49:33] step=cdn-resolve upload_id=40954 cdn=data11
+[03:49:34] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/9ce91c68b7fa23999feb928e72d18569
+[03:49:34] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/9ce91c68b7fa23999feb928e72d18569
+[03:50:05] step=download done upload_id=40954 size=660256394 dur=31.0s speed=21.3MB/s
+[03:50:05] step=upload start upload_id=40954 size=660256394
+[03:50:46] step=upload done upload_id=40954 video_id=24101758 dur=41.5s speed=15.9MB/s
+[03:50:46] step=cleanup unlinked Co by udělala Sophia Loren? (2021) CZ titulky.mp4
+[03:50:46] step=film done upload_id=40954 total=73.7s (cdn=1.1s + download=31.0s + upload=41.5s)
+[03:50:46] step=state-saved upload_id=40954 (total uploads=134)
+[03:50:46] step=iteration 89/100
+[03:50:46] step=film start upload_id=47964 cr_film_id=31152 name='Pekelné bingo (2021) CZ titulky'
+[03:50:46] step=cdn-resolve upload_id=47964 cdn=data11
+[03:50:47] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/5c85c4317064c9cc2eb9ce40e76f5cdc
+[03:50:47] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/5c85c4317064c9cc2eb9ce40e76f5cdc
+[03:52:03] step=download done upload_id=47964 size=1754659568 dur=75.7s speed=23.2MB/s
+[03:52:03] step=upload start upload_id=47964 size=1754659568
+[03:53:45] step=upload done upload_id=47964 video_id=24101810 dur=102.1s speed=17.2MB/s
+[03:53:45] step=cleanup unlinked Pekelné bingo (2021) CZ titulky.mp4
+[03:53:45] step=film done upload_id=47964 total=178.9s (cdn=0.8s + download=75.7s + upload=102.1s)
+[03:53:45] step=state-saved upload_id=47964 (total uploads=135)
+[03:53:45] step=iteration 90/100
+[03:53:45] step=film start upload_id=65099 cr_film_id=31153 name='Vymítání Rolanda Doea (2021) CZ Dabing'
+[03:53:45] step=cdn-resolve upload_id=65099 cdn=data11
+[03:53:46] step=cdn-resolve done 1.1s → https://data11.sledujteto.cz/player/index/sledujteto/04074d81f476b79cc577927fda112720
+[03:53:46] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/04074d81f476b79cc577927fda112720
+[03:56:46] step=download done upload_id=65099 size=4287722789 dur=179.3s speed=23.9MB/s
+[03:56:46] step=upload start upload_id=65099 size=4287722789
+[04:00:54] step=upload done upload_id=65099 video_id=24101937 dur=248.8s speed=17.2MB/s
+[04:00:55] step=cleanup unlinked Vymítání Rolanda Doea (2021) CZ Dabing.mp4
+[04:00:55] step=film done upload_id=65099 total=429.8s (cdn=1.1s + download=179.3s + upload=248.8s)
+[04:00:55] step=state-saved upload_id=65099 (total uploads=136)
+[04:00:55] step=iteration 91/100
+[04:00:55] step=film start upload_id=85002 cr_film_id=31161 name='Mejdan jak se patří (2021) CZ Dabing'
+[04:00:55] step=cdn-resolve upload_id=85002 cdn=data11
+[04:00:56] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/3a8f54ec526c4a7172fc10212de86ef0
+[04:00:56] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/3a8f54ec526c4a7172fc10212de86ef0
+[04:02:01] step=download done upload_id=85002 size=1541078846 dur=64.7s speed=23.8MB/s
+[04:02:01] step=upload start upload_id=85002 size=1541078846
+[04:03:30] step=upload done upload_id=85002 video_id=24102112 dur=89.7s speed=17.2MB/s
+[04:03:31] step=cleanup unlinked Mejdan jak se patří (2021) CZ Dabing.mp4
+[04:03:31] step=film done upload_id=85002 total=155.5s (cdn=0.9s + download=64.7s + upload=89.7s)
+[04:03:31] step=state-saved upload_id=85002 (total uploads=137)
+[04:03:31] step=iteration 92/100
+[04:03:31] step=film start upload_id=43545 cr_film_id=31162 name='Heroes: Ticho a rock & roll (2021) CZ titulky'
+[04:03:31] step=cdn-resolve upload_id=43545 cdn=data11
+[04:03:31] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/972afe0429f9569defd9566823e703c5
+[04:03:31] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/972afe0429f9569defd9566823e703c5
+[04:04:57] step=download done upload_id=43545 size=1937145136 dur=86.1s speed=22.5MB/s
+[04:04:57] step=upload start upload_id=43545 size=1937145136
+[04:07:07] step=upload done upload_id=43545 video_id=24102212 dur=129.5s speed=15.0MB/s
+[04:07:07] step=cleanup unlinked Heroes: Ticho a rock & roll (2021) CZ titulky.mp4
+[04:07:07] step=film done upload_id=43545 total=216.4s (cdn=0.7s + download=86.1s + upload=129.5s)
+[04:07:07] step=state-saved upload_id=43545 (total uploads=138)
+[04:07:07] step=iteration 93/100
+[04:07:07] step=film start upload_id=46176 cr_film_id=31167 name='Porozumění (2021) CZ titulky'
+[04:07:07] step=cdn-resolve upload_id=46176 cdn=data11
+[04:07:08] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/7577e3a9a8ee66ecb743b833c9785fca
+[04:07:08] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/7577e3a9a8ee66ecb743b833c9785fca
+[04:08:25] step=download done upload_id=46176 size=1776047627 dur=76.7s speed=23.2MB/s
+[04:08:25] step=upload start upload_id=46176 size=1776047627
+[04:10:19] step=upload done upload_id=46176 video_id=24102336 dur=114.1s speed=15.6MB/s
+[04:10:19] step=cleanup unlinked Porozumění (2021) CZ titulky.mp4
+[04:10:19] step=film done upload_id=46176 total=192.1s (cdn=1.0s + download=76.7s + upload=114.1s)
+[04:10:19] step=state-saved upload_id=46176 (total uploads=139)
+[04:10:19] step=iteration 94/100
+[04:10:19] step=film start upload_id=44878 cr_film_id=31176 name='Sam Smith: Love Goes – Live at Abbey Road Studios (2021) CZ titulky'
+[04:10:19] step=cdn-resolve upload_id=44878 cdn=data11
+[04:10:20] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/7650fc09215ee58cf40241ca046b3a20
+[04:10:20] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/7650fc09215ee58cf40241ca046b3a20
+[04:11:14] step=download done upload_id=44878 size=1253853066 dur=54.4s speed=23.0MB/s
+[04:11:14] step=upload start upload_id=44878 size=1253853066
+[04:12:27] step=upload done upload_id=44878 video_id=24102434 dur=72.6s speed=17.3MB/s
+[04:12:27] step=cleanup unlinked Sam Smith: Love Goes – Live at Abbey Road Studios (2021) CZ titulky.mp4
+[04:12:27] step=film done upload_id=44878 total=128.0s (cdn=0.8s + download=54.4s + upload=72.6s)
+[04:12:27] step=state-saved upload_id=44878 (total uploads=140)
+[04:12:27] step=iteration 95/100
+[04:12:27] step=film start upload_id=45826 cr_film_id=31181 name='Superpříšerky: Bylo nebylo (2021) CZ titulky'
+[04:12:27] step=cdn-resolve upload_id=45826 cdn=data11
+[04:12:28] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/0107f142f9a9ae7f1085fd75c9d46533
+[04:12:28] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/0107f142f9a9ae7f1085fd75c9d46533
+[04:12:51] step=download done upload_id=45826 size=516773247 dur=22.8s speed=22.7MB/s
+[04:12:51] step=upload start upload_id=45826 size=516773247
+[04:13:21] step=upload done upload_id=45826 video_id=24102488 dur=30.3s speed=17.1MB/s
+[04:13:21] step=cleanup unlinked Superpříšerky: Bylo nebylo (2021) CZ titulky.mp4
+[04:13:21] step=film done upload_id=45826 total=53.9s (cdn=0.8s + download=22.8s + upload=30.3s)
+[04:13:21] step=state-saved upload_id=45826 (total uploads=141)
+[04:13:21] step=iteration 96/100
+[04:13:21] step=film start upload_id=47251 cr_film_id=31187 name='Soukromá síť: Kdo zabil Manuela Buendíu? (2021) CZ titulky'
+[04:13:21] step=cdn-resolve upload_id=47251 cdn=data11
+[04:13:22] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/e73dca2fab45fc09317e464bbff902f2
+[04:13:22] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/e73dca2fab45fc09317e464bbff902f2
+[04:14:45] step=download done upload_id=47251 size=2055615771 dur=83.3s speed=24.7MB/s
+[04:14:45] step=upload start upload_id=47251 size=2055615771
+[04:18:18] step=upload done upload_id=47251 video_id=24102540 dur=213.0s speed=9.7MB/s
+[04:18:18] step=cleanup unlinked Soukromá síť: Kdo zabil Manuela Buendíu? (2021) CZ titulky.mp4
+[04:18:18] step=film done upload_id=47251 total=297.2s (cdn=0.7s + download=83.3s + upload=213.0s)
+[04:18:18] step=state-saved upload_id=47251 (total uploads=142)
+[04:18:18] step=iteration 97/100
+[04:18:18] step=film start upload_id=47155 cr_film_id=31193 name='Bob Ross: Šťastné náhody, zrada a chamtivost (2021) CZ titulky'
+[04:18:18] step=cdn-resolve upload_id=47155 cdn=data11
+[04:18:19] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/99695c033d39217b227b091cd013c51a
+[04:18:19] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/99695c033d39217b227b091cd013c51a
+[04:19:39] step=download done upload_id=47155 size=1910517763 dur=80.1s speed=23.9MB/s
+[04:19:39] step=upload start upload_id=47155 size=1910517763
+[04:21:23] step=upload done upload_id=47155 video_id=24102638 dur=103.7s speed=18.4MB/s
+[04:21:23] step=cleanup unlinked Bob Ross: Šťastné náhody, zrada a chamtivost (2021) CZ titulky.mp4
+[04:21:23] step=film done upload_id=47155 total=185.0s (cdn=0.9s + download=80.1s + upload=103.7s)
+[04:21:23] step=state-saved upload_id=47155 (total uploads=143)
+[04:21:23] step=iteration 98/100
+[04:21:23] step=film start upload_id=46832 cr_film_id=31196 name='Phil Wang: Philly Philly Wang Wang (2021) CZ titulky'
+[04:21:23] step=cdn-resolve upload_id=46832 cdn=data11
+[04:21:24] step=cdn-resolve done 1.0s → https://data11.sledujteto.cz/player/index/sledujteto/65225401739b903da3184ad4a7fac591
+[04:21:24] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/65225401739b903da3184ad4a7fac591
+[04:22:17] step=download done upload_id=46832 size=1301383164 dur=52.9s speed=24.6MB/s
+[04:22:17] step=upload start upload_id=46832 size=1301383164
