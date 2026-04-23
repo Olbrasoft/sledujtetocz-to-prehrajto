@@ -2,7 +2,7 @@
   "schema_version": 1,
   "account": "filmy.prehrajto@email.cz",
   "source": "sledujteto.cz",
-  "last_updated": "2026-04-23T21:24:01Z",
+  "last_updated": "2026-04-23T22:45:46Z",
   "uploads": [
     {
       "sledujteto_file_id": 100943,
@@ -10346,9 +10346,109 @@
         "upload_sec": 89.0,
         "total_sec": 155.4
       }
+    },
+    {
+      "sledujteto_file_id": 21007,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 31420,
+      "cr_slug": "bum",
+      "title": "BUM",
+      "year": 2025,
+      "lang_class": "EN",
+      "prehrajto_video_id": 24128452,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-23T22:35:11Z",
+      "status": "processing",
+      "size_bytes": 1248291202,
+      "timing": {
+        "total_sec": 87.9
+      },
+      "recovered_from_run": "24861869478"
+    },
+    {
+      "sledujteto_file_id": 93632,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 31497,
+      "cr_slug": "holka-od-vedle",
+      "title": "Holka od vedle",
+      "year": 2025,
+      "lang_class": "CZ_NATIVE",
+      "prehrajto_video_id": 24128478,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-23T22:35:11Z",
+      "status": "processing",
+      "size_bytes": 1826936029,
+      "timing": {
+        "total_sec": 136.6
+      },
+      "recovered_from_run": "24861869478"
+    },
+    {
+      "sledujteto_file_id": 98066,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31530,
+      "cr_slug": "pronasledovana-manzelem-neznamy-pribeh-washingtonskeho-odstrelovace",
+      "title": "Pronásledována manželem: Neznámý příběh washingtonského odstřelovače",
+      "year": 2025,
+      "lang_class": "SK_DUB",
+      "prehrajto_video_id": 24128554,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-23T22:35:11Z",
+      "status": "processing",
+      "size_bytes": 2211877193,
+      "timing": {
+        "total_sec": 145.4
+      },
+      "recovered_from_run": "24861869478"
+    },
+    {
+      "sledujteto_file_id": 97920,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 31545,
+      "cr_slug": "jidelni-vuz-divadelni-zaznam",
+      "title": "Jídelní vůz (divadelní záznam)",
+      "year": 2025,
+      "lang_class": "CZ_NATIVE",
+      "prehrajto_video_id": 24128637,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-23T22:35:11Z",
+      "status": "processing",
+      "size_bytes": 2471633333,
+      "timing": {
+        "total_sec": 155.7
+      },
+      "recovered_from_run": "24861869478"
+    },
+    {
+      "sledujteto_file_id": 74019,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 31401,
+      "cr_slug": "gabriela-soukalova-pravda-se-porad-vyplati",
+      "title": "Gabriela Soukalová: Pravda se pořád vyplatí",
+      "year": 2024,
+      "lang_class": "CZ_NATIVE",
+      "prehrajto_video_id": 24128836,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-23T22:35:11Z",
+      "status": "processing",
+      "size_bytes": 2781653271,
+      "timing": {
+        "total_sec": 173.7
+      },
+      "recovered_from_run": "24861869478"
     }
   ],
-  "moderated_out": [],
+  "moderated_out": [
+    {
+      "sledujteto_file_id": 81087,
+      "cr_film_id": 31449,
+      "cr_slug": "jake-paul-vs-mike-tyson",
+      "title": "Jake Paul vs. Mike Tyson",
+      "year": 2024,
+      "reason": "oversize: 15590731284 B > 10 GB (runner disk limit)",
+      "moderated_at": "2026-04-23T22:45:46Z"
+    }
+  ],
   "failed_attempts": [
     {
       "sledujteto_file_id": 100943,
