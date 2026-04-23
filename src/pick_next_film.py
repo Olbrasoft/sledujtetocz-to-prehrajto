@@ -68,10 +68,15 @@ def pick_next(
 
 
 def display_name(film: dict) -> str:
-    """Název pro zobrazení na Přehraj.to. Skladba:
-        {title} ({year}) {suffix}
-    kde suffix = CZ Dabing / CZ titulky / EN podle lang_class.
+    """Název pro zobrazení na Přehraj.to.
+
+    Preferuje `prehrajto_upload_title` z backlogu (předpřipravené naming
+    podle formátu `Title (Year) AUDIO [CZ titulky | SK titulky]`). Jinak
+    fallback na `{title} ({year}) {suffix}` podle `lang_class`.
     """
+    preset = film.get("prehrajto_upload_title")
+    if preset:
+        return preset
     title = film["title"]
     year = film.get("year")
     lc = film.get("lang_class", "")
