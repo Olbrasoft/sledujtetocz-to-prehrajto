@@ -2,7 +2,7 @@
   "schema_version": 1,
   "account": "filmy.prehrajto@email.cz",
   "source": "sledujteto.cz",
-  "last_updated": "2026-04-23T14:26:23Z",
+  "last_updated": "2026-04-23T14:46:42Z",
   "uploads": [
     {
       "sledujteto_file_id": 100943,
@@ -6745,6 +6745,106 @@
         "download_sec": 26.4,
         "upload_sec": 37.3,
         "total_sec": 65.0
+      }
+    },
+    {
+      "sledujteto_file_id": 23974,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 30548,
+      "cr_slug": "the-lighthouse",
+      "title": "The Lighthouse",
+      "year": 2016,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24118820,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-23T14:36:31Z",
+      "status": "processing",
+      "size_bytes": 924856073,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 25.5,
+        "upload_sec": 56.8,
+        "total_sec": 83.4
+      }
+    },
+    {
+      "sledujteto_file_id": 33667,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 30115,
+      "cr_slug": "body-bags-historky-z-marnice",
+      "title": "Body Bags: Historky z márnice",
+      "year": 1993,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24118839,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-23T14:37:56Z",
+      "status": "processing",
+      "size_bytes": 1088285011,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 30.0,
+        "upload_sec": 54.4,
+        "total_sec": 85.3
+      }
+    },
+    {
+      "sledujteto_file_id": 100747,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 30319,
+      "cr_slug": "giovanni-falcone",
+      "title": "Giovanni Falcone",
+      "year": 1993,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24118895,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-23T14:44:33Z",
+      "status": "processing",
+      "size_bytes": 5475412625,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 141.8,
+        "upload_sec": 253.4,
+        "total_sec": 396.4
+      }
+    },
+    {
+      "sledujteto_file_id": 49567,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 30074,
+      "cr_slug": "nemesis",
+      "title": "Nemesis",
+      "year": 1992,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24118963,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-23T14:45:55Z",
+      "status": "processing",
+      "size_bytes": 793311520,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 23.3,
+        "upload_sec": 58.2,
+        "total_sec": 82.4
+      }
+    },
+    {
+      "sledujteto_file_id": 97742,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 30099,
+      "cr_slug": "bohemsky-zivot",
+      "title": "Bohémský život",
+      "year": 1992,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24118979,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-23T14:46:42Z",
+      "status": "processing",
+      "size_bytes": 429115600,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 13.6,
+        "upload_sec": 32.5,
+        "total_sec": 47.1
       }
     }
   ],

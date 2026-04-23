@@ -3786,3 +3786,70 @@
 [14:26:23] step=film done upload_id=98789 total=65.0s (cdn=1.2s + download=26.4s + upload=37.3s)
 [14:26:23] step=state-saved upload_id=98789 (total uploads=337)
 [14:26:23] step=batch-end succeeded=99 failed=1 total_uploads=337 batch_dur=15059.5s avg_per_film=152.1s backlog_remaining=299 eta_hours=12.6
+
+===== run 2026-04-23T14:35:05Z batch_size=100 lang=CZ_DUB,CZ_SUB (https://github.com/Olbrasoft/sledujtetocz-to-prehrajto/actions/runs/24840851359) =====
+[14:35:06] step=batch-start count=100 backlog=636 uploads=337 moderated=0
+[14:35:06] step=login
+[14:35:08] step=login done
+[14:35:08] step=iteration 1/100
+[14:35:08] step=film start upload_id=23974 cr_film_id=30548 name='The Lighthouse (2016) CZ titulky'
+[14:35:08] step=cdn-resolve upload_id=23974 cdn=data11
+[14:35:08] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/39a35489f95e6bae76f83e266975021f
+[14:35:08] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/39a35489f95e6bae76f83e266975021f
+[14:35:34] step=download done upload_id=23974 size=924856073 dur=25.5s speed=36.3MB/s
+[14:35:34] step=upload start upload_id=23974 size=924856073
+[14:36:31] step=upload done upload_id=23974 video_id=24118820 dur=56.8s speed=16.3MB/s
+[14:36:31] step=cleanup unlinked The Lighthouse (2016) CZ titulky.mp4
+[14:36:31] step=film done upload_id=23974 total=83.4s (cdn=0.9s + download=25.5s + upload=56.8s)
+[14:36:31] step=state-saved upload_id=23974 (total uploads=338)
+[14:36:31] step=iteration 2/100
+[14:36:31] step=film start upload_id=33667 cr_film_id=30115 name='Body Bags: Historky z márnice (1993) CZ Dabing'
+[14:36:31] step=cdn-resolve upload_id=33667 cdn=data11
+[14:36:32] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/c8700d6436d91aaae43679e0f4c4173c
+[14:36:32] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/c8700d6436d91aaae43679e0f4c4173c
+[14:37:02] step=download done upload_id=33667 size=1088285011 dur=30.0s speed=36.3MB/s
+[14:37:02] step=upload start upload_id=33667 size=1088285011
+[14:37:56] step=upload done upload_id=33667 video_id=24118839 dur=54.4s speed=20.0MB/s
+[14:37:56] step=cleanup unlinked Body Bags: Historky z márnice (1993) CZ Dabing.mp4
+[14:37:56] step=film done upload_id=33667 total=85.3s (cdn=0.8s + download=30.0s + upload=54.4s)
+[14:37:56] step=state-saved upload_id=33667 (total uploads=339)
+[14:37:56] step=iteration 3/100
+[14:37:56] step=film start upload_id=100747 cr_film_id=30319 name='Giovanni Falcone (1993) CZ Dabing'
+[14:37:56] step=cdn-resolve upload_id=100747 cdn=data11
+[14:37:57] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/c3187b38e4575e41c2c774df41f8b86c
+[14:37:57] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/c3187b38e4575e41c2c774df41f8b86c
+[14:40:19] step=download done upload_id=100747 size=5475412625 dur=141.8s speed=38.6MB/s
+[14:40:19] step=upload start upload_id=100747 size=5475412625
+[14:44:32] step=upload done upload_id=100747 video_id=24118895 dur=253.4s speed=21.6MB/s
+[14:44:33] step=cleanup unlinked Giovanni Falcone (1993) CZ Dabing.mp4
+[14:44:33] step=film done upload_id=100747 total=396.4s (cdn=0.8s + download=141.8s + upload=253.4s)
+[14:44:33] step=state-saved upload_id=100747 (total uploads=340)
+[14:44:33] step=iteration 4/100
+[14:44:33] step=film start upload_id=49567 cr_film_id=30074 name='Nemesis (1992) CZ Dabing'
+[14:44:33] step=cdn-resolve upload_id=49567 cdn=data11
+[14:44:34] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/bd4f411f21e33072b28283d19881e64b
+[14:44:34] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/bd4f411f21e33072b28283d19881e64b
+[14:44:57] step=download done upload_id=49567 size=793311520 dur=23.3s speed=34.0MB/s
+[14:44:57] step=upload start upload_id=49567 size=793311520
+[14:45:55] step=upload done upload_id=49567 video_id=24118963 dur=58.2s speed=13.6MB/s
+[14:45:55] step=cleanup unlinked Nemesis (1992) CZ Dabing.mp4
+[14:45:55] step=film done upload_id=49567 total=82.4s (cdn=0.8s + download=23.3s + upload=58.2s)
+[14:45:55] step=state-saved upload_id=49567 (total uploads=341)
+[14:45:55] step=iteration 5/100
+[14:45:55] step=film start upload_id=97742 cr_film_id=30099 name='Bohémský život (1992) CZ titulky'
+[14:45:55] step=cdn-resolve upload_id=97742 cdn=data10
+[14:45:56] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/732573f6cd34f1cdabc416fc6b691a27
+[14:45:56] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/732573f6cd34f1cdabc416fc6b691a27
+[14:46:10] step=download done upload_id=97742 size=429115600 dur=13.6s speed=31.6MB/s
+[14:46:10] step=upload start upload_id=97742 size=429115600
+[14:46:42] step=upload done upload_id=97742 video_id=24118979 dur=32.5s speed=13.2MB/s
+[14:46:42] step=cleanup unlinked Bohémský život (1992) CZ titulky.mp4
+[14:46:42] step=film done upload_id=97742 total=47.1s (cdn=0.9s + download=13.6s + upload=32.5s)
+[14:46:42] step=state-saved upload_id=97742 (total uploads=342)
+[14:46:42] step=iteration 6/100
+[14:46:42] step=film start upload_id=99431 cr_film_id=30323 name='Černý pás (1992) CZ Dabing'
+[14:46:42] step=cdn-resolve upload_id=99431 cdn=data11
+[14:46:43] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/a56dc8b797129a38df33088f5aef099d
+[14:46:43] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a56dc8b797129a38df33088f5aef099d
+[14:48:11] step=download done upload_id=99431 size=3330692482 dur=87.7s speed=38.0MB/s
+[14:48:11] step=upload start upload_id=99431 size=3330692482
