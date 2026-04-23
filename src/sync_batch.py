@@ -34,6 +34,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 LOG_PATH = REPO_ROOT / "state" / "sync.log"
 TMP_DIR = Path("/tmp")
 MIN_FILE_SIZE = 10_000_000  # 10 MB — cokoliv menšího je dead CDN response
+# GitHub-hosted runner má ~14 GB volného disku. Filmy nad tento limit
+# nemůžeme stáhnout bez out-of-disk killu jobu — zařadíme je do moderated_out.
+MAX_FILE_SIZE = 10_000_000_000  # 10 GB
 
 
 def log(msg: str) -> None:
@@ -93,6 +96,24 @@ def process_one(film: dict, session, state: dict) -> bool:
     cdn_host = film.get("sledujteto_cdn")
     t_film_start = time.monotonic()
     log(f"step=film start upload_id={upload_id} cr_film_id={cr_film_id} name='{name}'")
+
+    # 0. Velikost — nad MAX_FILE_SIZE runner nemá dostatek disku. Označíme
+    # jako moderated_out (trvale skip) s reason=oversize.
+    fsize = film.get("filesize_bytes") or 0
+    if fsize > MAX_FILE_SIZE:
+        log(f"step=oversize-skip upload_id={upload_id} size={fsize} "
+            f"> MAX_FILE_SIZE={MAX_FILE_SIZE}")
+        state.setdefault("moderated_out", []).append({
+            "sledujteto_file_id": upload_id,
+            "cr_film_id": cr_film_id,
+            "cr_slug": film.get("cr_slug"),
+            "title": film["title"],
+            "year": film.get("year"),
+            "reason": f"oversize: {fsize} B > {MAX_FILE_SIZE} B",
+            "moderated_at": now_iso(),
+        })
+        save_state(state)
+        return False
 
     # 1. CDN resolve via add-file-link
     t = time.monotonic()
