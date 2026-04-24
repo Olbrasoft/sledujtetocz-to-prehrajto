@@ -6906,3 +6906,154 @@
 [02:09:30] step=film done upload_id=101408 total=138.9s (cdn=0.8s + download=55.7s + upload=82.2s)
 [02:09:30] step=state-saved upload_id=101408 (total uploads=622)
 [02:09:30] step=batch-end succeeded=100 failed=0 total_uploads=622 batch_dur=12194.5s avg_per_film=121.9s backlog_remaining=13 eta_hours=0.4
+
+===== run 2026-04-24T02:10:16Z batch_size=20 lang=ALL (https://github.com/Olbrasoft/sledujtetocz-to-prehrajto/actions/runs/24868642202) =====
+[02:10:17] step=batch-start count=20 backlog=636 uploads=622 moderated=1
+[02:10:17] step=login
+[02:10:19] step=login done
+[02:10:19] step=iteration 1/20
+[02:10:19] step=film start upload_id=71540 cr_film_id=31141 name='Tango pre medveďa (1967) SK'
+[02:10:19] step=cdn-resolve upload_id=71540 cdn=data11
+[02:10:19] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/b052ae79a88bdf2fc231a2ea1318c47a
+[02:10:19] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/b052ae79a88bdf2fc231a2ea1318c47a
+[02:10:28] step=download done upload_id=71540 size=274256635 dur=8.5s speed=32.3MB/s
+[02:10:28] step=upload start upload_id=71540 size=274256635
+[02:10:40] step=upload done upload_id=71540 video_id=24131497 dur=11.8s speed=23.2MB/s
+[02:10:40] step=cleanup unlinked Tango pre medveďa (1967) SK.mp4
+[02:10:40] step=film done upload_id=71540 total=21.2s (cdn=0.8s + download=8.5s + upload=11.8s)
+[02:10:40] step=state-saved upload_id=71540 (total uploads=623)
+[02:10:40] step=iteration 2/20
+[02:10:40] step=film start upload_id=95789 cr_film_id=31267 name='Tam za lesem (1962) CZ'
+[02:10:40] step=cdn-resolve upload_id=95789 cdn=data11
+[02:10:40] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/797a61ac031f30811c176e4ea27f0b9f
+[02:10:40] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/797a61ac031f30811c176e4ea27f0b9f
+[02:11:24] step=download done upload_id=95789 size=1725670693 dur=43.6s speed=39.6MB/s
+[02:11:24] step=upload start upload_id=95789 size=1725670693
+[02:12:25] step=upload done upload_id=95789 video_id=24131500 dur=61.4s speed=28.1MB/s
+[02:12:26] step=cleanup unlinked Tam za lesem (1962) CZ.mp4
+[02:12:26] step=film done upload_id=95789 total=105.9s (cdn=0.7s + download=43.6s + upload=61.4s)
+[02:12:26] step=state-saved upload_id=95789 (total uploads=624)
+[02:12:26] step=iteration 3/20
+[02:12:26] step=film start upload_id=100172 cr_film_id=30303 name='Stvoření světa (1958) CZ'
+[02:12:26] step=cdn-resolve upload_id=100172 cdn=data10
+[02:12:27] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/bb00ca46fdb0d559ddb5b5cb3f1b881e
+[02:12:27] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/bb00ca46fdb0d559ddb5b5cb3f1b881e
+[02:13:45] step=download done upload_id=100172 size=3000327614 dur=78.0s speed=38.5MB/s
+[02:13:45] step=upload start upload_id=100172 size=3000327614
+[02:15:34] step=upload done upload_id=100172 video_id=24131519 dur=109.8s speed=27.3MB/s
+[02:15:35] step=cleanup unlinked Stvoření světa (1958) CZ.mp4
+[02:15:35] step=film done upload_id=100172 total=189.1s (cdn=0.9s + download=78.0s + upload=109.8s)
+[02:15:35] step=state-saved upload_id=100172 (total uploads=625)
+[02:15:35] step=iteration 4/20
+[02:15:35] step=film start upload_id=73821 cr_film_id=30116 name='Neuvěřitelný zmenšující se muž (1957) CZ'
+[02:15:35] step=cdn-resolve upload_id=73821 cdn=data10
+[02:15:36] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/e0ac880d5d28da43c4b174b17c787369
+[02:15:36] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/e0ac880d5d28da43c4b174b17c787369
+[02:17:21] step=download done upload_id=73821 size=4027365831 dur=105.4s speed=38.2MB/s
+[02:17:21] step=upload start upload_id=73821 size=4027365831
+[02:20:08] step=upload done upload_id=73821 video_id=24131568 dur=166.4s speed=24.2MB/s
+[02:20:08] step=cleanup unlinked Neuvěřitelný zmenšující se muž (1957) CZ.mp4
+[02:20:08] step=film done upload_id=73821 total=273.2s (cdn=0.9s + download=105.4s + upload=166.4s)
+[02:20:08] step=state-saved upload_id=73821 (total uploads=626)
+[02:20:08] step=iteration 5/20
+[02:20:08] step=film start upload_id=89865 cr_film_id=30159 name='Trojská Helena (1956) SK'
+[02:20:08] step=cdn-resolve upload_id=89865 cdn=data11
+[02:20:09] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/c135d920bdcc65d12018959f8188f173
+[02:20:09] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/c135d920bdcc65d12018959f8188f173
+[02:21:19] step=download done upload_id=89865 size=2835275900 dur=70.4s speed=40.3MB/s
+[02:21:19] step=upload start upload_id=89865 size=2835275900
+[02:22:56] step=upload done upload_id=89865 video_id=24131659 dur=96.3s speed=29.4MB/s
+[02:22:56] step=cleanup unlinked Trojská Helena (1956) SK.mp4
+[02:22:56] step=film done upload_id=89865 total=167.8s (cdn=0.7s + download=70.4s + upload=96.3s)
+[02:22:56] step=state-saved upload_id=89865 (total uploads=627)
+[02:22:56] step=iteration 6/20
+[02:22:56] step=film start upload_id=101862 cr_film_id=30353 name='Flesh and the Spur (1956) EN'
+[02:22:56] step=cdn-resolve upload_id=101862 cdn=data10
+[02:22:57] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/c2d4f775ce933f1647c2ce183f5e95cd
+[02:22:57] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/c2d4f775ce933f1647c2ce183f5e95cd
+[02:23:59] step=download done upload_id=101862 size=2388906742 dur=62.3s speed=38.3MB/s
+[02:23:59] step=upload start upload_id=101862 size=2388906742
+[02:25:57] step=upload done upload_id=101862 video_id=24131724 dur=117.7s speed=20.3MB/s
+[02:25:57] step=cleanup unlinked Flesh and the Spur (1956) EN.mp4
+[02:25:57] step=film done upload_id=101862 total=181.2s (cdn=0.9s + download=62.3s + upload=117.7s)
+[02:25:57] step=state-saved upload_id=101862 (total uploads=628)
+[02:25:57] step=iteration 7/20
+[02:25:57] step=film start upload_id=30805 cr_film_id=31183 name='Osudy dobrého vojáka Švejka – Z Hatvanu na hranice Haliče (1954) CZ'
+[02:25:57] step=cdn-resolve upload_id=30805 cdn=data11
+[02:25:58] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/92da3527c9725afcce3cf88041138889
+[02:25:58] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/92da3527c9725afcce3cf88041138889
+[02:26:24] step=download done upload_id=30805 size=976330250 dur=26.6s speed=36.7MB/s
+[02:26:24] step=upload start upload_id=30805 size=976330250
+[02:27:04] step=upload done upload_id=30805 video_id=24131760 dur=39.4s speed=24.8MB/s
+[02:27:04] step=cleanup unlinked Osudy dobrého vojáka Švejka – Z Hatvanu na hranice Haliče (1954) CZ.mp4
+[02:27:04] step=film done upload_id=30805 total=66.7s (cdn=0.6s + download=26.6s + upload=39.4s)
+[02:27:04] step=state-saved upload_id=30805 (total uploads=629)
+[02:27:04] step=iteration 8/20
+[02:27:04] step=film start upload_id=97862 cr_film_id=30175 name='Ocelová přilba (1951) CZ'
+[02:27:04] step=cdn-resolve upload_id=97862 cdn=data10
+[02:27:04] step=cdn-resolve done 0.5s → https://data10.sledujteto.cz/player/index/sledujteto/93250a111d55f8aedc60f668b6a9c64a
+[02:27:04] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/93250a111d55f8aedc60f668b6a9c64a
+[02:27:21] step=download done upload_id=97862 size=583146166 dur=16.4s speed=35.6MB/s
+[02:27:21] step=upload start upload_id=97862 size=583146166
+[02:27:51] step=upload done upload_id=97862 video_id=24131771 dur=30.5s speed=19.1MB/s
+[02:27:51] step=cleanup unlinked Ocelová přilba (1951) CZ.mp4
+[02:27:51] step=film done upload_id=97862 total=47.5s (cdn=0.5s + download=16.4s + upload=30.5s)
+[02:27:51] step=state-saved upload_id=97862 (total uploads=630)
+[02:27:51] step=iteration 9/20
+[02:27:51] step=film start upload_id=102435 cr_film_id=30389 name='Mule Train (1950) EN'
+[02:27:51] step=cdn-resolve upload_id=102435 cdn=data11
+[02:27:52] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/86c70332368e66634e9632a171289f4a
+[02:27:52] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/86c70332368e66634e9632a171289f4a
+[02:28:07] step=download done upload_id=102435 size=525836045 dur=14.9s speed=35.3MB/s
+[02:28:07] step=upload start upload_id=102435 size=525836045
+[02:28:35] step=upload done upload_id=102435 video_id=24131781 dur=28.5s speed=18.5MB/s
+[02:28:35] step=cleanup unlinked Mule Train (1950) EN.mp4
+[02:28:35] step=film done upload_id=102435 total=44.1s (cdn=0.7s + download=14.9s + upload=28.5s)
+[02:28:35] step=state-saved upload_id=102435 (total uploads=631)
+[02:28:35] step=iteration 10/20
+[02:28:35] step=film start upload_id=34470 cr_film_id=30547 name='Painkiller Jane EN'
+[02:28:35] step=cdn-resolve upload_id=34470 cdn=data11
+[02:28:36] step=cdn-resolve done 0.5s → https://data11.sledujteto.cz/player/index/sledujteto/f403d4a7fcdda8710439c8eff134f9b8
+[02:28:36] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/f403d4a7fcdda8710439c8eff134f9b8
+[02:28:44] step=download done upload_id=34470 size=249461787 dur=7.9s speed=31.6MB/s
+[02:28:44] step=upload start upload_id=34470 size=249461787
+[02:28:54] step=upload done upload_id=34470 video_id=24131791 dur=10.0s speed=24.9MB/s
+[02:28:54] step=cleanup unlinked Painkiller Jane EN.mp4
+[02:28:54] step=film done upload_id=34470 total=18.4s (cdn=0.5s + download=7.9s + upload=10.0s)
+[02:28:54] step=state-saved upload_id=34470 (total uploads=632)
+[02:28:54] step=iteration 11/20
+[02:28:54] step=film start upload_id=21997 cr_film_id=31389 name='Kosh EN'
+[02:28:54] step=cdn-resolve upload_id=21997 cdn=data10
+[02:28:55] step=cdn-resolve done 0.7s → https://data10.sledujteto.cz/player/index/sledujteto/b3de0603b749b696c83b9ecd044a3697
+[02:28:55] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/b3de0603b749b696c83b9ecd044a3697
+[02:29:22] step=download done upload_id=21997 size=1023107242 dur=27.6s speed=37.1MB/s
+[02:29:22] step=upload start upload_id=21997 size=1023107242
+[02:30:00] step=upload done upload_id=21997 video_id=24131808 dur=38.2s speed=26.8MB/s
+[02:30:01] step=cleanup unlinked Kosh EN.mp4
+[02:30:01] step=film done upload_id=21997 total=66.7s (cdn=0.7s + download=27.6s + upload=38.2s)
+[02:30:01] step=state-saved upload_id=21997 (total uploads=633)
+[02:30:01] step=iteration 12/20
+[02:30:01] step=film start upload_id=27191 cr_film_id=31511 name='RD EN'
+[02:30:01] step=cdn-resolve upload_id=27191 cdn=data10
+[02:30:01] step=cdn-resolve done 0.7s → https://data10.sledujteto.cz/player/index/sledujteto/8bdae143ff3bba9205063f5a089baf65
+[02:30:01] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/8bdae143ff3bba9205063f5a089baf65
+[02:30:53] step=download done upload_id=27191 size=1962475100 dur=52.1s speed=37.7MB/s
+[02:30:53] step=upload start upload_id=27191 size=1962475100
+[02:32:10] step=upload done upload_id=27191 video_id=24131853 dur=76.7s speed=25.6MB/s
+[02:32:10] step=cleanup unlinked RD EN.mp4
+[02:32:10] step=film done upload_id=27191 total=129.8s (cdn=0.7s + download=52.1s + upload=76.7s)
+[02:32:10] step=state-saved upload_id=27191 (total uploads=634)
+[02:32:10] step=iteration 13/20
+[02:32:10] step=film start upload_id=90905 cr_film_id=31548 name='Holčičí kapela CZ'
+[02:32:10] step=cdn-resolve upload_id=90905 cdn=data11
+[02:32:11] step=cdn-resolve done 0.5s → https://data11.sledujteto.cz/player/index/sledujteto/a58ec618c42a500f903ab8af745af81c
+[02:32:11] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a58ec618c42a500f903ab8af745af81c
+[02:32:17] step=download done upload_id=90905 size=192856766 dur=6.4s speed=30.1MB/s
+[02:32:17] step=upload start upload_id=90905 size=192856766
+[02:32:26] step=upload done upload_id=90905 video_id=24131880 dur=8.8s speed=21.9MB/s
+[02:32:26] step=cleanup unlinked Holčičí kapela CZ.mp4
+[02:32:26] step=film done upload_id=90905 total=15.8s (cdn=0.5s + download=6.4s + upload=8.8s)
+[02:32:26] step=state-saved upload_id=90905 (total uploads=635)
+[02:32:26] step=iteration 14/20
+[02:32:26] step=batch-end backlog vyčerpán
+[02:32:26] step=batch-end succeeded=13 failed=0 total_uploads=635 batch_dur=1327.6s avg_per_film=102.1s backlog_remaining=0 eta_hours=0.0

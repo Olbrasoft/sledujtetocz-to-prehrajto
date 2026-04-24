@@ -2,7 +2,7 @@
   "schema_version": 1,
   "account": "filmy.prehrajto@email.cz",
   "source": "sledujteto.cz",
-  "last_updated": "2026-04-24T02:09:30Z",
+  "last_updated": "2026-04-24T02:32:26Z",
   "uploads": [
     {
       "sledujteto_file_id": 100943,
@@ -12435,6 +12435,266 @@
         "download_sec": 55.7,
         "upload_sec": 82.2,
         "total_sec": 138.9
+      }
+    },
+    {
+      "sledujteto_file_id": 71540,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31141,
+      "cr_slug": "tango-pre-medveda",
+      "title": "Tango pre medveďa",
+      "year": 1967,
+      "lang_class": "UNKNOWN",
+      "prehrajto_video_id": 24131497,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T02:10:40Z",
+      "status": "processing",
+      "size_bytes": 274256635,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 8.5,
+        "upload_sec": 11.8,
+        "total_sec": 21.2
+      }
+    },
+    {
+      "sledujteto_file_id": 95789,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31267,
+      "cr_slug": "tam-za-lesem",
+      "title": "Tam za lesem",
+      "year": 1962,
+      "lang_class": "CZ_NATIVE",
+      "prehrajto_video_id": 24131500,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T02:12:26Z",
+      "status": "processing",
+      "size_bytes": 1725670693,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 43.6,
+        "upload_sec": 61.4,
+        "total_sec": 105.9
+      }
+    },
+    {
+      "sledujteto_file_id": 100172,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 30303,
+      "cr_slug": "stvoreni-sveta",
+      "title": "Stvoření světa",
+      "year": 1958,
+      "lang_class": "CZ_NATIVE",
+      "prehrajto_video_id": 24131519,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T02:15:35Z",
+      "status": "processing",
+      "size_bytes": 3000327614,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 78.0,
+        "upload_sec": 109.8,
+        "total_sec": 189.1
+      }
+    },
+    {
+      "sledujteto_file_id": 73821,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 30116,
+      "cr_slug": "neuveritelny-zmensujici-se-muz",
+      "title": "Neuvěřitelný zmenšující se muž",
+      "year": 1957,
+      "lang_class": "CZ_NATIVE",
+      "prehrajto_video_id": 24131568,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T02:20:08Z",
+      "status": "processing",
+      "size_bytes": 4027365831,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 105.4,
+        "upload_sec": 166.4,
+        "total_sec": 273.2
+      }
+    },
+    {
+      "sledujteto_file_id": 89865,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 30159,
+      "cr_slug": "trojska-helena",
+      "title": "Trojská Helena",
+      "year": 1956,
+      "lang_class": "SK_DUB",
+      "prehrajto_video_id": 24131659,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T02:22:56Z",
+      "status": "processing",
+      "size_bytes": 2835275900,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 70.4,
+        "upload_sec": 96.3,
+        "total_sec": 167.8
+      }
+    },
+    {
+      "sledujteto_file_id": 101862,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 30353,
+      "cr_slug": "flesh-and-the-spur",
+      "title": "Flesh and the Spur",
+      "year": 1956,
+      "lang_class": "EN",
+      "prehrajto_video_id": 24131724,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T02:25:57Z",
+      "status": "processing",
+      "size_bytes": 2388906742,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 62.3,
+        "upload_sec": 117.7,
+        "total_sec": 181.2
+      }
+    },
+    {
+      "sledujteto_file_id": 30805,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31183,
+      "cr_slug": "osudy-dobreho-vojaka-svejka-z-hatvanu-na-hranice-halice",
+      "title": "Osudy dobrého vojáka Švejka – Z Hatvanu na hranice Haliče",
+      "year": 1954,
+      "lang_class": "CZ_NATIVE",
+      "prehrajto_video_id": 24131760,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T02:27:04Z",
+      "status": "processing",
+      "size_bytes": 976330250,
+      "timing": {
+        "cdn_resolve_sec": 0.6,
+        "download_sec": 26.6,
+        "upload_sec": 39.4,
+        "total_sec": 66.7
+      }
+    },
+    {
+      "sledujteto_file_id": 97862,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 30175,
+      "cr_slug": "ocelova-prilba",
+      "title": "Ocelová přilba",
+      "year": 1951,
+      "lang_class": "CZ_NATIVE",
+      "prehrajto_video_id": 24131771,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T02:27:51Z",
+      "status": "processing",
+      "size_bytes": 583146166,
+      "timing": {
+        "cdn_resolve_sec": 0.5,
+        "download_sec": 16.4,
+        "upload_sec": 30.5,
+        "total_sec": 47.5
+      }
+    },
+    {
+      "sledujteto_file_id": 102435,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 30389,
+      "cr_slug": "mule-train",
+      "title": "Mule Train",
+      "year": 1950,
+      "lang_class": "EN",
+      "prehrajto_video_id": 24131781,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T02:28:35Z",
+      "status": "processing",
+      "size_bytes": 525836045,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 14.9,
+        "upload_sec": 28.5,
+        "total_sec": 44.1
+      }
+    },
+    {
+      "sledujteto_file_id": 34470,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 30547,
+      "cr_slug": "painkiller-jane",
+      "title": "Painkiller Jane",
+      "year": null,
+      "lang_class": "UNKNOWN",
+      "prehrajto_video_id": 24131791,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T02:28:54Z",
+      "status": "processing",
+      "size_bytes": 249461787,
+      "timing": {
+        "cdn_resolve_sec": 0.5,
+        "download_sec": 7.9,
+        "upload_sec": 10.0,
+        "total_sec": 18.4
+      }
+    },
+    {
+      "sledujteto_file_id": 21997,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 31389,
+      "cr_slug": "kosh",
+      "title": "Kosh",
+      "year": null,
+      "lang_class": "UNKNOWN",
+      "prehrajto_video_id": 24131808,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T02:30:01Z",
+      "status": "processing",
+      "size_bytes": 1023107242,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 27.6,
+        "upload_sec": 38.2,
+        "total_sec": 66.7
+      }
+    },
+    {
+      "sledujteto_file_id": 27191,
+      "sledujteto_cdn": "data10",
+      "cr_film_id": 31511,
+      "cr_slug": "rd",
+      "title": "RD",
+      "year": null,
+      "lang_class": "EN",
+      "prehrajto_video_id": 24131853,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T02:32:10Z",
+      "status": "processing",
+      "size_bytes": 1962475100,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 52.1,
+        "upload_sec": 76.7,
+        "total_sec": 129.8
+      }
+    },
+    {
+      "sledujteto_file_id": 90905,
+      "sledujteto_cdn": "data11",
+      "cr_film_id": 31548,
+      "cr_slug": "holcici-kapela",
+      "title": "Holčičí kapela",
+      "year": null,
+      "lang_class": "CZ_NATIVE",
+      "prehrajto_video_id": 24131880,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T02:32:26Z",
+      "status": "processing",
+      "size_bytes": 192856766,
+      "timing": {
+        "cdn_resolve_sec": 0.5,
+        "download_sec": 6.4,
+        "upload_sec": 8.8,
+        "total_sec": 15.8
       }
     }
   ],
