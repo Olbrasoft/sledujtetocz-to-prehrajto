@@ -5800,3 +5800,1109 @@
 [21:24:51] step=iteration 1/100
 [21:24:51] step=batch-end backlog vyčerpán
 [21:24:51] step=batch-end succeeded=0 failed=0 total_uploads=517 batch_dur=0.0s avg_per_film=0s backlog_remaining=119 eta_hours=None
+
+===== run 2026-04-23T22:46:13Z batch_size=100 lang=ALL (https://github.com/Olbrasoft/sledujtetocz-to-prehrajto/actions/runs/24862645083) =====
+[22:46:14] step=batch-start count=100 backlog=636 uploads=522 moderated=1
+[22:46:14] step=login
+[22:46:15] step=login done
+[22:46:15] step=iteration 1/100
+[22:46:15] step=film start upload_id=75264 cr_film_id=31480 name='The Captives (2024) EN SK titulky'
+[22:46:15] step=cdn-resolve upload_id=75264 cdn=data11
+[22:46:16] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/10a05ef4bf0f6d74a03bccafbe7d1cff
+[22:46:16] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/10a05ef4bf0f6d74a03bccafbe7d1cff
+[22:46:58] step=download done upload_id=75264 size=1372647052 dur=41.6s speed=33.0MB/s
+[22:46:58] step=upload start upload_id=75264 size=1372647052
+[22:47:54] step=upload done upload_id=75264 video_id=24129122 dur=56.5s speed=24.3MB/s
+[22:47:54] step=cleanup unlinked The Captives (2024) EN SK titulky.mp4
+[22:47:54] step=film done upload_id=75264 total=99.1s (cdn=0.8s + download=41.6s + upload=56.5s)
+[22:47:54] step=state-saved upload_id=75264 (total uploads=523)
+[22:47:54] step=iteration 2/100
+[22:47:54] step=film start upload_id=98367 cr_film_id=31492 name='Arakain: 40 – O2 Universum (2024) EN'
+[22:47:54] step=cdn-resolve upload_id=98367 cdn=data10
+[22:47:55] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/59d74ce61c29bdf6c2f3ffd96a75ae46
+[22:47:55] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/59d74ce61c29bdf6c2f3ffd96a75ae46
+[22:49:38] step=download done upload_id=98367 size=3275455541 dur=103.3s speed=31.7MB/s
+[22:49:38] step=upload start upload_id=98367 size=3275455541
+[22:52:07] step=upload done upload_id=98367 video_id=24129153 dur=149.0s speed=22.0MB/s
+[22:52:08] step=cleanup unlinked Arakain: 40 – O2 Universum (2024) EN.mp4
+[22:52:08] step=film done upload_id=98367 total=253.6s (cdn=0.8s + download=103.3s + upload=149.0s)
+[22:52:08] step=state-saved upload_id=98367 (total uploads=524)
+[22:52:08] step=iteration 3/100
+[22:52:08] step=film start upload_id=81873 cr_film_id=31513 name='Salt Skin (2024) SK'
+[22:52:08] step=cdn-resolve upload_id=81873 cdn=data10
+[22:52:09] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/7cfea0d6dd8e327ec0cd2e47e5982809
+[22:52:09] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/7cfea0d6dd8e327ec0cd2e47e5982809
+[22:53:13] step=download done upload_id=81873 size=2011017459 dur=64.4s speed=31.2MB/s
+[22:53:13] step=upload start upload_id=81873 size=2011017459
+[22:54:51] step=upload done upload_id=81873 video_id=24129191 dur=97.5s speed=20.6MB/s
+[22:54:51] step=cleanup unlinked Salt Skin (2024) SK.mp4
+[22:54:51] step=film done upload_id=81873 total=163.0s (cdn=0.9s + download=64.4s + upload=97.5s)
+[22:54:51] step=state-saved upload_id=81873 (total uploads=525)
+[22:54:51] step=iteration 4/100
+[22:54:51] step=film start upload_id=80405 cr_film_id=31316 name='Osudová láska (2023) SK'
+[22:54:51] step=cdn-resolve upload_id=80405 cdn=data11
+[22:54:52] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/7c70d0581b683f8e117ff25cdf43690d
+[22:54:52] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/7c70d0581b683f8e117ff25cdf43690d
+[22:55:56] step=download done upload_id=80405 size=2141574218 dur=64.0s speed=33.5MB/s
+[22:55:56] step=upload start upload_id=80405 size=2141574218
+[22:57:24] step=upload done upload_id=80405 video_id=24129213 dur=88.8s speed=24.1MB/s
+[22:57:25] step=cleanup unlinked Osudová láska (2023) SK.mp4
+[22:57:25] step=film done upload_id=80405 total=153.9s (cdn=0.8s + download=64.0s + upload=88.8s)
+[22:57:25] step=state-saved upload_id=80405 (total uploads=526)
+[22:57:25] step=iteration 5/100
+[22:57:25] step=film start upload_id=71751 cr_film_id=31329 name='Československá pohádka (2023) CZ'
+[22:57:25] step=cdn-resolve upload_id=71751 cdn=data11
+[22:57:26] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/b4db16c3e48da4285fdca106868b8ef7
+[22:57:26] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/b4db16c3e48da4285fdca106868b8ef7
+[22:59:54] step=download done upload_id=71751 size=4136380251 dur=148.3s speed=27.9MB/s
+[22:59:54] step=upload start upload_id=71751 size=4136380251
+[23:03:02] step=upload done upload_id=71751 video_id=24129250 dur=188.3s speed=22.0MB/s
+[23:03:03] step=cleanup unlinked Československá pohádka (2023) CZ.mp4
+[23:03:03] step=film done upload_id=71751 total=338.0s (cdn=0.9s + download=148.3s + upload=188.3s)
+[23:03:03] step=state-saved upload_id=71751 (total uploads=527)
+[23:03:03] step=iteration 6/100
+[23:03:03] step=film start upload_id=59811 cr_film_id=31339 name='Vzplanutí na Rye Lane (2023) EN CZ titulky'
+[23:03:03] step=cdn-resolve upload_id=59811 cdn=data11
+[23:03:04] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/37a154b9ed272e5725fcf3e89b5cf8e5
+[23:03:04] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/37a154b9ed272e5725fcf3e89b5cf8e5
+[23:03:54] step=download done upload_id=59811 size=1681964271 dur=50.6s speed=33.2MB/s
+[23:03:54] step=upload start upload_id=59811 size=1681964271
+[23:05:37] step=upload done upload_id=59811 video_id=24129294 dur=102.8s speed=16.4MB/s
+[23:05:37] step=cleanup unlinked Vzplanutí na Rye Lane (2023) EN CZ titulky.mp4
+[23:05:37] step=film done upload_id=59811 total=154.4s (cdn=0.8s + download=50.6s + upload=102.8s)
+[23:05:37] step=state-saved upload_id=59811 (total uploads=528)
+[23:05:37] step=iteration 7/100
+[23:05:37] step=film start upload_id=68766 cr_film_id=31365 name='Malicious (2023) EN SK titulky'
+[23:05:37] step=cdn-resolve upload_id=68766 cdn=data11
+[23:05:38] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/8df07c59cb9e21ddff648bf92086d6b6
+[23:05:38] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/8df07c59cb9e21ddff648bf92086d6b6
+[23:06:12] step=download done upload_id=68766 size=1101962235 dur=34.4s speed=32.0MB/s
+[23:06:12] step=upload start upload_id=68766 size=1101962235
+[23:07:06] step=upload done upload_id=68766 video_id=24129313 dur=53.5s speed=20.6MB/s
+[23:07:06] step=cleanup unlinked Malicious (2023) EN SK titulky.mp4
+[23:07:06] step=film done upload_id=68766 total=88.9s (cdn=0.8s + download=34.4s + upload=53.5s)
+[23:07:06] step=state-saved upload_id=68766 (total uploads=529)
+[23:07:06] step=iteration 8/100
+[23:07:06] step=film start upload_id=61208 cr_film_id=31375 name='The Swan Princess: A Fairytale is Born (2023) EN CZ titulky'
+[23:07:06] step=cdn-resolve upload_id=61208 cdn=data11
+[23:07:07] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/add5cbf16173981b5f6599a5421118d6
+[23:07:07] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/add5cbf16173981b5f6599a5421118d6
+[23:08:02] step=download done upload_id=61208 size=1799765507 dur=55.5s speed=32.4MB/s
+[23:08:02] step=upload start upload_id=61208 size=1799765507
+[23:09:46] step=upload done upload_id=61208 video_id=24129331 dur=103.5s speed=17.4MB/s
+[23:09:46] step=cleanup unlinked The Swan Princess: A Fairytale is Born (2023) EN CZ titulky.mp4
+[23:09:46] step=film done upload_id=61208 total=160.0s (cdn=0.7s + download=55.5s + upload=103.5s)
+[23:09:46] step=state-saved upload_id=61208 (total uploads=530)
+[23:09:46] step=iteration 9/100
+[23:09:46] step=film start upload_id=70528 cr_film_id=31388 name='Sergeant (2023) EN'
+[23:09:46] step=cdn-resolve upload_id=70528 cdn=data10
+[23:09:47] step=cdn-resolve done 0.7s → https://data10.sledujteto.cz/player/index/sledujteto/ab827baf49ade9c4f375e48c24892571
+[23:09:47] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/ab827baf49ade9c4f375e48c24892571
+[23:11:37] step=download done upload_id=70528 size=3539615056 dur=110.3s speed=32.1MB/s
+[23:11:37] step=upload start upload_id=70528 size=3539615056
+[23:14:16] step=upload done upload_id=70528 video_id=24129365 dur=158.8s speed=22.3MB/s
+[23:14:16] step=cleanup unlinked Sergeant (2023) EN.mp4
+[23:14:16] step=film done upload_id=70528 total=270.3s (cdn=0.7s + download=110.3s + upload=158.8s)
+[23:14:16] step=state-saved upload_id=70528 (total uploads=531)
+[23:14:16] step=iteration 10/100
+[23:14:16] step=film start upload_id=66268 cr_film_id=31244 name='Oblak v podkroví (2022) SK'
+[23:14:16] step=cdn-resolve upload_id=66268 cdn=data11
+[23:14:17] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/fce0592bdb124978a9e56097b0d96c50
+[23:14:17] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/fce0592bdb124978a9e56097b0d96c50
+[23:15:34] step=download done upload_id=66268 size=2551825506 dur=77.5s speed=32.9MB/s
+[23:15:34] step=upload start upload_id=66268 size=2551825506
+[23:17:27] step=upload done upload_id=66268 video_id=24129407 dur=113.0s speed=22.6MB/s
+[23:17:28] step=cleanup unlinked Oblak v podkroví (2022) SK.mp4
+[23:17:28] step=film done upload_id=66268 total=191.4s (cdn=0.6s + download=77.5s + upload=113.0s)
+[23:17:28] step=state-saved upload_id=66268 (total uploads=532)
+[23:17:28] step=iteration 11/100
+[23:17:28] step=film start upload_id=50754 cr_film_id=31270 name='Solo Luis de Pablo (2022) EN'
+[23:17:28] step=cdn-resolve upload_id=50754 cdn=data10
+[23:17:29] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/a448bc76b7503712ea20ee134cdf4fc3
+[23:17:29] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/a448bc76b7503712ea20ee134cdf4fc3
+[23:17:41] step=download done upload_id=50754 size=310956411 dur=12.6s speed=24.7MB/s
+[23:17:41] step=upload start upload_id=50754 size=310956411
+[23:18:00] step=upload done upload_id=50754 video_id=24129423 dur=18.5s speed=16.8MB/s
+[23:18:00] step=cleanup unlinked Solo Luis de Pablo (2022) EN.mp4
+[23:18:00] step=film done upload_id=50754 total=32.1s (cdn=1.0s + download=12.6s + upload=18.5s)
+[23:18:00] step=state-saved upload_id=50754 (total uploads=533)
+[23:18:00] step=iteration 12/100
+[23:18:00] step=film start upload_id=74985 cr_film_id=31335 name='Černí Češi (2022) CZ'
+[23:18:00] step=cdn-resolve upload_id=74985 cdn=data10
+[23:18:01] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/7f55ac58db9565e5a5a2a08f8ce8b4e0
+[23:18:01] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/7f55ac58db9565e5a5a2a08f8ce8b4e0
+[23:18:52] step=download done upload_id=74985 size=1538933018 dur=50.8s speed=30.3MB/s
+[23:18:52] step=upload start upload_id=74985 size=1538933018
+[23:20:08] step=upload done upload_id=74985 video_id=24129432 dur=76.3s speed=20.2MB/s
+[23:20:08] step=cleanup unlinked Černí Češi (2022) CZ.mp4
+[23:20:08] step=film done upload_id=74985 total=128.2s (cdn=1.0s + download=50.8s + upload=76.3s)
+[23:20:08] step=state-saved upload_id=74985 (total uploads=534)
+[23:20:08] step=iteration 13/100
+[23:20:08] step=film start upload_id=58121 cr_film_id=31359 name='Smejko a Tanculienka: Zaber a makaj! (2022) SK'
+[23:20:08] step=cdn-resolve upload_id=58121 cdn=data11
+[23:20:09] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/1bafb4dbbf1a3cf556db7660231fe8f2
+[23:20:09] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/1bafb4dbbf1a3cf556db7660231fe8f2
+[23:20:28] step=download done upload_id=58121 size=568356757 dur=19.0s speed=29.9MB/s
+[23:20:28] step=upload start upload_id=58121 size=568356757
+[23:20:56] step=upload done upload_id=58121 video_id=24129444 dur=28.1s speed=20.2MB/s
+[23:20:56] step=cleanup unlinked Smejko a Tanculienka: Zaber a makaj! (2022) SK.mp4
+[23:20:56] step=film done upload_id=58121 total=47.9s (cdn=0.7s + download=19.0s + upload=28.1s)
+[23:20:56] step=state-saved upload_id=58121 (total uploads=535)
+[23:20:56] step=iteration 14/100
+[23:20:56] step=film start upload_id=59111 cr_film_id=31171 name='Jak jsem se stala partyzánkou (2021) SK'
+[23:20:56] step=cdn-resolve upload_id=59111 cdn=data11
+[23:20:57] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/9762dd6f0f809eca057515b383ad2c91
+[23:20:57] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/9762dd6f0f809eca057515b383ad2c91
+[23:21:45] step=download done upload_id=59111 size=1564271331 dur=48.2s speed=32.5MB/s
+[23:21:45] step=upload start upload_id=59111 size=1564271331
+[23:22:48] step=upload done upload_id=59111 video_id=24129454 dur=63.3s speed=24.7MB/s
+[23:22:48] step=cleanup unlinked Jak jsem se stala partyzánkou (2021) SK.mp4
+[23:22:48] step=film done upload_id=59111 total=112.4s (cdn=0.7s + download=48.2s + upload=63.3s)
+[23:22:49] step=state-saved upload_id=59111 (total uploads=536)
+[23:22:49] step=iteration 15/100
+[23:22:49] step=film start upload_id=78359 cr_film_id=31175 name='Maschile singolare (2021) IT'
+[23:22:49] step=cdn-resolve upload_id=78359 cdn=data10
+[23:22:49] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/21c758df38e2dc53fae74d7b2504d9cd
+[23:22:49] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/21c758df38e2dc53fae74d7b2504d9cd
+[23:23:30] step=download done upload_id=78359 size=1220426178 dur=40.1s speed=30.4MB/s
+[23:23:30] step=upload start upload_id=78359 size=1220426178
+[23:24:22] step=upload done upload_id=78359 video_id=24129464 dur=52.2s speed=23.4MB/s
+[23:24:22] step=cleanup unlinked Maschile singolare (2021) IT.mp4
+[23:24:22] step=film done upload_id=78359 total=93.4s (cdn=0.9s + download=40.1s + upload=52.2s)
+[23:24:22] step=state-saved upload_id=78359 (total uploads=537)
+[23:24:22] step=iteration 16/100
+[23:24:22] step=film start upload_id=60290 cr_film_id=31200 name='Dvě ženy (2021) SK'
+[23:24:22] step=cdn-resolve upload_id=60290 cdn=data11
+[23:24:23] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/f2be049f33eba79fb561c86563ea172c
+[23:24:23] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/f2be049f33eba79fb561c86563ea172c
+[23:25:27] step=download done upload_id=60290 size=2165893374 dur=64.6s speed=33.5MB/s
+[23:25:27] step=upload start upload_id=60290 size=2165893374
+[23:27:03] step=upload done upload_id=60290 video_id=24129479 dur=96.0s speed=22.6MB/s
+[23:27:03] step=cleanup unlinked Dvě ženy (2021) SK.mp4
+[23:27:03] step=film done upload_id=60290 total=161.6s (cdn=0.8s + download=64.6s + upload=96.0s)
+[23:27:03] step=state-saved upload_id=60290 (total uploads=538)
+[23:27:03] step=iteration 17/100
+[23:27:03] step=film start upload_id=56494 cr_film_id=31215 name='Halsey: If I Can't Have Love, I Want Power - Global Performance Experience (2021) EN SK titulky'
+[23:27:03] step=cdn-resolve upload_id=56494 cdn=data11
+[23:27:04] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/94c5e03b49dd7520dfb58688aca5782c
+[23:27:04] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/94c5e03b49dd7520dfb58688aca5782c
+[23:27:37] step=download done upload_id=56494 size=1024578077 dur=32.4s speed=31.6MB/s
+[23:27:37] step=upload start upload_id=56494 size=1024578077
+[23:28:29] step=upload done upload_id=56494 video_id=24129494 dur=52.2s speed=19.6MB/s
+[23:28:29] step=cleanup unlinked Halsey: If I Can't Have Love, I Want Power - Global Performance Experience (2021) EN SK titulky.mp4
+[23:28:29] step=film done upload_id=56494 total=85.4s (cdn=0.7s + download=32.4s + upload=52.2s)
+[23:28:29] step=state-saved upload_id=56494 (total uploads=539)
+[23:28:29] step=iteration 18/100
+[23:28:29] step=film start upload_id=89548 cr_film_id=30998 name='Žíly světa (2020) SK'
+[23:28:29] step=cdn-resolve upload_id=89548 cdn=data11
+[23:28:30] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/aee5ba321f8d9cbf15cb83442779dc4f
+[23:28:30] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/aee5ba321f8d9cbf15cb83442779dc4f
+[23:29:04] step=download done upload_id=89548 size=1102103872 dur=34.8s speed=31.7MB/s
+[23:29:04] step=upload start upload_id=89548 size=1102103872
+[23:29:49] step=upload done upload_id=89548 video_id=24129502 dur=44.8s speed=24.6MB/s
+[23:29:49] step=cleanup unlinked Žíly světa (2020) SK.mp4
+[23:29:49] step=film done upload_id=89548 total=80.5s (cdn=0.7s + download=34.8s + upload=44.8s)
+[23:29:49] step=state-saved upload_id=89548 (total uploads=540)
+[23:29:49] step=iteration 19/100
+[23:29:49] step=film start upload_id=39349 cr_film_id=31112 name='The Real Right Stuff (2020) EN SK titulky'
+[23:29:49] step=cdn-resolve upload_id=39349 cdn=data11
+[23:29:50] step=cdn-resolve done 0.5s → https://data11.sledujteto.cz/player/index/sledujteto/e17f258678d5d1a05d5a878a4ff4b869
+[23:29:50] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/e17f258678d5d1a05d5a878a4ff4b869
+[23:30:46] step=download done upload_id=39349 size=1823000160 dur=55.8s speed=32.7MB/s
+[23:30:46] step=upload start upload_id=39349 size=1823000160
+[23:32:05] step=upload done upload_id=39349 video_id=24129523 dur=79.6s speed=22.9MB/s
+[23:32:06] step=cleanup unlinked The Real Right Stuff (2020) EN SK titulky.mp4
+[23:32:06] step=film done upload_id=39349 total=136.1s (cdn=0.5s + download=55.8s + upload=79.6s)
+[23:32:06] step=state-saved upload_id=39349 (total uploads=541)
+[23:32:06] step=iteration 20/100
+[23:32:06] step=film start upload_id=86278 cr_film_id=31282 name='Molly z Denali a Velká hora (2020) SK'
+[23:32:06] step=cdn-resolve upload_id=86278 cdn=data11
+[23:32:06] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/acb58a41b564b11ffbd383642701a7f2
+[23:32:06] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/acb58a41b564b11ffbd383642701a7f2
+[23:32:28] step=download done upload_id=86278 size=663692098 dur=21.5s speed=30.9MB/s
+[23:32:28] step=upload start upload_id=86278 size=663692098
+[23:33:03] step=upload done upload_id=86278 video_id=24129531 dur=35.6s speed=18.6MB/s
+[23:33:03] step=cleanup unlinked Molly z Denali a Velká hora (2020) SK.mp4
+[23:33:03] step=film done upload_id=86278 total=57.9s (cdn=0.7s + download=21.5s + upload=35.6s)
+[23:33:03] step=state-saved upload_id=86278 (total uploads=542)
+[23:33:03] step=iteration 21/100
+[23:33:03] step=film start upload_id=24229 cr_film_id=30815 name='Kalank (2019) EN SK titulky'
+[23:33:03] step=cdn-resolve upload_id=24229 cdn=data10
+[23:33:04] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/0a0cfd8cc6055e3d9edbaaf445e35727
+[23:33:04] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/0a0cfd8cc6055e3d9edbaaf445e35727
+[23:34:18] step=download done upload_id=24229 size=2278149432 dur=73.9s speed=30.8MB/s
+[23:34:18] step=upload start upload_id=24229 size=2278149432
+[23:36:06] step=upload done upload_id=24229 video_id=24129546 dur=108.0s speed=21.1MB/s
+[23:36:06] step=cleanup unlinked Kalank (2019) EN SK titulky.mp4
+[23:36:06] step=film done upload_id=24229 total=183.0s (cdn=0.9s + download=73.9s + upload=108.0s)
+[23:36:06] step=state-saved upload_id=24229 (total uploads=543)
+[23:36:06] step=iteration 22/100
+[23:36:06] step=film start upload_id=44716 cr_film_id=30866 name='MatiAnak (2019) EN SK titulky'
+[23:36:06] step=cdn-resolve upload_id=44716 cdn=data11
+[23:36:07] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/ff1d57cb368afa7fbd6d770aabe72927
+[23:36:07] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/ff1d57cb368afa7fbd6d770aabe72927
+[23:36:52] step=download done upload_id=44716 size=1440621036 dur=44.6s speed=32.3MB/s
+[23:36:52] step=upload start upload_id=44716 size=1440621036
+[23:37:51] step=upload done upload_id=44716 video_id=24129558 dur=59.3s speed=24.3MB/s
+[23:37:51] step=cleanup unlinked MatiAnak (2019) EN SK titulky.mp4
+[23:37:51] step=film done upload_id=44716 total=104.7s (cdn=0.6s + download=44.6s + upload=59.3s)
+[23:37:51] step=state-saved upload_id=44716 (total uploads=544)
+[23:37:51] step=iteration 23/100
+[23:37:51] step=film start upload_id=26007 cr_film_id=30963 name='Karel Gott – Zůstanu svůj (2019) CZ'
+[23:37:51] step=cdn-resolve upload_id=26007 cdn=data11
+[23:37:52] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/788202091b67ff50a0b3273f19cf8972
+[23:37:52] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/788202091b67ff50a0b3273f19cf8972
+[23:39:22] step=download done upload_id=26007 size=3054181909 dur=89.9s speed=34.0MB/s
+[23:39:22] step=upload start upload_id=26007 size=3054181909
+[23:41:50] step=upload done upload_id=26007 video_id=24129573 dur=148.8s speed=20.5MB/s
+[23:41:51] step=cleanup unlinked Karel Gott – Zůstanu svůj (2019) CZ.mp4
+[23:41:51] step=film done upload_id=26007 total=239.7s (cdn=0.7s + download=89.9s + upload=148.8s)
+[23:41:51] step=state-saved upload_id=26007 (total uploads=545)
+[23:41:51] step=iteration 24/100
+[23:41:51] step=film start upload_id=59285 cr_film_id=30968 name='Wiener Blut (2019) SK'
+[23:41:51] step=cdn-resolve upload_id=59285 cdn=data11
+[23:41:52] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/a560d17a4b165e0d948384bf53ee9bad
+[23:41:52] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a560d17a4b165e0d948384bf53ee9bad
+[23:43:06] step=download done upload_id=59285 size=2450211578 dur=74.4s speed=32.9MB/s
+[23:43:06] step=upload start upload_id=59285 size=2450211578
+[23:44:48] step=upload done upload_id=59285 video_id=24129597 dur=101.9s speed=24.0MB/s
+[23:44:48] step=cleanup unlinked Wiener Blut (2019) SK.mp4
+[23:44:48] step=film done upload_id=59285 total=177.2s (cdn=0.6s + download=74.4s + upload=101.9s)
+[23:44:48] step=state-saved upload_id=59285 (total uploads=546)
+[23:44:48] step=iteration 25/100
+[23:44:48] step=film start upload_id=95505 cr_film_id=31028 name='ABBA: vítěz bere vše (2019) CZ'
+[23:44:48] step=cdn-resolve upload_id=95505 cdn=data10
+[23:44:49] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/49591ea334a8ecad24c33d49db0b3920
+[23:44:49] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/49591ea334a8ecad24c33d49db0b3920
+[23:45:51] step=download done upload_id=95505 size=1886353775 dur=61.8s speed=30.5MB/s
+[23:45:51] step=upload start upload_id=95505 size=1886353775
+[23:47:07] step=upload done upload_id=95505 video_id=24129618 dur=76.6s speed=24.6MB/s
+[23:47:08] step=cleanup unlinked ABBA: vítěz bere vše (2019) CZ.mp4
+[23:47:08] step=film done upload_id=95505 total=139.5s (cdn=0.8s + download=61.8s + upload=76.6s)
+[23:47:08] step=state-saved upload_id=95505 (total uploads=547)
+[23:47:08] step=iteration 26/100
+[23:47:08] step=film start upload_id=102117 cr_film_id=31252 name='Ocean (2019) EN'
+[23:47:08] step=cdn-resolve upload_id=102117 cdn=data10
+[23:47:09] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/335f7b28720eba0d79ead2f02edeecd6
+[23:47:09] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/335f7b28720eba0d79ead2f02edeecd6
+[23:47:11] step=download done upload_id=102117 size=17520898 dur=2.7s speed=6.5MB/s
+[23:47:11] step=upload start upload_id=102117 size=17520898
+[23:47:15] step=upload done upload_id=102117 video_id=24129631 dur=3.3s speed=5.3MB/s
+[23:47:15] step=cleanup unlinked Ocean (2019) EN.mp4
+[23:47:15] step=film done upload_id=102117 total=6.9s (cdn=0.9s + download=2.7s + upload=3.3s)
+[23:47:15] step=state-saved upload_id=102117 (total uploads=548)
+[23:47:15] step=iteration 27/100
+[23:47:15] step=film start upload_id=56704 cr_film_id=31427 name='Stella (2019) SK'
+[23:47:15] step=cdn-resolve upload_id=56704 cdn=data11
+[23:47:15] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/f57f498407b18470802b1bbac2c33b92
+[23:47:15] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/f57f498407b18470802b1bbac2c33b92
+[23:48:28] step=download done upload_id=56704 size=2423454509 dur=72.4s speed=33.5MB/s
+[23:48:28] step=upload start upload_id=56704 size=2423454509
+[23:50:22] step=upload done upload_id=56704 video_id=24129642 dur=114.4s speed=21.2MB/s
+[23:50:22] step=cleanup unlinked Stella (2019) SK.mp4
+[23:50:22] step=film done upload_id=56704 total=187.7s (cdn=0.6s + download=72.4s + upload=114.4s)
+[23:50:22] step=state-saved upload_id=56704 (total uploads=549)
+[23:50:22] step=iteration 28/100
+[23:50:22] step=film start upload_id=72847 cr_film_id=30621 name='Hannah (2018) EN'
+[23:50:22] step=cdn-resolve upload_id=72847 cdn=data10
+[23:50:23] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/594e570e4c8685d7fd0a780465887f75
+[23:50:23] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/594e570e4c8685d7fd0a780465887f75
+[23:51:14] step=download done upload_id=72847 size=1491389065 dur=50.9s speed=29.3MB/s
+[23:51:14] step=upload start upload_id=72847 size=1491389065
+[23:52:22] step=upload done upload_id=72847 video_id=24129673 dur=67.5s speed=22.1MB/s
+[23:52:22] step=cleanup unlinked Hannah (2018) EN.mp4
+[23:52:22] step=film done upload_id=72847 total=119.5s (cdn=0.9s + download=50.9s + upload=67.5s)
+[23:52:22] step=state-saved upload_id=72847 (total uploads=550)
+[23:52:22] step=iteration 29/100
+[23:52:22] step=film start upload_id=21656 cr_film_id=30641 name='Ánimas (2018) EN SK titulky'
+[23:52:22] step=cdn-resolve upload_id=21656 cdn=data11
+[23:52:23] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/4a16e922a35ebbce89dc038a26f7c096
+[23:52:23] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/4a16e922a35ebbce89dc038a26f7c096
+[23:52:52] step=download done upload_id=21656 size=884254940 dur=29.0s speed=30.5MB/s
+[23:52:52] step=upload start upload_id=21656 size=884254940
+[23:53:44] step=upload done upload_id=21656 video_id=24129711 dur=52.4s speed=16.9MB/s
+[23:53:44] step=cleanup unlinked Ánimas (2018) EN SK titulky.mp4
+[23:53:44] step=film done upload_id=21656 total=82.3s (cdn=0.7s + download=29.0s + upload=52.4s)
+[23:53:44] step=state-saved upload_id=21656 (total uploads=551)
+[23:53:44] step=iteration 30/100
+[23:53:44] step=film start upload_id=68367 cr_film_id=30826 name='Dokud nás smrt nespojí (2018) SK'
+[23:53:44] step=cdn-resolve upload_id=68367 cdn=data10
+[23:53:45] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/90e27ce2557e0669e1d42173648bd5a1
+[23:53:45] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/90e27ce2557e0669e1d42173648bd5a1
+[23:55:39] step=download done upload_id=68367 size=3609701460 dur=114.0s speed=31.7MB/s
+[23:55:39] step=upload start upload_id=68367 size=3609701460
+[23:58:34] step=upload done upload_id=68367 video_id=24129783 dur=174.7s speed=20.7MB/s
+[23:58:34] step=cleanup unlinked Dokud nás smrt nespojí (2018) SK.mp4
+[23:58:34] step=film done upload_id=68367 total=290.0s (cdn=0.8s + download=114.0s + upload=174.7s)
+[23:58:34] step=state-saved upload_id=68367 (total uploads=552)
+[23:58:34] step=iteration 31/100
+[23:58:34] step=film start upload_id=67119 cr_film_id=30638 name='Noc plná zázraků 3 (2017) SK'
+[23:58:34] step=cdn-resolve upload_id=67119 cdn=data11
+[23:58:35] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/fa6b921b1c4f9e895141d723c31a8634
+[23:58:35] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/fa6b921b1c4f9e895141d723c31a8634
+[23:59:30] step=download done upload_id=67119 size=1832717111 dur=55.4s speed=33.1MB/s
+[23:59:30] step=upload start upload_id=67119 size=1832717111
+[00:01:15] step=upload done upload_id=67119 video_id=24129877 dur=104.7s speed=17.5MB/s
+[00:01:15] step=cleanup unlinked Noc plná zázraků 3 (2017) SK.mp4
+[00:01:15] step=film done upload_id=67119 total=161.1s (cdn=0.8s + download=55.4s + upload=104.7s)
+[00:01:15] step=state-saved upload_id=67119 (total uploads=553)
+[00:01:15] step=iteration 32/100
+[00:01:15] step=film start upload_id=77912 cr_film_id=30608 name='Animais (2016) EN'
+[00:01:15] step=cdn-resolve upload_id=77912 cdn=data10
+[00:01:16] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/48af4b213afcaa408d57cd91a68180b3
+[00:01:16] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/48af4b213afcaa408d57cd91a68180b3
+[00:01:52] step=download done upload_id=77912 size=1017830784 dur=35.7s speed=28.5MB/s
+[00:01:52] step=upload start upload_id=77912 size=1017830784
+[00:02:47] step=upload done upload_id=77912 video_id=24129936 dur=55.5s speed=18.3MB/s
+[00:02:47] step=cleanup unlinked Animais (2016) EN.mp4
+[00:02:47] step=film done upload_id=77912 total=92.2s (cdn=0.8s + download=35.7s + upload=55.5s)
+[00:02:48] step=state-saved upload_id=77912 (total uploads=554)
+[00:02:48] step=iteration 33/100
+[00:02:48] step=film start upload_id=98863 cr_film_id=30644 name='Musíme se sejít (2016) CZ'
+[00:02:48] step=cdn-resolve upload_id=98863 cdn=data11
+[00:02:48] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/36b1d2baf1c5013f6bdac06f14e81a84
+[00:02:48] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/36b1d2baf1c5013f6bdac06f14e81a84
+[00:03:57] step=download done upload_id=98863 size=2291750867 dur=69.1s speed=33.2MB/s
+[00:03:57] step=upload start upload_id=98863 size=2291750867
+[00:06:22] step=upload done upload_id=98863 video_id=24129982 dur=144.3s speed=15.9MB/s
+[00:06:22] step=cleanup unlinked Musíme se sejít (2016) CZ.mp4
+[00:06:22] step=film done upload_id=98863 total=214.4s (cdn=0.7s + download=69.1s + upload=144.3s)
+[00:06:22] step=state-saved upload_id=98863 (total uploads=555)
+[00:06:22] step=iteration 34/100
+[00:06:22] step=film start upload_id=2975 cr_film_id=31346 name='Návrat do Osvětimi (2016) CZ'
+[00:06:22] step=cdn-resolve upload_id=2975 cdn=data11
+[00:06:23] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/9937f386596c10536cd4791149192be7
+[00:06:23] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/9937f386596c10536cd4791149192be7
+[00:06:37] step=download done upload_id=2975 size=422034819 dur=14.2s speed=29.7MB/s
+[00:06:37] step=upload start upload_id=2975 size=422034819
+[00:07:29] step=upload done upload_id=2975 video_id=24130031 dur=52.2s speed=8.1MB/s
+[00:07:29] step=cleanup unlinked Návrat do Osvětimi (2016) CZ.mp4
+[00:07:29] step=film done upload_id=2975 total=67.3s (cdn=0.8s + download=14.2s + upload=52.2s)
+[00:07:29] step=state-saved upload_id=2975 (total uploads=556)
+[00:07:29] step=iteration 35/100
+[00:07:29] step=film start upload_id=28000 cr_film_id=31546 name='J2 (2016) EN'
+[00:07:29] step=cdn-resolve upload_id=28000 cdn=data11
+[00:07:30] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/49d6027debf49e5623161e413d97d600
+[00:07:30] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/49d6027debf49e5623161e413d97d600
+[00:08:28] step=download done upload_id=28000 size=1867291214 dur=58.0s speed=32.2MB/s
+[00:08:28] step=upload start upload_id=28000 size=1867291214
+[00:10:45] step=upload done upload_id=28000 video_id=24130063 dur=137.5s speed=13.6MB/s
+[00:10:46] step=cleanup unlinked J2 (2016) EN.mp4
+[00:10:46] step=film done upload_id=28000 total=196.5s (cdn=0.7s + download=58.0s + upload=137.5s)
+[00:10:46] step=state-saved upload_id=28000 (total uploads=557)
+[00:10:46] step=iteration 36/100
+[00:10:46] step=film start upload_id=98297 cr_film_id=30491 name='Modelky s.r.o. (2014) CZ'
+[00:10:46] step=cdn-resolve upload_id=98297 cdn=data11
+[00:10:46] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/bf2781fe8d8f2ec9db377d0249ecccbf
+[00:10:46] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/bf2781fe8d8f2ec9db377d0249ecccbf
+[00:12:18] step=download done upload_id=98297 size=3114447499 dur=91.7s speed=34.0MB/s
+[00:12:18] step=upload start upload_id=98297 size=3114447499
+[00:14:35] step=upload done upload_id=98297 video_id=24130125 dur=137.2s speed=22.7MB/s
+[00:14:36] step=cleanup unlinked Modelky s.r.o. (2014) CZ.mp4
+[00:14:36] step=film done upload_id=98297 total=229.9s (cdn=0.6s + download=91.7s + upload=137.2s)
+[00:14:36] step=state-saved upload_id=98297 (total uploads=558)
+[00:14:36] step=iteration 37/100
+[00:14:36] step=film start upload_id=34424 cr_film_id=31436 name='Liga nepotřebných (2014) CZ'
+[00:14:36] step=cdn-resolve upload_id=34424 cdn=data11
+[00:14:41] step=cdn-resolve done 5.8s → https://data11.sledujteto.cz/player/index/sledujteto/10aadd189d93dde5537b92fc1e1d7e77
+[00:14:41] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/10aadd189d93dde5537b92fc1e1d7e77
+[00:15:05] step=download done upload_id=34424 size=743326777 dur=23.8s speed=31.2MB/s
+[00:15:05] step=upload start upload_id=34424 size=743326777
+[00:15:44] step=upload done upload_id=34424 video_id=24130177 dur=39.4s speed=18.9MB/s
+[00:15:45] step=cleanup unlinked Liga nepotřebných (2014) CZ.mp4
+[00:15:45] step=film done upload_id=34424 total=69.1s (cdn=5.8s + download=23.8s + upload=39.4s)
+[00:15:45] step=state-saved upload_id=34424 (total uploads=559)
+[00:15:45] step=iteration 38/100
+[00:15:45] step=film start upload_id=34460 cr_film_id=30271 name='Neviditelná (2012) DE'
+[00:15:45] step=cdn-resolve upload_id=34460 cdn=data11
+[00:15:45] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/64a842ac77d5ff0bea1f2d53470fc15d
+[00:15:45] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/64a842ac77d5ff0bea1f2d53470fc15d
+[00:16:06] step=download done upload_id=34460 size=632938926 dur=21.2s speed=29.9MB/s
+[00:16:06] step=upload start upload_id=34460 size=632938926
+[00:16:37] step=upload done upload_id=34460 video_id=24130194 dur=30.4s speed=20.8MB/s
+[00:16:37] step=cleanup unlinked Neviditelná (2012) DE.mp4
+[00:16:37] step=film done upload_id=34460 total=52.4s (cdn=0.7s + download=21.2s + upload=30.4s)
+[00:16:37] step=state-saved upload_id=34460 (total uploads=560)
+[00:16:37] step=iteration 39/100
+[00:16:37] step=film start upload_id=101794 cr_film_id=30291 name='Univerzální voják 4: Odplata (2012) CZ'
+[00:16:37] step=cdn-resolve upload_id=101794 cdn=data10
+[00:16:38] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/b154381558cd0db4cffb9d023ed0038e
+[00:16:38] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/b154381558cd0db4cffb9d023ed0038e
+[00:17:21] step=download done upload_id=101794 size=1289315412 dur=43.2s speed=29.8MB/s
+[00:17:21] step=upload start upload_id=101794 size=1289315412
+[00:18:38] step=upload done upload_id=101794 video_id=24130218 dur=77.0s speed=16.7MB/s
+[00:18:38] step=cleanup unlinked Univerzální voják 4: Odplata (2012) CZ.mp4
+[00:18:38] step=film done upload_id=101794 total=121.2s (cdn=0.8s + download=43.2s + upload=77.0s)
+[00:18:38] step=state-saved upload_id=101794 (total uploads=561)
+[00:18:38] step=iteration 40/100
+[00:18:38] step=film start upload_id=56524 cr_film_id=30772 name='FastFix Cvičení 3 (2012) EN'
+[00:18:38] step=cdn-resolve upload_id=56524 cdn=data10
+[00:18:39] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/ee4fdd1a39087287d34e59745cc7e22e
+[00:18:39] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/ee4fdd1a39087287d34e59745cc7e22e
+[00:18:44] step=download done upload_id=56524 size=76072110 dur=4.6s speed=16.5MB/s
+[00:18:44] step=upload start upload_id=56524 size=76072110
+[00:18:50] step=upload done upload_id=56524 video_id=24130239 dur=6.4s speed=11.9MB/s
+[00:18:50] step=cleanup unlinked FastFix Cvičení 3 (2012) EN.mp4
+[00:18:50] step=film done upload_id=56524 total=11.9s (cdn=0.8s + download=4.6s + upload=6.4s)
+[00:18:50] step=state-saved upload_id=56524 (total uploads=562)
+[00:18:50] step=iteration 41/100
+[00:18:50] step=film start upload_id=79913 cr_film_id=30254 name='Barbie a dokonalé Vánoce (2011) CZ'
+[00:18:50] step=cdn-resolve upload_id=79913 cdn=data10
+[00:18:51] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/d14371d6cd3153d97a3094a90889c117
+[00:18:51] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/d14371d6cd3153d97a3094a90889c117
+[00:19:07] step=download done upload_id=79913 size=461871434 dur=15.9s speed=29.0MB/s
+[00:19:07] step=upload start upload_id=79913 size=461871434
+[00:19:28] step=upload done upload_id=79913 video_id=24130243 dur=20.9s speed=22.1MB/s
+[00:19:28] step=cleanup unlinked Barbie a dokonalé Vánoce (2011) CZ.mp4
+[00:19:28] step=film done upload_id=79913 total=37.7s (cdn=0.9s + download=15.9s + upload=20.9s)
+[00:19:28] step=state-saved upload_id=79913 (total uploads=563)
+[00:19:28] step=iteration 42/100
+[00:19:28] step=film start upload_id=96395 cr_film_id=30534 name='Total Detox (2011) EN'
+[00:19:28] step=cdn-resolve upload_id=96395 cdn=data10
+[00:19:29] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/bef1d6c6a0481cd0a3ea4bd3150e7569
+[00:19:29] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/bef1d6c6a0481cd0a3ea4bd3150e7569
+[00:20:29] step=download done upload_id=96395 size=1853090633 dur=60.3s speed=30.7MB/s
+[00:20:29] step=upload start upload_id=96395 size=1853090633
+[00:21:59] step=upload done upload_id=96395 video_id=24130266 dur=90.0s speed=20.6MB/s
+[00:21:59] step=cleanup unlinked Total Detox (2011) EN.mp4
+[00:21:59] step=film done upload_id=96395 total=151.4s (cdn=0.9s + download=60.3s + upload=90.0s)
+[00:21:59] step=state-saved upload_id=96395 (total uploads=564)
+[00:21:59] step=iteration 43/100
+[00:21:59] step=film start upload_id=34433 cr_film_id=30034 name='Max a maxipříšerky (2009) EN'
+[00:21:59] step=cdn-resolve upload_id=34433 cdn=data11
+[00:22:00] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/0f6af684236122fe8a15afbd0a8e4f87
+[00:22:00] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/0f6af684236122fe8a15afbd0a8e4f87
+[00:22:24] step=download done upload_id=34433 size=774721257 dur=24.2s speed=32.0MB/s
+[00:22:24] step=upload start upload_id=34433 size=774721257
+[00:23:05] step=upload done upload_id=34433 video_id=24130297 dur=40.7s speed=19.0MB/s
+[00:23:05] step=cleanup unlinked Max a maxipříšerky (2009) EN.mp4
+[00:23:05] step=film done upload_id=34433 total=65.8s (cdn=0.9s + download=24.2s + upload=40.7s)
+[00:23:05] step=state-saved upload_id=34433 (total uploads=565)
+[00:23:05] step=iteration 44/100
+[00:23:05] step=film start upload_id=34347 cr_film_id=30050 name='Cela 2 (2009) EN'
+[00:23:05] step=cdn-resolve upload_id=34347 cdn=data10
+[00:23:06] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/d6834e43f1baa988115e28674bb503cc
+[00:23:06] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/d6834e43f1baa988115e28674bb503cc
+[00:23:24] step=download done upload_id=34347 size=484721984 dur=18.5s speed=26.2MB/s
+[00:23:24] step=upload start upload_id=34347 size=484721984
+[00:23:47] step=upload done upload_id=34347 video_id=24130308 dur=22.5s speed=21.5MB/s
+[00:23:47] step=cleanup unlinked Cela 2 (2009) EN.mp4
+[00:23:47] step=film done upload_id=34347 total=42.0s (cdn=1.0s + download=18.5s + upload=22.5s)
+[00:23:47] step=state-saved upload_id=34347 (total uploads=566)
+[00:23:47] step=iteration 45/100
+[00:23:47] step=film start upload_id=78346 cr_film_id=30083 name='Eating Out: All You Can Eat (2009) EN'
+[00:23:47] step=cdn-resolve upload_id=78346 cdn=data10
+[00:23:48] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/1c1275a7085223bf5214a073a2bf0d77
+[00:23:48] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/1c1275a7085223bf5214a073a2bf0d77
+[00:24:16] step=download done upload_id=78346 size=821788759 dur=28.5s speed=28.8MB/s
+[00:24:16] step=upload start upload_id=78346 size=821788759
+[00:24:58] step=upload done upload_id=78346 video_id=24130324 dur=41.1s speed=20.0MB/s
+[00:24:58] step=cleanup unlinked Eating Out: All You Can Eat (2009) EN.mp4
+[00:24:58] step=film done upload_id=78346 total=70.6s (cdn=0.9s + download=28.5s + upload=41.1s)
+[00:24:58] step=state-saved upload_id=78346 (total uploads=567)
+[00:24:58] step=iteration 46/100
+[00:24:58] step=film start upload_id=96694 cr_film_id=30086 name='Vánoce přicházejí (2009) CZ'
+[00:24:58] step=cdn-resolve upload_id=96694 cdn=data10
+[00:24:58] step=cdn-resolve done 0.6s → https://data10.sledujteto.cz/player/index/sledujteto/0a24beee2aaf8b1c608ad94392bccdb3
+[00:24:58] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/0a24beee2aaf8b1c608ad94392bccdb3
+[00:25:35] step=download done upload_id=96694 size=944822885 dur=37.1s speed=25.5MB/s
+[00:25:35] step=upload start upload_id=96694 size=944822885
+[00:26:18] step=upload done upload_id=96694 video_id=24130346 dur=42.9s speed=22.0MB/s
+[00:26:18] step=cleanup unlinked Vánoce přicházejí (2009) CZ.mp4
+[00:26:18] step=film done upload_id=96694 total=80.8s (cdn=0.6s + download=37.1s + upload=42.9s)
+[00:26:18] step=state-saved upload_id=96694 (total uploads=568)
+[00:26:18] step=iteration 47/100
+[00:26:18] step=film start upload_id=100294 cr_film_id=31103 name='Pamětnice (2009) EN'
+[00:26:18] step=cdn-resolve upload_id=100294 cdn=data11
+[00:26:19] step=cdn-resolve done 0.9s → https://data11.sledujteto.cz/player/index/sledujteto/7ba1bf3ddcb998d005852172259bdcdd
+[00:26:19] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/7ba1bf3ddcb998d005852172259bdcdd
+[00:27:07] step=download done upload_id=100294 size=1494654230 dur=47.5s speed=31.5MB/s
+[00:27:07] step=upload start upload_id=100294 size=1494654230
+[00:28:11] step=upload done upload_id=100294 video_id=24130365 dur=64.2s speed=23.3MB/s
+[00:28:11] step=cleanup unlinked Pamětnice (2009) EN.mp4
+[00:28:11] step=film done upload_id=100294 total=112.7s (cdn=0.9s + download=47.5s + upload=64.2s)
+[00:28:11] step=state-saved upload_id=100294 (total uploads=569)
+[00:28:11] step=iteration 48/100
+[00:28:11] step=film start upload_id=33716 cr_film_id=30715 name='Sofie a ukradený poklad (2008) CZ'
+[00:28:11] step=cdn-resolve upload_id=33716 cdn=data11
+[00:28:12] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/43c22a57cca0c5d47e74709f2bd396cd
+[00:28:12] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/43c22a57cca0c5d47e74709f2bd396cd
+[00:28:32] step=download done upload_id=33716 size=619594718 dur=20.3s speed=30.5MB/s
+[00:28:32] step=upload start upload_id=33716 size=619594718
+[00:29:00] step=upload done upload_id=33716 video_id=24130389 dur=27.4s speed=22.6MB/s
+[00:29:00] step=cleanup unlinked Sofie a ukradený poklad (2008) CZ.mp4
+[00:29:00] step=film done upload_id=33716 total=48.5s (cdn=0.8s + download=20.3s + upload=27.4s)
+[00:29:00] step=state-saved upload_id=33716 (total uploads=570)
+[00:29:00] step=iteration 49/100
+[00:29:00] step=film start upload_id=97042 cr_film_id=30424 name='Česká mše vánoční (2007) CZ'
+[00:29:00] step=cdn-resolve upload_id=97042 cdn=data10
+[00:29:01] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/33ea77c07ebf6e147dcdd5fd9db0376f
+[00:29:01] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/33ea77c07ebf6e147dcdd5fd9db0376f
+[00:29:36] step=download done upload_id=97042 size=1036501262 dur=35.1s speed=29.5MB/s
+[00:29:36] step=upload start upload_id=97042 size=1036501262
+[00:30:30] step=upload done upload_id=97042 video_id=24130403 dur=54.2s speed=19.1MB/s
+[00:30:30] step=cleanup unlinked Česká mše vánoční (2007) CZ.mp4
+[00:30:30] step=film done upload_id=97042 total=90.2s (cdn=0.9s + download=35.1s + upload=54.2s)
+[00:30:30] step=state-saved upload_id=97042 (total uploads=571)
+[00:30:30] step=iteration 50/100
+[00:30:30] step=film start upload_id=101546 cr_film_id=31163 name='Sadi-Scream Vol. 5 (2007) EN'
+[00:30:30] step=cdn-resolve upload_id=101546 cdn=data11
+[00:30:31] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/a8b2d752d935d91f951664d6aeeaf2a1
+[00:30:31] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a8b2d752d935d91f951664d6aeeaf2a1
+[00:31:51] step=download done upload_id=101546 size=2679468657 dur=80.4s speed=33.3MB/s
+[00:31:51] step=upload start upload_id=101546 size=2679468657
+[00:34:09] step=upload done upload_id=101546 video_id=24130432 dur=137.6s speed=19.5MB/s
+[00:34:09] step=cleanup unlinked Sadi-Scream Vol. 5 (2007) EN.mp4
+[00:34:09] step=film done upload_id=101546 total=219.2s (cdn=0.8s + download=80.4s + upload=137.6s)
+[00:34:09] step=state-saved upload_id=101546 (total uploads=572)
+[00:34:09] step=iteration 51/100
+[00:34:09] step=film start upload_id=78345 cr_film_id=30039 name='Eating Out 2: Sloppy Seconds (2006) EN'
+[00:34:09] step=cdn-resolve upload_id=78345 cdn=data10
+[00:34:10] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/02ec4817f8a03ba4f394d16face07f20
+[00:34:10] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/02ec4817f8a03ba4f394d16face07f20
+[00:34:38] step=download done upload_id=78345 size=794522813 dur=28.3s speed=28.1MB/s
+[00:34:38] step=upload start upload_id=78345 size=794522813
+[00:36:02] step=upload done upload_id=78345 video_id=24130472 dur=83.2s speed=9.5MB/s
+[00:36:02] step=cleanup unlinked Eating Out 2: Sloppy Seconds (2006) EN.mp4
+[00:36:02] step=film done upload_id=78345 total=112.6s (cdn=0.9s + download=28.3s + upload=83.2s)
+[00:36:02] step=state-saved upload_id=78345 (total uploads=573)
+[00:36:02] step=iteration 52/100
+[00:36:02] step=film start upload_id=34390 cr_film_id=30361 name='Jízda smrti (2006) SK'
+[00:36:02] step=cdn-resolve upload_id=34390 cdn=data10
+[00:36:02] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/15e5158c2fbacdf005d9abd24419f773
+[00:36:02] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/15e5158c2fbacdf005d9abd24419f773
+[00:36:16] step=download done upload_id=34390 size=338096201 dur=13.1s speed=25.8MB/s
+[00:36:16] step=upload start upload_id=34390 size=338096201
+[00:36:35] step=upload done upload_id=34390 video_id=24130495 dur=19.1s speed=17.7MB/s
+[00:36:35] step=cleanup unlinked Jízda smrti (2006) SK.mp4
+[00:36:35] step=film done upload_id=34390 total=33.1s (cdn=0.9s + download=13.1s + upload=19.1s)
+[00:36:35] step=state-saved upload_id=34390 (total uploads=574)
+[00:36:35] step=iteration 53/100
+[00:36:35] step=film start upload_id=78351 cr_film_id=30221 name='Cyber Seduction: His Secret Life (2005) EN'
+[00:36:35] step=cdn-resolve upload_id=78351 cdn=data10
+[00:36:36] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/c9dbe67e47f018b50a973b50dd1fd6c9
+[00:36:36] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/c9dbe67e47f018b50a973b50dd1fd6c9
+[00:37:00] step=download done upload_id=78351 size=710983618 dur=24.5s speed=29.0MB/s
+[00:37:00] step=upload start upload_id=78351 size=710983618
+[00:37:35] step=upload done upload_id=78351 video_id=24130507 dur=34.5s speed=20.6MB/s
+[00:37:35] step=cleanup unlinked Cyber Seduction: His Secret Life (2005) EN.mp4
+[00:37:35] step=film done upload_id=78351 total=60.0s (cdn=0.9s + download=24.5s + upload=34.5s)
+[00:37:35] step=state-saved upload_id=78351 (total uploads=575)
+[00:37:35] step=iteration 54/100
+[00:37:35] step=film start upload_id=45346 cr_film_id=29941 name='Nikdo to neví (2004) EN'
+[00:37:35] step=cdn-resolve upload_id=45346 cdn=data11
+[00:37:35] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/10e1c48fe7b559356bbc67035105a7a5
+[00:37:35] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/10e1c48fe7b559356bbc67035105a7a5
+[00:38:24] step=download done upload_id=45346 size=1576911584 dur=48.7s speed=32.4MB/s
+[00:38:24] step=upload start upload_id=45346 size=1576911584
+[00:39:36] step=upload done upload_id=45346 video_id=24130529 dur=72.2s speed=21.8MB/s
+[00:39:37] step=cleanup unlinked Nikdo to neví (2004) EN.mp4
+[00:39:37] step=film done upload_id=45346 total=121.8s (cdn=0.6s + download=48.7s + upload=72.2s)
+[00:39:37] step=state-saved upload_id=45346 (total uploads=576)
+[00:39:37] step=iteration 55/100
+[00:39:37] step=film start upload_id=78344 cr_film_id=30016 name='Eating Out (2004) EN'
+[00:39:37] step=cdn-resolve upload_id=78344 cdn=data10
+[00:39:37] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/b0561c1f3095b8844682cc50acbc7a64
+[00:39:37] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/b0561c1f3095b8844682cc50acbc7a64
+[00:39:53] step=download done upload_id=78344 size=417519963 dur=15.4s speed=27.1MB/s
+[00:39:53] step=upload start upload_id=78344 size=417519963
+[00:40:13] step=upload done upload_id=78344 video_id=24130553 dur=20.2s speed=20.7MB/s
+[00:40:13] step=cleanup unlinked Eating Out (2004) EN.mp4
+[00:40:13] step=film done upload_id=78344 total=36.5s (cdn=0.8s + download=15.4s + upload=20.2s)
+[00:40:13] step=state-saved upload_id=78344 (total uploads=577)
+[00:40:13] step=iteration 56/100
+[00:40:13] step=film start upload_id=78355 cr_film_id=30026 name='Latter Days (2004) EN'
+[00:40:13] step=cdn-resolve upload_id=78355 cdn=data10
+[00:40:14] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/394caedfac787edb54bf8f34b0e964e5
+[00:40:14] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/394caedfac787edb54bf8f34b0e964e5
+[00:40:41] step=download done upload_id=78355 size=772514019 dur=26.7s speed=28.9MB/s
+[00:40:41] step=upload start upload_id=78355 size=772514019
+[00:41:26] step=upload done upload_id=78355 video_id=24130572 dur=45.5s speed=17.0MB/s
+[00:41:26] step=cleanup unlinked Latter Days (2004) EN.mp4
+[00:41:26] step=film done upload_id=78355 total=73.1s (cdn=0.8s + download=26.7s + upload=45.5s)
+[00:41:26] step=state-saved upload_id=78355 (total uploads=578)
+[00:41:26] step=iteration 57/100
+[00:41:26] step=film start upload_id=89597 cr_film_id=30174 name='Mistři (2004) CZ'
+[00:41:26] step=cdn-resolve upload_id=89597 cdn=data10
+[00:41:27] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/d29275846da87c4ac8f16d00430d590a
+[00:41:27] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/d29275846da87c4ac8f16d00430d590a
+[00:42:30] step=download done upload_id=89597 size=1992163025 dur=63.1s speed=31.6MB/s
+[00:42:30] step=upload start upload_id=89597 size=1992163025
+[00:44:18] step=upload done upload_id=89597 video_id=24130595 dur=107.4s speed=18.5MB/s
+[00:44:18] step=cleanup unlinked Mistři (2004) CZ.mp4
+[00:44:18] step=film done upload_id=89597 total=171.7s (cdn=0.9s + download=63.1s + upload=107.4s)
+[00:44:18] step=state-saved upload_id=89597 (total uploads=579)
+[00:44:18] step=iteration 58/100
+[00:44:18] step=film start upload_id=79330 cr_film_id=30292 name='Vaterland – lovecký deník (2004) CZ'
+[00:44:18] step=cdn-resolve upload_id=79330 cdn=data10
+[00:44:19] step=cdn-resolve done 0.7s → https://data10.sledujteto.cz/player/index/sledujteto/0decf9ea8a84da90eb217e83fbd87227
+[00:44:19] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/0decf9ea8a84da90eb217e83fbd87227
+[00:45:43] step=download done upload_id=79330 size=2679917990 dur=84.3s speed=31.8MB/s
+[00:45:43] step=upload start upload_id=79330 size=2679917990
+[00:47:47] step=upload done upload_id=79330 video_id=24130628 dur=124.1s speed=21.6MB/s
+[00:47:47] step=cleanup unlinked Vaterland – lovecký deník (2004) CZ.mp4
+[00:47:47] step=film done upload_id=79330 total=209.5s (cdn=0.7s + download=84.3s + upload=124.1s)
+[00:47:47] step=state-saved upload_id=79330 (total uploads=580)
+[00:47:47] step=iteration 59/100
+[00:47:47] step=film start upload_id=34369 cr_film_id=30917 name='Happy Tree Friends 3 - Třetí úder (2004) EN'
+[00:47:47] step=cdn-resolve upload_id=34369 cdn=data10
+[00:47:48] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/a8d4e4b1c96dd952b43d80065185f792
+[00:47:48] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/a8d4e4b1c96dd952b43d80065185f792
+[00:47:53] step=download done upload_id=34369 size=98592367 dur=5.0s speed=19.7MB/s
+[00:47:53] step=upload start upload_id=34369 size=98592367
+[00:48:00] step=upload done upload_id=34369 video_id=24130657 dur=7.2s speed=13.7MB/s
+[00:48:00] step=cleanup unlinked Happy Tree Friends 3 - Třetí úder (2004) EN.mp4
+[00:48:00] step=film done upload_id=34369 total=13.1s (cdn=0.9s + download=5.0s + upload=7.2s)
+[00:48:00] step=state-saved upload_id=34369 (total uploads=581)
+[00:48:00] step=iteration 60/100
+[00:48:00] step=film start upload_id=70763 cr_film_id=31534 name='Pár Pařmenů: Společenstvo žlutého tentononcu (2004) CZ'
+[00:48:00] step=cdn-resolve upload_id=70763 cdn=data10
+[00:48:01] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/5d209c7f90702567ba78ea4f9f3897de
+[00:48:01] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/5d209c7f90702567ba78ea4f9f3897de
+[00:49:22] step=download done upload_id=70763 size=2453164610 dur=80.2s speed=30.6MB/s
+[00:49:22] step=upload start upload_id=70763 size=2453164610
+[00:51:33] step=upload done upload_id=70763 video_id=24130672 dur=131.0s speed=18.7MB/s
+[00:51:33] step=cleanup unlinked Pár Pařmenů: Společenstvo žlutého tentononcu (2004) CZ.mp4
+[00:51:33] step=film done upload_id=70763 total=212.3s (cdn=0.8s + download=80.2s + upload=131.0s)
+[00:51:33] step=state-saved upload_id=70763 (total uploads=582)
+[00:51:33] step=iteration 61/100
+[00:51:33] step=film start upload_id=31626 cr_film_id=30171 name='Easy (2003) EN'
+[00:51:33] step=cdn-resolve upload_id=31626 cdn=data11
+[00:51:33] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/596a944addfd01388a218fe14af0153c
+[00:51:33] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/596a944addfd01388a218fe14af0153c
+[00:51:42] step=download done upload_id=31626 size=214254472 dur=8.5s speed=25.2MB/s
+[00:51:42] step=upload start upload_id=31626 size=214254472
+[00:51:55] step=upload done upload_id=31626 video_id=24130706 dur=13.2s speed=16.2MB/s
+[00:51:55] step=cleanup unlinked Easy (2003) EN.mp4
+[00:51:55] step=film done upload_id=31626 total=22.4s (cdn=0.6s + download=8.5s + upload=13.2s)
+[00:51:55] step=state-saved upload_id=31626 (total uploads=583)
+[00:51:55] step=iteration 62/100
+[00:51:55] step=film start upload_id=34370 cr_film_id=30916 name='Happy Tree Friends 2 - Druhý chod (2003) EN'
+[00:51:55] step=cdn-resolve upload_id=34370 cdn=data10
+[00:51:56] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/714e8e79047fc8fbdce2256a07b9427e
+[00:51:56] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/714e8e79047fc8fbdce2256a07b9427e
+[00:52:04] step=download done upload_id=34370 size=179289027 dur=7.8s speed=23.0MB/s
+[00:52:04] step=upload start upload_id=34370 size=179289027
+[00:52:14] step=upload done upload_id=34370 video_id=24130715 dur=9.5s speed=18.9MB/s
+[00:52:14] step=cleanup unlinked Happy Tree Friends 2 - Druhý chod (2003) EN.mp4
+[00:52:14] step=film done upload_id=34370 total=18.3s (cdn=1.0s + download=7.8s + upload=9.5s)
+[00:52:14] step=state-saved upload_id=34370 (total uploads=584)
+[00:52:14] step=iteration 63/100
+[00:52:14] step=film start upload_id=40394 cr_film_id=31371 name='Playboy: Inside the Sexy Girls Next Door House (2003) EN'
+[00:52:14] step=cdn-resolve upload_id=40394 cdn=data11
+[00:52:14] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/fddd7acfa9a8789bc439387e839cd2da
+[00:52:14] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/fddd7acfa9a8789bc439387e839cd2da
+[00:53:05] step=download done upload_id=40394 size=1646459185 dur=50.6s speed=32.5MB/s
+[00:53:05] step=upload start upload_id=40394 size=1646459185
+[00:54:32] step=upload done upload_id=40394 video_id=24130728 dur=87.3s speed=18.9MB/s
+[00:54:32] step=cleanup unlinked Playboy: Inside the Sexy Girls Next Door House (2003) EN.mp4
+[00:54:32] step=film done upload_id=40394 total=138.8s (cdn=0.8s + download=50.6s + upload=87.3s)
+[00:54:32] step=state-saved upload_id=40394 (total uploads=585)
+[00:54:32] step=iteration 64/100
+[00:54:32] step=film start upload_id=103780 cr_film_id=30324 name='Brak (2002) CZ'
+[00:54:32] step=cdn-resolve upload_id=103780 cdn=data10
+[00:54:33] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/f5582eae29759d507d53874de14317d4
+[00:54:33] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/f5582eae29759d507d53874de14317d4
+[00:55:50] step=download done upload_id=103780 size=2409445982 dur=77.0s speed=31.3MB/s
+[00:55:50] step=upload start upload_id=103780 size=2409445982
+[00:57:46] step=upload done upload_id=103780 video_id=24130771 dur=116.2s speed=20.7MB/s
+[00:57:47] step=cleanup unlinked Brak (2002) CZ.mp4
+[00:57:47] step=film done upload_id=103780 total=194.3s (cdn=0.8s + download=77.0s + upload=116.2s)
+[00:57:47] step=state-saved upload_id=103780 (total uploads=586)
+[00:57:47] step=iteration 65/100
+[00:57:47] step=film start upload_id=41460 cr_film_id=30375 name='Scooby-Doo!: Zimní superpes (2002) EN'
+[00:57:47] step=cdn-resolve upload_id=41460 cdn=data11
+[00:57:48] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/d7df6dc49a7aa0083af4c194a4d1cf62
+[00:57:48] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/d7df6dc49a7aa0083af4c194a4d1cf62
+[00:58:09] step=download done upload_id=41460 size=678519208 dur=21.6s speed=31.4MB/s
+[00:58:09] step=upload start upload_id=41460 size=678519208
+[00:58:43] step=upload done upload_id=41460 video_id=24130800 dur=33.7s speed=20.1MB/s
+[00:58:43] step=cleanup unlinked Scooby-Doo!: Zimní superpes (2002) EN.mp4
+[00:58:43] step=film done upload_id=41460 total=56.2s (cdn=0.8s + download=21.6s + upload=33.7s)
+[00:58:43] step=state-saved upload_id=41460 (total uploads=587)
+[00:58:43] step=iteration 66/100
+[00:58:43] step=film start upload_id=97834 cr_film_id=30422 name='Den, kdy nevyšlo slunce (2002) EN'
+[00:58:43] step=cdn-resolve upload_id=97834 cdn=data10
+[00:58:44] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/de2df3587d31fafab522d3f0770042f7
+[00:58:44] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/de2df3587d31fafab522d3f0770042f7
+[00:59:43] step=download done upload_id=97834 size=1816998913 dur=59.0s speed=30.8MB/s
+[00:59:43] step=upload start upload_id=97834 size=1816998913
+[01:01:24] step=upload done upload_id=97834 video_id=24130820 dur=101.4s speed=17.9MB/s
+[01:01:24] step=cleanup unlinked Den, kdy nevyšlo slunce (2002) EN.mp4
+[01:01:24] step=film done upload_id=97834 total=161.5s (cdn=0.9s + download=59.0s + upload=101.4s)
+[01:01:24] step=state-saved upload_id=97834 (total uploads=588)
+[01:01:24] step=iteration 67/100
+[01:01:24] step=film start upload_id=84223 cr_film_id=30707 name='Déšť padá na naše duše (2002) CZ'
+[01:01:24] step=cdn-resolve upload_id=84223 cdn=data10
+[01:01:25] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/3ea55e945d793a0fc941fbe8711903d4
+[01:01:25] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/3ea55e945d793a0fc941fbe8711903d4
+[01:03:20] step=download done upload_id=84223 size=3263275386 dur=114.7s speed=28.5MB/s
+[01:03:20] step=upload start upload_id=84223 size=3263275386
+[01:05:45] step=upload done upload_id=84223 video_id=24130854 dur=145.2s speed=22.5MB/s
+[01:05:46] step=cleanup unlinked Déšť padá na naše duše (2002) CZ.mp4
+[01:05:46] step=film done upload_id=84223 total=261.1s (cdn=0.8s + download=114.7s + upload=145.2s)
+[01:05:46] step=state-saved upload_id=84223 (total uploads=589)
+[01:05:46] step=iteration 68/100
+[01:05:46] step=film start upload_id=97108 cr_film_id=30260 name='Vyhnání z ráje (2001) CZ'
+[01:05:46] step=cdn-resolve upload_id=97108 cdn=data10
+[01:05:46] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/a4f233f3d9ba43b0d16bfe857eef6bf7
+[01:05:46] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/a4f233f3d9ba43b0d16bfe857eef6bf7
+[01:08:07] step=download done upload_id=97108 size=4619689644 dur=140.9s speed=32.8MB/s
+[01:08:07] step=upload start upload_id=97108 size=4619689644
+[01:12:02] step=upload done upload_id=97108 video_id=24130892 dur=235.1s speed=19.6MB/s
+[01:12:03] step=cleanup unlinked Vyhnání z ráje (2001) CZ.mp4
+[01:12:03] step=film done upload_id=97108 total=377.5s (cdn=0.9s + download=140.9s + upload=235.1s)
+[01:12:03] step=state-saved upload_id=97108 (total uploads=590)
+[01:12:03] step=iteration 69/100
+[01:12:03] step=film start upload_id=78019 cr_film_id=30242 name='Změna je život (2000) EN'
+[01:12:03] step=cdn-resolve upload_id=78019 cdn=data10
+[01:12:04] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/85222035cf9d6a6e00471920616622e8
+[01:12:04] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/85222035cf9d6a6e00471920616622e8
+[01:12:25] step=download done upload_id=78019 size=596631869 dur=20.7s speed=28.8MB/s
+[01:12:25] step=upload start upload_id=78019 size=596631869
+[01:13:30] step=upload done upload_id=78019 video_id=24130936 dur=65.6s speed=9.1MB/s
+[01:13:30] step=cleanup unlinked Změna je život (2000) EN.mp4
+[01:13:30] step=film done upload_id=78019 total=87.1s (cdn=0.8s + download=20.7s + upload=65.6s)
+[01:13:30] step=state-saved upload_id=78019 (total uploads=591)
+[01:13:30] step=iteration 70/100
+[01:13:30] step=film start upload_id=96516 cr_film_id=30708 name='Početí mého mladšího bratra (2000) CZ'
+[01:13:30] step=cdn-resolve upload_id=96516 cdn=data10
+[01:13:31] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/f6192afd678048515972e0618590cad8
+[01:13:31] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/f6192afd678048515972e0618590cad8
+[01:14:37] step=download done upload_id=96516 size=2051950466 dur=65.6s speed=31.3MB/s
+[01:14:37] step=upload start upload_id=96516 size=2051950466
+[01:16:14] step=upload done upload_id=96516 video_id=24130959 dur=97.5s speed=21.0MB/s
+[01:16:14] step=cleanup unlinked Početí mého mladšího bratra (2000) CZ.mp4
+[01:16:14] step=film done upload_id=96516 total=164.3s (cdn=0.9s + download=65.6s + upload=97.5s)
+[01:16:14] step=state-saved upload_id=96516 (total uploads=592)
+[01:16:14] step=iteration 71/100
+[01:16:14] step=film start upload_id=98374 cr_film_id=30184 name='Čas dluhů (1998) CZ'
+[01:16:14] step=cdn-resolve upload_id=98374 cdn=data10
+[01:16:15] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/737eeab04e98897cdaedd2e036fcd0ad
+[01:16:15] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/737eeab04e98897cdaedd2e036fcd0ad
+[01:17:32] step=download done upload_id=98374 size=2398568118 dur=77.0s speed=31.2MB/s
+[01:17:32] step=upload start upload_id=98374 size=2398568118
+[01:19:27] step=upload done upload_id=98374 video_id=24131001 dur=115.0s speed=20.9MB/s
+[01:19:28] step=cleanup unlinked Čas dluhů (1998) CZ.mp4
+[01:19:28] step=film done upload_id=98374 total=193.2s (cdn=0.9s + download=77.0s + upload=115.0s)
+[01:19:28] step=state-saved upload_id=98374 (total uploads=593)
+[01:19:28] step=iteration 72/100
+[01:19:28] step=film start upload_id=39197 cr_film_id=31515 name='Jak se Matěj učil čarodějem (1998) EN'
+[01:19:28] step=cdn-resolve upload_id=39197 cdn=data10
+[01:19:29] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/0dfeab71ce17fad08b06aa9b23269b73
+[01:19:29] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/0dfeab71ce17fad08b06aa9b23269b73
+[01:19:35] step=download done upload_id=39197 size=142568618 dur=6.6s speed=21.6MB/s
+[01:19:35] step=upload start upload_id=39197 size=142568618
+[01:19:45] step=upload done upload_id=39197 video_id=24131023 dur=9.3s speed=15.3MB/s
+[01:19:45] step=cleanup unlinked Jak se Matěj učil čarodějem (1998) EN.mp4
+[01:19:45] step=film done upload_id=39197 total=16.9s (cdn=0.9s + download=6.6s + upload=9.3s)
+[01:19:45] step=state-saved upload_id=39197 (total uploads=594)
+[01:19:45] step=iteration 73/100
+[01:19:45] step=film start upload_id=62545 cr_film_id=29976 name='Svatba naruby (1997) EN SK titulky'
+[01:19:45] step=cdn-resolve upload_id=62545 cdn=data11
+[01:19:45] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/de54f5203c20c19da1bf7c5fe43cdbf8
+[01:19:45] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/de54f5203c20c19da1bf7c5fe43cdbf8
+[01:21:26] step=download done upload_id=62545 size=3435305460 dur=100.5s speed=34.2MB/s
+[01:21:26] step=upload start upload_id=62545 size=3435305460
+[01:23:59] step=upload done upload_id=62545 video_id=24131046 dur=152.8s speed=22.5MB/s
+[01:23:59] step=cleanup unlinked Svatba naruby (1997) EN SK titulky.mp4
+[01:23:59] step=film done upload_id=62545 total=254.5s (cdn=0.7s + download=100.5s + upload=152.8s)
+[01:23:59] step=state-saved upload_id=62545 (total uploads=595)
+[01:23:59] step=iteration 74/100
+[01:23:59] step=film start upload_id=78354 cr_film_id=30119 name='Kiss Me, Guido (1997) EN'
+[01:23:59] step=cdn-resolve upload_id=78354 cdn=data10
+[01:24:00] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/f1a1175fa38b63288f8c48c5ddfa08c2
+[01:24:00] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/f1a1175fa38b63288f8c48c5ddfa08c2
+[01:24:20] step=download done upload_id=78354 size=578414699 dur=20.0s speed=28.9MB/s
+[01:24:20] step=upload start upload_id=78354 size=578414699
+[01:24:51] step=upload done upload_id=78354 video_id=24131075 dur=30.5s speed=19.0MB/s
+[01:24:51] step=cleanup unlinked Kiss Me, Guido (1997) EN.mp4
+[01:24:51] step=film done upload_id=78354 total=51.4s (cdn=0.9s + download=20.0s + upload=30.5s)
+[01:24:51] step=state-saved upload_id=78354 (total uploads=596)
+[01:24:51] step=iteration 75/100
+[01:24:51] step=film start upload_id=83406 cr_film_id=30384 name='Papírové hlavy (1996) SK'
+[01:24:51] step=cdn-resolve upload_id=83406 cdn=data10
+[01:24:52] step=cdn-resolve done 1.3s → https://data10.sledujteto.cz/player/index/sledujteto/408b9613efd97ef99b314d681aea5aa1
+[01:24:52] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/408b9613efd97ef99b314d681aea5aa1
+[01:25:02] step=download done upload_id=83406 size=252399299 dur=10.3s speed=24.5MB/s
+[01:25:02] step=upload start upload_id=83406 size=252399299
+[01:25:15] step=upload done upload_id=83406 video_id=24131082 dur=12.6s speed=20.0MB/s
+[01:25:15] step=cleanup unlinked Papírové hlavy (1996) SK.mp4
+[01:25:15] step=film done upload_id=83406 total=24.2s (cdn=1.3s + download=10.3s + upload=12.6s)
+[01:25:15] step=state-saved upload_id=83406 (total uploads=597)
+[01:25:15] step=iteration 76/100
+[01:25:15] step=film start upload_id=78115 cr_film_id=30340 name='Freaky Friday (1995) EN'
+[01:25:15] step=cdn-resolve upload_id=78115 cdn=data10
+[01:25:16] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/a7daa0bc5ec94d312b53bcc8eb4ec93c
+[01:25:16] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/a7daa0bc5ec94d312b53bcc8eb4ec93c
+[01:26:52] step=download done upload_id=78115 size=2987773030 dur=96.0s speed=31.1MB/s
+[01:26:52] step=upload start upload_id=78115 size=2987773030
+[01:29:05] step=upload done upload_id=78115 video_id=24131108 dur=133.8s speed=22.3MB/s
+[01:29:06] step=cleanup unlinked Freaky Friday (1995) EN.mp4
+[01:29:06] step=film done upload_id=78115 total=231.0s (cdn=0.8s + download=96.0s + upload=133.8s)
+[01:29:06] step=state-saved upload_id=78115 (total uploads=598)
+[01:29:06] step=iteration 77/100
+[01:29:06] step=film start upload_id=37314 cr_film_id=31429 name='Pohádka o prolhaném království (1993) CZ'
+[01:29:06] step=cdn-resolve upload_id=37314 cdn=data10
+[01:29:07] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/dfb7b0945094bc3d10b01f02d774c1c0
+[01:29:07] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/dfb7b0945094bc3d10b01f02d774c1c0
+[01:29:19] step=download done upload_id=37314 size=298580291 dur=12.0s speed=24.9MB/s
+[01:29:19] step=upload start upload_id=37314 size=298580291
+[01:29:38] step=upload done upload_id=37314 video_id=24131133 dur=19.6s speed=15.2MB/s
+[01:29:38] step=cleanup unlinked Pohádka o prolhaném království (1993) CZ.mp4
+[01:29:38] step=film done upload_id=37314 total=32.5s (cdn=0.8s + download=12.0s + upload=19.6s)
+[01:29:38] step=state-saved upload_id=37314 (total uploads=599)
+[01:29:38] step=iteration 78/100
+[01:29:38] step=film start upload_id=95195 cr_film_id=31524 name='Prezident a anděl (1993) CZ'
+[01:29:38] step=cdn-resolve upload_id=95195 cdn=data10
+[01:29:39] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/26bb3569309f4317a43b525ddcdb219e
+[01:29:39] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/26bb3569309f4317a43b525ddcdb219e
+[01:30:28] step=download done upload_id=95195 size=1527102562 dur=48.9s speed=31.2MB/s
+[01:30:28] step=upload start upload_id=95195 size=1527102562
+[01:31:36] step=upload done upload_id=95195 video_id=24131146 dur=68.2s speed=22.4MB/s
+[01:31:37] step=cleanup unlinked Prezident a anděl (1993) CZ.mp4
+[01:31:37] step=film done upload_id=95195 total=118.1s (cdn=0.9s + download=48.9s + upload=68.2s)
+[01:31:37] step=state-saved upload_id=95195 (total uploads=600)
+[01:31:37] step=iteration 79/100
+[01:31:37] step=film start upload_id=71179 cr_film_id=30045 name='Como agua para chocolate (1992) ES'
+[01:31:37] step=cdn-resolve upload_id=71179 cdn=data10
+[01:31:37] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/2f4921cf4fe3163d766979c887436ab2
+[01:31:37] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/2f4921cf4fe3163d766979c887436ab2
+[01:32:35] step=download done upload_id=71179 size=1875830638 dur=57.8s speed=32.5MB/s
+[01:32:35] step=upload start upload_id=71179 size=1875830638
+[01:33:55] step=upload done upload_id=71179 video_id=24131164 dur=79.8s speed=23.5MB/s
+[01:33:55] step=cleanup unlinked Como agua para chocolate (1992) ES.mp4
+[01:33:55] step=film done upload_id=71179 total=138.8s (cdn=0.9s + download=57.8s + upload=79.8s)
+[01:33:55] step=state-saved upload_id=71179 (total uploads=601)
+[01:33:55] step=iteration 80/100
+[01:33:55] step=film start upload_id=86110 cr_film_id=30172 name='Bitva o Falklandy aneb jak jsem vyhrál válku (1992) CZ'
+[01:33:55] step=cdn-resolve upload_id=86110 cdn=data10
+[01:33:56] step=cdn-resolve done 0.7s → https://data10.sledujteto.cz/player/index/sledujteto/aeac5faaac71403587876ee4f809655d
+[01:33:56] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/aeac5faaac71403587876ee4f809655d
+[01:34:27] step=download done upload_id=86110 size=933714106 dur=30.6s speed=30.5MB/s
+[01:34:27] step=upload start upload_id=86110 size=933714106
+[01:35:05] step=upload done upload_id=86110 video_id=24131178 dur=38.6s speed=24.2MB/s
+[01:35:05] step=cleanup unlinked Bitva o Falklandy aneb jak jsem vyhrál válku (1992) CZ.mp4
+[01:35:05] step=film done upload_id=86110 total=70.1s (cdn=0.7s + download=30.6s + upload=38.6s)
+[01:35:05] step=state-saved upload_id=86110 (total uploads=602)
+[01:35:05] step=iteration 81/100
+[01:35:05] step=film start upload_id=80724 cr_film_id=31259 name='Celý deň obchádzam panelák (1990) CZ'
+[01:35:05] step=cdn-resolve upload_id=80724 cdn=data10
+[01:35:06] step=cdn-resolve done 0.7s → https://data10.sledujteto.cz/player/index/sledujteto/b428578e1992e9d180b0193be4e0fe04
+[01:35:06] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/b428578e1992e9d180b0193be4e0fe04
+[01:35:52] step=download done upload_id=80724 size=1447027756 dur=45.9s speed=31.5MB/s
+[01:35:52] step=upload start upload_id=80724 size=1447027756
+[01:37:04] step=upload done upload_id=80724 video_id=24131188 dur=72.4s speed=20.0MB/s
+[01:37:05] step=cleanup unlinked Celý deň obchádzam panelák (1990) CZ.mp4
+[01:37:05] step=film done upload_id=80724 total=119.1s (cdn=0.7s + download=45.9s + upload=72.4s)
+[01:37:05] step=state-saved upload_id=80724 (total uploads=603)
+[01:37:05] step=iteration 82/100
+[01:37:05] step=film start upload_id=101406 cr_film_id=30381 name='Atrakce švédského zájezdu (1989) CZ'
+[01:37:05] step=cdn-resolve upload_id=101406 cdn=data11
+[01:37:05] step=cdn-resolve done 0.7s → https://data11.sledujteto.cz/player/index/sledujteto/fc03887fa4d3ffb0fcd89e48b4926ed8
+[01:37:05] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/fc03887fa4d3ffb0fcd89e48b4926ed8
+[01:37:58] step=download done upload_id=101406 size=1749139947 dur=52.8s speed=33.1MB/s
+[01:37:58] step=upload start upload_id=101406 size=1749139947
+[01:39:23] step=upload done upload_id=101406 video_id=24131209 dur=84.5s speed=20.7MB/s
+[01:39:23] step=cleanup unlinked Atrakce švédského zájezdu (1989) CZ.mp4
+[01:39:23] step=film done upload_id=101406 total=138.2s (cdn=0.7s + download=52.8s + upload=84.5s)
+[01:39:23] step=state-saved upload_id=101406 (total uploads=604)
+[01:39:23] step=iteration 83/100
+[01:39:23] step=film start upload_id=88347 cr_film_id=31060 name='O princi Bečkovi (1989) CZ'
+[01:39:23] step=cdn-resolve upload_id=88347 cdn=data11
+[01:39:24] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/f7acd2e3c278ce8862f085698d10318b
+[01:39:24] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/f7acd2e3c278ce8862f085698d10318b
+[01:40:33] step=download done upload_id=88347 size=2266089549 dur=69.2s speed=32.7MB/s
+[01:40:33] step=upload start upload_id=88347 size=2266089549
+[01:42:12] step=upload done upload_id=88347 video_id=24131232 dur=99.3s speed=22.8MB/s
+[01:42:12] step=cleanup unlinked O princi Bečkovi (1989) CZ.mp4
+[01:42:12] step=film done upload_id=88347 total=169.6s (cdn=0.8s + download=69.2s + upload=99.3s)
+[01:42:12] step=state-saved upload_id=88347 (total uploads=605)
+[01:42:12] step=iteration 84/100
+[01:42:12] step=film start upload_id=100144 cr_film_id=30318 name='Cena medu (1987) CZ'
+[01:42:12] step=cdn-resolve upload_id=100144 cdn=data11
+[01:42:13] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/6353e7bc01bc075a4be5410af8498244
+[01:42:13] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/6353e7bc01bc075a4be5410af8498244
+[01:43:09] step=download done upload_id=100144 size=1716614742 dur=56.2s speed=30.5MB/s
+[01:43:09] step=upload start upload_id=100144 size=1716614742
+[01:44:19] step=upload done upload_id=100144 video_id=24131255 dur=69.8s speed=24.6MB/s
+[01:44:19] step=cleanup unlinked Cena medu (1987) CZ.mp4
+[01:44:19] step=film done upload_id=100144 total=126.9s (cdn=0.6s + download=56.2s + upload=69.8s)
+[01:44:19] step=state-saved upload_id=100144 (total uploads=606)
+[01:44:19] step=iteration 85/100
+[01:44:19] step=film start upload_id=43924 cr_film_id=31180 name='Kára plná bolesti (1986) SK'
+[01:44:19] step=cdn-resolve upload_id=43924 cdn=data11
+[01:44:20] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/dd8dc4b189c9f96cc9d5ddfc7dc2b7dc
+[01:44:20] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/dd8dc4b189c9f96cc9d5ddfc7dc2b7dc
+[01:44:45] step=download done upload_id=43924 size=791773633 dur=24.9s speed=31.8MB/s
+[01:44:45] step=upload start upload_id=43924 size=791773633
+[01:45:25] step=upload done upload_id=43924 video_id=24131271 dur=40.4s speed=19.6MB/s
+[01:45:25] step=cleanup unlinked Kára plná bolesti (1986) SK.mp4
+[01:45:25] step=film done upload_id=43924 total=66.1s (cdn=0.6s + download=24.9s + upload=40.4s)
+[01:45:25] step=state-saved upload_id=43924 (total uploads=607)
+[01:45:25] step=iteration 86/100
+[01:45:25] step=film start upload_id=45700 cr_film_id=30751 name='Sedmá velmoc (1985) FR'
+[01:45:25] step=cdn-resolve upload_id=45700 cdn=data11
+[01:45:26] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/4fb2b0e58e46306a8ff0e6a08be00f41
+[01:45:26] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/4fb2b0e58e46306a8ff0e6a08be00f41
+[01:45:46] step=download done upload_id=45700 size=601216005 dur=19.9s speed=30.2MB/s
+[01:45:46] step=upload start upload_id=45700 size=601216005
+[01:46:13] step=upload done upload_id=45700 video_id=24131282 dur=26.7s speed=22.5MB/s
+[01:46:13] step=cleanup unlinked Sedmá velmoc (1985) FR.mp4
+[01:46:13] step=film done upload_id=45700 total=47.2s (cdn=0.6s + download=19.9s + upload=26.7s)
+[01:46:13] step=state-saved upload_id=45700 (total uploads=608)
+[01:46:13] step=iteration 87/100
+[01:46:13] step=film start upload_id=100699 cr_film_id=31082 name='Až do konce (1985) CZ'
+[01:46:13] step=cdn-resolve upload_id=100699 cdn=data11
+[01:46:13] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/c2a3441e82563617516d6e7c63677ce3
+[01:46:13] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/c2a3441e82563617516d6e7c63677ce3
+[01:47:15] step=download done upload_id=100699 size=2075816291 dur=62.1s speed=33.4MB/s
+[01:47:15] step=upload start upload_id=100699 size=2075816291
+[01:49:03] step=upload done upload_id=100699 video_id=24131295 dur=107.6s speed=19.3MB/s
+[01:49:03] step=cleanup unlinked Až do konce (1985) CZ.mp4
+[01:49:03] step=film done upload_id=100699 total=170.6s (cdn=0.6s + download=62.1s + upload=107.6s)
+[01:49:03] step=state-saved upload_id=100699 (total uploads=609)
+[01:49:03] step=iteration 88/100
+[01:49:03] step=film start upload_id=37082 cr_film_id=31393 name='Třeboňská pohádka (1983) CZ'
+[01:49:03] step=cdn-resolve upload_id=37082 cdn=data10
+[01:49:04] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/ce9e29bc13e54acf9d6567e68adb53fb
+[01:49:04] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/ce9e29bc13e54acf9d6567e68adb53fb
+[01:49:14] step=download done upload_id=37082 size=232987594 dur=9.4s speed=24.8MB/s
+[01:49:14] step=upload start upload_id=37082 size=232987594
+[01:49:26] step=upload done upload_id=37082 video_id=24131317 dur=11.8s speed=19.7MB/s
+[01:49:26] step=cleanup unlinked Třeboňská pohádka (1983) CZ.mp4
+[01:49:26] step=film done upload_id=37082 total=22.3s (cdn=1.0s + download=9.4s + upload=11.8s)
+[01:49:26] step=state-saved upload_id=37082 (total uploads=610)
+[01:49:26] step=iteration 89/100
+[01:49:26] step=film start upload_id=102032 cr_film_id=29975 name='Klášter Shaolin (1982) CZ'
+[01:49:26] step=cdn-resolve upload_id=102032 cdn=data11
+[01:49:26] step=cdn-resolve done 0.6s → https://data11.sledujteto.cz/player/index/sledujteto/7488e8290117365fc9d614ee427f7f98
+[01:49:26] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/7488e8290117365fc9d614ee427f7f98
+[01:49:55] step=download done upload_id=102032 size=932208332 dur=29.1s speed=32.0MB/s
+[01:49:55] step=upload start upload_id=102032 size=932208332
+[01:50:40] step=upload done upload_id=102032 video_id=24131323 dur=44.7s speed=20.9MB/s
+[01:50:40] step=cleanup unlinked Klášter Shaolin (1982) CZ.mp4
+[01:50:40] step=film done upload_id=102032 total=74.6s (cdn=0.6s + download=29.1s + upload=44.7s)
+[01:50:40] step=state-saved upload_id=102032 (total uploads=611)
+[01:50:40] step=iteration 90/100
+[01:50:40] step=film start upload_id=101415 cr_film_id=30038 name='Rabín a zloděj (1979) CZ'
+[01:50:40] step=cdn-resolve upload_id=101415 cdn=data10
+[01:50:41] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/4484670397c0c3c5fcd018ffdb8c00e8
+[01:50:41] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/4484670397c0c3c5fcd018ffdb8c00e8
+[01:51:12] step=download done upload_id=101415 size=935388197 dur=31.0s speed=30.2MB/s
+[01:51:12] step=upload start upload_id=101415 size=935388197
+[01:51:59] step=upload done upload_id=101415 video_id=24131340 dur=46.9s speed=19.9MB/s
+[01:51:59] step=cleanup unlinked Rabín a zloděj (1979) CZ.mp4
+[01:51:59] step=film done upload_id=101415 total=78.8s (cdn=0.8s + download=31.0s + upload=46.9s)
+[01:51:59] step=state-saved upload_id=101415 (total uploads=612)
+[01:51:59] step=iteration 91/100
+[01:51:59] step=film start upload_id=100377 cr_film_id=30462 name='Indiáni z Větrova (1979) CZ'
+[01:51:59] step=cdn-resolve upload_id=100377 cdn=data11
+[01:52:00] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/3ba5b77c8207ac9da21592b5af38aa0b
+[01:52:00] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/3ba5b77c8207ac9da21592b5af38aa0b
+[01:53:31] step=download done upload_id=100377 size=2853949102 dur=91.7s speed=31.1MB/s
+[01:53:31] step=upload start upload_id=100377 size=2853949102
+[01:55:37] step=upload done upload_id=100377 video_id=24131367 dur=125.8s speed=22.7MB/s
+[01:55:38] step=cleanup unlinked Indiáni z Větrova (1979) CZ.mp4
+[01:55:38] step=film done upload_id=100377 total=218.7s (cdn=0.8s + download=91.7s + upload=125.8s)
+[01:55:38] step=state-saved upload_id=100377 (total uploads=613)
+[01:55:38] step=iteration 92/100
+[01:55:38] step=film start upload_id=70237 cr_film_id=31194 name='Tuctové dievča (1979) CZ'
+[01:55:38] step=cdn-resolve upload_id=70237 cdn=data10
+[01:55:39] step=cdn-resolve done 1.2s → https://data10.sledujteto.cz/player/index/sledujteto/85999a906d8a9337896cc58acf0e5ce8
+[01:55:39] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/85999a906d8a9337896cc58acf0e5ce8
+[01:55:44] step=download done upload_id=70237 size=84502438 dur=5.4s speed=15.6MB/s
+[01:55:44] step=upload start upload_id=70237 size=84502438
+[01:55:51] step=upload done upload_id=70237 video_id=24131383 dur=6.4s speed=13.2MB/s
+[01:55:51] step=cleanup unlinked Tuctové dievča (1979) CZ.mp4
+[01:55:51] step=film done upload_id=70237 total=13.0s (cdn=1.2s + download=5.4s + upload=6.4s)
+[01:55:51] step=state-saved upload_id=70237 (total uploads=614)
+[01:55:51] step=iteration 93/100
+[01:55:51] step=film start upload_id=72296 cr_film_id=30236 name='Cesta rajské smrti (1977) EN'
+[01:55:51] step=cdn-resolve upload_id=72296 cdn=data10
+[01:55:52] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/ba5966eb7e39b4cc89759dcba117dded
+[01:55:52] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/ba5966eb7e39b4cc89759dcba117dded
+[01:57:18] step=download done upload_id=72296 size=2782735190 dur=86.9s speed=32.0MB/s
+[01:57:18] step=upload start upload_id=72296 size=2782735190
+[01:59:15] step=upload done upload_id=72296 video_id=24131400 dur=116.1s speed=24.0MB/s
+[01:59:15] step=cleanup unlinked Cesta rajské smrti (1977) EN.mp4
+[01:59:15] step=film done upload_id=72296 total=204.3s (cdn=0.9s + download=86.9s + upload=116.1s)
+[01:59:15] step=state-saved upload_id=72296 (total uploads=615)
+[01:59:15] step=iteration 94/100
+[01:59:15] step=film start upload_id=46872 cr_film_id=31258 name='Oslava (1974) EN'
+[01:59:15] step=cdn-resolve upload_id=46872 cdn=data10
+[01:59:16] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/1815d7b06563acca8d8e404d0d087058
+[01:59:16] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/1815d7b06563acca8d8e404d0d087058
+[01:59:29] step=download done upload_id=46872 size=337401912 dur=12.7s speed=26.6MB/s
+[01:59:29] step=upload start upload_id=46872 size=337401912
+[01:59:45] step=upload done upload_id=46872 video_id=24131411 dur=16.3s speed=20.7MB/s
+[01:59:45] step=cleanup unlinked Oslava (1974) EN.mp4
+[01:59:45] step=film done upload_id=46872 total=30.1s (cdn=1.0s + download=12.7s + upload=16.3s)
+[01:59:45] step=state-saved upload_id=46872 (total uploads=616)
+[01:59:45] step=iteration 95/100
+[01:59:45] step=film start upload_id=84545 cr_film_id=31327 name='V každém pokoji žena (1974) CZ'
+[01:59:45] step=cdn-resolve upload_id=84545 cdn=data10
+[01:59:46] step=cdn-resolve done 1.0s → https://data10.sledujteto.cz/player/index/sledujteto/df9cc9a83a24d69468cf0222a6976a3d
+[01:59:46] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/df9cc9a83a24d69468cf0222a6976a3d
+[02:00:18] step=download done upload_id=84545 size=962119683 dur=32.3s speed=29.8MB/s
+[02:00:18] step=upload start upload_id=84545 size=962119683
+[02:01:47] step=upload done upload_id=84545 video_id=24131420 dur=88.3s speed=10.9MB/s
+[02:01:47] step=cleanup unlinked V každém pokoji žena (1974) CZ.mp4
+[02:01:47] step=film done upload_id=84545 total=121.7s (cdn=1.0s + download=32.3s + upload=88.3s)
+[02:01:47] step=state-saved upload_id=84545 (total uploads=617)
+[02:01:47] step=iteration 96/100
+[02:01:47] step=film start upload_id=100292 cr_film_id=30131 name='Winter Soldier (1972) EN'
+[02:01:47] step=cdn-resolve upload_id=100292 cdn=data11
+[02:01:47] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/a78f25a2752fcad5ba33befffd0fa14b
+[02:01:47] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/a78f25a2752fcad5ba33befffd0fa14b
+[02:02:18] step=download done upload_id=100292 size=965812769 dur=30.1s speed=32.1MB/s
+[02:02:18] step=upload start upload_id=100292 size=965812769
+[02:03:11] step=upload done upload_id=100292 video_id=24131430 dur=53.9s speed=17.9MB/s
+[02:03:12] step=cleanup unlinked Winter Soldier (1972) EN.mp4
+[02:03:12] step=film done upload_id=100292 total=84.9s (cdn=0.8s + download=30.1s + upload=53.9s)
+[02:03:12] step=state-saved upload_id=100292 (total uploads=618)
+[02:03:12] step=iteration 97/100
+[02:03:12] step=film start upload_id=83613 cr_film_id=30300 name='Bitva o Okinawu (1971) JA'
+[02:03:12] step=cdn-resolve upload_id=83613 cdn=data10
+[02:03:13] step=cdn-resolve done 0.9s → https://data10.sledujteto.cz/player/index/sledujteto/89f622480159d4b7f5c25e6637d11273
+[02:03:13] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/89f622480159d4b7f5c25e6637d11273
+[02:03:27] step=download done upload_id=83613 size=392285741 dur=14.5s speed=27.1MB/s
+[02:03:27] step=upload start upload_id=83613 size=392285741
+[02:03:47] step=upload done upload_id=83613 video_id=24131436 dur=20.4s speed=19.2MB/s
+[02:03:48] step=cleanup unlinked Bitva o Okinawu (1971) JA.mp4
+[02:03:48] step=film done upload_id=83613 total=35.9s (cdn=0.9s + download=14.5s + upload=20.4s)
+[02:03:48] step=state-saved upload_id=83613 (total uploads=619)
+[02:03:48] step=iteration 98/100
+[02:03:48] step=film start upload_id=26771 cr_film_id=31243 name='Hádankář Vojta (1969) EN'
+[02:03:48] step=cdn-resolve upload_id=26771 cdn=data10
+[02:03:48] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/be8af10ecb87392adc86aa4b8468b83e
+[02:03:48] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/be8af10ecb87392adc86aa4b8468b83e
+[02:04:00] step=download done upload_id=26771 size=304414106 dur=11.5s speed=26.5MB/s
+[02:04:00] step=upload start upload_id=26771 size=304414106
+[02:04:16] step=upload done upload_id=26771 video_id=24131442 dur=15.9s speed=19.1MB/s
+[02:04:16] step=cleanup unlinked Hádankář Vojta (1969) EN.mp4
+[02:04:16] step=film done upload_id=26771 total=28.2s (cdn=0.8s + download=11.5s + upload=15.9s)
+[02:04:16] step=state-saved upload_id=26771 (total uploads=620)
+[02:04:16] step=iteration 99/100
+[02:04:16] step=film start upload_id=97614 cr_film_id=30378 name='Balada o siedmich obesených (1968) SK'
+[02:04:16] step=cdn-resolve upload_id=97614 cdn=data11
+[02:04:16] step=cdn-resolve done 0.8s → https://data11.sledujteto.cz/player/index/sledujteto/30d47d8a231d60cc84a92ef0cc4945e7
+[02:04:16] step=download curl https://data11.sledujteto.cz/player/index/sledujteto/30d47d8a231d60cc84a92ef0cc4945e7
+[02:05:23] step=download done upload_id=97614 size=2235845781 dur=66.5s speed=33.6MB/s
+[02:05:23] step=upload start upload_id=97614 size=2235845781
+[02:07:10] step=upload done upload_id=97614 video_id=24131458 dur=107.4s speed=20.8MB/s
+[02:07:11] step=cleanup unlinked Balada o siedmich obesených (1968) SK.mp4
+[02:07:11] step=film done upload_id=97614 total=175.0s (cdn=0.8s + download=66.5s + upload=107.4s)
+[02:07:11] step=state-saved upload_id=97614 (total uploads=621)
+[02:07:11] step=iteration 100/100
+[02:07:11] step=film start upload_id=101408 cr_film_id=30035 name='Velká přestřelka (1967) CZ'
+[02:07:11] step=cdn-resolve upload_id=101408 cdn=data10
+[02:07:12] step=cdn-resolve done 0.8s → https://data10.sledujteto.cz/player/index/sledujteto/26bd4024fce4537ee7a43ef99c341e23
+[02:07:12] step=download curl https://data10.sledujteto.cz/player/index/sledujteto/26bd4024fce4537ee7a43ef99c341e23
+[02:08:07] step=download done upload_id=101408 size=1785472610 dur=55.7s speed=32.1MB/s
+[02:08:07] step=upload start upload_id=101408 size=1785472610
+[02:09:29] step=upload done upload_id=101408 video_id=24131479 dur=82.2s speed=21.7MB/s
+[02:09:30] step=cleanup unlinked Velká přestřelka (1967) CZ.mp4
+[02:09:30] step=film done upload_id=101408 total=138.9s (cdn=0.8s + download=55.7s + upload=82.2s)
+[02:09:30] step=state-saved upload_id=101408 (total uploads=622)
+[02:09:30] step=batch-end succeeded=100 failed=0 total_uploads=622 batch_dur=12194.5s avg_per_film=121.9s backlog_remaining=13 eta_hours=0.4
