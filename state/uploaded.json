@@ -2,7 +2,7 @@
   "schema_version": 1,
   "account": "filmy.prehrajto@email.cz",
   "source": "sledujteto.cz",
-  "last_updated": "2026-04-24T10:54:53Z",
+  "last_updated": "2026-04-24T19:35:38Z",
   "uploads": [
     {
       "sledujteto_file_id": 100943,
@@ -13833,6 +13833,2006 @@
         "total_sec": 15.8
       },
       "subtitles_skipped": "no subtitles available"
+    },
+    {
+      "sledujteto_file_id": 10392,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 29914,
+      "cr_slug": "hrdina-2002",
+      "title": "Hrdina",
+      "year": 2002,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24148695,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:13:47Z",
+      "status": "processing",
+      "size_bytes": 800547174,
+      "timing": {
+        "cdn_resolve_sec": 1.3,
+        "download_sec": 89.4,
+        "upload_sec": 49.7,
+        "total_sec": 140.5
+      }
+    },
+    {
+      "sledujteto_file_id": 16824,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 29915,
+      "cr_slug": "vecirek",
+      "title": "Večírek",
+      "year": 1980,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24148718,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:14:48Z",
+      "status": "processing",
+      "size_bytes": 536012622,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 26.6,
+        "upload_sec": 33.5,
+        "total_sec": 61.0
+      }
+    },
+    {
+      "sledujteto_file_id": 18181,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 29921,
+      "cr_slug": "prachy-zbrane-jedno-porno",
+      "title": "Prachy, zbraně, jedno porno",
+      "year": 1999,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24148736,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:15:31Z",
+      "status": "processing",
+      "size_bytes": 466892592,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 21.4,
+        "upload_sec": 21.0,
+        "total_sec": 43.4
+      }
+    },
+    {
+      "sledujteto_file_id": 68054,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 29937,
+      "cr_slug": "mothra-vs-godzilla",
+      "title": "Mothra vs. Godzilla",
+      "year": 1964,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24148801,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:22:36Z",
+      "status": "processing",
+      "size_bytes": 3331123368,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 260.4,
+        "upload_sec": 162.9,
+        "total_sec": 424.9
+      }
+    },
+    {
+      "sledujteto_file_id": 25543,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 29947,
+      "cr_slug": "bankerka",
+      "title": "Bankéřka",
+      "year": 1980,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24148856,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:24:32Z",
+      "status": "processing",
+      "size_bytes": 1329364473,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 49.5,
+        "upload_sec": 64.9,
+        "total_sec": 115.5
+      }
+    },
+    {
+      "sledujteto_file_id": 10527,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 29961,
+      "cr_slug": "fast-food-nation",
+      "title": "Fast Food Nation",
+      "year": 2006,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24148884,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:26:28Z",
+      "status": "processing",
+      "size_bytes": 862789065,
+      "timing": {
+        "cdn_resolve_sec": 1.3,
+        "download_sec": 71.9,
+        "upload_sec": 43.3,
+        "total_sec": 116.6
+      }
+    },
+    {
+      "sledujteto_file_id": 65103,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 29967,
+      "cr_slug": "mutant-3",
+      "title": "Mutant 3",
+      "year": 2005,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24148896,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:27:25Z",
+      "status": "processing",
+      "size_bytes": 567246120,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 27.5,
+        "upload_sec": 28.2,
+        "total_sec": 56.7
+      }
+    },
+    {
+      "sledujteto_file_id": 8114,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 29997,
+      "cr_slug": "esoteric-agenda",
+      "title": "Esoteric Agenda",
+      "year": 2008,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24148906,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:28:27Z",
+      "status": "processing",
+      "size_bytes": 663333811,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 30.1,
+        "upload_sec": 30.7,
+        "total_sec": 61.8
+      }
+    },
+    {
+      "sledujteto_file_id": 9744,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30000,
+      "cr_slug": "ostrov-ztracenych-dusi",
+      "title": "Ostrov ztracených duší",
+      "year": 2007,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24148935,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:30:16Z",
+      "status": "processing",
+      "size_bytes": 782317688,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 72.6,
+        "upload_sec": 35.8,
+        "total_sec": 109.4
+      }
+    },
+    {
+      "sledujteto_file_id": 53395,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30002,
+      "cr_slug": "kainova-vychova",
+      "title": "Kainova výchova",
+      "year": 1992,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24148952,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:30:58Z",
+      "status": "processing",
+      "size_bytes": 230412803,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 12.8,
+        "upload_sec": 28.6,
+        "total_sec": 42.3
+      }
+    },
+    {
+      "sledujteto_file_id": 31311,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30008,
+      "cr_slug": "o-ano-em-que-meus-pais-sairam-de-ferias",
+      "title": "O Ano em que Meus Pais Saíram de Férias",
+      "year": 2006,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24148980,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:32:47Z",
+      "status": "processing",
+      "size_bytes": 570910810,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 49.6,
+        "upload_sec": 57.6,
+        "total_sec": 108.5
+      }
+    },
+    {
+      "sledujteto_file_id": 18180,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30009,
+      "cr_slug": "prevtelena",
+      "title": "Převtělená",
+      "year": 2007,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149029,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:33:51Z",
+      "status": "processing",
+      "size_bytes": 391402679,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 45.0,
+        "upload_sec": 17.8,
+        "total_sec": 63.8
+      }
+    },
+    {
+      "sledujteto_file_id": 67161,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30010,
+      "cr_slug": "petr-a-vlk",
+      "title": "Petr a vlk",
+      "year": 2006,
+      "lang_class": "SK_SUB",
+      "prehrajto_video_id": 24149046,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:34:50Z",
+      "status": "processing",
+      "size_bytes": 642238014,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 25.9,
+        "upload_sec": 32.8,
+        "total_sec": 59.7
+      }
+    },
+    {
+      "sledujteto_file_id": 36636,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30021,
+      "cr_slug": "twin-town",
+      "title": "Twin Town",
+      "year": 1997,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149063,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:35:56Z",
+      "status": "processing",
+      "size_bytes": 680465574,
+      "timing": {
+        "cdn_resolve_sec": 0.6,
+        "download_sec": 32.8,
+        "upload_sec": 32.1,
+        "total_sec": 65.7
+      }
+    },
+    {
+      "sledujteto_file_id": 6473,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30023,
+      "cr_slug": "hamiltonovi",
+      "title": "Hamiltonovi",
+      "year": 2006,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149081,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:36:46Z",
+      "status": "processing",
+      "size_bytes": 417865063,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 22.4,
+        "upload_sec": 26.6,
+        "total_sec": 50.0
+      }
+    },
+    {
+      "sledujteto_file_id": 19252,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30024,
+      "cr_slug": "gekidzoban-bleach-memories-of-nobody",
+      "title": "Gekidžóban Bleach: Memories of Nobody",
+      "year": 2006,
+      "lang_class": "SK_SUB",
+      "prehrajto_video_id": 24149107,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:38:47Z",
+      "status": "processing",
+      "size_bytes": 1161448270,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 67.1,
+        "upload_sec": 52.9,
+        "total_sec": 121.1
+      }
+    },
+    {
+      "sledujteto_file_id": 25494,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30054,
+      "cr_slug": "cerna-vdova-1987",
+      "title": "Černá vdova",
+      "year": 1987,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149131,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:40:24Z",
+      "status": "processing",
+      "size_bytes": 919451453,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 43.4,
+        "upload_sec": 52.2,
+        "total_sec": 96.6
+      }
+    },
+    {
+      "sledujteto_file_id": 6525,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30060,
+      "cr_slug": "lilo-a-stitch-2-stitch-ma-mouchy",
+      "title": "Lilo a Stitch 2: Stitch má mouchy",
+      "year": 2005,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149149,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:41:06Z",
+      "status": "processing",
+      "size_bytes": 322172758,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 17.3,
+        "upload_sec": 24.2,
+        "total_sec": 42.5
+      }
+    },
+    {
+      "sledujteto_file_id": 25176,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30081,
+      "cr_slug": "vdovy-z-widows-peak",
+      "title": "Vdovy z Widows’ Peak",
+      "year": 1994,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149170,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:42:22Z",
+      "status": "processing",
+      "size_bytes": 744751536,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 40.7,
+        "upload_sec": 34.0,
+        "total_sec": 75.5
+      }
+    },
+    {
+      "sledujteto_file_id": 18446,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30090,
+      "cr_slug": "matrix-hunter",
+      "title": "Matrix hunter",
+      "year": 2004,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149192,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:43:29Z",
+      "status": "processing",
+      "size_bytes": 446359626,
+      "timing": {
+        "cdn_resolve_sec": 1.6,
+        "download_sec": 20.7,
+        "upload_sec": 44.6,
+        "total_sec": 67.0
+      }
+    },
+    {
+      "sledujteto_file_id": 7137,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30152,
+      "cr_slug": "mamut",
+      "title": "Mamut",
+      "year": 2006,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149216,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:44:31Z",
+      "status": "processing",
+      "size_bytes": 571823233,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 30.9,
+        "upload_sec": 30.3,
+        "total_sec": 62.2
+      }
+    },
+    {
+      "sledujteto_file_id": 52849,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30160,
+      "cr_slug": "jeptiska-1967",
+      "title": "Jeptiška",
+      "year": 1967,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149267,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:47:57Z",
+      "status": "processing",
+      "size_bytes": 1672628568,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 133.7,
+        "upload_sec": 71.2,
+        "total_sec": 206.1
+      }
+    },
+    {
+      "sledujteto_file_id": 34727,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30163,
+      "cr_slug": "tajemny-poklad",
+      "title": "Tajemný poklad",
+      "year": 2009,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149286,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:49:54Z",
+      "status": "processing",
+      "size_bytes": 1168574727,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 59.3,
+        "upload_sec": 56.5,
+        "total_sec": 117.0
+      }
+    },
+    {
+      "sledujteto_file_id": 17942,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30167,
+      "cr_slug": "mimina",
+      "title": "Mimina",
+      "year": 2010,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149306,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:50:38Z",
+      "status": "processing",
+      "size_bytes": 408266083,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 22.9,
+        "upload_sec": 19.6,
+        "total_sec": 43.6
+      }
+    },
+    {
+      "sledujteto_file_id": 15861,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30173,
+      "cr_slug": "inkognito",
+      "title": "Inkognito",
+      "year": 1997,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149318,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:51:34Z",
+      "status": "processing",
+      "size_bytes": 571735759,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 28.4,
+        "upload_sec": 26.5,
+        "total_sec": 55.6
+      }
+    },
+    {
+      "sledujteto_file_id": 31724,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30203,
+      "cr_slug": "skore-hokejovy-muzikal",
+      "title": "Skore - Hokejový muzikál",
+      "year": 2010,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149332,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:52:46Z",
+      "status": "processing",
+      "size_bytes": 503613441,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 26.5,
+        "upload_sec": 44.4,
+        "total_sec": 72.2
+      }
+    },
+    {
+      "sledujteto_file_id": 6127,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30206,
+      "cr_slug": "hemoglobin",
+      "title": "Hemoglobin",
+      "year": 1997,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149356,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:54:10Z",
+      "status": "processing",
+      "size_bytes": 647878413,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 54.2,
+        "upload_sec": 28.8,
+        "total_sec": 83.9
+      }
+    },
+    {
+      "sledujteto_file_id": 42185,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30245,
+      "cr_slug": "jantarova-komnata",
+      "title": "Jantarová komnata",
+      "year": 2012,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149378,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:55:26Z",
+      "status": "processing",
+      "size_bytes": 733491215,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 43.1,
+        "upload_sec": 32.4,
+        "total_sec": 76.5
+      }
+    },
+    {
+      "sledujteto_file_id": 10541,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30250,
+      "cr_slug": "f-jako-fotri",
+      "title": "F jako fotři",
+      "year": 2011,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24149395,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T16:56:56Z",
+      "status": "processing",
+      "size_bytes": 744039747,
+      "timing": {
+        "cdn_resolve_sec": 0.6,
+        "download_sec": 47.5,
+        "upload_sec": 41.8,
+        "total_sec": 90.0
+      }
+    },
+    {
+      "sledujteto_file_id": 42060,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30259,
+      "cr_slug": "bitva-o-ostrov-saipan",
+      "title": "Bitva o ostrov Saipan",
+      "year": 2011,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149472,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:03:21Z",
+      "status": "processing",
+      "size_bytes": 3914342360,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 192.6,
+        "upload_sec": 191.1,
+        "total_sec": 385.1
+      }
+    },
+    {
+      "sledujteto_file_id": 8688,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30261,
+      "cr_slug": "posledni-pristav",
+      "title": "Poslední přístav",
+      "year": 2010,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149575,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:04:33Z",
+      "status": "processing",
+      "size_bytes": 502354699,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 35.4,
+        "upload_sec": 34.6,
+        "total_sec": 71.4
+      }
+    },
+    {
+      "sledujteto_file_id": 21494,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30264,
+      "cr_slug": "lov-lososu-v-jemenu",
+      "title": "Lov lososů v Jemenu",
+      "year": 2012,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149603,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:05:41Z",
+      "status": "processing",
+      "size_bytes": 513067830,
+      "timing": {
+        "cdn_resolve_sec": 1.9,
+        "download_sec": 41.0,
+        "upload_sec": 25.4,
+        "total_sec": 68.4
+      }
+    },
+    {
+      "sledujteto_file_id": 64888,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30265,
+      "cr_slug": "krysar-1986",
+      "title": "Krysař",
+      "year": 1986,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24149625,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:06:28Z",
+      "status": "processing",
+      "size_bytes": 397758240,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 26.0,
+        "upload_sec": 19.3,
+        "total_sec": 46.5
+      }
+    },
+    {
+      "sledujteto_file_id": 8322,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30268,
+      "cr_slug": "na-mol",
+      "title": "Na mol",
+      "year": 2012,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149642,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:07:07Z",
+      "status": "processing",
+      "size_bytes": 379025501,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 20.5,
+        "upload_sec": 17.2,
+        "total_sec": 39.0
+      }
+    },
+    {
+      "sledujteto_file_id": 11594,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30270,
+      "cr_slug": "chlapectvi",
+      "title": "Chlapectví",
+      "year": 2014,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149677,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:09:52Z",
+      "status": "processing",
+      "size_bytes": 1284165675,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 80.1,
+        "upload_sec": 84.6,
+        "total_sec": 165.8
+      }
+    },
+    {
+      "sledujteto_file_id": 24703,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30279,
+      "cr_slug": "ford-muz-a-stroj",
+      "title": "Ford: Muž a stroj",
+      "year": 1987,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149704,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:10:39Z",
+      "status": "processing",
+      "size_bytes": 336211250,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 26.7,
+        "upload_sec": 18.5,
+        "total_sec": 46.2
+      }
+    },
+    {
+      "sledujteto_file_id": 34216,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30280,
+      "cr_slug": "bila-orchidej",
+      "title": "Bílá orchidej",
+      "year": 1983,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24149740,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:13:55Z",
+      "status": "processing",
+      "size_bytes": 1508568363,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 128.3,
+        "upload_sec": 66.7,
+        "total_sec": 196.1
+      }
+    },
+    {
+      "sledujteto_file_id": 9589,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30282,
+      "cr_slug": "tecumseh-the-last-warrior",
+      "title": "Tecumseh: The Last Warrior",
+      "year": 1995,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149778,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:15:12Z",
+      "status": "processing",
+      "size_bytes": 815004615,
+      "timing": {
+        "cdn_resolve_sec": 1.3,
+        "download_sec": 38.5,
+        "upload_sec": 37.0,
+        "total_sec": 76.9
+      }
+    },
+    {
+      "sledujteto_file_id": 10431,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30283,
+      "cr_slug": "hemingway-a-gellhornova",
+      "title": "Hemingway a Gellhornová",
+      "year": 2012,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24149830,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:18:08Z",
+      "status": "processing",
+      "size_bytes": 1310510716,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 114.8,
+        "upload_sec": 60.6,
+        "total_sec": 176.5
+      }
+    },
+    {
+      "sledujteto_file_id": 32190,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30288,
+      "cr_slug": "sandokan",
+      "title": "Sandokan",
+      "year": 1995,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24150056,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:31:01Z",
+      "status": "processing",
+      "size_bytes": 4919182697,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 497.8,
+        "upload_sec": 273.7,
+        "total_sec": 772.8
+      }
+    },
+    {
+      "sledujteto_file_id": 6432,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30299,
+      "cr_slug": "barbie-princezna-a-zpevacka",
+      "title": "Barbie - Princezna a zpěvačka",
+      "year": 2012,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24150199,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:32:07Z",
+      "status": "processing",
+      "size_bytes": 665632305,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 36.3,
+        "upload_sec": 29.0,
+        "total_sec": 66.3
+      }
+    },
+    {
+      "sledujteto_file_id": 42168,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30312,
+      "cr_slug": "matersky-instinkt",
+      "title": "Mateřský instinkt",
+      "year": 2012,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151076,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:34:53Z",
+      "status": "processing",
+      "size_bytes": 1052168352,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 110.9,
+        "upload_sec": 53.2,
+        "total_sec": 165.2
+      }
+    },
+    {
+      "sledujteto_file_id": 32732,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30321,
+      "cr_slug": "strazce-lvu",
+      "title": "Strážce lvů",
+      "year": 1999,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151134,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:37:49Z",
+      "status": "processing",
+      "size_bytes": 1629473242,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 107.0,
+        "upload_sec": 68.7,
+        "total_sec": 176.6
+      }
+    },
+    {
+      "sledujteto_file_id": 8700,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30322,
+      "cr_slug": "polarni-medvedi",
+      "title": "Polární medvědi",
+      "year": 2012,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151194,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:41:06Z",
+      "status": "processing",
+      "size_bytes": 1515910249,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 133.1,
+        "upload_sec": 62.8,
+        "total_sec": 197.2
+      }
+    },
+    {
+      "sledujteto_file_id": 8834,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30330,
+      "cr_slug": "bitva-o-stalingrad",
+      "title": "Bitva o Stalingrad",
+      "year": 1949,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151284,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:45:11Z",
+      "status": "processing",
+      "size_bytes": 1291525653,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 169.0,
+        "upload_sec": 73.9,
+        "total_sec": 244.1
+      }
+    },
+    {
+      "sledujteto_file_id": 6429,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30332,
+      "cr_slug": "barbie-a-ruzove-balerinky",
+      "title": "Barbie a růžové balerínky",
+      "year": 2013,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151320,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:45:59Z",
+      "status": "processing",
+      "size_bytes": 467005993,
+      "timing": {
+        "cdn_resolve_sec": 1.3,
+        "download_sec": 22.4,
+        "upload_sec": 24.7,
+        "total_sec": 48.4
+      }
+    },
+    {
+      "sledujteto_file_id": 5917,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30334,
+      "cr_slug": "ayrton-senna-zavodeni-mam-v-krvi",
+      "title": "Ayrton Senna: Závodění mám v krvi",
+      "year": 1993,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151362,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:47:48Z",
+      "status": "processing",
+      "size_bytes": 1046770324,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 62.4,
+        "upload_sec": 45.5,
+        "total_sec": 108.9
+      }
+    },
+    {
+      "sledujteto_file_id": 10482,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30341,
+      "cr_slug": "geography-club",
+      "title": "Geography Club",
+      "year": 2013,
+      "lang_class": "SK_SUB",
+      "prehrajto_video_id": 24151388,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:48:34Z",
+      "status": "processing",
+      "size_bytes": 372427883,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 23.1,
+        "upload_sec": 21.6,
+        "total_sec": 45.7
+      }
+    },
+    {
+      "sledujteto_file_id": 10437,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30344,
+      "cr_slug": "hawaii",
+      "title": "Hawaii",
+      "year": 2013,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24151426,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:49:57Z",
+      "status": "processing",
+      "size_bytes": 744134868,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 48.0,
+        "upload_sec": 34.8,
+        "total_sec": 83.7
+      }
+    },
+    {
+      "sledujteto_file_id": 10560,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30365,
+      "cr_slug": "dark-world-equilibrium",
+      "title": "Dark World: Equilibrium",
+      "year": 2013,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151456,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:51:37Z",
+      "status": "processing",
+      "size_bytes": 505179352,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 69.6,
+        "upload_sec": 29.1,
+        "total_sec": 99.7
+      }
+    },
+    {
+      "sledujteto_file_id": 10819,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30372,
+      "cr_slug": "coming-out-2013",
+      "title": "Coming Out",
+      "year": 2013,
+      "lang_class": "SK_SUB",
+      "prehrajto_video_id": 24151461,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:52:13Z",
+      "status": "processing",
+      "size_bytes": 392020524,
+      "timing": {
+        "cdn_resolve_sec": 1.3,
+        "download_sec": 17.9,
+        "upload_sec": 17.4,
+        "total_sec": 36.5
+      }
+    },
+    {
+      "sledujteto_file_id": 20631,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30373,
+      "cr_slug": "dark-sister",
+      "title": "Dark Sister",
+      "year": 2014,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24151494,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:55:10Z",
+      "status": "processing",
+      "size_bytes": 1618371254,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 95.8,
+        "upload_sec": 80.0,
+        "total_sec": 176.8
+      }
+    },
+    {
+      "sledujteto_file_id": 68147,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30382,
+      "cr_slug": "there-are-no-saints",
+      "title": "There Are No Saints",
+      "year": 2022,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24151557,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:58:45Z",
+      "status": "processing",
+      "size_bytes": 1970880662,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 129.9,
+        "upload_sec": 83.2,
+        "total_sec": 214.3
+      }
+    },
+    {
+      "sledujteto_file_id": 17919,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30383,
+      "cr_slug": "2012-mayska-proroctvi-a-kruhy-v-obili",
+      "title": "2012: Mayská proroctví a kruhy v obilí",
+      "year": 2010,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151593,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T17:59:43Z",
+      "status": "processing",
+      "size_bytes": 391463871,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 38.8,
+        "upload_sec": 18.1,
+        "total_sec": 58.1
+      }
+    },
+    {
+      "sledujteto_file_id": 7271,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30390,
+      "cr_slug": "indianska-legenda",
+      "title": "Indiánská legenda",
+      "year": 1988,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151606,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:00:30Z",
+      "status": "processing",
+      "size_bytes": 410963752,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 27.3,
+        "upload_sec": 19.3,
+        "total_sec": 47.6
+      }
+    },
+    {
+      "sledujteto_file_id": 10611,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30402,
+      "cr_slug": "drown",
+      "title": "Drown",
+      "year": 2015,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24151621,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:01:23Z",
+      "status": "processing",
+      "size_bytes": 584088175,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 25.8,
+        "upload_sec": 25.6,
+        "total_sec": 52.4
+      }
+    },
+    {
+      "sledujteto_file_id": 5206,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30404,
+      "cr_slug": "anomalisa",
+      "title": "Anomalisa",
+      "year": 2015,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151638,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:02:27Z",
+      "status": "processing",
+      "size_bytes": 342496711,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 35.9,
+        "upload_sec": 27.6,
+        "total_sec": 64.2
+      }
+    },
+    {
+      "sledujteto_file_id": 18001,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30407,
+      "cr_slug": "detox",
+      "title": "Detox",
+      "year": 2018,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24151682,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:05:29Z",
+      "status": "processing",
+      "size_bytes": 1408539859,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 122.2,
+        "upload_sec": 59.0,
+        "total_sec": 182.1
+      }
+    },
+    {
+      "sledujteto_file_id": 5350,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30408,
+      "cr_slug": "vrah-meho-manzela",
+      "title": "Vrah mého manžela",
+      "year": 2014,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151706,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:06:23Z",
+      "status": "processing",
+      "size_bytes": 475797764,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 26.3,
+        "upload_sec": 26.7,
+        "total_sec": 54.0
+      }
+    },
+    {
+      "sledujteto_file_id": 5158,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30412,
+      "cr_slug": "vincent-n-roxxy",
+      "title": "Vincent N Roxxy",
+      "year": 2016,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24151724,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:07:45Z",
+      "status": "processing",
+      "size_bytes": 428027987,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 60.8,
+        "upload_sec": 20.3,
+        "total_sec": 82.0
+      }
+    },
+    {
+      "sledujteto_file_id": 7896,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30414,
+      "cr_slug": "world-of-tomorrow",
+      "title": "World of Tomorrow",
+      "year": 2015,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24151739,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:08:44Z",
+      "status": "processing",
+      "size_bytes": 339813621,
+      "timing": {
+        "cdn_resolve_sec": 1.6,
+        "download_sec": 40.7,
+        "upload_sec": 16.1,
+        "total_sec": 58.4
+      }
+    },
+    {
+      "sledujteto_file_id": 10514,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30418,
+      "cr_slug": "flintstoneovi-wwe-mela-doby-kamenne",
+      "title": "Flintstoneovi & WWE: Mela doby kamenné",
+      "year": 2015,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151754,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:09:27Z",
+      "status": "processing",
+      "size_bytes": 329355596,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 25.1,
+        "upload_sec": 17.7,
+        "total_sec": 43.6
+      }
+    },
+    {
+      "sledujteto_file_id": 51910,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30419,
+      "cr_slug": "pozehnana-jistota",
+      "title": "Požehnaná jistota",
+      "year": 1997,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151787,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:13:11Z",
+      "status": "processing",
+      "size_bytes": 1646445693,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 136.3,
+        "upload_sec": 86.3,
+        "total_sec": 223.7
+      }
+    },
+    {
+      "sledujteto_file_id": 22918,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30423,
+      "cr_slug": "the-legacy-of-a-whitetail-deer-hunter",
+      "title": "The Legacy of a Whitetail Deer Hunter",
+      "year": 2018,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24151827,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:15:03Z",
+      "status": "processing",
+      "size_bytes": 737600505,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 78.9,
+        "upload_sec": 32.4,
+        "total_sec": 112.5
+      }
+    },
+    {
+      "sledujteto_file_id": 3659,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30434,
+      "cr_slug": "bessie",
+      "title": "Bessie",
+      "year": 2015,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151850,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:16:40Z",
+      "status": "processing",
+      "size_bytes": 675720079,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 64.6,
+        "upload_sec": 30.6,
+        "total_sec": 96.5
+      }
+    },
+    {
+      "sledujteto_file_id": 7631,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30440,
+      "cr_slug": "doktor-dolittle-und-seine-tiere-teil-1-die-reise-nach-afrika",
+      "title": "Doktor Dolittle und seine Tiere: Teil 1 – Die Reise nach Afrika",
+      "year": 1928,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151867,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:17:46Z",
+      "status": "processing",
+      "size_bytes": 407481406,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 38.9,
+        "upload_sec": 25.7,
+        "total_sec": 65.6
+      }
+    },
+    {
+      "sledujteto_file_id": 5815,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30445,
+      "cr_slug": "the-extraordinary-genius-of-albert-einstein",
+      "title": "The Extraordinary Genius of Albert Einstein",
+      "year": 2010,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151883,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:18:36Z",
+      "status": "processing",
+      "size_bytes": 481513542,
+      "timing": {
+        "cdn_resolve_sec": 1.5,
+        "download_sec": 22.6,
+        "upload_sec": 26.4,
+        "total_sec": 50.7
+      }
+    },
+    {
+      "sledujteto_file_id": 30248,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30448,
+      "cr_slug": "state-like-sleep",
+      "title": "State Like Sleep",
+      "year": 2019,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24151929,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:23:01Z",
+      "status": "processing",
+      "size_bytes": 1804181344,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 173.2,
+        "upload_sec": 90.4,
+        "total_sec": 264.8
+      }
+    },
+    {
+      "sledujteto_file_id": 13807,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30453,
+      "cr_slug": "dokonale-opojeni",
+      "title": "Dokonalé opojení",
+      "year": 2015,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24151956,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:23:53Z",
+      "status": "processing",
+      "size_bytes": 507553533,
+      "timing": {
+        "cdn_resolve_sec": 1.3,
+        "download_sec": 26.7,
+        "upload_sec": 24.2,
+        "total_sec": 52.3
+      }
+    },
+    {
+      "sledujteto_file_id": 20615,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30458,
+      "cr_slug": "sharon-1-2-3",
+      "title": "Sharon 1, 2, 3",
+      "year": 2018,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24151977,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:25:55Z",
+      "status": "processing",
+      "size_bytes": 713912740,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 83.2,
+        "upload_sec": 37.5,
+        "total_sec": 121.7
+      }
+    },
+    {
+      "sledujteto_file_id": 9368,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30459,
+      "cr_slug": "smysl-konce",
+      "title": "Smysl konce",
+      "year": 2017,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24151992,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:27:31Z",
+      "status": "processing",
+      "size_bytes": 894056623,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 51.4,
+        "upload_sec": 43.1,
+        "total_sec": 95.6
+      }
+    },
+    {
+      "sledujteto_file_id": 3657,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30460,
+      "cr_slug": "barbie-in-rock-n-royals",
+      "title": "Barbie in Rock 'N Royals",
+      "year": 2015,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24152011,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:28:42Z",
+      "status": "processing",
+      "size_bytes": 594096148,
+      "timing": {
+        "cdn_resolve_sec": 1.3,
+        "download_sec": 41.5,
+        "upload_sec": 28.6,
+        "total_sec": 71.5
+      }
+    },
+    {
+      "sledujteto_file_id": 8633,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30467,
+      "cr_slug": "john-mulaney-the-comeback-kid",
+      "title": "John Mulaney: The Comeback Kid",
+      "year": 2015,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24152027,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:30:12Z",
+      "status": "processing",
+      "size_bytes": 675443820,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 52.6,
+        "upload_sec": 36.1,
+        "total_sec": 89.7
+      }
+    },
+    {
+      "sledujteto_file_id": 3606,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30469,
+      "cr_slug": "below-her-mouth",
+      "title": "Below Her Mouth",
+      "year": 2017,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24152049,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:31:23Z",
+      "status": "processing",
+      "size_bytes": 395568619,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 50.7,
+        "upload_sec": 19.5,
+        "total_sec": 71.3
+      }
+    },
+    {
+      "sledujteto_file_id": 5392,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30471,
+      "cr_slug": "plizive-zlo",
+      "title": "Plíživé zlo",
+      "year": 2015,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24152097,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:34:43Z",
+      "status": "processing",
+      "size_bytes": 1005938317,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 146.8,
+        "upload_sec": 51.7,
+        "total_sec": 199.5
+      }
+    },
+    {
+      "sledujteto_file_id": 4399,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30475,
+      "cr_slug": "spravna-holka",
+      "title": "Správná holka",
+      "year": 2015,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24152128,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:36:32Z",
+      "status": "processing",
+      "size_bytes": 634345738,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 74.1,
+        "upload_sec": 34.1,
+        "total_sec": 109.2
+      }
+    },
+    {
+      "sledujteto_file_id": 18293,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30478,
+      "cr_slug": "prvni-posledni",
+      "title": "První, poslední",
+      "year": 2016,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24152161,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:38:35Z",
+      "status": "processing",
+      "size_bytes": 289136985,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 106.7,
+        "upload_sec": 15.9,
+        "total_sec": 123.5
+      }
+    },
+    {
+      "sledujteto_file_id": 26218,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30488,
+      "cr_slug": "little-bitches",
+      "title": "Little Bitches",
+      "year": 2018,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24152209,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:41:44Z",
+      "status": "processing",
+      "size_bytes": 876754961,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 149.2,
+        "upload_sec": 38.0,
+        "total_sec": 188.6
+      }
+    },
+    {
+      "sledujteto_file_id": 11059,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30490,
+      "cr_slug": "informatorka-2016",
+      "title": "Informátorka",
+      "year": 2016,
+      "lang_class": "SK_DUB",
+      "prehrajto_video_id": 24152267,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:46:47Z",
+      "status": "processing",
+      "size_bytes": 2451629565,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 187.7,
+        "upload_sec": 114.2,
+        "total_sec": 303.3
+      }
+    },
+    {
+      "sledujteto_file_id": 33740,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30503,
+      "cr_slug": "duse-spiona",
+      "title": "Duše špióna",
+      "year": 2015,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24152408,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:54:43Z",
+      "status": "processing",
+      "size_bytes": 3034197830,
+      "timing": {
+        "cdn_resolve_sec": 1.6,
+        "download_sec": 345.9,
+        "upload_sec": 127.6,
+        "total_sec": 475.4
+      }
+    },
+    {
+      "sledujteto_file_id": 7473,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30524,
+      "cr_slug": "ace-the-case-manhattan-mystery",
+      "title": "Ace the Case: Manhattan Mystery",
+      "year": 2016,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24152434,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:56:07Z",
+      "status": "processing",
+      "size_bytes": 479737796,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 53.1,
+        "upload_sec": 29.5,
+        "total_sec": 83.8
+      }
+    },
+    {
+      "sledujteto_file_id": 22912,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30527,
+      "cr_slug": "bratri-lumierove",
+      "title": "Bratři Lumiérové",
+      "year": 2016,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24152451,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T18:57:50Z",
+      "status": "processing",
+      "size_bytes": 831612485,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 65.8,
+        "upload_sec": 37.0,
+        "total_sec": 103.9
+      }
+    },
+    {
+      "sledujteto_file_id": 32188,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30532,
+      "cr_slug": "amber-alert-2016",
+      "title": "Amber Alert",
+      "year": 2016,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24152482,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:02:06Z",
+      "status": "processing",
+      "size_bytes": 2129301849,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 163.3,
+        "upload_sec": 90.6,
+        "total_sec": 255.1
+      }
+    },
+    {
+      "sledujteto_file_id": 8883,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30535,
+      "cr_slug": "tonight-she-comes",
+      "title": "Tonight She Comes",
+      "year": 2018,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24152529,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:04:50Z",
+      "status": "processing",
+      "size_bytes": 1112617519,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 109.8,
+        "upload_sec": 53.2,
+        "total_sec": 164.2
+      }
+    },
+    {
+      "sledujteto_file_id": 16907,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30539,
+      "cr_slug": "pevna-linka",
+      "title": "Pevná linka",
+      "year": 2017,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24152553,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:06:16Z",
+      "status": "processing",
+      "size_bytes": 392261421,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 45.9,
+        "upload_sec": 39.6,
+        "total_sec": 86.5
+      }
+    },
+    {
+      "sledujteto_file_id": 9071,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30542,
+      "cr_slug": "until-forever",
+      "title": "Until Forever",
+      "year": 2016,
+      "lang_class": "SK_SUB",
+      "prehrajto_video_id": 24152579,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:07:26Z",
+      "status": "processing",
+      "size_bytes": 568751057,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 43.1,
+        "upload_sec": 25.7,
+        "total_sec": 69.7
+      }
+    },
+    {
+      "sledujteto_file_id": 24308,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30549,
+      "cr_slug": "ofelie",
+      "title": "Ofélie",
+      "year": 2019,
+      "lang_class": "SK_SUB",
+      "prehrajto_video_id": 24152680,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:12:23Z",
+      "status": "processing",
+      "size_bytes": 2176011525,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 202.2,
+        "upload_sec": 93.2,
+        "total_sec": 296.7
+      }
+    },
+    {
+      "sledujteto_file_id": 20092,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30556,
+      "cr_slug": "chappaquiddick",
+      "title": "Chappaquiddick",
+      "year": 2018,
+      "lang_class": "SK_SUB",
+      "prehrajto_video_id": 24152735,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:14:14Z",
+      "status": "processing",
+      "size_bytes": 944250473,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 67.4,
+        "upload_sec": 42.4,
+        "total_sec": 111.2
+      }
+    },
+    {
+      "sledujteto_file_id": 11650,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30558,
+      "cr_slug": "chasing-coral",
+      "title": "Chasing Coral",
+      "year": 2017,
+      "lang_class": "SK_SUB",
+      "prehrajto_video_id": 24152772,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:15:50Z",
+      "status": "processing",
+      "size_bytes": 856351367,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 47.0,
+        "upload_sec": 47.6,
+        "total_sec": 95.7
+      }
+    },
+    {
+      "sledujteto_file_id": 16116,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30561,
+      "cr_slug": "suck-it-up",
+      "title": "Suck It Up",
+      "year": 2017,
+      "lang_class": "SK_SUB",
+      "prehrajto_video_id": 24152802,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:17:02Z",
+      "status": "processing",
+      "size_bytes": 736844692,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 38.9,
+        "upload_sec": 32.5,
+        "total_sec": 72.6
+      }
+    },
+    {
+      "sledujteto_file_id": 6985,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30566,
+      "cr_slug": "devil-s-domain",
+      "title": "Devil's Domain",
+      "year": 2017,
+      "lang_class": "SK_SUB",
+      "prehrajto_video_id": 24152832,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:18:35Z",
+      "status": "processing",
+      "size_bytes": 897993713,
+      "timing": {
+        "cdn_resolve_sec": 1.5,
+        "download_sec": 51.0,
+        "upload_sec": 39.8,
+        "total_sec": 92.4
+      }
+    },
+    {
+      "sledujteto_file_id": 14091,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30574,
+      "cr_slug": "most-beautiful-island",
+      "title": "Most Beautiful Island",
+      "year": 2017,
+      "lang_class": "SK_SUB",
+      "prehrajto_video_id": 24152868,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:20:17Z",
+      "status": "processing",
+      "size_bytes": 916121785,
+      "timing": {
+        "cdn_resolve_sec": 0.7,
+        "download_sec": 61.5,
+        "upload_sec": 40.0,
+        "total_sec": 102.3
+      }
+    },
+    {
+      "sledujteto_file_id": 8218,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30576,
+      "cr_slug": "galaxy-of-horrors",
+      "title": "Galaxy of Horrors",
+      "year": 2024,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24152897,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:21:37Z",
+      "status": "processing",
+      "size_bytes": 582158270,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 47.1,
+        "upload_sec": 31.7,
+        "total_sec": 79.8
+      }
+    },
+    {
+      "sledujteto_file_id": 28711,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30577,
+      "cr_slug": "no-other-way-to-say-it",
+      "title": "No Other Way to Say It",
+      "year": 2017,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24152927,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:23:11Z",
+      "status": "processing",
+      "size_bytes": 752095619,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 52.4,
+        "upload_sec": 40.2,
+        "total_sec": 93.7
+      }
+    },
+    {
+      "sledujteto_file_id": 21514,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30580,
+      "cr_slug": "andre-the-giant",
+      "title": "Andre the Giant",
+      "year": 2018,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24152965,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:25:07Z",
+      "status": "processing",
+      "size_bytes": 763710236,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 76.9,
+        "upload_sec": 37.8,
+        "total_sec": 116.0
+      }
+    },
+    {
+      "sledujteto_file_id": 20571,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30582,
+      "cr_slug": "whitney-byt-sama-sebou",
+      "title": "Whitney: Být sama sebou",
+      "year": 2017,
+      "lang_class": "SK_SUB",
+      "prehrajto_video_id": 24153022,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:26:39Z",
+      "status": "processing",
+      "size_bytes": 749677292,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 58.8,
+        "upload_sec": 32.4,
+        "total_sec": 92.2
+      }
+    },
+    {
+      "sledujteto_file_id": 15904,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30586,
+      "cr_slug": "godzilla-2017",
+      "title": "GODZILLA 怪獣惑星",
+      "year": 2017,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24153081,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:28:54Z",
+      "status": "processing",
+      "size_bytes": 683649420,
+      "timing": {
+        "cdn_resolve_sec": 1.8,
+        "download_sec": 94.8,
+        "upload_sec": 38.4,
+        "total_sec": 135.1
+      }
+    },
+    {
+      "sledujteto_file_id": 10144,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30593,
+      "cr_slug": "spravedlnost-2017",
+      "title": "Spravedlnost",
+      "year": 2017,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24153142,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:31:20Z",
+      "status": "processing",
+      "size_bytes": 1120692494,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 78.8,
+        "upload_sec": 65.9,
+        "total_sec": 146.1
+      }
+    },
+    {
+      "sledujteto_file_id": 20578,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30596,
+      "cr_slug": "arytmie",
+      "title": "Arytmie",
+      "year": 2017,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 24153340,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:33:53Z",
+      "status": "processing",
+      "size_bytes": 1061394118,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 97.7,
+        "upload_sec": 53.2,
+        "total_sec": 152.5
+      }
+    },
+    {
+      "sledujteto_file_id": 70290,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 30599,
+      "cr_slug": "g-i-joe-arise-serpentor-arise",
+      "title": "G.I. Joe: Arise, Serpentor, Arise!",
+      "year": 1986,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24153488,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-04-24T19:35:38Z",
+      "status": "processing",
+      "size_bytes": 793081141,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 52.2,
+        "upload_sec": 52.2,
+        "total_sec": 105.7
+      }
     }
   ],
   "moderated_out": [

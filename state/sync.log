@@ -7057,3 +7057,1109 @@
 [02:32:26] step=iteration 14/20
 [02:32:26] step=batch-end backlog vyčerpán
 [02:32:26] step=batch-end succeeded=13 failed=0 total_uploads=635 batch_dur=1327.6s avg_per_film=102.1s backlog_remaining=0 eta_hours=0.0
+
+===== run 2026-04-24T16:11:24Z batch_size=100 lang=CZ_DUB,CZ_SUB,SK_DUB,SK_SUB (https://github.com/Olbrasoft/sledujtetocz-to-prehrajto/actions/runs/24899554016) =====
+[16:11:24] step=batch-start count=100 backlog=916 uploads=635 moderated=1
+[16:11:24] step=login
+[16:11:26] step=login done
+[16:11:26] step=iteration 1/100
+[16:11:26] step=film start upload_id=10392 cr_film_id=29914 name='Hrdina (2002) ZH CZ Dabing'
+[16:11:26] step=cdn-resolve upload_id=10392 cdn=www
+[16:11:27] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/3449f5c415a736f6722f8d76f64db830
+[16:11:27] step=download curl https://www.sledujteto.cz/player/index/sledujteto/3449f5c415a736f6722f8d76f64db830
+[16:12:57] step=download done upload_id=10392 size=800547174 dur=89.4s speed=9.0MB/s
+[16:12:57] step=upload start upload_id=10392 size=800547174
+[16:13:47] step=upload done upload_id=10392 video_id=24148695 dur=49.7s speed=16.1MB/s
+[16:13:47] step=cleanup unlinked Hrdina (2002) ZH CZ Dabing.mp4
+[16:13:47] step=film done upload_id=10392 total=140.5s (cdn=1.3s + download=89.4s + upload=49.7s)
+[16:13:47] step=state-saved upload_id=10392 (total uploads=636)
+[16:13:47] step=iteration 2/100
+[16:13:47] step=film start upload_id=16824 cr_film_id=29915 name='Večírek (1980) FR CZ tit'
+[16:13:47] step=cdn-resolve upload_id=16824 cdn=www
+[16:13:48] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/276e22c6f3b7d5142b257d2ab916641f
+[16:13:48] step=download curl https://www.sledujteto.cz/player/index/sledujteto/276e22c6f3b7d5142b257d2ab916641f
+[16:14:14] step=download done upload_id=16824 size=536012622 dur=26.6s speed=20.2MB/s
+[16:14:14] step=upload start upload_id=16824 size=536012622
+[16:14:48] step=upload done upload_id=16824 video_id=24148718 dur=33.5s speed=16.0MB/s
+[16:14:48] step=cleanup unlinked Večírek (1980) FR CZ tit.mp4
+[16:14:48] step=film done upload_id=16824 total=61.0s (cdn=0.9s + download=26.6s + upload=33.5s)
+[16:14:48] step=state-saved upload_id=16824 (total uploads=637)
+[16:14:48] step=iteration 3/100
+[16:14:48] step=film start upload_id=18181 cr_film_id=29921 name='Prachy, zbraně, jedno porno (1999) DE CZ Dabing'
+[16:14:48] step=cdn-resolve upload_id=18181 cdn=www
+[16:14:49] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/00632430a831ad456c657f14496c5d30
+[16:14:49] step=download curl https://www.sledujteto.cz/player/index/sledujteto/00632430a831ad456c657f14496c5d30
+[16:15:10] step=download done upload_id=18181 size=466892592 dur=21.4s speed=21.8MB/s
+[16:15:10] step=upload start upload_id=18181 size=466892592
+[16:15:31] step=upload done upload_id=18181 video_id=24148736 dur=21.0s speed=22.2MB/s
+[16:15:31] step=cleanup unlinked Prachy, zbraně, jedno porno (1999) DE CZ Dabing.mp4
+[16:15:31] step=film done upload_id=18181 total=43.4s (cdn=0.9s + download=21.4s + upload=21.0s)
+[16:15:31] step=state-saved upload_id=18181 (total uploads=638)
+[16:15:31] step=iteration 4/100
+[16:15:31] step=film start upload_id=68054 cr_film_id=29937 name='Mothra vs. Godzilla (1964) JA CZ Dabing'
+[16:15:31] step=cdn-resolve upload_id=68054 cdn=www
+[16:15:32] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/7ee33afc6472f77bb912a521278f5bae
+[16:15:32] step=download curl https://www.sledujteto.cz/player/index/sledujteto/7ee33afc6472f77bb912a521278f5bae
+[16:19:53] step=download done upload_id=68054 size=3331123368 dur=260.4s speed=12.8MB/s
+[16:19:53] step=upload start upload_id=68054 size=3331123368
+[16:22:36] step=upload done upload_id=68054 video_id=24148801 dur=162.9s speed=20.4MB/s
+[16:22:36] step=cleanup unlinked Mothra vs. Godzilla (1964) JA CZ Dabing.mp4
+[16:22:36] step=film done upload_id=68054 total=424.9s (cdn=1.2s + download=260.4s + upload=162.9s)
+[16:22:36] step=state-saved upload_id=68054 (total uploads=639)
+[16:22:36] step=iteration 5/100
+[16:22:36] step=film start upload_id=25543 cr_film_id=29947 name='Bankéřka (1980) FR CZ Dabing'
+[16:22:36] step=cdn-resolve upload_id=25543 cdn=www
+[16:22:37] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/b19ef049360ba11baf8e2b9f00da7c4d
+[16:22:37] step=download curl https://www.sledujteto.cz/player/index/sledujteto/b19ef049360ba11baf8e2b9f00da7c4d
+[16:23:26] step=download done upload_id=25543 size=1329364473 dur=49.5s speed=26.9MB/s
+[16:23:26] step=upload start upload_id=25543 size=1329364473
+[16:24:31] step=upload done upload_id=25543 video_id=24148856 dur=64.9s speed=20.5MB/s
+[16:24:32] step=cleanup unlinked Bankéřka (1980) FR CZ Dabing.mp4
+[16:24:32] step=film done upload_id=25543 total=115.5s (cdn=1.0s + download=49.5s + upload=64.9s)
+[16:24:32] step=state-saved upload_id=25543 (total uploads=640)
+[16:24:32] step=iteration 6/100
+[16:24:32] step=film start upload_id=10527 cr_film_id=29961 name='Fast Food Nation (2006) EN CZ tit'
+[16:24:32] step=cdn-resolve upload_id=10527 cdn=www
+[16:24:33] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/dedd7d0a066f7ac8804dbc24a9a0cd94
+[16:24:33] step=download curl https://www.sledujteto.cz/player/index/sledujteto/dedd7d0a066f7ac8804dbc24a9a0cd94
+[16:25:45] step=download done upload_id=10527 size=862789065 dur=71.9s speed=12.0MB/s
+[16:25:45] step=upload start upload_id=10527 size=862789065
+[16:26:28] step=upload done upload_id=10527 video_id=24148884 dur=43.3s speed=19.9MB/s
+[16:26:28] step=cleanup unlinked Fast Food Nation (2006) EN CZ tit.mp4
+[16:26:28] step=film done upload_id=10527 total=116.6s (cdn=1.3s + download=71.9s + upload=43.3s)
+[16:26:28] step=state-saved upload_id=10527 (total uploads=641)
+[16:26:28] step=iteration 7/100
+[16:26:28] step=film start upload_id=65103 cr_film_id=29967 name='Mutant 3 (2005) EN CZ Dabing'
+[16:26:28] step=cdn-resolve upload_id=65103 cdn=www
+[16:26:29] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/2659a59e170ef28b92d37ee8bb6d7bb9
+[16:26:29] step=download curl https://www.sledujteto.cz/player/index/sledujteto/2659a59e170ef28b92d37ee8bb6d7bb9
+[16:26:57] step=download done upload_id=65103 size=567246120 dur=27.5s speed=20.6MB/s
+[16:26:57] step=upload start upload_id=65103 size=567246120
+[16:27:25] step=upload done upload_id=65103 video_id=24148896 dur=28.2s speed=20.1MB/s
+[16:27:25] step=cleanup unlinked Mutant 3 (2005) EN CZ Dabing.mp4
+[16:27:25] step=film done upload_id=65103 total=56.7s (cdn=0.9s + download=27.5s + upload=28.2s)
+[16:27:25] step=state-saved upload_id=65103 (total uploads=642)
+[16:27:25] step=iteration 8/100
+[16:27:25] step=film start upload_id=8114 cr_film_id=29997 name='Esoteric Agenda (2008) EN CZ Dabing'
+[16:27:25] step=cdn-resolve upload_id=8114 cdn=www
+[16:27:26] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/7692d4e50c1c3465f65eafdbab547d2e
+[16:27:26] step=download curl https://www.sledujteto.cz/player/index/sledujteto/7692d4e50c1c3465f65eafdbab547d2e
+[16:27:56] step=download done upload_id=8114 size=663333811 dur=30.1s speed=22.0MB/s
+[16:27:56] step=upload start upload_id=8114 size=663333811
+[16:28:27] step=upload done upload_id=8114 video_id=24148906 dur=30.7s speed=21.6MB/s
+[16:28:27] step=cleanup unlinked Esoteric Agenda (2008) EN CZ Dabing.mp4
+[16:28:27] step=film done upload_id=8114 total=61.8s (cdn=1.0s + download=30.1s + upload=30.7s)
+[16:28:27] step=state-saved upload_id=8114 (total uploads=643)
+[16:28:27] step=iteration 9/100
+[16:28:27] step=film start upload_id=9744 cr_film_id=30000 name='Ostrov ztracených duší (2007) DA CZ Dabing'
+[16:28:27] step=cdn-resolve upload_id=9744 cdn=www
+[16:28:28] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/1cb14649b5cebf840c0d985f96382351
+[16:28:28] step=download curl https://www.sledujteto.cz/player/index/sledujteto/1cb14649b5cebf840c0d985f96382351
+[16:29:40] step=download done upload_id=9744 size=782317688 dur=72.6s speed=10.8MB/s
+[16:29:40] step=upload start upload_id=9744 size=782317688
+[16:30:16] step=upload done upload_id=9744 video_id=24148935 dur=35.8s speed=21.9MB/s
+[16:30:16] step=cleanup unlinked Ostrov ztracených duší (2007) DA CZ Dabing.mp4
+[16:30:16] step=film done upload_id=9744 total=109.4s (cdn=0.9s + download=72.6s + upload=35.8s)
+[16:30:16] step=state-saved upload_id=9744 (total uploads=644)
+[16:30:16] step=iteration 10/100
+[16:30:16] step=film start upload_id=53395 cr_film_id=30002 name='Kainova výchova (1992) EN CZ Dabing'
+[16:30:16] step=cdn-resolve upload_id=53395 cdn=www
+[16:30:17] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/39673a4316ef4a88d057559cd1f9cfa2
+[16:30:17] step=download curl https://www.sledujteto.cz/player/index/sledujteto/39673a4316ef4a88d057559cd1f9cfa2
+[16:30:30] step=download done upload_id=53395 size=230412803 dur=12.8s speed=18.0MB/s
+[16:30:30] step=upload start upload_id=53395 size=230412803
+[16:30:58] step=upload done upload_id=53395 video_id=24148952 dur=28.6s speed=8.1MB/s
+[16:30:58] step=cleanup unlinked Kainova výchova (1992) EN CZ Dabing.mp4
+[16:30:58] step=film done upload_id=53395 total=42.3s (cdn=0.9s + download=12.8s + upload=28.6s)
+[16:30:58] step=state-saved upload_id=53395 (total uploads=645)
+[16:30:58] step=iteration 11/100
+[16:30:58] step=film start upload_id=31311 cr_film_id=30008 name='O Ano em que Meus Pais Saíram de Férias (2006) PT CZ tit'
+[16:30:58] step=cdn-resolve upload_id=31311 cdn=www
+[16:31:00] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/8cabd61b3e5aca4a95657040d27fd23a
+[16:31:00] step=download curl https://www.sledujteto.cz/player/index/sledujteto/8cabd61b3e5aca4a95657040d27fd23a
+[16:31:49] step=download done upload_id=31311 size=570910810 dur=49.6s speed=11.5MB/s
+[16:31:49] step=upload start upload_id=31311 size=570910810
+[16:32:47] step=upload done upload_id=31311 video_id=24148980 dur=57.6s speed=9.9MB/s
+[16:32:47] step=cleanup unlinked O Ano em que Meus Pais Saíram de Férias (2006) PT CZ tit.mp4
+[16:32:47] step=film done upload_id=31311 total=108.5s (cdn=1.2s + download=49.6s + upload=57.6s)
+[16:32:47] step=state-saved upload_id=31311 (total uploads=646)
+[16:32:47] step=iteration 12/100
+[16:32:47] step=film start upload_id=18180 cr_film_id=30009 name='Převtělená (2007) FR CZ Dabing'
+[16:32:47] step=cdn-resolve upload_id=18180 cdn=www
+[16:32:48] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/30657c0527be818767c708d632d1b4e7
+[16:32:48] step=download curl https://www.sledujteto.cz/player/index/sledujteto/30657c0527be818767c708d632d1b4e7
+[16:33:33] step=download done upload_id=18180 size=391402679 dur=45.0s speed=8.7MB/s
+[16:33:33] step=upload start upload_id=18180 size=391402679
+[16:33:51] step=upload done upload_id=18180 video_id=24149029 dur=17.8s speed=22.0MB/s
+[16:33:51] step=cleanup unlinked Převtělená (2007) FR CZ Dabing.mp4
+[16:33:51] step=film done upload_id=18180 total=63.8s (cdn=1.0s + download=45.0s + upload=17.8s)
+[16:33:51] step=state-saved upload_id=18180 (total uploads=647)
+[16:33:51] step=iteration 13/100
+[16:33:51] step=film start upload_id=67161 cr_film_id=30010 name='Petr a vlk (2006) EN SK tit'
+[16:33:51] step=cdn-resolve upload_id=67161 cdn=www
+[16:33:52] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/e57f793c68e1379f41d61fa2ff28457d
+[16:33:52] step=download curl https://www.sledujteto.cz/player/index/sledujteto/e57f793c68e1379f41d61fa2ff28457d
+[16:34:18] step=download done upload_id=67161 size=642238014 dur=25.9s speed=24.8MB/s
+[16:34:18] step=upload start upload_id=67161 size=642238014
+[16:34:50] step=upload done upload_id=67161 video_id=24149046 dur=32.8s speed=19.6MB/s
+[16:34:50] step=cleanup unlinked Petr a vlk (2006) EN SK tit.mp4
+[16:34:50] step=film done upload_id=67161 total=59.7s (cdn=1.0s + download=25.9s + upload=32.8s)
+[16:34:50] step=state-saved upload_id=67161 (total uploads=648)
+[16:34:50] step=iteration 14/100
+[16:34:50] step=film start upload_id=36636 cr_film_id=30021 name='Twin Town (1997) EN CZ Dabing'
+[16:34:50] step=cdn-resolve upload_id=36636 cdn=www
+[16:34:51] step=cdn-resolve done 0.6s → https://www.sledujteto.cz/player/index/sledujteto/a6a06ac2533a8eeffa4946f36a7074cc
+[16:34:51] step=download curl https://www.sledujteto.cz/player/index/sledujteto/a6a06ac2533a8eeffa4946f36a7074cc
+[16:35:24] step=download done upload_id=36636 size=680465574 dur=32.8s speed=20.7MB/s
+[16:35:24] step=upload start upload_id=36636 size=680465574
+[16:35:56] step=upload done upload_id=36636 video_id=24149063 dur=32.1s speed=21.2MB/s
+[16:35:56] step=cleanup unlinked Twin Town (1997) EN CZ Dabing.mp4
+[16:35:56] step=film done upload_id=36636 total=65.7s (cdn=0.6s + download=32.8s + upload=32.1s)
+[16:35:56] step=state-saved upload_id=36636 (total uploads=649)
+[16:35:56] step=iteration 15/100
+[16:35:56] step=film start upload_id=6473 cr_film_id=30023 name='Hamiltonovi (2006) EN CZ Dabing'
+[16:35:56] step=cdn-resolve upload_id=6473 cdn=www
+[16:35:57] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/6ebe4e338a7870948053e2b43b926f00
+[16:35:57] step=download curl https://www.sledujteto.cz/player/index/sledujteto/6ebe4e338a7870948053e2b43b926f00
+[16:36:19] step=download done upload_id=6473 size=417865063 dur=22.4s speed=18.7MB/s
+[16:36:19] step=upload start upload_id=6473 size=417865063
+[16:36:46] step=upload done upload_id=6473 video_id=24149081 dur=26.6s speed=15.7MB/s
+[16:36:46] step=cleanup unlinked Hamiltonovi (2006) EN CZ Dabing.mp4
+[16:36:46] step=film done upload_id=6473 total=50.0s (cdn=0.9s + download=22.4s + upload=26.6s)
+[16:36:46] step=state-saved upload_id=6473 (total uploads=650)
+[16:36:46] step=iteration 16/100
+[16:36:46] step=film start upload_id=19252 cr_film_id=30024 name='Gekidžóban Bleach: Memories of Nobody (2006) JA SK tit'
+[16:36:46] step=cdn-resolve upload_id=19252 cdn=www
+[16:36:47] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/a2d4e42a483d89cb990468489f69d1c9
+[16:36:47] step=download curl https://www.sledujteto.cz/player/index/sledujteto/a2d4e42a483d89cb990468489f69d1c9
+[16:37:54] step=download done upload_id=19252 size=1161448270 dur=67.1s speed=17.3MB/s
+[16:37:54] step=upload start upload_id=19252 size=1161448270
+[16:38:47] step=upload done upload_id=19252 video_id=24149107 dur=52.9s speed=22.0MB/s
+[16:38:47] step=cleanup unlinked Gekidžóban Bleach: Memories of Nobody (2006) JA SK tit.mp4
+[16:38:47] step=film done upload_id=19252 total=121.1s (cdn=0.9s + download=67.1s + upload=52.9s)
+[16:38:47] step=state-saved upload_id=19252 (total uploads=651)
+[16:38:47] step=iteration 17/100
+[16:38:47] step=film start upload_id=25494 cr_film_id=30054 name='Černá vdova (1987) EN CZ Dabing'
+[16:38:47] step=cdn-resolve upload_id=25494 cdn=www
+[16:38:48] step=cdn-resolve done 0.8s → https://www.sledujteto.cz/player/index/sledujteto/eb801242f4fc3df7014b7f8896c00b32
+[16:38:48] step=download curl https://www.sledujteto.cz/player/index/sledujteto/eb801242f4fc3df7014b7f8896c00b32
+[16:39:31] step=download done upload_id=25494 size=919451453 dur=43.4s speed=21.2MB/s
+[16:39:31] step=upload start upload_id=25494 size=919451453
+[16:40:24] step=upload done upload_id=25494 video_id=24149131 dur=52.2s speed=17.6MB/s
+[16:40:24] step=cleanup unlinked Černá vdova (1987) EN CZ Dabing.mp4
+[16:40:24] step=film done upload_id=25494 total=96.6s (cdn=0.8s + download=43.4s + upload=52.2s)
+[16:40:24] step=state-saved upload_id=25494 (total uploads=652)
+[16:40:24] step=iteration 18/100
+[16:40:24] step=film start upload_id=6525 cr_film_id=30060 name='Lilo a Stitch 2: Stitch má mouchy (2005) EN CZ Dabing'
+[16:40:24] step=cdn-resolve upload_id=6525 cdn=www
+[16:40:25] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/8d247eee6f1d57f073d7282222cf30bc
+[16:40:25] step=download curl https://www.sledujteto.cz/player/index/sledujteto/8d247eee6f1d57f073d7282222cf30bc
+[16:40:42] step=download done upload_id=6525 size=322172758 dur=17.3s speed=18.6MB/s
+[16:40:42] step=upload start upload_id=6525 size=322172758
+[16:41:06] step=upload done upload_id=6525 video_id=24149149 dur=24.2s speed=13.3MB/s
+[16:41:06] step=cleanup unlinked Lilo a Stitch 2: Stitch má mouchy (2005) EN CZ Dabing.mp4
+[16:41:06] step=film done upload_id=6525 total=42.5s (cdn=0.9s + download=17.3s + upload=24.2s)
+[16:41:06] step=state-saved upload_id=6525 (total uploads=653)
+[16:41:06] step=iteration 19/100
+[16:41:06] step=film start upload_id=25176 cr_film_id=30081 name='Vdovy z Widows’ Peak (1994) EN CZ Dabing'
+[16:41:06] step=cdn-resolve upload_id=25176 cdn=www
+[16:41:07] step=cdn-resolve done 0.8s → https://www.sledujteto.cz/player/index/sledujteto/019be79bf118198005d45456e72fdaa8
+[16:41:07] step=download curl https://www.sledujteto.cz/player/index/sledujteto/019be79bf118198005d45456e72fdaa8
+[16:41:48] step=download done upload_id=25176 size=744751536 dur=40.7s speed=18.3MB/s
+[16:41:48] step=upload start upload_id=25176 size=744751536
+[16:42:22] step=upload done upload_id=25176 video_id=24149170 dur=34.0s speed=21.9MB/s
+[16:42:22] step=cleanup unlinked Vdovy z Widows’ Peak (1994) EN CZ Dabing.mp4
+[16:42:22] step=film done upload_id=25176 total=75.5s (cdn=0.8s + download=40.7s + upload=34.0s)
+[16:42:22] step=state-saved upload_id=25176 (total uploads=654)
+[16:42:22] step=iteration 20/100
+[16:42:22] step=film start upload_id=18446 cr_film_id=30090 name='Matrix hunter (2004) EN CZ Dabing'
+[16:42:22] step=cdn-resolve upload_id=18446 cdn=www
+[16:42:23] step=cdn-resolve done 1.6s → https://www.sledujteto.cz/player/index/sledujteto/08a817cc1ef341dc478a84b75c78bb59
+[16:42:23] step=download curl https://www.sledujteto.cz/player/index/sledujteto/08a817cc1ef341dc478a84b75c78bb59
+[16:42:44] step=download done upload_id=18446 size=446359626 dur=20.7s speed=21.6MB/s
+[16:42:44] step=upload start upload_id=18446 size=446359626
+[16:43:29] step=upload done upload_id=18446 video_id=24149192 dur=44.6s speed=10.0MB/s
+[16:43:29] step=cleanup unlinked Matrix hunter (2004) EN CZ Dabing.mp4
+[16:43:29] step=film done upload_id=18446 total=67.0s (cdn=1.6s + download=20.7s + upload=44.6s)
+[16:43:29] step=state-saved upload_id=18446 (total uploads=655)
+[16:43:29] step=iteration 21/100
+[16:43:29] step=film start upload_id=7137 cr_film_id=30152 name='Mamut (2006) EN CZ Dabing'
+[16:43:29] step=cdn-resolve upload_id=7137 cdn=www
+[16:43:30] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/8d91edf72671c08cee87fc400606ee66
+[16:43:30] step=download curl https://www.sledujteto.cz/player/index/sledujteto/8d91edf72671c08cee87fc400606ee66
+[16:44:01] step=download done upload_id=7137 size=571823233 dur=30.9s speed=18.5MB/s
+[16:44:01] step=upload start upload_id=7137 size=571823233
+[16:44:31] step=upload done upload_id=7137 video_id=24149216 dur=30.3s speed=18.9MB/s
+[16:44:31] step=cleanup unlinked Mamut (2006) EN CZ Dabing.mp4
+[16:44:31] step=film done upload_id=7137 total=62.2s (cdn=0.9s + download=30.9s + upload=30.3s)
+[16:44:31] step=state-saved upload_id=7137 (total uploads=656)
+[16:44:31] step=iteration 22/100
+[16:44:31] step=film start upload_id=52849 cr_film_id=30160 name='Jeptiška (1967) FR CZ Dabing'
+[16:44:31] step=cdn-resolve upload_id=52849 cdn=www
+[16:44:32] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/4ebeb156d1795d35a4c2ce1c8ab3c763
+[16:44:32] step=download curl https://www.sledujteto.cz/player/index/sledujteto/4ebeb156d1795d35a4c2ce1c8ab3c763
+[16:46:46] step=download done upload_id=52849 size=1672628568 dur=133.7s speed=12.5MB/s
+[16:46:46] step=upload start upload_id=52849 size=1672628568
+[16:47:57] step=upload done upload_id=52849 video_id=24149267 dur=71.2s speed=23.5MB/s
+[16:47:57] step=cleanup unlinked Jeptiška (1967) FR CZ Dabing.mp4
+[16:47:57] step=film done upload_id=52849 total=206.1s (cdn=1.0s + download=133.7s + upload=71.2s)
+[16:47:57] step=state-saved upload_id=52849 (total uploads=657)
+[16:47:57] step=iteration 23/100
+[16:47:57] step=film start upload_id=34727 cr_film_id=30163 name='Tajemný poklad (2009) FR CZ Dabing'
+[16:47:57] step=cdn-resolve upload_id=34727 cdn=www
+[16:47:58] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/3a3a56825de236644addfac56944439f
+[16:47:58] step=download curl https://www.sledujteto.cz/player/index/sledujteto/3a3a56825de236644addfac56944439f
+[16:48:58] step=download done upload_id=34727 size=1168574727 dur=59.3s speed=19.7MB/s
+[16:48:58] step=upload start upload_id=34727 size=1168574727
+[16:49:54] step=upload done upload_id=34727 video_id=24149286 dur=56.5s speed=20.7MB/s
+[16:49:54] step=cleanup unlinked Tajemný poklad (2009) FR CZ Dabing.mp4
+[16:49:54] step=film done upload_id=34727 total=117.0s (cdn=1.0s + download=59.3s + upload=56.5s)
+[16:49:54] step=state-saved upload_id=34727 (total uploads=658)
+[16:49:54] step=iteration 24/100
+[16:49:54] step=film start upload_id=17942 cr_film_id=30167 name='Mimina (2010) FR CZ Dabing'
+[16:49:54] step=cdn-resolve upload_id=17942 cdn=www
+[16:49:55] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/ca675c5b29ea3d6946668989720dd41e
+[16:49:55] step=download curl https://www.sledujteto.cz/player/index/sledujteto/ca675c5b29ea3d6946668989720dd41e
+[16:50:18] step=download done upload_id=17942 size=408266083 dur=22.9s speed=17.8MB/s
+[16:50:18] step=upload start upload_id=17942 size=408266083
+[16:50:38] step=upload done upload_id=17942 video_id=24149306 dur=19.6s speed=20.8MB/s
+[16:50:38] step=cleanup unlinked Mimina (2010) FR CZ Dabing.mp4
+[16:50:38] step=film done upload_id=17942 total=43.6s (cdn=1.0s + download=22.9s + upload=19.6s)
+[16:50:38] step=state-saved upload_id=17942 (total uploads=659)
+[16:50:38] step=iteration 25/100
+[16:50:38] step=film start upload_id=15861 cr_film_id=30173 name='Inkognito (1997) EN CZ Dabing'
+[16:50:38] step=cdn-resolve upload_id=15861 cdn=www
+[16:50:39] step=cdn-resolve done 0.7s → https://www.sledujteto.cz/player/index/sledujteto/2c57dd3e7157e6e8c3b9f038ea28c1a4
+[16:50:39] step=download curl https://www.sledujteto.cz/player/index/sledujteto/2c57dd3e7157e6e8c3b9f038ea28c1a4
+[16:51:07] step=download done upload_id=15861 size=571735759 dur=28.4s speed=20.1MB/s
+[16:51:07] step=upload start upload_id=15861 size=571735759
+[16:51:33] step=upload done upload_id=15861 video_id=24149318 dur=26.5s speed=21.6MB/s
+[16:51:34] step=cleanup unlinked Inkognito (1997) EN CZ Dabing.mp4
+[16:51:34] step=film done upload_id=15861 total=55.6s (cdn=0.7s + download=28.4s + upload=26.5s)
+[16:51:34] step=state-saved upload_id=15861 (total uploads=660)
+[16:51:34] step=iteration 26/100
+[16:51:34] step=film start upload_id=31724 cr_film_id=30203 name='Skore - Hokejový muzikál (2010) EN CZ Dabing'
+[16:51:34] step=cdn-resolve upload_id=31724 cdn=www
+[16:51:35] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/7a0b24a192e1e57c5eb299cd7625710e
+[16:51:35] step=download curl https://www.sledujteto.cz/player/index/sledujteto/7a0b24a192e1e57c5eb299cd7625710e
+[16:52:01] step=download done upload_id=31724 size=503613441 dur=26.5s speed=19.0MB/s
+[16:52:01] step=upload start upload_id=31724 size=503613441
+[16:52:46] step=upload done upload_id=31724 video_id=24149332 dur=44.4s speed=11.3MB/s
+[16:52:46] step=cleanup unlinked Skore - Hokejový muzikál (2010) EN CZ Dabing.mp4
+[16:52:46] step=film done upload_id=31724 total=72.2s (cdn=1.2s + download=26.5s + upload=44.4s)
+[16:52:46] step=state-saved upload_id=31724 (total uploads=661)
+[16:52:46] step=iteration 27/100
+[16:52:46] step=film start upload_id=6127 cr_film_id=30206 name='Hemoglobin (1997) EN CZ Dabing'
+[16:52:46] step=cdn-resolve upload_id=6127 cdn=www
+[16:52:47] step=cdn-resolve done 0.8s → https://www.sledujteto.cz/player/index/sledujteto/40d7d3995a56bae4f2cd69fc9ab5ade5
+[16:52:47] step=download curl https://www.sledujteto.cz/player/index/sledujteto/40d7d3995a56bae4f2cd69fc9ab5ade5
+[16:53:41] step=download done upload_id=6127 size=647878413 dur=54.2s speed=12.0MB/s
+[16:53:41] step=upload start upload_id=6127 size=647878413
+[16:54:10] step=upload done upload_id=6127 video_id=24149356 dur=28.8s speed=22.5MB/s
+[16:54:10] step=cleanup unlinked Hemoglobin (1997) EN CZ Dabing.mp4
+[16:54:10] step=film done upload_id=6127 total=83.9s (cdn=0.8s + download=54.2s + upload=28.8s)
+[16:54:10] step=state-saved upload_id=6127 (total uploads=662)
+[16:54:10] step=iteration 28/100
+[16:54:10] step=film start upload_id=42185 cr_film_id=30245 name='Jantarová komnata (2012) DE CZ Dabing'
+[16:54:10] step=cdn-resolve upload_id=42185 cdn=www
+[16:54:11] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/f474776d73cc644bdc6d82246731146e
+[16:54:11] step=download curl https://www.sledujteto.cz/player/index/sledujteto/f474776d73cc644bdc6d82246731146e
+[16:54:54] step=download done upload_id=42185 size=733491215 dur=43.1s speed=17.0MB/s
+[16:54:54] step=upload start upload_id=42185 size=733491215
+[16:55:26] step=upload done upload_id=42185 video_id=24149378 dur=32.4s speed=22.6MB/s
+[16:55:26] step=cleanup unlinked Jantarová komnata (2012) DE CZ Dabing.mp4
+[16:55:26] step=film done upload_id=42185 total=76.5s (cdn=0.9s + download=43.1s + upload=32.4s)
+[16:55:26] step=state-saved upload_id=42185 (total uploads=663)
+[16:55:26] step=iteration 29/100
+[16:55:26] step=film start upload_id=10541 cr_film_id=30250 name='F jako fotři (2011) EN CZ tit'
+[16:55:26] step=cdn-resolve upload_id=10541 cdn=www
+[16:55:27] step=cdn-resolve done 0.6s → https://www.sledujteto.cz/player/index/sledujteto/07b0cd23113f5c641fe325e3ef2d45e1
+[16:55:27] step=download curl https://www.sledujteto.cz/player/index/sledujteto/07b0cd23113f5c641fe325e3ef2d45e1
+[16:56:14] step=download done upload_id=10541 size=744039747 dur=47.5s speed=15.7MB/s
+[16:56:14] step=upload start upload_id=10541 size=744039747
+[16:56:56] step=upload done upload_id=10541 video_id=24149395 dur=41.8s speed=17.8MB/s
+[16:56:56] step=cleanup unlinked F jako fotři (2011) EN CZ tit.mp4
+[16:56:56] step=film done upload_id=10541 total=90.0s (cdn=0.6s + download=47.5s + upload=41.8s)
+[16:56:56] step=state-saved upload_id=10541 (total uploads=664)
+[16:56:56] step=iteration 30/100
+[16:56:56] step=film start upload_id=42060 cr_film_id=30259 name='Bitva o ostrov Saipan (2011) JA CZ Dabing'
+[16:56:56] step=cdn-resolve upload_id=42060 cdn=www
+[16:56:57] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/588c5ae0f5605f025ae09e959dbf2309
+[16:56:57] step=download curl https://www.sledujteto.cz/player/index/sledujteto/588c5ae0f5605f025ae09e959dbf2309
+[17:00:10] step=download done upload_id=42060 size=3914342360 dur=192.6s speed=20.3MB/s
+[17:00:10] step=upload start upload_id=42060 size=3914342360
+[17:03:21] step=upload done upload_id=42060 video_id=24149472 dur=191.1s speed=20.5MB/s
+[17:03:21] step=cleanup unlinked Bitva o ostrov Saipan (2011) JA CZ Dabing.mp4
+[17:03:21] step=film done upload_id=42060 total=385.1s (cdn=0.9s + download=192.6s + upload=191.1s)
+[17:03:21] step=state-saved upload_id=42060 (total uploads=665)
+[17:03:21] step=iteration 31/100
+[17:03:21] step=film start upload_id=8688 cr_film_id=30261 name='Poslední přístav (2010) EN CZ Dabing'
+[17:03:21] step=cdn-resolve upload_id=8688 cdn=www
+[17:03:23] step=cdn-resolve done 1.4s → https://www.sledujteto.cz/player/index/sledujteto/a23825313ebcc0bf6315de1e775cf067
+[17:03:23] step=download curl https://www.sledujteto.cz/player/index/sledujteto/a23825313ebcc0bf6315de1e775cf067
+[17:03:58] step=download done upload_id=8688 size=502354699 dur=35.4s speed=14.2MB/s
+[17:03:58] step=upload start upload_id=8688 size=502354699
+[17:04:33] step=upload done upload_id=8688 video_id=24149575 dur=34.6s speed=14.5MB/s
+[17:04:33] step=cleanup unlinked Poslední přístav (2010) EN CZ Dabing.mp4
+[17:04:33] step=film done upload_id=8688 total=71.4s (cdn=1.4s + download=35.4s + upload=34.6s)
+[17:04:33] step=state-saved upload_id=8688 (total uploads=666)
+[17:04:33] step=iteration 32/100
+[17:04:33] step=film start upload_id=21494 cr_film_id=30264 name='Lov lososů v Jemenu (2012) EN CZ Dabing'
+[17:04:33] step=cdn-resolve upload_id=21494 cdn=www
+[17:04:35] step=cdn-resolve done 1.9s → https://www.sledujteto.cz/player/index/sledujteto/2ab2bb2f8e52873b7b08558b17adb7a8
+[17:04:35] step=download curl https://www.sledujteto.cz/player/index/sledujteto/2ab2bb2f8e52873b7b08558b17adb7a8
+[17:05:16] step=download done upload_id=21494 size=513067830 dur=41.0s speed=12.5MB/s
+[17:05:16] step=upload start upload_id=21494 size=513067830
+[17:05:41] step=upload done upload_id=21494 video_id=24149603 dur=25.4s speed=20.2MB/s
+[17:05:41] step=cleanup unlinked Lov lososů v Jemenu (2012) EN CZ Dabing.mp4
+[17:05:41] step=film done upload_id=21494 total=68.4s (cdn=1.9s + download=41.0s + upload=25.4s)
+[17:05:41] step=state-saved upload_id=21494 (total uploads=667)
+[17:05:41] step=iteration 33/100
+[17:05:41] step=film start upload_id=64888 cr_film_id=30265 name='Krysař (1986) EN CZ tit'
+[17:05:41] step=cdn-resolve upload_id=64888 cdn=www
+[17:05:42] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/1b583a89a12f0e5427e01a6a404dcf61
+[17:05:42] step=download curl https://www.sledujteto.cz/player/index/sledujteto/1b583a89a12f0e5427e01a6a404dcf61
+[17:06:08] step=download done upload_id=64888 size=397758240 dur=26.0s speed=15.3MB/s
+[17:06:08] step=upload start upload_id=64888 size=397758240
+[17:06:28] step=upload done upload_id=64888 video_id=24149625 dur=19.3s speed=20.6MB/s
+[17:06:28] step=cleanup unlinked Krysař (1986) EN CZ tit.mp4
+[17:06:28] step=film done upload_id=64888 total=46.5s (cdn=1.1s + download=26.0s + upload=19.3s)
+[17:06:28] step=state-saved upload_id=64888 (total uploads=668)
+[17:06:28] step=iteration 34/100
+[17:06:28] step=film start upload_id=8322 cr_film_id=30268 name='Na mol (2012) EN CZ Dabing'
+[17:06:28] step=cdn-resolve upload_id=8322 cdn=www
+[17:06:29] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/9a8db68536707f3b932d63803d1ee5c5
+[17:06:29] step=download curl https://www.sledujteto.cz/player/index/sledujteto/9a8db68536707f3b932d63803d1ee5c5
+[17:06:49] step=download done upload_id=8322 size=379025501 dur=20.5s speed=18.5MB/s
+[17:06:49] step=upload start upload_id=8322 size=379025501
+[17:07:07] step=upload done upload_id=8322 video_id=24149642 dur=17.2s speed=22.0MB/s
+[17:07:07] step=cleanup unlinked Na mol (2012) EN CZ Dabing.mp4
+[17:07:07] step=film done upload_id=8322 total=39.0s (cdn=1.1s + download=20.5s + upload=17.2s)
+[17:07:07] step=state-saved upload_id=8322 (total uploads=669)
+[17:07:07] step=iteration 35/100
+[17:07:07] step=film start upload_id=11594 cr_film_id=30270 name='Chlapectví (2014) EN CZ Dabing'
+[17:07:07] step=cdn-resolve upload_id=11594 cdn=www
+[17:07:08] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/14a900628923bfc5471ecc8c9cb9846b
+[17:07:08] step=download curl https://www.sledujteto.cz/player/index/sledujteto/14a900628923bfc5471ecc8c9cb9846b
+[17:08:28] step=download done upload_id=11594 size=1284165675 dur=80.1s speed=16.0MB/s
+[17:08:28] step=upload start upload_id=11594 size=1284165675
+[17:09:52] step=upload done upload_id=11594 video_id=24149677 dur=84.6s speed=15.2MB/s
+[17:09:52] step=cleanup unlinked Chlapectví (2014) EN CZ Dabing.mp4
+[17:09:52] step=film done upload_id=11594 total=165.8s (cdn=0.9s + download=80.1s + upload=84.6s)
+[17:09:52] step=state-saved upload_id=11594 (total uploads=670)
+[17:09:52] step=iteration 36/100
+[17:09:52] step=film start upload_id=24703 cr_film_id=30279 name='Ford: Muž a stroj (1987) EN CZ Dabing'
+[17:09:52] step=cdn-resolve upload_id=24703 cdn=www
+[17:09:53] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/8ad5d22f08592e90b613771a5d80fe70
+[17:09:53] step=download curl https://www.sledujteto.cz/player/index/sledujteto/8ad5d22f08592e90b613771a5d80fe70
+[17:10:20] step=download done upload_id=24703 size=336211250 dur=26.7s speed=12.6MB/s
+[17:10:20] step=upload start upload_id=24703 size=336211250
+[17:10:39] step=upload done upload_id=24703 video_id=24149704 dur=18.5s speed=18.2MB/s
+[17:10:39] step=cleanup unlinked Ford: Muž a stroj (1987) EN CZ Dabing.mp4
+[17:10:39] step=film done upload_id=24703 total=46.2s (cdn=0.9s + download=26.7s + upload=18.5s)
+[17:10:39] step=state-saved upload_id=24703 (total uploads=671)
+[17:10:39] step=iteration 37/100
+[17:10:39] step=film start upload_id=34216 cr_film_id=30280 name='Bílá orchidej (1983) EN CZ tit'
+[17:10:39] step=cdn-resolve upload_id=34216 cdn=www
+[17:10:40] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/d590509d4032b5cb137bcef29b0d952b
+[17:10:40] step=download curl https://www.sledujteto.cz/player/index/sledujteto/d590509d4032b5cb137bcef29b0d952b
+[17:12:48] step=download done upload_id=34216 size=1508568363 dur=128.3s speed=11.8MB/s
+[17:12:48] step=upload start upload_id=34216 size=1508568363
+[17:13:55] step=upload done upload_id=34216 video_id=24149740 dur=66.7s speed=22.6MB/s
+[17:13:55] step=cleanup unlinked Bílá orchidej (1983) EN CZ tit.mp4
+[17:13:55] step=film done upload_id=34216 total=196.1s (cdn=0.9s + download=128.3s + upload=66.7s)
+[17:13:55] step=state-saved upload_id=34216 (total uploads=672)
+[17:13:55] step=iteration 38/100
+[17:13:55] step=film start upload_id=9589 cr_film_id=30282 name='Tecumseh: The Last Warrior (1995) EN CZ Dabing'
+[17:13:55] step=cdn-resolve upload_id=9589 cdn=www
+[17:13:56] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/f14cbf7a8715e49e9d59376b0136058d
+[17:13:56] step=download curl https://www.sledujteto.cz/player/index/sledujteto/f14cbf7a8715e49e9d59376b0136058d
+[17:14:35] step=download done upload_id=9589 size=815004615 dur=38.5s speed=21.2MB/s
+[17:14:35] step=upload start upload_id=9589 size=815004615
+[17:15:12] step=upload done upload_id=9589 video_id=24149778 dur=37.0s speed=22.0MB/s
+[17:15:12] step=cleanup unlinked Tecumseh: The Last Warrior (1995) EN CZ Dabing.mp4
+[17:15:12] step=film done upload_id=9589 total=76.9s (cdn=1.3s + download=38.5s + upload=37.0s)
+[17:15:12] step=state-saved upload_id=9589 (total uploads=673)
+[17:15:12] step=iteration 39/100
+[17:15:12] step=film start upload_id=10431 cr_film_id=30283 name='Hemingway a Gellhornová (2012) EN CZ Dabing'
+[17:15:12] step=cdn-resolve upload_id=10431 cdn=www
+[17:15:13] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/5eb3fedab2f853b8917f3d2c0b2191b7
+[17:15:13] step=download curl https://www.sledujteto.cz/player/index/sledujteto/5eb3fedab2f853b8917f3d2c0b2191b7
+[17:17:07] step=download done upload_id=10431 size=1310510716 dur=114.8s speed=11.4MB/s
+[17:17:07] step=upload start upload_id=10431 size=1310510716
+[17:18:08] step=upload done upload_id=10431 video_id=24149830 dur=60.6s speed=21.6MB/s
+[17:18:08] step=cleanup unlinked Hemingway a Gellhornová (2012) EN CZ Dabing.mp4
+[17:18:08] step=film done upload_id=10431 total=176.5s (cdn=0.9s + download=114.8s + upload=60.6s)
+[17:18:08] step=state-saved upload_id=10431 (total uploads=674)
+[17:18:08] step=iteration 40/100
+[17:18:08] step=film start upload_id=32190 cr_film_id=30288 name='Sandokan (1995) ES CZ Dabing'
+[17:18:08] step=cdn-resolve upload_id=32190 cdn=www
+[17:18:09] step=cdn-resolve done 0.8s → https://www.sledujteto.cz/player/index/sledujteto/4a0e89268573f04a615bd356151c2e33
+[17:18:09] step=download curl https://www.sledujteto.cz/player/index/sledujteto/4a0e89268573f04a615bd356151c2e33
+[17:26:27] step=download done upload_id=32190 size=4919182697 dur=497.8s speed=9.9MB/s
+[17:26:27] step=upload start upload_id=32190 size=4919182697
+[17:31:01] step=upload done upload_id=32190 video_id=24150056 dur=273.7s speed=18.0MB/s
+[17:31:01] step=cleanup unlinked Sandokan (1995) ES CZ Dabing.mp4
+[17:31:01] step=film done upload_id=32190 total=772.8s (cdn=0.8s + download=497.8s + upload=273.7s)
+[17:31:01] step=state-saved upload_id=32190 (total uploads=675)
+[17:31:01] step=iteration 41/100
+[17:31:01] step=film start upload_id=6432 cr_film_id=30299 name='Barbie - Princezna a zpěvačka (2012) EN CZ Dabing'
+[17:31:01] step=cdn-resolve upload_id=6432 cdn=www
+[17:31:02] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/39d65f99510a9c89feb92f96c2cf95c4
+[17:31:02] step=download curl https://www.sledujteto.cz/player/index/sledujteto/39d65f99510a9c89feb92f96c2cf95c4
+[17:31:38] step=download done upload_id=6432 size=665632305 dur=36.3s speed=18.3MB/s
+[17:31:38] step=upload start upload_id=6432 size=665632305
+[17:32:07] step=upload done upload_id=6432 video_id=24150199 dur=29.0s speed=23.0MB/s
+[17:32:07] step=cleanup unlinked Barbie - Princezna a zpěvačka (2012) EN CZ Dabing.mp4
+[17:32:07] step=film done upload_id=6432 total=66.3s (cdn=0.9s + download=36.3s + upload=29.0s)
+[17:32:07] step=state-saved upload_id=6432 (total uploads=676)
+[17:32:07] step=iteration 42/100
+[17:32:07] step=film start upload_id=42168 cr_film_id=30312 name='Mateřský instinkt (2012) EN CZ Dabing'
+[17:32:07] step=cdn-resolve upload_id=42168 cdn=www
+[17:32:08] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/a64a3531baba567edf4b3dc7d1e6cfc6
+[17:32:08] step=download curl https://www.sledujteto.cz/player/index/sledujteto/a64a3531baba567edf4b3dc7d1e6cfc6
+[17:33:59] step=download done upload_id=42168 size=1052168352 dur=110.9s speed=9.5MB/s
+[17:33:59] step=upload start upload_id=42168 size=1052168352
+[17:34:52] step=upload done upload_id=42168 video_id=24151076 dur=53.2s speed=19.8MB/s
+[17:34:53] step=cleanup unlinked Mateřský instinkt (2012) EN CZ Dabing.mp4
+[17:34:53] step=film done upload_id=42168 total=165.2s (cdn=0.9s + download=110.9s + upload=53.2s)
+[17:34:53] step=state-saved upload_id=42168 (total uploads=677)
+[17:34:53] step=iteration 43/100
+[17:34:53] step=film start upload_id=32732 cr_film_id=30321 name='Strážce lvů (1999) EN CZ Dabing'
+[17:34:53] step=cdn-resolve upload_id=32732 cdn=www
+[17:34:53] step=cdn-resolve done 0.8s → https://www.sledujteto.cz/player/index/sledujteto/53337f243c4aed3a5fc9e7700fdc8345
+[17:34:53] step=download curl https://www.sledujteto.cz/player/index/sledujteto/53337f243c4aed3a5fc9e7700fdc8345
+[17:36:40] step=download done upload_id=32732 size=1629473242 dur=107.0s speed=15.2MB/s
+[17:36:40] step=upload start upload_id=32732 size=1629473242
+[17:37:49] step=upload done upload_id=32732 video_id=24151134 dur=68.7s speed=23.7MB/s
+[17:37:49] step=cleanup unlinked Strážce lvů (1999) EN CZ Dabing.mp4
+[17:37:49] step=film done upload_id=32732 total=176.6s (cdn=0.8s + download=107.0s + upload=68.7s)
+[17:37:49] step=state-saved upload_id=32732 (total uploads=678)
+[17:37:49] step=iteration 44/100
+[17:37:49] step=film start upload_id=8700 cr_film_id=30322 name='Polární medvědi (2012) EN CZ Dabing'
+[17:37:49] step=cdn-resolve upload_id=8700 cdn=www
+[17:37:50] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/79b621b5d51d25b635590de5b04cd4b2
+[17:37:50] step=download curl https://www.sledujteto.cz/player/index/sledujteto/79b621b5d51d25b635590de5b04cd4b2
+[17:40:03] step=download done upload_id=8700 size=1515910249 dur=133.1s speed=11.4MB/s
+[17:40:03] step=upload start upload_id=8700 size=1515910249
+[17:41:06] step=upload done upload_id=8700 video_id=24151194 dur=62.8s speed=24.1MB/s
+[17:41:06] step=cleanup unlinked Polární medvědi (2012) EN CZ Dabing.mp4
+[17:41:06] step=film done upload_id=8700 total=197.2s (cdn=1.1s + download=133.1s + upload=62.8s)
+[17:41:06] step=state-saved upload_id=8700 (total uploads=679)
+[17:41:06] step=iteration 45/100
+[17:41:06] step=film start upload_id=8834 cr_film_id=30330 name='Bitva o Stalingrad (1949) RU CZ Dabing'
+[17:41:06] step=cdn-resolve upload_id=8834 cdn=www
+[17:41:07] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/3a7f486e70a7cb4735e17f1e4ac5f03c
+[17:41:07] step=download curl https://www.sledujteto.cz/player/index/sledujteto/3a7f486e70a7cb4735e17f1e4ac5f03c
+[17:43:56] step=download done upload_id=8834 size=1291525653 dur=169.0s speed=7.6MB/s
+[17:43:56] step=upload start upload_id=8834 size=1291525653
+[17:45:10] step=upload done upload_id=8834 video_id=24151284 dur=73.9s speed=17.5MB/s
+[17:45:11] step=cleanup unlinked Bitva o Stalingrad (1949) RU CZ Dabing.mp4
+[17:45:11] step=film done upload_id=8834 total=244.1s (cdn=1.0s + download=169.0s + upload=73.9s)
+[17:45:11] step=state-saved upload_id=8834 (total uploads=680)
+[17:45:11] step=iteration 46/100
+[17:45:11] step=film start upload_id=6429 cr_film_id=30332 name='Barbie a růžové balerínky (2013) EN CZ Dabing'
+[17:45:11] step=cdn-resolve upload_id=6429 cdn=www
+[17:45:12] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/fb23ecb8bb3cefc8b349511d0e0abd3a
+[17:45:12] step=download curl https://www.sledujteto.cz/player/index/sledujteto/fb23ecb8bb3cefc8b349511d0e0abd3a
+[17:45:34] step=download done upload_id=6429 size=467005993 dur=22.4s speed=20.8MB/s
+[17:45:34] step=upload start upload_id=6429 size=467005993
+[17:45:59] step=upload done upload_id=6429 video_id=24151320 dur=24.7s speed=18.9MB/s
+[17:45:59] step=cleanup unlinked Barbie a růžové balerínky (2013) EN CZ Dabing.mp4
+[17:45:59] step=film done upload_id=6429 total=48.4s (cdn=1.3s + download=22.4s + upload=24.7s)
+[17:45:59] step=state-saved upload_id=6429 (total uploads=681)
+[17:45:59] step=iteration 47/100
+[17:45:59] step=film start upload_id=5917 cr_film_id=30334 name='Ayrton Senna: Závodění mám v krvi (1993) EN CZ Dabing'
+[17:45:59] step=cdn-resolve upload_id=5917 cdn=www
+[17:46:00] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/6724829ca41311a5c242169136d2e7eb
+[17:46:00] step=download curl https://www.sledujteto.cz/player/index/sledujteto/6724829ca41311a5c242169136d2e7eb
+[17:47:02] step=download done upload_id=5917 size=1046770324 dur=62.4s speed=16.8MB/s
+[17:47:02] step=upload start upload_id=5917 size=1046770324
+[17:47:48] step=upload done upload_id=5917 video_id=24151362 dur=45.5s speed=23.0MB/s
+[17:47:48] step=cleanup unlinked Ayrton Senna: Závodění mám v krvi (1993) EN CZ Dabing.mp4
+[17:47:48] step=film done upload_id=5917 total=108.9s (cdn=0.9s + download=62.4s + upload=45.5s)
+[17:47:48] step=state-saved upload_id=5917 (total uploads=682)
+[17:47:48] step=iteration 48/100
+[17:47:48] step=film start upload_id=10482 cr_film_id=30341 name='Geography Club (2013) EN SK tit'
+[17:47:48] step=cdn-resolve upload_id=10482 cdn=www
+[17:47:49] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/685f64df7d37b25e4195daf8e8fb839d
+[17:47:49] step=download curl https://www.sledujteto.cz/player/index/sledujteto/685f64df7d37b25e4195daf8e8fb839d
+[17:48:12] step=download done upload_id=10482 size=372427883 dur=23.1s speed=16.1MB/s
+[17:48:12] step=upload start upload_id=10482 size=372427883
+[17:48:33] step=upload done upload_id=10482 video_id=24151388 dur=21.6s speed=17.2MB/s
+[17:48:34] step=cleanup unlinked Geography Club (2013) EN SK tit.mp4
+[17:48:34] step=film done upload_id=10482 total=45.7s (cdn=0.9s + download=23.1s + upload=21.6s)
+[17:48:34] step=state-saved upload_id=10482 (total uploads=683)
+[17:48:34] step=iteration 49/100
+[17:48:34] step=film start upload_id=10437 cr_film_id=30344 name='Hawaii (2013) ES CZ tit'
+[17:48:34] step=cdn-resolve upload_id=10437 cdn=www
+[17:48:34] step=cdn-resolve done 0.8s → https://www.sledujteto.cz/player/index/sledujteto/fe77e791c194988d0ce38a4962c8826e
+[17:48:34] step=download curl https://www.sledujteto.cz/player/index/sledujteto/fe77e791c194988d0ce38a4962c8826e
+[17:49:22] step=download done upload_id=10437 size=744134868 dur=48.0s speed=15.5MB/s
+[17:49:22] step=upload start upload_id=10437 size=744134868
+[17:49:57] step=upload done upload_id=10437 video_id=24151426 dur=34.8s speed=21.4MB/s
+[17:49:57] step=cleanup unlinked Hawaii (2013) ES CZ tit.mp4
+[17:49:57] step=film done upload_id=10437 total=83.7s (cdn=0.8s + download=48.0s + upload=34.8s)
+[17:49:57] step=state-saved upload_id=10437 (total uploads=684)
+[17:49:57] step=iteration 50/100
+[17:49:57] step=film start upload_id=10560 cr_film_id=30365 name='Dark World: Equilibrium (2013) RU CZ Dabing'
+[17:49:57] step=cdn-resolve upload_id=10560 cdn=www
+[17:49:58] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/ae5f48161ebf03ca034daece92e05170
+[17:49:58] step=download curl https://www.sledujteto.cz/player/index/sledujteto/ae5f48161ebf03ca034daece92e05170
+[17:51:08] step=download done upload_id=10560 size=505179352 dur=69.6s speed=7.3MB/s
+[17:51:08] step=upload start upload_id=10560 size=505179352
+[17:51:37] step=upload done upload_id=10560 video_id=24151456 dur=29.1s speed=17.4MB/s
+[17:51:37] step=cleanup unlinked Dark World: Equilibrium (2013) RU CZ Dabing.mp4
+[17:51:37] step=film done upload_id=10560 total=99.7s (cdn=0.9s + download=69.6s + upload=29.1s)
+[17:51:37] step=state-saved upload_id=10560 (total uploads=685)
+[17:51:37] step=iteration 51/100
+[17:51:37] step=film start upload_id=10819 cr_film_id=30372 name='Coming Out (2013) HU SK tit'
+[17:51:37] step=cdn-resolve upload_id=10819 cdn=www
+[17:51:38] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/5924b98b1116f632be28f14fe83150ef
+[17:51:38] step=download curl https://www.sledujteto.cz/player/index/sledujteto/5924b98b1116f632be28f14fe83150ef
+[17:51:56] step=download done upload_id=10819 size=392020524 dur=17.9s speed=21.9MB/s
+[17:51:56] step=upload start upload_id=10819 size=392020524
+[17:52:13] step=upload done upload_id=10819 video_id=24151461 dur=17.4s speed=22.5MB/s
+[17:52:13] step=cleanup unlinked Coming Out (2013) HU SK tit.mp4
+[17:52:13] step=film done upload_id=10819 total=36.5s (cdn=1.3s + download=17.9s + upload=17.4s)
+[17:52:13] step=state-saved upload_id=10819 (total uploads=686)
+[17:52:13] step=iteration 52/100
+[17:52:13] step=film start upload_id=20631 cr_film_id=30373 name='Dark Sister (2014) EN CZ tit'
+[17:52:13] step=cdn-resolve upload_id=20631 cdn=www
+[17:52:14] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/0118c04201e8eba061f9a328fd338cbc
+[17:52:14] step=download curl https://www.sledujteto.cz/player/index/sledujteto/0118c04201e8eba061f9a328fd338cbc
+[17:53:50] step=download done upload_id=20631 size=1618371254 dur=95.8s speed=16.9MB/s
+[17:53:50] step=upload start upload_id=20631 size=1618371254
+[17:55:10] step=upload done upload_id=20631 video_id=24151494 dur=80.0s speed=20.2MB/s
+[17:55:10] step=cleanup unlinked Dark Sister (2014) EN CZ tit.mp4
+[17:55:10] step=film done upload_id=20631 total=176.8s (cdn=0.9s + download=95.8s + upload=80.0s)
+[17:55:10] step=state-saved upload_id=20631 (total uploads=687)
+[17:55:10] step=iteration 53/100
+[17:55:10] step=film start upload_id=68147 cr_film_id=30382 name='There Are No Saints (2022) EN CZ tit'
+[17:55:10] step=cdn-resolve upload_id=68147 cdn=www
+[17:55:11] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/4f69e5900746b60d476df25a4deb8aba
+[17:55:11] step=download curl https://www.sledujteto.cz/player/index/sledujteto/4f69e5900746b60d476df25a4deb8aba
+[17:57:21] step=download done upload_id=68147 size=1970880662 dur=129.9s speed=15.2MB/s
+[17:57:21] step=upload start upload_id=68147 size=1970880662
+[17:58:44] step=upload done upload_id=68147 video_id=24151557 dur=83.2s speed=23.7MB/s
+[17:58:45] step=cleanup unlinked There Are No Saints (2022) EN CZ tit.mp4
+[17:58:45] step=film done upload_id=68147 total=214.3s (cdn=1.0s + download=129.9s + upload=83.2s)
+[17:58:45] step=state-saved upload_id=68147 (total uploads=688)
+[17:58:45] step=iteration 54/100
+[17:58:45] step=film start upload_id=17919 cr_film_id=30383 name='2012: Mayská proroctví a kruhy v obilí (2010) EN CZ Dabing'
+[17:58:45] step=cdn-resolve upload_id=17919 cdn=www
+[17:58:46] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/d6d020b292721c6fec06bc01ea93f831
+[17:58:46] step=download curl https://www.sledujteto.cz/player/index/sledujteto/d6d020b292721c6fec06bc01ea93f831
+[17:59:25] step=download done upload_id=17919 size=391463871 dur=38.8s speed=10.1MB/s
+[17:59:25] step=upload start upload_id=17919 size=391463871
+[17:59:43] step=upload done upload_id=17919 video_id=24151593 dur=18.1s speed=21.6MB/s
+[17:59:43] step=cleanup unlinked 2012: Mayská proroctví a kruhy v obilí (2010) EN CZ Dabing.mp4
+[17:59:43] step=film done upload_id=17919 total=58.1s (cdn=1.2s + download=38.8s + upload=18.1s)
+[17:59:43] step=state-saved upload_id=17919 (total uploads=689)
+[17:59:43] step=iteration 55/100
+[17:59:43] step=film start upload_id=7271 cr_film_id=30390 name='Indiánská legenda (1988) EN CZ Dabing'
+[17:59:43] step=cdn-resolve upload_id=7271 cdn=www
+[17:59:44] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/9b55c497a62fb4166cf596f50393019a
+[17:59:44] step=download curl https://www.sledujteto.cz/player/index/sledujteto/9b55c497a62fb4166cf596f50393019a
+[18:00:11] step=download done upload_id=7271 size=410963752 dur=27.3s speed=15.1MB/s
+[18:00:11] step=upload start upload_id=7271 size=410963752
+[18:00:30] step=upload done upload_id=7271 video_id=24151606 dur=19.3s speed=21.3MB/s
+[18:00:30] step=cleanup unlinked Indiánská legenda (1988) EN CZ Dabing.mp4
+[18:00:30] step=film done upload_id=7271 total=47.6s (cdn=0.9s + download=27.3s + upload=19.3s)
+[18:00:30] step=state-saved upload_id=7271 (total uploads=690)
+[18:00:30] step=iteration 56/100
+[18:00:30] step=film start upload_id=10611 cr_film_id=30402 name='Drown (2015) EN CZ tit'
+[18:00:30] step=cdn-resolve upload_id=10611 cdn=www
+[18:00:31] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/a3e53b452fecc173bb72eeffaba53ac8
+[18:00:31] step=download curl https://www.sledujteto.cz/player/index/sledujteto/a3e53b452fecc173bb72eeffaba53ac8
+[18:00:57] step=download done upload_id=10611 size=584088175 dur=25.8s speed=22.6MB/s
+[18:00:57] step=upload start upload_id=10611 size=584088175
+[18:01:23] step=upload done upload_id=10611 video_id=24151621 dur=25.6s speed=22.8MB/s
+[18:01:23] step=cleanup unlinked Drown (2015) EN CZ tit.mp4
+[18:01:23] step=film done upload_id=10611 total=52.4s (cdn=0.9s + download=25.8s + upload=25.6s)
+[18:01:23] step=state-saved upload_id=10611 (total uploads=691)
+[18:01:23] step=iteration 57/100
+[18:01:23] step=film start upload_id=5206 cr_film_id=30404 name='Anomalisa (2015) EN CZ Dabing'
+[18:01:23] step=cdn-resolve upload_id=5206 cdn=www
+[18:01:24] step=cdn-resolve done 0.7s → https://www.sledujteto.cz/player/index/sledujteto/5520626d7b9be01722ff138ea745eb95
+[18:01:24] step=download curl https://www.sledujteto.cz/player/index/sledujteto/5520626d7b9be01722ff138ea745eb95
+[18:01:59] step=download done upload_id=5206 size=342496711 dur=35.9s speed=9.5MB/s
+[18:01:59] step=upload start upload_id=5206 size=342496711
+[18:02:27] step=upload done upload_id=5206 video_id=24151638 dur=27.6s speed=12.4MB/s
+[18:02:27] step=cleanup unlinked Anomalisa (2015) EN CZ Dabing.mp4
+[18:02:27] step=film done upload_id=5206 total=64.2s (cdn=0.7s + download=35.9s + upload=27.6s)
+[18:02:27] step=state-saved upload_id=5206 (total uploads=692)
+[18:02:27] step=iteration 58/100
+[18:02:27] step=film start upload_id=18001 cr_film_id=30407 name='Detox (2018) EN CZ tit'
+[18:02:27] step=cdn-resolve upload_id=18001 cdn=www
+[18:02:28] step=cdn-resolve done 0.7s → https://www.sledujteto.cz/player/index/sledujteto/c12b19881ee567afc2cff2361c0cef0a
+[18:02:28] step=download curl https://www.sledujteto.cz/player/index/sledujteto/c12b19881ee567afc2cff2361c0cef0a
+[18:04:30] step=download done upload_id=18001 size=1408539859 dur=122.2s speed=11.5MB/s
+[18:04:30] step=upload start upload_id=18001 size=1408539859
+[18:05:29] step=upload done upload_id=18001 video_id=24151682 dur=59.0s speed=23.9MB/s
+[18:05:29] step=cleanup unlinked Detox (2018) EN CZ tit.mp4
+[18:05:29] step=film done upload_id=18001 total=182.1s (cdn=0.7s + download=122.2s + upload=59.0s)
+[18:05:29] step=state-saved upload_id=18001 (total uploads=693)
+[18:05:29] step=iteration 59/100
+[18:05:29] step=film start upload_id=5350 cr_film_id=30408 name='Vrah mého manžela (2014) EN CZ Dabing'
+[18:05:29] step=cdn-resolve upload_id=5350 cdn=www
+[18:05:30] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/b3b73a6fc37fb4e32cb8c3eb96073657
+[18:05:30] step=download curl https://www.sledujteto.cz/player/index/sledujteto/b3b73a6fc37fb4e32cb8c3eb96073657
+[18:05:56] step=download done upload_id=5350 size=475797764 dur=26.3s speed=18.1MB/s
+[18:05:56] step=upload start upload_id=5350 size=475797764
+[18:06:23] step=upload done upload_id=5350 video_id=24151706 dur=26.7s speed=17.8MB/s
+[18:06:23] step=cleanup unlinked Vrah mého manžela (2014) EN CZ Dabing.mp4
+[18:06:23] step=film done upload_id=5350 total=54.0s (cdn=1.0s + download=26.3s + upload=26.7s)
+[18:06:23] step=state-saved upload_id=5350 (total uploads=694)
+[18:06:23] step=iteration 60/100
+[18:06:23] step=film start upload_id=5158 cr_film_id=30412 name='Vincent N Roxxy (2016) EN CZ tit'
+[18:06:23] step=cdn-resolve upload_id=5158 cdn=www
+[18:06:24] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/90cdbc6bf7f1b29707aa1a3d6cf5a56f
+[18:06:24] step=download curl https://www.sledujteto.cz/player/index/sledujteto/90cdbc6bf7f1b29707aa1a3d6cf5a56f
+[18:07:25] step=download done upload_id=5158 size=428027987 dur=60.8s speed=7.0MB/s
+[18:07:25] step=upload start upload_id=5158 size=428027987
+[18:07:45] step=upload done upload_id=5158 video_id=24151724 dur=20.3s speed=21.1MB/s
+[18:07:45] step=cleanup unlinked Vincent N Roxxy (2016) EN CZ tit.mp4
+[18:07:45] step=film done upload_id=5158 total=82.0s (cdn=1.0s + download=60.8s + upload=20.3s)
+[18:07:45] step=state-saved upload_id=5158 (total uploads=695)
+[18:07:45] step=iteration 61/100
+[18:07:45] step=film start upload_id=7896 cr_film_id=30414 name='World of Tomorrow (2015) EN CZ tit'
+[18:07:45] step=cdn-resolve upload_id=7896 cdn=www
+[18:07:47] step=cdn-resolve done 1.6s → https://www.sledujteto.cz/player/index/sledujteto/cdd24a25701b425f60b1dc08eb393dd6
+[18:07:47] step=download curl https://www.sledujteto.cz/player/index/sledujteto/cdd24a25701b425f60b1dc08eb393dd6
+[18:08:27] step=download done upload_id=7896 size=339813621 dur=40.7s speed=8.3MB/s
+[18:08:27] step=upload start upload_id=7896 size=339813621
+[18:08:44] step=upload done upload_id=7896 video_id=24151739 dur=16.1s speed=21.1MB/s
+[18:08:44] step=cleanup unlinked World of Tomorrow (2015) EN CZ tit.mp4
+[18:08:44] step=film done upload_id=7896 total=58.4s (cdn=1.6s + download=40.7s + upload=16.1s)
+[18:08:44] step=state-saved upload_id=7896 (total uploads=696)
+[18:08:44] step=iteration 62/100
+[18:08:44] step=film start upload_id=10514 cr_film_id=30418 name='Flintstoneovi & WWE: Mela doby kamenné (2015) EN CZ Dabing'
+[18:08:44] step=cdn-resolve upload_id=10514 cdn=www
+[18:08:44] step=cdn-resolve done 0.8s → https://www.sledujteto.cz/player/index/sledujteto/7910011c60af20ffe213cef42570ee43
+[18:08:44] step=download curl https://www.sledujteto.cz/player/index/sledujteto/7910011c60af20ffe213cef42570ee43
+[18:09:10] step=download done upload_id=10514 size=329355596 dur=25.1s speed=13.1MB/s
+[18:09:10] step=upload start upload_id=10514 size=329355596
+[18:09:27] step=upload done upload_id=10514 video_id=24151754 dur=17.7s speed=18.6MB/s
+[18:09:27] step=cleanup unlinked Flintstoneovi & WWE: Mela doby kamenné (2015) EN CZ Dabing.mp4
+[18:09:27] step=film done upload_id=10514 total=43.6s (cdn=0.8s + download=25.1s + upload=17.7s)
+[18:09:27] step=state-saved upload_id=10514 (total uploads=697)
+[18:09:27] step=iteration 63/100
+[18:09:27] step=film start upload_id=51910 cr_film_id=30419 name='Požehnaná jistota (1997) EN CZ Dabing'
+[18:09:27] step=cdn-resolve upload_id=51910 cdn=www
+[18:09:28] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/e59a3ca42bb72184763494e7324ba48a
+[18:09:28] step=download curl https://www.sledujteto.cz/player/index/sledujteto/e59a3ca42bb72184763494e7324ba48a
+[18:11:44] step=download done upload_id=51910 size=1646445693 dur=136.3s speed=12.1MB/s
+[18:11:44] step=upload start upload_id=51910 size=1646445693
+[18:13:11] step=upload done upload_id=51910 video_id=24151787 dur=86.3s speed=19.1MB/s
+[18:13:11] step=cleanup unlinked Požehnaná jistota (1997) EN CZ Dabing.mp4
+[18:13:11] step=film done upload_id=51910 total=223.7s (cdn=0.9s + download=136.3s + upload=86.3s)
+[18:13:11] step=state-saved upload_id=51910 (total uploads=698)
+[18:13:11] step=iteration 64/100
+[18:13:11] step=film start upload_id=22918 cr_film_id=30423 name='The Legacy of a Whitetail Deer Hunter (2018) EN CZ tit'
+[18:13:11] step=cdn-resolve upload_id=22918 cdn=www
+[18:13:12] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/61dc0bfb515d26e0a2b6dec6131dfee7
+[18:13:12] step=download curl https://www.sledujteto.cz/player/index/sledujteto/61dc0bfb515d26e0a2b6dec6131dfee7
+[18:14:31] step=download done upload_id=22918 size=737600505 dur=78.9s speed=9.3MB/s
+[18:14:31] step=upload start upload_id=22918 size=737600505
+[18:15:03] step=upload done upload_id=22918 video_id=24151827 dur=32.4s speed=22.8MB/s
+[18:15:03] step=cleanup unlinked The Legacy of a Whitetail Deer Hunter (2018) EN CZ tit.mp4
+[18:15:03] step=film done upload_id=22918 total=112.5s (cdn=1.1s + download=78.9s + upload=32.4s)
+[18:15:03] step=state-saved upload_id=22918 (total uploads=699)
+[18:15:03] step=iteration 65/100
+[18:15:03] step=film start upload_id=3659 cr_film_id=30434 name='Bessie (2015) EN CZ Dabing'
+[18:15:03] step=cdn-resolve upload_id=3659 cdn=www
+[18:15:05] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/8ccff38b22d31dd55657c381f47d2649
+[18:15:05] step=download curl https://www.sledujteto.cz/player/index/sledujteto/8ccff38b22d31dd55657c381f47d2649
+[18:16:09] step=download done upload_id=3659 size=675720079 dur=64.6s speed=10.5MB/s
+[18:16:09] step=upload start upload_id=3659 size=675720079
+[18:16:40] step=upload done upload_id=3659 video_id=24151850 dur=30.6s speed=22.1MB/s
+[18:16:40] step=cleanup unlinked Bessie (2015) EN CZ Dabing.mp4
+[18:16:40] step=film done upload_id=3659 total=96.5s (cdn=1.2s + download=64.6s + upload=30.6s)
+[18:16:40] step=state-saved upload_id=3659 (total uploads=700)
+[18:16:40] step=iteration 66/100
+[18:16:40] step=film start upload_id=7631 cr_film_id=30440 name='Doktor Dolittle und seine Tiere: Teil 1 – Die Reise nach Afrika (1928) DE CZ Dabing'
+[18:16:40] step=cdn-resolve upload_id=7631 cdn=www
+[18:16:41] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/7a89ca68890b05bec6ca7dcef1da0bdc
+[18:16:41] step=download curl https://www.sledujteto.cz/player/index/sledujteto/7a89ca68890b05bec6ca7dcef1da0bdc
+[18:17:20] step=download done upload_id=7631 size=407481406 dur=38.9s speed=10.5MB/s
+[18:17:20] step=upload start upload_id=7631 size=407481406
+[18:17:45] step=upload done upload_id=7631 video_id=24151867 dur=25.7s speed=15.9MB/s
+[18:17:46] step=cleanup unlinked Doktor Dolittle und seine Tiere: Teil 1 – Die Reise nach Afrika (1928) DE CZ Dabing.mp4
+[18:17:46] step=film done upload_id=7631 total=65.6s (cdn=1.0s + download=38.9s + upload=25.7s)
+[18:17:46] step=state-saved upload_id=7631 (total uploads=701)
+[18:17:46] step=iteration 67/100
+[18:17:46] step=film start upload_id=5815 cr_film_id=30445 name='The Extraordinary Genius of Albert Einstein (2010) EN CZ Dabing'
+[18:17:46] step=cdn-resolve upload_id=5815 cdn=www
+[18:17:47] step=cdn-resolve done 1.5s → https://www.sledujteto.cz/player/index/sledujteto/1ba4b9276b75b9fb4098b15a5b1bca42
+[18:17:47] step=download curl https://www.sledujteto.cz/player/index/sledujteto/1ba4b9276b75b9fb4098b15a5b1bca42
+[18:18:10] step=download done upload_id=5815 size=481513542 dur=22.6s speed=21.3MB/s
+[18:18:10] step=upload start upload_id=5815 size=481513542
+[18:18:36] step=upload done upload_id=5815 video_id=24151883 dur=26.4s speed=18.2MB/s
+[18:18:36] step=cleanup unlinked The Extraordinary Genius of Albert Einstein (2010) EN CZ Dabing.mp4
+[18:18:36] step=film done upload_id=5815 total=50.7s (cdn=1.5s + download=22.6s + upload=26.4s)
+[18:18:36] step=state-saved upload_id=5815 (total uploads=702)
+[18:18:36] step=iteration 68/100
+[18:18:36] step=film start upload_id=30248 cr_film_id=30448 name='State Like Sleep (2019) EN CZ tit'
+[18:18:36] step=cdn-resolve upload_id=30248 cdn=www
+[18:18:37] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/201ba07336706dc9b31c296ec990d784
+[18:18:37] step=download curl https://www.sledujteto.cz/player/index/sledujteto/201ba07336706dc9b31c296ec990d784
+[18:21:30] step=download done upload_id=30248 size=1804181344 dur=173.2s speed=10.4MB/s
+[18:21:30] step=upload start upload_id=30248 size=1804181344
+[18:23:01] step=upload done upload_id=30248 video_id=24151929 dur=90.4s speed=20.0MB/s
+[18:23:01] step=cleanup unlinked State Like Sleep (2019) EN CZ tit.mp4
+[18:23:01] step=film done upload_id=30248 total=264.8s (cdn=0.9s + download=173.2s + upload=90.4s)
+[18:23:01] step=state-saved upload_id=30248 (total uploads=703)
+[18:23:01] step=iteration 69/100
+[18:23:01] step=film start upload_id=13807 cr_film_id=30453 name='Dokonalé opojení (2015) EN CZ Dabing'
+[18:23:01] step=cdn-resolve upload_id=13807 cdn=www
+[18:23:02] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/738f76d7b2ef939b54bcc8d10f346ab4
+[18:23:02] step=download curl https://www.sledujteto.cz/player/index/sledujteto/738f76d7b2ef939b54bcc8d10f346ab4
+[18:23:29] step=download done upload_id=13807 size=507553533 dur=26.7s speed=19.0MB/s
+[18:23:29] step=upload start upload_id=13807 size=507553533
+[18:23:53] step=upload done upload_id=13807 video_id=24151956 dur=24.2s speed=21.0MB/s
+[18:23:53] step=cleanup unlinked Dokonalé opojení (2015) EN CZ Dabing.mp4
+[18:23:53] step=film done upload_id=13807 total=52.3s (cdn=1.3s + download=26.7s + upload=24.2s)
+[18:23:53] step=state-saved upload_id=13807 (total uploads=704)
+[18:23:53] step=iteration 70/100
+[18:23:53] step=film start upload_id=20615 cr_film_id=30458 name='Sharon 1, 2, 3 (2018) EN CZ tit'
+[18:23:53] step=cdn-resolve upload_id=20615 cdn=www
+[18:23:54] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/437422ea544de72f1ec8428b520ee775
+[18:23:54] step=download curl https://www.sledujteto.cz/player/index/sledujteto/437422ea544de72f1ec8428b520ee775
+[18:25:17] step=download done upload_id=20615 size=713912740 dur=83.2s speed=8.6MB/s
+[18:25:17] step=upload start upload_id=20615 size=713912740
+[18:25:55] step=upload done upload_id=20615 video_id=24151977 dur=37.5s speed=19.0MB/s
+[18:25:55] step=cleanup unlinked Sharon 1, 2, 3 (2018) EN CZ tit.mp4
+[18:25:55] step=film done upload_id=20615 total=121.7s (cdn=0.9s + download=83.2s + upload=37.5s)
+[18:25:55] step=state-saved upload_id=20615 (total uploads=705)
+[18:25:55] step=iteration 71/100
+[18:25:55] step=film start upload_id=9368 cr_film_id=30459 name='Smysl konce (2017) EN CZ tit'
+[18:25:55] step=cdn-resolve upload_id=9368 cdn=www
+[18:25:56] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/f10c92179017775cfbd188e4d6722f22
+[18:25:56] step=download curl https://www.sledujteto.cz/player/index/sledujteto/f10c92179017775cfbd188e4d6722f22
+[18:26:47] step=download done upload_id=9368 size=894056623 dur=51.4s speed=17.4MB/s
+[18:26:47] step=upload start upload_id=9368 size=894056623
+[18:27:30] step=upload done upload_id=9368 video_id=24151992 dur=43.1s speed=20.7MB/s
+[18:27:31] step=cleanup unlinked Smysl konce (2017) EN CZ tit.mp4
+[18:27:31] step=film done upload_id=9368 total=95.6s (cdn=1.0s + download=51.4s + upload=43.1s)
+[18:27:31] step=state-saved upload_id=9368 (total uploads=706)
+[18:27:31] step=iteration 72/100
+[18:27:31] step=film start upload_id=3657 cr_film_id=30460 name='Barbie in Rock 'N Royals (2015) EN CZ Dabing'
+[18:27:31] step=cdn-resolve upload_id=3657 cdn=www
+[18:27:32] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/98d5607d6884be44c0819339ccdcc2cb
+[18:27:32] step=download curl https://www.sledujteto.cz/player/index/sledujteto/98d5607d6884be44c0819339ccdcc2cb
+[18:28:13] step=download done upload_id=3657 size=594096148 dur=41.5s speed=14.3MB/s
+[18:28:13] step=upload start upload_id=3657 size=594096148
+[18:28:42] step=upload done upload_id=3657 video_id=24152011 dur=28.6s speed=20.8MB/s
+[18:28:42] step=cleanup unlinked Barbie in Rock 'N Royals (2015) EN CZ Dabing.mp4
+[18:28:42] step=film done upload_id=3657 total=71.5s (cdn=1.3s + download=41.5s + upload=28.6s)
+[18:28:42] step=state-saved upload_id=3657 (total uploads=707)
+[18:28:42] step=iteration 73/100
+[18:28:42] step=film start upload_id=8633 cr_film_id=30467 name='John Mulaney: The Comeback Kid (2015) EN CZ tit'
+[18:28:42] step=cdn-resolve upload_id=8633 cdn=www
+[18:28:43] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/a220e97135151c88173e422e487382de
+[18:28:43] step=download curl https://www.sledujteto.cz/player/index/sledujteto/a220e97135151c88173e422e487382de
+[18:29:36] step=download done upload_id=8633 size=675443820 dur=52.6s speed=12.8MB/s
+[18:29:36] step=upload start upload_id=8633 size=675443820
+[18:30:12] step=upload done upload_id=8633 video_id=24152027 dur=36.1s speed=18.7MB/s
+[18:30:12] step=cleanup unlinked John Mulaney: The Comeback Kid (2015) EN CZ tit.mp4
+[18:30:12] step=film done upload_id=8633 total=89.7s (cdn=0.9s + download=52.6s + upload=36.1s)
+[18:30:12] step=state-saved upload_id=8633 (total uploads=708)
+[18:30:12] step=iteration 74/100
+[18:30:12] step=film start upload_id=3606 cr_film_id=30469 name='Below Her Mouth (2017) EN CZ tit'
+[18:30:12] step=cdn-resolve upload_id=3606 cdn=www
+[18:30:13] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/958be7d7ecea1ea80cc99bd98a0a0ef3
+[18:30:13] step=download curl https://www.sledujteto.cz/player/index/sledujteto/958be7d7ecea1ea80cc99bd98a0a0ef3
+[18:31:04] step=download done upload_id=3606 size=395568619 dur=50.7s speed=7.8MB/s
+[18:31:04] step=upload start upload_id=3606 size=395568619
+[18:31:23] step=upload done upload_id=3606 video_id=24152049 dur=19.5s speed=20.3MB/s
+[18:31:23] step=cleanup unlinked Below Her Mouth (2017) EN CZ tit.mp4
+[18:31:23] step=film done upload_id=3606 total=71.3s (cdn=1.0s + download=50.7s + upload=19.5s)
+[18:31:23] step=state-saved upload_id=3606 (total uploads=709)
+[18:31:23] step=iteration 75/100
+[18:31:23] step=film start upload_id=5392 cr_film_id=30471 name='Plíživé zlo (2015) EN CZ Dabing'
+[18:31:23] step=cdn-resolve upload_id=5392 cdn=www
+[18:31:24] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/347a9d63b420b4a9e8bd51be6078fb34
+[18:31:24] step=download curl https://www.sledujteto.cz/player/index/sledujteto/347a9d63b420b4a9e8bd51be6078fb34
+[18:33:51] step=download done upload_id=5392 size=1005938317 dur=146.8s speed=6.9MB/s
+[18:33:51] step=upload start upload_id=5392 size=1005938317
+[18:34:43] step=upload done upload_id=5392 video_id=24152097 dur=51.7s speed=19.5MB/s
+[18:34:43] step=cleanup unlinked Plíživé zlo (2015) EN CZ Dabing.mp4
+[18:34:43] step=film done upload_id=5392 total=199.5s (cdn=0.9s + download=146.8s + upload=51.7s)
+[18:34:43] step=state-saved upload_id=5392 (total uploads=710)
+[18:34:43] step=iteration 76/100
+[18:34:43] step=film start upload_id=4399 cr_film_id=30475 name='Správná holka (2015) EN CZ Dabing'
+[18:34:43] step=cdn-resolve upload_id=4399 cdn=www
+[18:34:44] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/0b15b18b0715cbde900e4ab4689d84be
+[18:34:44] step=download curl https://www.sledujteto.cz/player/index/sledujteto/0b15b18b0715cbde900e4ab4689d84be
+[18:35:58] step=download done upload_id=4399 size=634345738 dur=74.1s speed=8.6MB/s
+[18:35:58] step=upload start upload_id=4399 size=634345738
+[18:36:32] step=upload done upload_id=4399 video_id=24152128 dur=34.1s speed=18.6MB/s
+[18:36:32] step=cleanup unlinked Správná holka (2015) EN CZ Dabing.mp4
+[18:36:32] step=film done upload_id=4399 total=109.2s (cdn=0.9s + download=74.1s + upload=34.1s)
+[18:36:32] step=state-saved upload_id=4399 (total uploads=711)
+[18:36:32] step=iteration 77/100
+[18:36:32] step=film start upload_id=18293 cr_film_id=30478 name='První, poslední (2016) FR CZ tit'
+[18:36:32] step=cdn-resolve upload_id=18293 cdn=www
+[18:36:33] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/19ba1636943f205f72a7c519e1e7d60f
+[18:36:33] step=download curl https://www.sledujteto.cz/player/index/sledujteto/19ba1636943f205f72a7c519e1e7d60f
+[18:38:19] step=download done upload_id=18293 size=289136985 dur=106.7s speed=2.7MB/s
+[18:38:19] step=upload start upload_id=18293 size=289136985
+[18:38:35] step=upload done upload_id=18293 video_id=24152161 dur=15.9s speed=18.2MB/s
+[18:38:35] step=cleanup unlinked První, poslední (2016) FR CZ tit.mp4
+[18:38:35] step=film done upload_id=18293 total=123.5s (cdn=0.9s + download=106.7s + upload=15.9s)
+[18:38:35] step=state-saved upload_id=18293 (total uploads=712)
+[18:38:35] step=iteration 78/100
+[18:38:35] step=film start upload_id=26218 cr_film_id=30488 name='Little Bitches (2018) EN CZ tit'
+[18:38:35] step=cdn-resolve upload_id=26218 cdn=www
+[18:38:37] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/60d90457494d9a9014f4e488d215f1d4
+[18:38:37] step=download curl https://www.sledujteto.cz/player/index/sledujteto/60d90457494d9a9014f4e488d215f1d4
+[18:41:06] step=download done upload_id=26218 size=876754961 dur=149.2s speed=5.9MB/s
+[18:41:06] step=upload start upload_id=26218 size=876754961
+[18:41:44] step=upload done upload_id=26218 video_id=24152209 dur=38.0s speed=23.1MB/s
+[18:41:44] step=cleanup unlinked Little Bitches (2018) EN CZ tit.mp4
+[18:41:44] step=film done upload_id=26218 total=188.6s (cdn=1.2s + download=149.2s + upload=38.0s)
+[18:41:44] step=state-saved upload_id=26218 (total uploads=713)
+[18:41:44] step=iteration 79/100
+[18:41:44] step=film start upload_id=11059 cr_film_id=30490 name='Informátorka (2016) DE SK Dabing'
+[18:41:44] step=cdn-resolve upload_id=11059 cdn=www
+[18:41:45] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/e676d4a46117d3b0feb0fb6fd6bb2d97
+[18:41:45] step=download curl https://www.sledujteto.cz/player/index/sledujteto/e676d4a46117d3b0feb0fb6fd6bb2d97
+[18:44:53] step=download done upload_id=11059 size=2451629565 dur=187.7s speed=13.1MB/s
+[18:44:53] step=upload start upload_id=11059 size=2451629565
+[18:46:47] step=upload done upload_id=11059 video_id=24152267 dur=114.2s speed=21.5MB/s
+[18:46:47] step=cleanup unlinked Informátorka (2016) DE SK Dabing.mp4
+[18:46:47] step=film done upload_id=11059 total=303.3s (cdn=1.1s + download=187.7s + upload=114.2s)
+[18:46:47] step=state-saved upload_id=11059 (total uploads=714)
+[18:46:47] step=iteration 80/100
+[18:46:47] step=film start upload_id=33740 cr_film_id=30503 name='Duše špióna (2015) RU CZ Dabing'
+[18:46:47] step=cdn-resolve upload_id=33740 cdn=www
+[18:46:49] step=cdn-resolve done 1.6s → https://www.sledujteto.cz/player/index/sledujteto/4cb98a46ece654a1c2f24c48a8652e11
+[18:46:49] step=download curl https://www.sledujteto.cz/player/index/sledujteto/4cb98a46ece654a1c2f24c48a8652e11
+[18:52:35] step=download done upload_id=33740 size=3034197830 dur=345.9s speed=8.8MB/s
+[18:52:35] step=upload start upload_id=33740 size=3034197830
+[18:54:42] step=upload done upload_id=33740 video_id=24152408 dur=127.6s speed=23.8MB/s
+[18:54:43] step=cleanup unlinked Duše špióna (2015) RU CZ Dabing.mp4
+[18:54:43] step=film done upload_id=33740 total=475.4s (cdn=1.6s + download=345.9s + upload=127.6s)
+[18:54:43] step=state-saved upload_id=33740 (total uploads=715)
+[18:54:43] step=iteration 81/100
+[18:54:43] step=film start upload_id=7473 cr_film_id=30524 name='Ace the Case: Manhattan Mystery (2016) EN CZ tit'
+[18:54:43] step=cdn-resolve upload_id=7473 cdn=www
+[18:54:44] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/b8c28d0dbb52cf7968fa45d19001a971
+[18:54:44] step=download curl https://www.sledujteto.cz/player/index/sledujteto/b8c28d0dbb52cf7968fa45d19001a971
+[18:55:37] step=download done upload_id=7473 size=479737796 dur=53.1s speed=9.0MB/s
+[18:55:37] step=upload start upload_id=7473 size=479737796
+[18:56:06] step=upload done upload_id=7473 video_id=24152434 dur=29.5s speed=16.3MB/s
+[18:56:07] step=cleanup unlinked Ace the Case: Manhattan Mystery (2016) EN CZ tit.mp4
+[18:56:07] step=film done upload_id=7473 total=83.8s (cdn=1.2s + download=53.1s + upload=29.5s)
+[18:56:07] step=state-saved upload_id=7473 (total uploads=716)
+[18:56:07] step=iteration 82/100
+[18:56:07] step=film start upload_id=22912 cr_film_id=30527 name='Bratři Lumiérové (2016) FR CZ Dabing'
+[18:56:07] step=cdn-resolve upload_id=22912 cdn=www
+[18:56:07] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/526a1b30c401f6c003ed8892348d2e50
+[18:56:07] step=download curl https://www.sledujteto.cz/player/index/sledujteto/526a1b30c401f6c003ed8892348d2e50
+[18:57:13] step=download done upload_id=22912 size=831612485 dur=65.8s speed=12.6MB/s
+[18:57:13] step=upload start upload_id=22912 size=831612485
+[18:57:50] step=upload done upload_id=22912 video_id=24152451 dur=37.0s speed=22.5MB/s
+[18:57:50] step=cleanup unlinked Bratři Lumiérové (2016) FR CZ Dabing.mp4
+[18:57:50] step=film done upload_id=22912 total=103.9s (cdn=0.9s + download=65.8s + upload=37.0s)
+[18:57:50] step=state-saved upload_id=22912 (total uploads=717)
+[18:57:50] step=iteration 83/100
+[18:57:50] step=film start upload_id=32188 cr_film_id=30532 name='Amber Alert (2016) EN CZ Dabing'
+[18:57:50] step=cdn-resolve upload_id=32188 cdn=www
+[18:57:51] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/518b797d4a38a5d69542fb3983ed02b1
+[18:57:51] step=download curl https://www.sledujteto.cz/player/index/sledujteto/518b797d4a38a5d69542fb3983ed02b1
+[19:00:35] step=download done upload_id=32188 size=2129301849 dur=163.3s speed=13.0MB/s
+[19:00:35] step=upload start upload_id=32188 size=2129301849
+[19:02:05] step=upload done upload_id=32188 video_id=24152482 dur=90.6s speed=23.5MB/s
+[19:02:06] step=cleanup unlinked Amber Alert (2016) EN CZ Dabing.mp4
+[19:02:06] step=film done upload_id=32188 total=255.1s (cdn=1.0s + download=163.3s + upload=90.6s)
+[19:02:06] step=state-saved upload_id=32188 (total uploads=718)
+[19:02:06] step=iteration 84/100
+[19:02:06] step=film start upload_id=8883 cr_film_id=30535 name='Tonight She Comes (2018) EN CZ tit'
+[19:02:06] step=cdn-resolve upload_id=8883 cdn=www
+[19:02:07] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/686eb34e84bd1523d0e2895cdd823ba2
+[19:02:07] step=download curl https://www.sledujteto.cz/player/index/sledujteto/686eb34e84bd1523d0e2895cdd823ba2
+[19:03:56] step=download done upload_id=8883 size=1112617519 dur=109.8s speed=10.1MB/s
+[19:03:56] step=upload start upload_id=8883 size=1112617519
+[19:04:50] step=upload done upload_id=8883 video_id=24152529 dur=53.2s speed=20.9MB/s
+[19:04:50] step=cleanup unlinked Tonight She Comes (2018) EN CZ tit.mp4
+[19:04:50] step=film done upload_id=8883 total=164.2s (cdn=1.0s + download=109.8s + upload=53.2s)
+[19:04:50] step=state-saved upload_id=8883 (total uploads=719)
+[19:04:50] step=iteration 85/100
+[19:04:50] step=film start upload_id=16907 cr_film_id=30539 name='Pevná linka (2017) EN CZ Dabing'
+[19:04:50] step=cdn-resolve upload_id=16907 cdn=www
+[19:04:51] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/895c08ff92702796c88af08b41868c81
+[19:04:51] step=download curl https://www.sledujteto.cz/player/index/sledujteto/895c08ff92702796c88af08b41868c81
+[19:05:37] step=download done upload_id=16907 size=392261421 dur=45.9s speed=8.5MB/s
+[19:05:37] step=upload start upload_id=16907 size=392261421
+[19:06:16] step=upload done upload_id=16907 video_id=24152553 dur=39.6s speed=9.9MB/s
+[19:06:16] step=cleanup unlinked Pevná linka (2017) EN CZ Dabing.mp4
+[19:06:16] step=film done upload_id=16907 total=86.5s (cdn=0.9s + download=45.9s + upload=39.6s)
+[19:06:16] step=state-saved upload_id=16907 (total uploads=720)
+[19:06:16] step=iteration 86/100
+[19:06:16] step=film start upload_id=9071 cr_film_id=30542 name='Until Forever (2016) EN SK tit'
+[19:06:16] step=cdn-resolve upload_id=9071 cdn=www
+[19:06:17] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/0341a11f5a70cec487d246b2a7b3702b
+[19:06:17] step=download curl https://www.sledujteto.cz/player/index/sledujteto/0341a11f5a70cec487d246b2a7b3702b
+[19:07:00] step=download done upload_id=9071 size=568751057 dur=43.1s speed=13.2MB/s
+[19:07:00] step=upload start upload_id=9071 size=568751057
+[19:07:26] step=upload done upload_id=9071 video_id=24152579 dur=25.7s speed=22.1MB/s
+[19:07:26] step=cleanup unlinked Until Forever (2016) EN SK tit.mp4
+[19:07:26] step=film done upload_id=9071 total=69.7s (cdn=0.9s + download=43.1s + upload=25.7s)
+[19:07:26] step=state-saved upload_id=9071 (total uploads=721)
+[19:07:26] step=iteration 87/100
+[19:07:26] step=film start upload_id=24308 cr_film_id=30549 name='Ofélie (2019) EN SK tit'
+[19:07:26] step=cdn-resolve upload_id=24308 cdn=www
+[19:07:27] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/4d59abe52f0b45b44246454dcbeae629
+[19:07:27] step=download curl https://www.sledujteto.cz/player/index/sledujteto/4d59abe52f0b45b44246454dcbeae629
+[19:10:49] step=download done upload_id=24308 size=2176011525 dur=202.2s speed=10.8MB/s
+[19:10:49] step=upload start upload_id=24308 size=2176011525
+[19:12:22] step=upload done upload_id=24308 video_id=24152680 dur=93.2s speed=23.3MB/s
+[19:12:23] step=cleanup unlinked Ofélie (2019) EN SK tit.mp4
+[19:12:23] step=film done upload_id=24308 total=296.7s (cdn=1.1s + download=202.2s + upload=93.2s)
+[19:12:23] step=state-saved upload_id=24308 (total uploads=722)
+[19:12:23] step=iteration 88/100
+[19:12:23] step=film start upload_id=20092 cr_film_id=30556 name='Chappaquiddick (2018) EN SK tit'
+[19:12:23] step=cdn-resolve upload_id=20092 cdn=www
+[19:12:24] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/f55547875f657b1f032373d3f74121ab
+[19:12:24] step=download curl https://www.sledujteto.cz/player/index/sledujteto/f55547875f657b1f032373d3f74121ab
+[19:13:31] step=download done upload_id=20092 size=944250473 dur=67.4s speed=14.0MB/s
+[19:13:31] step=upload start upload_id=20092 size=944250473
+[19:14:14] step=upload done upload_id=20092 video_id=24152735 dur=42.4s speed=22.3MB/s
+[19:14:14] step=cleanup unlinked Chappaquiddick (2018) EN SK tit.mp4
+[19:14:14] step=film done upload_id=20092 total=111.2s (cdn=1.2s + download=67.4s + upload=42.4s)
+[19:14:14] step=state-saved upload_id=20092 (total uploads=723)
+[19:14:14] step=iteration 89/100
+[19:14:14] step=film start upload_id=11650 cr_film_id=30558 name='Chasing Coral (2017) EN SK tit'
+[19:14:14] step=cdn-resolve upload_id=11650 cdn=www
+[19:14:15] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/5fc78438a2d8afdeb1a8d15f8c302555
+[19:14:15] step=download curl https://www.sledujteto.cz/player/index/sledujteto/5fc78438a2d8afdeb1a8d15f8c302555
+[19:15:02] step=download done upload_id=11650 size=856351367 dur=47.0s speed=18.2MB/s
+[19:15:02] step=upload start upload_id=11650 size=856351367
+[19:15:50] step=upload done upload_id=11650 video_id=24152772 dur=47.6s speed=18.0MB/s
+[19:15:50] step=cleanup unlinked Chasing Coral (2017) EN SK tit.mp4
+[19:15:50] step=film done upload_id=11650 total=95.7s (cdn=0.9s + download=47.0s + upload=47.6s)
+[19:15:50] step=state-saved upload_id=11650 (total uploads=724)
+[19:15:50] step=iteration 90/100
+[19:15:50] step=film start upload_id=16116 cr_film_id=30561 name='Suck It Up (2017) EN SK tit'
+[19:15:50] step=cdn-resolve upload_id=16116 cdn=www
+[19:15:51] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/efe677f0e48ffb6fea4b10e8dbcb5788
+[19:15:51] step=download curl https://www.sledujteto.cz/player/index/sledujteto/efe677f0e48ffb6fea4b10e8dbcb5788
+[19:16:30] step=download done upload_id=16116 size=736844692 dur=38.9s speed=18.9MB/s
+[19:16:30] step=upload start upload_id=16116 size=736844692
+[19:17:02] step=upload done upload_id=16116 video_id=24152802 dur=32.5s speed=22.7MB/s
+[19:17:02] step=cleanup unlinked Suck It Up (2017) EN SK tit.mp4
+[19:17:02] step=film done upload_id=16116 total=72.6s (cdn=1.1s + download=38.9s + upload=32.5s)
+[19:17:02] step=state-saved upload_id=16116 (total uploads=725)
+[19:17:02] step=iteration 91/100
+[19:17:02] step=film start upload_id=6985 cr_film_id=30566 name='Devil's Domain (2017) EN SK tit'
+[19:17:02] step=cdn-resolve upload_id=6985 cdn=www
+[19:17:04] step=cdn-resolve done 1.5s → https://www.sledujteto.cz/player/index/sledujteto/9d27aac7f05af306b9076f603ac690f1
+[19:17:04] step=download curl https://www.sledujteto.cz/player/index/sledujteto/9d27aac7f05af306b9076f603ac690f1
+[19:17:55] step=download done upload_id=6985 size=897993713 dur=51.0s speed=17.6MB/s
+[19:17:55] step=upload start upload_id=6985 size=897993713
+[19:18:35] step=upload done upload_id=6985 video_id=24152832 dur=39.8s speed=22.6MB/s
+[19:18:35] step=cleanup unlinked Devil's Domain (2017) EN SK tit.mp4
+[19:18:35] step=film done upload_id=6985 total=92.4s (cdn=1.5s + download=51.0s + upload=39.8s)
+[19:18:35] step=state-saved upload_id=6985 (total uploads=726)
+[19:18:35] step=iteration 92/100
+[19:18:35] step=film start upload_id=14091 cr_film_id=30574 name='Most Beautiful Island (2017) EN SK tit'
+[19:18:35] step=cdn-resolve upload_id=14091 cdn=www
+[19:18:35] step=cdn-resolve done 0.7s → https://www.sledujteto.cz/player/index/sledujteto/ea5b281b2796c810d0006380968e59ca
+[19:18:35] step=download curl https://www.sledujteto.cz/player/index/sledujteto/ea5b281b2796c810d0006380968e59ca
+[19:19:37] step=download done upload_id=14091 size=916121785 dur=61.5s speed=14.9MB/s
+[19:19:37] step=upload start upload_id=14091 size=916121785
+[19:20:17] step=upload done upload_id=14091 video_id=24152868 dur=40.0s speed=22.9MB/s
+[19:20:17] step=cleanup unlinked Most Beautiful Island (2017) EN SK tit.mp4
+[19:20:17] step=film done upload_id=14091 total=102.3s (cdn=0.7s + download=61.5s + upload=40.0s)
+[19:20:17] step=state-saved upload_id=14091 (total uploads=727)
+[19:20:17] step=iteration 93/100
+[19:20:17] step=film start upload_id=8218 cr_film_id=30576 name='Galaxy of Horrors (2024) EN CZ tit'
+[19:20:17] step=cdn-resolve upload_id=8218 cdn=www
+[19:20:18] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/e12ece932cf64af851619675960d6e88
+[19:20:18] step=download curl https://www.sledujteto.cz/player/index/sledujteto/e12ece932cf64af851619675960d6e88
+[19:21:05] step=download done upload_id=8218 size=582158270 dur=47.1s speed=12.4MB/s
+[19:21:05] step=upload start upload_id=8218 size=582158270
+[19:21:37] step=upload done upload_id=8218 video_id=24152897 dur=31.7s speed=18.4MB/s
+[19:21:37] step=cleanup unlinked Galaxy of Horrors (2024) EN CZ tit.mp4
+[19:21:37] step=film done upload_id=8218 total=79.8s (cdn=1.0s + download=47.1s + upload=31.7s)
+[19:21:37] step=state-saved upload_id=8218 (total uploads=728)
+[19:21:37] step=iteration 94/100
+[19:21:37] step=film start upload_id=28711 cr_film_id=30577 name='No Other Way to Say It (2017) EN CZ Dabing'
+[19:21:37] step=cdn-resolve upload_id=28711 cdn=www
+[19:21:38] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/e6b6e441a66fe6147f433f35e14cd70d
+[19:21:38] step=download curl https://www.sledujteto.cz/player/index/sledujteto/e6b6e441a66fe6147f433f35e14cd70d
+[19:22:30] step=download done upload_id=28711 size=752095619 dur=52.4s speed=14.4MB/s
+[19:22:30] step=upload start upload_id=28711 size=752095619
+[19:23:11] step=upload done upload_id=28711 video_id=24152927 dur=40.2s speed=18.7MB/s
+[19:23:11] step=cleanup unlinked No Other Way to Say It (2017) EN CZ Dabing.mp4
+[19:23:11] step=film done upload_id=28711 total=93.7s (cdn=1.0s + download=52.4s + upload=40.2s)
+[19:23:11] step=state-saved upload_id=28711 (total uploads=729)
+[19:23:11] step=iteration 95/100
+[19:23:11] step=film start upload_id=21514 cr_film_id=30580 name='Andre the Giant (2018) EN CZ tit'
+[19:23:11] step=cdn-resolve upload_id=21514 cdn=www
+[19:23:12] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/61a4b8658271a8cc3226a7a33781fd62
+[19:23:12] step=download curl https://www.sledujteto.cz/player/index/sledujteto/61a4b8658271a8cc3226a7a33781fd62
+[19:24:29] step=download done upload_id=21514 size=763710236 dur=76.9s speed=9.9MB/s
+[19:24:29] step=upload start upload_id=21514 size=763710236
+[19:25:07] step=upload done upload_id=21514 video_id=24152965 dur=37.8s speed=20.2MB/s
+[19:25:07] step=cleanup unlinked Andre the Giant (2018) EN CZ tit.mp4
+[19:25:07] step=film done upload_id=21514 total=116.0s (cdn=1.2s + download=76.9s + upload=37.8s)
+[19:25:07] step=state-saved upload_id=21514 (total uploads=730)
+[19:25:07] step=iteration 96/100
+[19:25:07] step=film start upload_id=20571 cr_film_id=30582 name='Whitney: Být sama sebou (2017) EN SK tit'
+[19:25:07] step=cdn-resolve upload_id=20571 cdn=www
+[19:25:08] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/89c74bbe08d28cdf9e4a3380a7756068
+[19:25:08] step=download curl https://www.sledujteto.cz/player/index/sledujteto/89c74bbe08d28cdf9e4a3380a7756068
+[19:26:06] step=download done upload_id=20571 size=749677292 dur=58.8s speed=12.7MB/s
+[19:26:06] step=upload start upload_id=20571 size=749677292
+[19:26:39] step=upload done upload_id=20571 video_id=24153022 dur=32.4s speed=23.1MB/s
+[19:26:39] step=cleanup unlinked Whitney: Být sama sebou (2017) EN SK tit.mp4
+[19:26:39] step=film done upload_id=20571 total=92.2s (cdn=0.9s + download=58.8s + upload=32.4s)
+[19:26:39] step=state-saved upload_id=20571 (total uploads=731)
+[19:26:39] step=iteration 97/100
+[19:26:39] step=film start upload_id=15904 cr_film_id=30586 name='GODZILLA 怪獣惑星 (2017) JA CZ tit'
+[19:26:39] step=cdn-resolve upload_id=15904 cdn=www
+[19:26:41] step=cdn-resolve done 1.8s → https://www.sledujteto.cz/player/index/sledujteto/befcca7560a5c1e3bfbcd20ecf82a444
+[19:26:41] step=download curl https://www.sledujteto.cz/player/index/sledujteto/befcca7560a5c1e3bfbcd20ecf82a444
+[19:28:16] step=download done upload_id=15904 size=683649420 dur=94.8s speed=7.2MB/s
+[19:28:16] step=upload start upload_id=15904 size=683649420
+[19:28:54] step=upload done upload_id=15904 video_id=24153081 dur=38.4s speed=17.8MB/s
+[19:28:54] step=cleanup unlinked GODZILLA 怪獣惑星 (2017) JA CZ tit.mp4
+[19:28:54] step=film done upload_id=15904 total=135.1s (cdn=1.8s + download=94.8s + upload=38.4s)
+[19:28:54] step=state-saved upload_id=15904 (total uploads=732)
+[19:28:54] step=iteration 98/100
+[19:28:54] step=film start upload_id=10144 cr_film_id=30593 name='Spravedlnost (2017) EN CZ tit'
+[19:28:54] step=cdn-resolve upload_id=10144 cdn=www
+[19:28:55] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/e057799b5575902ce17b9cdf95b1c702
+[19:28:55] step=download curl https://www.sledujteto.cz/player/index/sledujteto/e057799b5575902ce17b9cdf95b1c702
+[19:30:14] step=download done upload_id=10144 size=1120692494 dur=78.8s speed=14.2MB/s
+[19:30:14] step=upload start upload_id=10144 size=1120692494
+[19:31:20] step=upload done upload_id=10144 video_id=24153142 dur=65.9s speed=17.0MB/s
+[19:31:20] step=cleanup unlinked Spravedlnost (2017) EN CZ tit.mp4
+[19:31:20] step=film done upload_id=10144 total=146.1s (cdn=1.2s + download=78.8s + upload=65.9s)
+[19:31:20] step=state-saved upload_id=10144 (total uploads=733)
+[19:31:20] step=iteration 99/100
+[19:31:20] step=film start upload_id=20578 cr_film_id=30596 name='Arytmie (2017) RU CZ tit'
+[19:31:20] step=cdn-resolve upload_id=20578 cdn=www
+[19:31:22] step=cdn-resolve done 1.4s → https://www.sledujteto.cz/player/index/sledujteto/8ddcee0f32f57bc85aade70ce0ac5343
+[19:31:22] step=download curl https://www.sledujteto.cz/player/index/sledujteto/8ddcee0f32f57bc85aade70ce0ac5343
+[19:32:59] step=download done upload_id=20578 size=1061394118 dur=97.7s speed=10.9MB/s
+[19:32:59] step=upload start upload_id=20578 size=1061394118
+[19:33:52] step=upload done upload_id=20578 video_id=24153340 dur=53.2s speed=20.0MB/s
+[19:33:53] step=cleanup unlinked Arytmie (2017) RU CZ tit.mp4
+[19:33:53] step=film done upload_id=20578 total=152.5s (cdn=1.4s + download=97.7s + upload=53.2s)
+[19:33:53] step=state-saved upload_id=20578 (total uploads=734)
+[19:33:53] step=iteration 100/100
+[19:33:53] step=film start upload_id=70290 cr_film_id=30599 name='G.I. Joe: Arise, Serpentor, Arise! (1986) EN CZ Dabing'
+[19:33:53] step=cdn-resolve upload_id=70290 cdn=www
+[19:33:54] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/43d84da0a996dea981aeda7804c31777
+[19:33:54] step=download curl https://www.sledujteto.cz/player/index/sledujteto/43d84da0a996dea981aeda7804c31777
+[19:34:46] step=download done upload_id=70290 size=793081141 dur=52.2s speed=15.2MB/s
+[19:34:46] step=upload start upload_id=70290 size=793081141
+[19:35:38] step=upload done upload_id=70290 video_id=24153488 dur=52.2s speed=15.2MB/s
+[19:35:38] step=cleanup unlinked G.I. Joe: Arise, Serpentor, Arise! (1986) EN CZ Dabing.mp4
+[19:35:38] step=film done upload_id=70290 total=105.7s (cdn=1.2s + download=52.2s + upload=52.2s)
+[19:35:38] step=state-saved upload_id=70290 (total uploads=735)
+[19:35:38] step=batch-end succeeded=100 failed=0 total_uploads=735 batch_dur=12252.3s avg_per_film=122.5s backlog_remaining=180 eta_hours=6.1
