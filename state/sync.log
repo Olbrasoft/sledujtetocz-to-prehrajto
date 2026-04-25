@@ -8163,3 +8163,1101 @@
 [19:35:38] step=film done upload_id=70290 total=105.7s (cdn=1.2s + download=52.2s + upload=52.2s)
 [19:35:38] step=state-saved upload_id=70290 (total uploads=735)
 [19:35:38] step=batch-end succeeded=100 failed=0 total_uploads=735 batch_dur=12252.3s avg_per_film=122.5s backlog_remaining=180 eta_hours=6.1
+
+===== run 2026-04-24T19:37:35Z batch_size=100 lang=CZ_DUB,CZ_SUB,SK_DUB,SK_SUB (https://github.com/Olbrasoft/sledujtetocz-to-prehrajto/actions/runs/24908318841) =====
+[19:37:35] step=batch-start count=100 backlog=916 uploads=735 moderated=1
+[19:37:35] step=login
+[19:37:37] step=login done
+[19:37:37] step=iteration 1/100
+[19:37:37] step=film start upload_id=9398 cr_film_id=30602 name='LEGO DC Superhrdinky: Brain Drain (2017) EN CZ Dabing'
+[19:37:37] step=cdn-resolve upload_id=9398 cdn=www
+[19:37:39] step=cdn-resolve done 1.5s → https://www.sledujteto.cz/player/index/sledujteto/f54a72d8495e08cbfc68d12a97cdb519
+[19:37:39] step=download curl https://www.sledujteto.cz/player/index/sledujteto/f54a72d8495e08cbfc68d12a97cdb519
+[19:39:08] step=download done upload_id=9398 size=1110821529 dur=89.3s speed=12.4MB/s
+[19:39:08] step=upload start upload_id=9398 size=1110821529
+[19:40:23] step=upload done upload_id=9398 video_id=24153810 dur=75.1s speed=14.8MB/s
+[19:40:23] step=cleanup unlinked LEGO DC Superhrdinky: Brain Drain (2017) EN CZ Dabing.mp4
+[19:40:23] step=film done upload_id=9398 total=166.0s (cdn=1.5s + download=89.3s + upload=75.1s)
+[19:40:23] step=state-saved upload_id=9398 (total uploads=736)
+[19:40:23] step=iteration 2/100
+[19:40:23] step=film start upload_id=12964 cr_film_id=30609 name='Devil's Whisper (2017) EN SK tit'
+[19:40:23] step=cdn-resolve upload_id=12964 cdn=www
+[19:40:24] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/c91eeaadc8fbcc2c3ad4b993b04b6a49
+[19:40:24] step=download curl https://www.sledujteto.cz/player/index/sledujteto/c91eeaadc8fbcc2c3ad4b993b04b6a49
+[19:41:20] step=download done upload_id=12964 size=703734767 dur=55.1s speed=12.8MB/s
+[19:41:20] step=upload start upload_id=12964 size=703734767
+[19:42:01] step=upload done upload_id=12964 video_id=24153963 dur=41.3s speed=17.0MB/s
+[19:42:01] step=cleanup unlinked Devil's Whisper (2017) EN SK tit.mp4
+[19:42:01] step=film done upload_id=12964 total=97.7s (cdn=1.2s + download=55.1s + upload=41.3s)
+[19:42:01] step=state-saved upload_id=12964 (total uploads=737)
+[19:42:01] step=iteration 3/100
+[19:42:01] step=film start upload_id=29260 cr_film_id=30624 name='Spare Room (2018) EN CZ tit'
+[19:42:01] step=cdn-resolve upload_id=29260 cdn=www
+[19:42:02] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/d2b158e81b7b67b3f38cc0f5196a66d1
+[19:42:02] step=download curl https://www.sledujteto.cz/player/index/sledujteto/d2b158e81b7b67b3f38cc0f5196a66d1
+[19:44:00] step=download done upload_id=29260 size=1980166195 dur=118.2s speed=16.8MB/s
+[19:44:00] step=upload start upload_id=29260 size=1980166195
+[19:45:58] step=upload done upload_id=29260 video_id=24154120 dur=117.6s speed=16.8MB/s
+[19:45:58] step=cleanup unlinked Spare Room (2018) EN CZ tit.mp4
+[19:45:58] step=film done upload_id=29260 total=237.2s (cdn=1.2s + download=118.2s + upload=117.6s)
+[19:45:58] step=state-saved upload_id=29260 (total uploads=738)
+[19:45:58] step=iteration 4/100
+[19:45:58] step=film start upload_id=19889 cr_film_id=30625 name='Indian Horse (2018) EN CZ tit'
+[19:45:58] step=cdn-resolve upload_id=19889 cdn=www
+[19:45:59] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/f4099bfa80691834a719240c6e26ff45
+[19:45:59] step=download curl https://www.sledujteto.cz/player/index/sledujteto/f4099bfa80691834a719240c6e26ff45
+[19:47:30] step=download done upload_id=19889 size=906452186 dur=90.4s speed=10.0MB/s
+[19:47:30] step=upload start upload_id=19889 size=906452186
+[19:48:38] step=upload done upload_id=19889 video_id=24154308 dur=68.3s speed=13.3MB/s
+[19:48:38] step=cleanup unlinked Indian Horse (2018) EN CZ tit.mp4
+[19:48:38] step=film done upload_id=19889 total=159.8s (cdn=1.0s + download=90.4s + upload=68.3s)
+[19:48:38] step=state-saved upload_id=19889 (total uploads=739)
+[19:48:38] step=iteration 5/100
+[19:48:38] step=film start upload_id=24857 cr_film_id=30628 name='Invader Zim: Enter the Florpus (2019) EN CZ tit'
+[19:48:38] step=cdn-resolve upload_id=24857 cdn=www
+[19:48:40] step=cdn-resolve done 1.7s → https://www.sledujteto.cz/player/index/sledujteto/6f90dfe1c0fe3b2ff5ad593fbf0c1182
+[19:48:40] step=download curl https://www.sledujteto.cz/player/index/sledujteto/6f90dfe1c0fe3b2ff5ad593fbf0c1182
+[19:50:01] step=download done upload_id=24857 size=1119354026 dur=81.2s speed=13.8MB/s
+[19:50:01] step=upload start upload_id=24857 size=1119354026
+[19:51:20] step=upload done upload_id=24857 video_id=24154428 dur=79.4s speed=14.1MB/s
+[19:51:20] step=cleanup unlinked Invader Zim: Enter the Florpus (2019) EN CZ tit.mp4
+[19:51:20] step=film done upload_id=24857 total=162.5s (cdn=1.7s + download=81.2s + upload=79.4s)
+[19:51:20] step=state-saved upload_id=24857 (total uploads=740)
+[19:51:20] step=iteration 6/100
+[19:51:20] step=film start upload_id=39567 cr_film_id=30634 name='Malá Anastázie (2020) EN CZ tit'
+[19:51:20] step=cdn-resolve upload_id=39567 cdn=www
+[19:51:22] step=cdn-resolve done 1.4s → https://www.sledujteto.cz/player/index/sledujteto/8638e8679d6a07b468fc067ad533e7e3
+[19:51:22] step=download curl https://www.sledujteto.cz/player/index/sledujteto/8638e8679d6a07b468fc067ad533e7e3
+[19:53:20] step=download done upload_id=39567 size=1821159448 dur=118.6s speed=15.4MB/s
+[19:53:20] step=upload start upload_id=39567 size=1821159448
+[19:55:15] step=upload done upload_id=39567 video_id=24154584 dur=114.8s speed=15.9MB/s
+[19:55:15] step=cleanup unlinked Malá Anastázie (2020) EN CZ tit.mp4
+[19:55:15] step=film done upload_id=39567 total=235.0s (cdn=1.4s + download=118.6s + upload=114.8s)
+[19:55:15] step=state-saved upload_id=39567 (total uploads=741)
+[19:55:15] step=iteration 7/100
+[19:55:15] step=film start upload_id=15246 cr_film_id=30642 name='Scooby-Doo a Batman: Spolu a odvážně (2018) EN CZ Dabing'
+[19:55:15] step=cdn-resolve upload_id=15246 cdn=www
+[19:55:18] step=cdn-resolve done 2.1s → https://www.sledujteto.cz/player/index/sledujteto/547af47d39e678f1a70d45d4fae79817
+[19:55:18] step=download curl https://www.sledujteto.cz/player/index/sledujteto/547af47d39e678f1a70d45d4fae79817
+[19:55:49] step=download done upload_id=15246 size=401406582 dur=31.3s speed=12.8MB/s
+[19:55:49] step=upload start upload_id=15246 size=401406582
+[19:56:17] step=upload done upload_id=15246 video_id=24154703 dur=27.7s speed=14.5MB/s
+[19:56:17] step=cleanup unlinked Scooby-Doo a Batman: Spolu a odvážně (2018) EN CZ Dabing.mp4
+[19:56:17] step=film done upload_id=15246 total=61.2s (cdn=2.1s + download=31.3s + upload=27.7s)
+[19:56:17] step=state-saved upload_id=15246 (total uploads=742)
+[19:56:17] step=iteration 8/100
+[19:56:17] step=film start upload_id=29347 cr_film_id=30643 name='(Ne)přátelé (2018) FR CZ tit'
+[19:56:17] step=cdn-resolve upload_id=29347 cdn=www
+[19:56:18] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/59068d50f03fee83316c4ab699d8113f
+[19:56:18] step=download curl https://www.sledujteto.cz/player/index/sledujteto/59068d50f03fee83316c4ab699d8113f
+[19:56:55] step=download done upload_id=29347 size=480561318 dur=37.5s speed=12.8MB/s
+[19:56:55] step=upload start upload_id=29347 size=480561318
+[19:57:26] step=upload done upload_id=29347 video_id=24154756 dur=30.3s speed=15.9MB/s
+[19:57:26] step=cleanup unlinked (Ne)přátelé (2018) FR CZ tit.mp4
+[19:57:26] step=film done upload_id=29347 total=69.1s (cdn=1.2s + download=37.5s + upload=30.3s)
+[19:57:26] step=state-saved upload_id=29347 (total uploads=743)
+[19:57:26] step=iteration 9/100
+[19:57:26] step=film start upload_id=25923 cr_film_id=30645 name='The Godfathers of Hardcore (2018) EN CZ tit'
+[19:57:26] step=cdn-resolve upload_id=25923 cdn=www
+[19:57:27] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/1ce19ce6ff9de4b3c9a8db10c1c98baf
+[19:57:27] step=download curl https://www.sledujteto.cz/player/index/sledujteto/1ce19ce6ff9de4b3c9a8db10c1c98baf
+[19:59:52] step=download done upload_id=25923 size=1643478902 dur=145.5s speed=11.3MB/s
+[19:59:52] step=upload start upload_id=25923 size=1643478902
+[20:01:35] step=upload done upload_id=25923 video_id=24154874 dur=102.1s speed=16.1MB/s
+[20:01:35] step=cleanup unlinked The Godfathers of Hardcore (2018) EN CZ tit.mp4
+[20:01:35] step=film done upload_id=25923 total=249.1s (cdn=1.2s + download=145.5s + upload=102.1s)
+[20:01:35] step=state-saved upload_id=25923 (total uploads=744)
+[20:01:35] step=iteration 10/100
+[20:01:35] step=film start upload_id=18006 cr_film_id=30648 name='The Death of Superman (2018) EN CZ tit'
+[20:01:35] step=cdn-resolve upload_id=18006 cdn=www
+[20:01:36] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/fa4649a8db6bf5edfb40a15fe6702123
+[20:01:36] step=download curl https://www.sledujteto.cz/player/index/sledujteto/fa4649a8db6bf5edfb40a15fe6702123
+[20:02:43] step=download done upload_id=18006 size=759701740 dur=66.7s speed=11.4MB/s
+[20:02:43] step=upload start upload_id=18006 size=759701740
+[20:03:36] step=upload done upload_id=18006 video_id=24154997 dur=53.1s speed=14.3MB/s
+[20:03:36] step=cleanup unlinked The Death of Superman (2018) EN CZ tit.mp4
+[20:03:36] step=film done upload_id=18006 total=121.0s (cdn=1.1s + download=66.7s + upload=53.1s)
+[20:03:36] step=state-saved upload_id=18006 (total uploads=745)
+[20:03:36] step=iteration 11/100
+[20:03:36] step=film start upload_id=20827 cr_film_id=30650 name='Blindspotting (2018) EN CZ tit'
+[20:03:36] step=cdn-resolve upload_id=20827 cdn=www
+[20:03:38] step=cdn-resolve done 2.1s → https://www.sledujteto.cz/player/index/sledujteto/c2f3995f82d66b7e0f5f795b1a6123d6
+[20:03:38] step=download curl https://www.sledujteto.cz/player/index/sledujteto/c2f3995f82d66b7e0f5f795b1a6123d6
+[20:06:47] step=download done upload_id=20827 size=1952441072 dur=188.6s speed=10.4MB/s
+[20:06:47] step=upload start upload_id=20827 size=1952441072
+[20:09:05] step=upload done upload_id=20827 video_id=24155197 dur=138.9s speed=14.1MB/s
+[20:09:06] step=cleanup unlinked Blindspotting (2018) EN CZ tit.mp4
+[20:09:06] step=film done upload_id=20827 total=329.9s (cdn=2.1s + download=188.6s + upload=138.9s)
+[20:09:06] step=state-saved upload_id=20827 (total uploads=746)
+[20:09:06] step=iteration 12/100
+[20:09:06] step=film start upload_id=29221 cr_film_id=30653 name='Won't You Be My Neighbor? (2018) EN SK tit'
+[20:09:06] step=cdn-resolve upload_id=29221 cdn=www
+[20:09:07] step=cdn-resolve done 1.5s → https://www.sledujteto.cz/player/index/sledujteto/67facb80d0137ee455bd756d65dde774
+[20:09:07] step=download curl https://www.sledujteto.cz/player/index/sledujteto/67facb80d0137ee455bd756d65dde774
+[20:11:26] step=download done upload_id=29221 size=1933936242 dur=138.8s speed=13.9MB/s
+[20:11:26] step=upload start upload_id=29221 size=1933936242
+[20:13:25] step=upload done upload_id=29221 video_id=24155432 dur=119.2s speed=16.2MB/s
+[20:13:25] step=cleanup unlinked Won't You Be My Neighbor? (2018) EN SK tit.mp4
+[20:13:25] step=film done upload_id=29221 total=259.7s (cdn=1.5s + download=138.8s + upload=119.2s)
+[20:13:25] step=state-saved upload_id=29221 (total uploads=747)
+[20:13:25] step=iteration 13/100
+[20:13:25] step=film start upload_id=22483 cr_film_id=30654 name='Pařížská výchova (2018) FR CZ tit'
+[20:13:25] step=cdn-resolve upload_id=22483 cdn=www
+[20:13:27] step=cdn-resolve done 1.4s → https://www.sledujteto.cz/player/index/sledujteto/661aabe52c6eff55ba099a89db104340
+[20:13:27] step=download curl https://www.sledujteto.cz/player/index/sledujteto/661aabe52c6eff55ba099a89db104340
+[20:15:40] step=download done upload_id=22483 size=1516038286 dur=133.5s speed=11.4MB/s
+[20:15:40] step=upload start upload_id=22483 size=1516038286
+[20:17:15] step=upload done upload_id=22483 video_id=24155655 dur=94.3s speed=16.1MB/s
+[20:17:15] step=cleanup unlinked Pařížská výchova (2018) FR CZ tit.mp4
+[20:17:15] step=film done upload_id=22483 total=229.5s (cdn=1.4s + download=133.5s + upload=94.3s)
+[20:17:15] step=state-saved upload_id=22483 (total uploads=748)
+[20:17:15] step=iteration 14/100
+[20:17:15] step=film start upload_id=29527 cr_film_id=30656 name='Gully boy: Kluk ze štrýtu (2019) HI CZ tit'
+[20:17:15] step=cdn-resolve upload_id=29527 cdn=www
+[20:17:16] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/9fbba5b87a5a4011a511746fe1f7b2d3
+[20:17:16] step=download curl https://www.sledujteto.cz/player/index/sledujteto/9fbba5b87a5a4011a511746fe1f7b2d3
+[20:21:10] step=download done upload_id=29527 size=2417070562 dur=233.7s speed=10.3MB/s
+[20:21:10] step=upload start upload_id=29527 size=2417070562
+[20:23:30] step=upload done upload_id=29527 video_id=24155924 dur=140.4s speed=17.2MB/s
+[20:23:30] step=cleanup unlinked Gully boy: Kluk ze štrýtu (2019) HI CZ tit.mp4
+[20:23:30] step=film done upload_id=29527 total=375.6s (cdn=1.2s + download=233.7s + upload=140.4s)
+[20:23:30] step=state-saved upload_id=29527 (total uploads=749)
+[20:23:30] step=iteration 15/100
+[20:23:30] step=film start upload_id=94135 cr_film_id=30658 name='Faith Under Fire (2018) EN SK tit'
+[20:23:30] step=cdn-resolve upload_id=94135 cdn=www
+[20:23:31] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/3cb0c8eba0af72bf12316f29a5d68a86
+[20:23:31] step=download curl https://www.sledujteto.cz/player/index/sledujteto/3cb0c8eba0af72bf12316f29a5d68a86
+[20:25:45] step=download done upload_id=94135 size=1806915023 dur=133.7s speed=13.5MB/s
+[20:25:45] step=upload start upload_id=94135 size=1806915023
+[20:27:38] step=upload done upload_id=94135 video_id=24156149 dur=113.2s speed=16.0MB/s
+[20:27:39] step=cleanup unlinked Faith Under Fire (2018) EN SK tit.mp4
+[20:27:39] step=film done upload_id=94135 total=248.1s (cdn=0.9s + download=133.7s + upload=113.2s)
+[20:27:39] step=state-saved upload_id=94135 (total uploads=750)
+[20:27:39] step=iteration 16/100
+[20:27:39] step=film start upload_id=58432 cr_film_id=30662 name='Město na ostří nože (2020) EN CZ tit'
+[20:27:39] step=cdn-resolve upload_id=58432 cdn=www
+[20:27:40] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/ba7e0f3da1123f669a93ee0754efd59c
+[20:27:40] step=download curl https://www.sledujteto.cz/player/index/sledujteto/ba7e0f3da1123f669a93ee0754efd59c
+[20:30:13] step=download done upload_id=58432 size=2441057033 dur=153.1s speed=15.9MB/s
+[20:30:13] step=upload start upload_id=58432 size=2441057033
+[20:32:40] step=upload done upload_id=58432 video_id=24156371 dur=147.5s speed=16.5MB/s
+[20:32:41] step=cleanup unlinked Město na ostří nože (2020) EN CZ tit.mp4
+[20:32:41] step=film done upload_id=58432 total=302.0s (cdn=1.2s + download=153.1s + upload=147.5s)
+[20:32:41] step=state-saved upload_id=58432 (total uploads=751)
+[20:32:41] step=iteration 17/100
+[20:32:41] step=film start upload_id=21380 cr_film_id=30665 name='Zero (2018) HU CZ tit'
+[20:32:41] step=cdn-resolve upload_id=21380 cdn=www
+[20:32:42] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/473f9d2fc17c99113ba69f5e7a0e2adb
+[20:32:42] step=download curl https://www.sledujteto.cz/player/index/sledujteto/473f9d2fc17c99113ba69f5e7a0e2adb
+[20:35:02] step=download done upload_id=21380 size=2157289115 dur=140.4s speed=15.4MB/s
+[20:35:02] step=upload start upload_id=21380 size=2157289115
+[20:37:39] step=upload done upload_id=21380 video_id=24156593 dur=157.0s speed=13.7MB/s
+[20:37:39] step=cleanup unlinked Zero (2018) HU CZ tit.mp4
+[20:37:39] step=film done upload_id=21380 total=298.6s (cdn=1.0s + download=140.4s + upload=157.0s)
+[20:37:39] step=state-saved upload_id=21380 (total uploads=752)
+[20:37:39] step=iteration 18/100
+[20:37:39] step=film start upload_id=7557 cr_film_id=30666 name='9Realms: The Fateful Oath (2016) EN SK tit'
+[20:37:39] step=cdn-resolve upload_id=7557 cdn=www
+[20:37:40] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/00bd5319b88df1e6af3ad3397ad3bedb
+[20:37:40] step=download curl https://www.sledujteto.cz/player/index/sledujteto/00bd5319b88df1e6af3ad3397ad3bedb
+[20:38:52] step=download done upload_id=7557 size=835600266 dur=71.3s speed=11.7MB/s
+[20:38:52] step=upload start upload_id=7557 size=835600266
+[20:39:53] step=upload done upload_id=7557 video_id=24156741 dur=61.4s speed=13.6MB/s
+[20:39:53] step=cleanup unlinked 9Realms: The Fateful Oath (2016) EN SK tit.mp4
+[20:39:53] step=film done upload_id=7557 total=133.8s (cdn=1.0s + download=71.3s + upload=61.4s)
+[20:39:53] step=state-saved upload_id=7557 (total uploads=753)
+[20:39:53] step=iteration 19/100
+[20:39:53] step=film start upload_id=22865 cr_film_id=30667 name='Bayoneta (2018) ES CZ tit'
+[20:39:53] step=cdn-resolve upload_id=22865 cdn=www
+[20:39:55] step=cdn-resolve done 1.7s → https://www.sledujteto.cz/player/index/sledujteto/d3a8adf9339f506635ea5f7f6f581f2e
+[20:39:55] step=download curl https://www.sledujteto.cz/player/index/sledujteto/d3a8adf9339f506635ea5f7f6f581f2e
+[20:40:36] step=download done upload_id=22865 size=518846357 dur=40.9s speed=12.7MB/s
+[20:40:36] step=upload start upload_id=22865 size=518846357
+[20:41:07] step=upload done upload_id=22865 video_id=24156833 dur=31.3s speed=16.6MB/s
+[20:41:07] step=cleanup unlinked Bayoneta (2018) ES CZ tit.mp4
+[20:41:07] step=film done upload_id=22865 total=73.9s (cdn=1.7s + download=40.9s + upload=31.3s)
+[20:41:07] step=state-saved upload_id=22865 (total uploads=754)
+[20:41:07] step=iteration 20/100
+[20:41:07] step=film start upload_id=22133 cr_film_id=30674 name='Never Grow Old (2019) EN CZ tit'
+[20:41:07] step=cdn-resolve upload_id=22133 cdn=www
+[20:41:08] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/91deb07f1355e48c12732b9cdbf75f47
+[20:41:08] step=download curl https://www.sledujteto.cz/player/index/sledujteto/91deb07f1355e48c12732b9cdbf75f47
+[20:41:54] step=download done upload_id=22133 size=646942048 dur=46.3s speed=14.0MB/s
+[20:41:54] step=upload start upload_id=22133 size=646942048
+[20:42:36] step=upload done upload_id=22133 video_id=24156897 dur=41.7s speed=15.5MB/s
+[20:42:36] step=cleanup unlinked Never Grow Old (2019) EN CZ tit.mp4
+[20:42:36] step=film done upload_id=22133 total=89.0s (cdn=0.9s + download=46.3s + upload=41.7s)
+[20:42:36] step=state-saved upload_id=22133 (total uploads=755)
+[20:42:36] step=iteration 21/100
+[20:42:36] step=film start upload_id=18382 cr_film_id=30676 name='Včelka Mája: Medové hry (2018) EN CZ Dabing'
+[20:42:36] step=cdn-resolve upload_id=18382 cdn=www
+[20:42:37] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/815edbd86bd82cddcdc0d2b025d394ca
+[20:42:37] step=download curl https://www.sledujteto.cz/player/index/sledujteto/815edbd86bd82cddcdc0d2b025d394ca
+[20:43:57] step=download done upload_id=18382 size=1156533565 dur=80.2s speed=14.4MB/s
+[20:43:57] step=upload start upload_id=18382 size=1156533565
+[20:45:25] step=upload done upload_id=18382 video_id=24156981 dur=87.7s speed=13.2MB/s
+[20:45:25] step=cleanup unlinked Včelka Mája: Medové hry (2018) EN CZ Dabing.mp4
+[20:45:25] step=film done upload_id=18382 total=169.1s (cdn=1.1s + download=80.2s + upload=87.7s)
+[20:45:25] step=state-saved upload_id=18382 (total uploads=756)
+[20:45:25] step=iteration 22/100
+[20:45:25] step=film start upload_id=21502 cr_film_id=30688 name='Rockaway (2019) EN SK tit'
+[20:45:25] step=cdn-resolve upload_id=21502 cdn=www
+[20:45:26] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/9fdcc180c8206fc922c8bd3324d96f4c
+[20:45:26] step=download curl https://www.sledujteto.cz/player/index/sledujteto/9fdcc180c8206fc922c8bd3324d96f4c
+[20:46:16] step=download done upload_id=21502 size=744797442 dur=49.9s speed=14.9MB/s
+[20:46:16] step=upload start upload_id=21502 size=744797442
+[20:47:00] step=upload done upload_id=21502 video_id=24157066 dur=44.1s speed=16.9MB/s
+[20:47:00] step=cleanup unlinked Rockaway (2019) EN SK tit.mp4
+[20:47:00] step=film done upload_id=21502 total=95.4s (cdn=1.2s + download=49.9s + upload=44.1s)
+[20:47:00] step=state-saved upload_id=21502 (total uploads=757)
+[20:47:00] step=iteration 23/100
+[20:47:00] step=film start upload_id=24050 cr_film_id=30690 name='Šelma (2018) FR SK tit'
+[20:47:00] step=cdn-resolve upload_id=24050 cdn=www
+[20:47:01] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/04e4afb21c9ae502fa82897b6478c9a3
+[20:47:01] step=download curl https://www.sledujteto.cz/player/index/sledujteto/04e4afb21c9ae502fa82897b6478c9a3
+[20:47:19] step=download done upload_id=24050 size=174440681 dur=17.6s speed=9.9MB/s
+[20:47:19] step=upload start upload_id=24050 size=174440681
+[20:47:32] step=upload done upload_id=24050 video_id=24157108 dur=13.4s speed=13.0MB/s
+[20:47:32] step=cleanup unlinked Šelma (2018) FR SK tit.mp4
+[20:47:32] step=film done upload_id=24050 total=31.9s (cdn=0.9s + download=17.6s + upload=13.4s)
+[20:47:32] step=state-saved upload_id=24050 (total uploads=758)
+[20:47:32] step=iteration 24/100
+[20:47:32] step=film start upload_id=19988 cr_film_id=30692 name='The Bombing of Wall Street (2018) EN CZ tit'
+[20:47:32] step=cdn-resolve upload_id=19988 cdn=www
+[20:47:33] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/e0325feafe52a75a3f32c615c4b510e3
+[20:47:33] step=download curl https://www.sledujteto.cz/player/index/sledujteto/e0325feafe52a75a3f32c615c4b510e3
+[20:49:04] step=download done upload_id=19988 size=1202505111 dur=90.3s speed=13.3MB/s
+[20:49:04] step=upload start upload_id=19988 size=1202505111
+[20:50:32] step=upload done upload_id=19988 video_id=24157181 dur=88.2s speed=13.6MB/s
+[20:50:32] step=cleanup unlinked The Bombing of Wall Street (2018) EN CZ tit.mp4
+[20:50:32] step=film done upload_id=19988 total=179.5s (cdn=0.9s + download=90.3s + upload=88.2s)
+[20:50:32] step=state-saved upload_id=19988 (total uploads=759)
+[20:50:32] step=iteration 25/100
+[20:50:32] step=film start upload_id=35183 cr_film_id=30700 name='A Portuguesa (2019) PT CZ tit'
+[20:50:32] step=cdn-resolve upload_id=35183 cdn=www
+[20:50:33] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/53b11298a62881617f10c8d52dc70575
+[20:50:33] step=download curl https://www.sledujteto.cz/player/index/sledujteto/53b11298a62881617f10c8d52dc70575
+[20:55:16] step=download done upload_id=35183 size=2815855639 dur=282.9s speed=10.0MB/s
+[20:55:16] step=upload start upload_id=35183 size=2815855639
+[20:58:00] step=upload done upload_id=35183 video_id=24157408 dur=163.8s speed=17.2MB/s
+[20:58:00] step=cleanup unlinked A Portuguesa (2019) PT CZ tit.mp4
+[20:58:00] step=film done upload_id=35183 total=448.3s (cdn=1.3s + download=282.9s + upload=163.8s)
+[20:58:00] step=state-saved upload_id=35183 (total uploads=760)
+[20:58:00] step=iteration 26/100
+[20:58:00] step=film start upload_id=3960 cr_film_id=30709 name='Listen to Me: Untold Stories Beyond Hatred (2016) HY CZ tit'
+[20:58:00] step=cdn-resolve upload_id=3960 cdn=www
+[20:58:02] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/bbdd73ea22f2ca20ce91acd44d1dba6a
+[20:58:02] step=download curl https://www.sledujteto.cz/player/index/sledujteto/bbdd73ea22f2ca20ce91acd44d1dba6a
+[20:59:05] step=download done upload_id=3960 size=704613200 dur=63.2s speed=11.1MB/s
+[20:59:05] step=upload start upload_id=3960 size=704613200
+[20:59:49] step=upload done upload_id=3960 video_id=24157561 dur=43.8s speed=16.1MB/s
+[20:59:49] step=cleanup unlinked Listen to Me: Untold Stories Beyond Hatred (2016) HY CZ tit.mp4
+[20:59:49] step=film done upload_id=3960 total=108.4s (cdn=1.3s + download=63.2s + upload=43.8s)
+[20:59:49] step=state-saved upload_id=3960 (total uploads=761)
+[20:59:49] step=iteration 27/100
+[20:59:49] step=film start upload_id=20441 cr_film_id=30710 name='Vyslov její jméno: Život a smrt Sandry Blandové (2018) EN CZ tit'
+[20:59:49] step=cdn-resolve upload_id=20441 cdn=www
+[20:59:50] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/38ff46ced2e97124b567a2240aaffe39
+[20:59:50] step=download curl https://www.sledujteto.cz/player/index/sledujteto/38ff46ced2e97124b567a2240aaffe39
+[21:01:46] step=download done upload_id=20441 size=1429089033 dur=116.4s speed=12.3MB/s
+[21:01:46] step=upload start upload_id=20441 size=1429089033
+[21:03:13] step=upload done upload_id=20441 video_id=24157657 dur=86.6s speed=16.5MB/s
+[21:03:13] step=cleanup unlinked Vyslov její jméno: Život a smrt Sandry Blandové (2018) EN CZ tit.mp4
+[21:03:13] step=film done upload_id=20441 total=204.3s (cdn=1.1s + download=116.4s + upload=86.6s)
+[21:03:13] step=state-saved upload_id=20441 (total uploads=762)
+[21:03:13] step=iteration 28/100
+[21:03:13] step=film start upload_id=29180 cr_film_id=30716 name='Stará garda (2018) FR CZ tit'
+[21:03:13] step=cdn-resolve upload_id=29180 cdn=www
+[21:03:14] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/fc6155813431251f3c866392a2acfe6c
+[21:03:14] step=download curl https://www.sledujteto.cz/player/index/sledujteto/fc6155813431251f3c866392a2acfe6c
+[21:05:43] step=download done upload_id=29180 size=2518159256 dur=149.2s speed=16.9MB/s
+[21:05:43] step=upload start upload_id=29180 size=2518159256
+[21:08:42] step=upload done upload_id=29180 video_id=24157798 dur=178.8s speed=14.1MB/s
+[21:08:43] step=cleanup unlinked Stará garda (2018) FR CZ tit.mp4
+[21:08:43] step=film done upload_id=29180 total=329.6s (cdn=1.3s + download=149.2s + upload=178.8s)
+[21:08:43] step=state-saved upload_id=29180 (total uploads=763)
+[21:08:43] step=iteration 29/100
+[21:08:43] step=film start upload_id=23448 cr_film_id=30720 name='Je ne suis pas un homme facile (2018) FR SK tit'
+[21:08:43] step=cdn-resolve upload_id=23448 cdn=www
+[21:08:44] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/34ffa2cad7c4f8890e83a6aef248940f
+[21:08:44] step=download curl https://www.sledujteto.cz/player/index/sledujteto/34ffa2cad7c4f8890e83a6aef248940f
+[21:10:49] step=download done upload_id=23448 size=2105711629 dur=125.4s speed=16.8MB/s
+[21:10:49] step=upload start upload_id=23448 size=2105711629
+[21:12:50] step=upload done upload_id=23448 video_id=24157974 dur=120.4s speed=17.5MB/s
+[21:12:50] step=cleanup unlinked Je ne suis pas un homme facile (2018) FR SK tit.mp4
+[21:12:50] step=film done upload_id=23448 total=247.3s (cdn=1.2s + download=125.4s + upload=120.4s)
+[21:12:50] step=state-saved upload_id=23448 (total uploads=764)
+[21:12:50] step=iteration 30/100
+[21:12:50] step=film start upload_id=19612 cr_film_id=30723 name='Another Kind of Wedding (2017) EN CZ tit'
+[21:12:50] step=cdn-resolve upload_id=19612 cdn=www
+[21:12:51] step=cdn-resolve done 1.4s → https://www.sledujteto.cz/player/index/sledujteto/6657dac465d882392da8f2877c25f7d0
+[21:12:51] step=download curl https://www.sledujteto.cz/player/index/sledujteto/6657dac465d882392da8f2877c25f7d0
+[21:13:50] step=download done upload_id=19612 size=872871618 dur=58.9s speed=14.8MB/s
+[21:13:50] step=upload start upload_id=19612 size=872871618
+[21:15:04] step=upload done upload_id=19612 video_id=24158091 dur=73.6s speed=11.9MB/s
+[21:15:04] step=cleanup unlinked Another Kind of Wedding (2017) EN CZ tit.mp4
+[21:15:04] step=film done upload_id=19612 total=134.0s (cdn=1.4s + download=58.9s + upload=73.6s)
+[21:15:04] step=state-saved upload_id=19612 (total uploads=765)
+[21:15:04] step=iteration 31/100
+[21:15:04] step=film start upload_id=28798 cr_film_id=30724 name='Vargur (2018) IS SK tit'
+[21:15:04] step=cdn-resolve upload_id=28798 cdn=www
+[21:15:05] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/e26d8f73564716c63e9e8cce651ae799
+[21:15:05] step=download curl https://www.sledujteto.cz/player/index/sledujteto/e26d8f73564716c63e9e8cce651ae799
+[21:16:54] step=download done upload_id=28798 size=1536892421 dur=108.6s speed=14.2MB/s
+[21:16:54] step=upload start upload_id=28798 size=1536892421
+[21:18:24] step=upload done upload_id=28798 video_id=24158187 dur=90.7s speed=16.9MB/s
+[21:18:25] step=cleanup unlinked Vargur (2018) IS SK tit.mp4
+[21:18:25] step=film done upload_id=28798 total=200.7s (cdn=1.2s + download=108.6s + upload=90.7s)
+[21:18:25] step=state-saved upload_id=28798 (total uploads=766)
+[21:18:25] step=iteration 32/100
+[21:18:25] step=film start upload_id=28353 cr_film_id=30725 name='Shéhérazade (2018) FR CZ tit'
+[21:18:25] step=cdn-resolve upload_id=28353 cdn=www
+[21:18:26] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/cf3b03b1e525694661ee28522074625c
+[21:18:26] step=download curl https://www.sledujteto.cz/player/index/sledujteto/cf3b03b1e525694661ee28522074625c
+[21:19:51] step=download done upload_id=28353 size=1361970153 dur=84.6s speed=16.1MB/s
+[21:19:51] step=upload start upload_id=28353 size=1361970153
+[21:21:15] step=upload done upload_id=28353 video_id=24158297 dur=84.3s speed=16.2MB/s
+[21:21:15] step=cleanup unlinked Shéhérazade (2018) FR CZ tit.mp4
+[21:21:15] step=film done upload_id=28353 total=170.4s (cdn=1.3s + download=84.6s + upload=84.3s)
+[21:21:15] step=state-saved upload_id=28353 (total uploads=767)
+[21:21:15] step=iteration 33/100
+[21:21:15] step=film start upload_id=27929 cr_film_id=30745 name='Řezná hlava (2019) DA CZ tit'
+[21:21:15] step=cdn-resolve upload_id=27929 cdn=www
+[21:21:16] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/470f2767030237a1d76fae47334822a6
+[21:21:16] step=download curl https://www.sledujteto.cz/player/index/sledujteto/470f2767030237a1d76fae47334822a6
+[21:22:50] step=download done upload_id=27929 size=1488951614 dur=93.8s speed=15.9MB/s
+[21:22:50] step=upload start upload_id=27929 size=1488951614
+[21:24:19] step=upload done upload_id=27929 video_id=24158390 dur=88.8s speed=16.8MB/s
+[21:24:19] step=cleanup unlinked Řezná hlava (2019) DA CZ tit.mp4
+[21:24:19] step=film done upload_id=27929 total=183.9s (cdn=1.2s + download=93.8s + upload=88.8s)
+[21:24:19] step=state-saved upload_id=27929 (total uploads=768)
+[21:24:19] step=iteration 34/100
+[21:24:19] step=film start upload_id=24832 cr_film_id=30756 name='Tvůj syn (2018) ES CZ tit'
+[21:24:19] step=cdn-resolve upload_id=24832 cdn=www
+[21:24:20] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/1df061d19bf95d09476789b82b342739
+[21:24:20] step=download curl https://www.sledujteto.cz/player/index/sledujteto/1df061d19bf95d09476789b82b342739
+[21:26:10] step=download done upload_id=24832 size=1864654235 dur=110.2s speed=16.9MB/s
+[21:26:10] step=upload start upload_id=24832 size=1864654235
+[21:28:52] step=upload done upload_id=24832 video_id=24158499 dur=161.8s speed=11.5MB/s
+[21:28:52] step=cleanup unlinked Tvůj syn (2018) ES CZ tit.mp4
+[21:28:52] step=film done upload_id=24832 total=273.5s (cdn=1.2s + download=110.2s + upload=161.8s)
+[21:28:52] step=state-saved upload_id=24832 (total uploads=769)
+[21:28:52] step=iteration 35/100
+[21:28:52] step=film start upload_id=39427 cr_film_id=30761 name='Blood Machines (2020) EN CZ tit'
+[21:28:52] step=cdn-resolve upload_id=39427 cdn=www
+[21:28:54] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/3c4b2e4243f7b002dfa51b74a0a3f975
+[21:28:54] step=download curl https://www.sledujteto.cz/player/index/sledujteto/3c4b2e4243f7b002dfa51b74a0a3f975
+[21:29:58] step=download done upload_id=39427 size=1024927298 dur=64.0s speed=16.0MB/s
+[21:29:58] step=upload start upload_id=39427 size=1024927298
+[21:31:05] step=upload done upload_id=39427 video_id=24158599 dur=67.0s speed=15.3MB/s
+[21:31:05] step=cleanup unlinked Blood Machines (2020) EN CZ tit.mp4
+[21:31:05] step=film done upload_id=39427 total=132.3s (cdn=1.1s + download=64.0s + upload=67.0s)
+[21:31:05] step=state-saved upload_id=39427 (total uploads=770)
+[21:31:05] step=iteration 36/100
+[21:31:05] step=film start upload_id=22867 cr_film_id=30764 name='Justice League vs. the Fatal Five (2019) EN CZ tit'
+[21:31:05] step=cdn-resolve upload_id=22867 cdn=www
+[21:31:06] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/5758bca8fb8032a4823fd8c8a8f7af68
+[21:31:06] step=download curl https://www.sledujteto.cz/player/index/sledujteto/5758bca8fb8032a4823fd8c8a8f7af68
+[21:31:46] step=download done upload_id=22867 size=694032773 dur=40.1s speed=17.3MB/s
+[21:31:46] step=upload start upload_id=22867 size=694032773
+[21:32:38] step=upload done upload_id=22867 video_id=24158657 dur=52.1s speed=13.3MB/s
+[21:32:38] step=cleanup unlinked Justice League vs. the Fatal Five (2019) EN CZ tit.mp4
+[21:32:38] step=film done upload_id=22867 total=93.6s (cdn=1.3s + download=40.1s + upload=52.1s)
+[21:32:38] step=state-saved upload_id=22867 (total uploads=771)
+[21:32:38] step=iteration 37/100
+[21:32:38] step=film start upload_id=19994 cr_film_id=30773 name='Constantine: City of Demons - The Movie (2018) EN CZ tit'
+[21:32:38] step=cdn-resolve upload_id=19994 cdn=www
+[21:32:40] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/c7782e4fe99ffd489ee03178b2e67af5
+[21:32:40] step=download curl https://www.sledujteto.cz/player/index/sledujteto/c7782e4fe99ffd489ee03178b2e67af5
+[21:33:51] step=download done upload_id=19994 size=1170249866 dur=71.8s speed=16.3MB/s
+[21:33:51] step=upload start upload_id=19994 size=1170249866
+[21:35:01] step=upload done upload_id=19994 video_id=24158726 dur=70.0s speed=16.7MB/s
+[21:35:01] step=cleanup unlinked Constantine: City of Demons - The Movie (2018) EN CZ tit.mp4
+[21:35:01] step=film done upload_id=19994 total=143.2s (cdn=1.2s + download=71.8s + upload=70.0s)
+[21:35:01] step=state-saved upload_id=19994 (total uploads=772)
+[21:35:01] step=iteration 38/100
+[21:35:01] step=film start upload_id=29737 cr_film_id=30774 name='Edge of Fear (2018) EN CZ tit'
+[21:35:01] step=cdn-resolve upload_id=29737 cdn=www
+[21:35:03] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/3e42e78d90fe059534a11fd24ec97a98
+[21:35:03] step=download curl https://www.sledujteto.cz/player/index/sledujteto/3e42e78d90fe059534a11fd24ec97a98
+[21:36:26] step=download done upload_id=29737 size=1560766376 dur=83.8s speed=18.6MB/s
+[21:36:26] step=upload start upload_id=29737 size=1560766376
+[21:38:01] step=upload done upload_id=29737 video_id=24158804 dur=94.5s speed=16.5MB/s
+[21:38:01] step=cleanup unlinked Edge of Fear (2018) EN CZ tit.mp4
+[21:38:01] step=film done upload_id=29737 total=179.6s (cdn=1.1s + download=83.8s + upload=94.5s)
+[21:38:01] step=state-saved upload_id=29737 (total uploads=773)
+[21:38:01] step=iteration 39/100
+[21:38:01] step=film start upload_id=26566 cr_film_id=30776 name='Sloní královna (2019) EN CZ tit'
+[21:38:01] step=cdn-resolve upload_id=26566 cdn=www
+[21:38:03] step=cdn-resolve done 1.9s → https://www.sledujteto.cz/player/index/sledujteto/ca79481d4899a1066e2e378aad967ae5
+[21:38:03] step=download curl https://www.sledujteto.cz/player/index/sledujteto/ca79481d4899a1066e2e378aad967ae5
+[21:42:11] step=download done upload_id=26566 size=4019385858 dur=247.6s speed=16.2MB/s
+[21:42:11] step=upload start upload_id=26566 size=4019385858
+[21:46:00] step=upload done upload_id=26566 video_id=24158998 dur=229.6s speed=17.5MB/s
+[21:46:01] step=cleanup unlinked Sloní královna (2019) EN CZ tit.mp4
+[21:46:01] step=film done upload_id=26566 total=479.5s (cdn=1.9s + download=247.6s + upload=229.6s)
+[21:46:01] step=state-saved upload_id=26566 (total uploads=774)
+[21:46:01] step=iteration 40/100
+[21:46:01] step=film start upload_id=24699 cr_film_id=30777 name='Screwball (2019) EN CZ tit'
+[21:46:01] step=cdn-resolve upload_id=24699 cdn=www
+[21:46:02] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/d93fe3e67dc463af1dc024cc73f48b32
+[21:46:02] step=download curl https://www.sledujteto.cz/player/index/sledujteto/d93fe3e67dc463af1dc024cc73f48b32
+[21:48:16] step=download done upload_id=24699 size=2396899549 dur=133.8s speed=17.9MB/s
+[21:48:16] step=upload start upload_id=24699 size=2396899549
+[21:51:31] step=upload done upload_id=24699 video_id=24159211 dur=195.6s speed=12.3MB/s
+[21:51:32] step=cleanup unlinked Screwball (2019) EN CZ tit.mp4
+[21:51:32] step=film done upload_id=24699 total=331.0s (cdn=1.3s + download=133.8s + upload=195.6s)
+[21:51:32] step=state-saved upload_id=24699 (total uploads=775)
+[21:51:32] step=iteration 41/100
+[21:51:32] step=film start upload_id=53168 cr_film_id=30779 name='Tkaničky (2018) HE CZ tit'
+[21:51:32] step=cdn-resolve upload_id=53168 cdn=www
+[21:51:33] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/7c7f3b3a421d54589be7c33203a56768
+[21:51:33] step=download curl https://www.sledujteto.cz/player/index/sledujteto/7c7f3b3a421d54589be7c33203a56768
+[21:53:34] step=download done upload_id=53168 size=2045310931 dur=121.5s speed=16.8MB/s
+[21:53:34] step=upload start upload_id=53168 size=2045310931
+[21:55:44] step=upload done upload_id=53168 video_id=24159360 dur=129.3s speed=15.8MB/s
+[21:55:44] step=cleanup unlinked Tkaničky (2018) HE CZ tit.mp4
+[21:55:44] step=film done upload_id=53168 total=252.2s (cdn=1.1s + download=121.5s + upload=129.3s)
+[21:55:44] step=state-saved upload_id=53168 (total uploads=776)
+[21:55:44] step=iteration 42/100
+[21:55:44] step=film start upload_id=22675 cr_film_id=30786 name='Lionheart (2018) EN CZ tit'
+[21:55:44] step=cdn-resolve upload_id=22675 cdn=www
+[21:55:45] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/d97eb85cdf6714ace446289be8e4fbaf
+[21:55:45] step=download curl https://www.sledujteto.cz/player/index/sledujteto/d97eb85cdf6714ace446289be8e4fbaf
+[21:56:28] step=download done upload_id=22675 size=774867608 dur=43.1s speed=18.0MB/s
+[21:56:28] step=upload start upload_id=22675 size=774867608
+[21:57:14] step=upload done upload_id=22675 video_id=24159450 dur=46.1s speed=16.8MB/s
+[21:57:14] step=cleanup unlinked Lionheart (2018) EN CZ tit.mp4
+[21:57:14] step=film done upload_id=22675 total=90.3s (cdn=1.0s + download=43.1s + upload=46.1s)
+[21:57:14] step=state-saved upload_id=22675 (total uploads=777)
+[21:57:14] step=iteration 43/100
+[21:57:14] step=film start upload_id=47647 cr_film_id=30788 name='Past na Johna DeLoreana (2019) EN CZ tit'
+[21:57:14] step=cdn-resolve upload_id=47647 cdn=www
+[21:57:15] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/1e2ea2d14d667dae604652416acc9560
+[21:57:15] step=download curl https://www.sledujteto.cz/player/index/sledujteto/1e2ea2d14d667dae604652416acc9560
+[21:59:12] step=download done upload_id=47647 size=2234037103 dur=116.6s speed=19.2MB/s
+[21:59:12] step=upload start upload_id=47647 size=2234037103
+[22:01:24] step=upload done upload_id=47647 video_id=24159537 dur=132.0s speed=16.9MB/s
+[22:01:24] step=cleanup unlinked Past na Johna DeLoreana (2019) EN CZ tit.mp4
+[22:01:24] step=film done upload_id=47647 total=250.0s (cdn=1.1s + download=116.6s + upload=132.0s)
+[22:01:24] step=state-saved upload_id=47647 (total uploads=778)
+[22:01:24] step=iteration 44/100
+[22:01:24] step=film start upload_id=23361 cr_film_id=30789 name='Můj táta napsal Porno (2019) EN CZ tit'
+[22:01:24] step=cdn-resolve upload_id=23361 cdn=www
+[22:01:25] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/223c44b691fe25f744dcbe9cd32603b6
+[22:01:25] step=download curl https://www.sledujteto.cz/player/index/sledujteto/223c44b691fe25f744dcbe9cd32603b6
+[22:02:40] step=download done upload_id=23361 size=1234080864 dur=74.5s speed=16.6MB/s
+[22:02:40] step=upload start upload_id=23361 size=1234080864
+[22:04:10] step=upload done upload_id=23361 video_id=24159644 dur=90.1s speed=13.7MB/s
+[22:04:10] step=cleanup unlinked Můj táta napsal Porno (2019) EN CZ tit.mp4
+[22:04:10] step=film done upload_id=23361 total=165.8s (cdn=1.1s + download=74.5s + upload=90.1s)
+[22:04:10] step=state-saved upload_id=23361 (total uploads=779)
+[22:04:10] step=iteration 45/100
+[22:04:10] step=film start upload_id=25948 cr_film_id=30791 name='Shine (2017) EN CZ tit'
+[22:04:10] step=cdn-resolve upload_id=25948 cdn=www
+[22:04:11] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/4c69d7b1859d261ad18a517abf30b67f
+[22:04:11] step=download curl https://www.sledujteto.cz/player/index/sledujteto/4c69d7b1859d261ad18a517abf30b67f
+[22:04:47] step=download done upload_id=25948 size=601262768 dur=35.4s speed=17.0MB/s
+[22:04:47] step=upload start upload_id=25948 size=601262768
+[22:05:23] step=upload done upload_id=25948 video_id=24159708 dur=36.6s speed=16.4MB/s
+[22:05:23] step=cleanup unlinked Shine (2017) EN CZ tit.mp4
+[22:05:23] step=film done upload_id=25948 total=73.1s (cdn=1.1s + download=35.4s + upload=36.6s)
+[22:05:23] step=state-saved upload_id=25948 (total uploads=780)
+[22:05:23] step=iteration 46/100
+[22:05:23] step=film start upload_id=19431 cr_film_id=30794 name='UFC 229: Khabib vs. McGregor (2018) EN CZ Dabing'
+[22:05:23] step=oversize-skip upload_id=19431 size=12272869048 > MAX_FILE_SIZE=10000000000
+[22:05:23] step=iteration 47/100
+[22:05:23] step=film start upload_id=25864 cr_film_id=30799 name='The Maestro (2018) EN CZ tit'
+[22:05:23] step=cdn-resolve upload_id=25864 cdn=www
+[22:05:24] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/d9c5bdaf87da38053ee285c91fb8b6c2
+[22:05:24] step=download curl https://www.sledujteto.cz/player/index/sledujteto/d9c5bdaf87da38053ee285c91fb8b6c2
+[22:06:16] step=download done upload_id=25864 size=849831703 dur=52.3s speed=16.2MB/s
+[22:06:16] step=upload start upload_id=25864 size=849831703
+[22:07:07] step=upload done upload_id=25864 video_id=24159754 dur=50.6s speed=16.8MB/s
+[22:07:07] step=cleanup unlinked The Maestro (2018) EN CZ tit.mp4
+[22:07:07] step=film done upload_id=25864 total=104.0s (cdn=1.0s + download=52.3s + upload=50.6s)
+[22:07:07] step=state-saved upload_id=25864 (total uploads=781)
+[22:07:07] step=iteration 48/100
+[22:07:07] step=film start upload_id=11654 cr_film_id=30800 name='National Museum of African American History and Culture Grand Opening Ceremony (2016) EN SK tit'
+[22:07:07] step=cdn-resolve upload_id=11654 cdn=www
+[22:07:08] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/42b6b953889fc9ad836b2ce9b6410b52
+[22:07:08] step=download curl https://www.sledujteto.cz/player/index/sledujteto/42b6b953889fc9ad836b2ce9b6410b52
+[22:08:28] step=download done upload_id=11654 size=1282596138 dur=80.3s speed=16.0MB/s
+[22:08:28] step=upload start upload_id=11654 size=1282596138
+[22:10:05] step=upload done upload_id=11654 video_id=24159849 dur=96.6s speed=13.3MB/s
+[22:10:05] step=cleanup unlinked National Museum of African American History and Culture Grand Opening Ceremony (2016) EN SK tit.mp4
+[22:10:05] step=film done upload_id=11654 total=177.9s (cdn=0.9s + download=80.3s + upload=96.6s)
+[22:10:05] step=state-saved upload_id=11654 (total uploads=782)
+[22:10:05] step=iteration 49/100
+[22:10:05] step=film start upload_id=21407 cr_film_id=30803 name='No Escape Room (2018) EN SK tit'
+[22:10:05] step=cdn-resolve upload_id=21407 cdn=www
+[22:10:06] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/d94d74fd098214a8032b249a2ae99e09
+[22:10:06] step=download curl https://www.sledujteto.cz/player/index/sledujteto/d94d74fd098214a8032b249a2ae99e09
+[22:10:28] step=download done upload_id=21407 size=361526960 dur=21.6s speed=16.7MB/s
+[22:10:28] step=upload start upload_id=21407 size=361526960
+[22:10:56] step=upload done upload_id=21407 video_id=24159928 dur=27.8s speed=13.0MB/s
+[22:10:56] step=cleanup unlinked No Escape Room (2018) EN SK tit.mp4
+[22:10:56] step=film done upload_id=21407 total=50.5s (cdn=1.0s + download=21.6s + upload=27.8s)
+[22:10:56] step=state-saved upload_id=21407 (total uploads=783)
+[22:10:56] step=iteration 50/100
+[22:10:56] step=film start upload_id=28552 cr_film_id=30807 name='ReMastered: Devil at the Crossroads (2019) EN CZ tit'
+[22:10:56] step=cdn-resolve upload_id=28552 cdn=www
+[22:10:57] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/dc2b6887617346b68198a1df34293b7c
+[22:10:57] step=download curl https://www.sledujteto.cz/player/index/sledujteto/dc2b6887617346b68198a1df34293b7c
+[22:12:33] step=download done upload_id=28552 size=1636336729 dur=96.4s speed=17.0MB/s
+[22:12:33] step=upload start upload_id=28552 size=1636336729
+[22:14:29] step=upload done upload_id=28552 video_id=24159995 dur=116.2s speed=14.1MB/s
+[22:14:29] step=cleanup unlinked ReMastered: Devil at the Crossroads (2019) EN CZ tit.mp4
+[22:14:29] step=film done upload_id=28552 total=213.8s (cdn=1.1s + download=96.4s + upload=116.2s)
+[22:14:29] step=state-saved upload_id=28552 (total uploads=784)
+[22:14:29] step=iteration 51/100
+[22:14:29] step=film start upload_id=29083 cr_film_id=30816 name='Tiffany Haddish: Black Mitzvah (2019) EN CZ tit'
+[22:14:29] step=cdn-resolve upload_id=29083 cdn=www
+[22:14:31] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/dbf5690df2b1b655652f105d9c307ae2
+[22:14:31] step=download curl https://www.sledujteto.cz/player/index/sledujteto/dbf5690df2b1b655652f105d9c307ae2
+[22:15:32] step=download done upload_id=29083 size=1145893334 dur=61.8s speed=18.5MB/s
+[22:15:32] step=upload start upload_id=29083 size=1145893334
+[22:16:47] step=upload done upload_id=29083 video_id=24160102 dur=74.7s speed=15.3MB/s
+[22:16:47] step=cleanup unlinked Tiffany Haddish: Black Mitzvah (2019) EN CZ tit.mp4
+[22:16:47] step=film done upload_id=29083 total=137.8s (cdn=1.2s + download=61.8s + upload=74.7s)
+[22:16:47] step=state-saved upload_id=29083 (total uploads=785)
+[22:16:47] step=iteration 52/100
+[22:16:47] step=film start upload_id=29162 cr_film_id=30819 name='Out of Many, One (2018) EN CZ tit'
+[22:16:47] step=cdn-resolve upload_id=29162 cdn=www
+[22:16:48] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/fffa8e8a4f2f453ca316778636a422b4
+[22:16:48] step=download curl https://www.sledujteto.cz/player/index/sledujteto/fffa8e8a4f2f453ca316778636a422b4
+[22:17:22] step=download done upload_id=29162 size=594501478 dur=33.4s speed=17.8MB/s
+[22:17:22] step=upload start upload_id=29162 size=594501478
+[22:18:16] step=upload done upload_id=29162 video_id=24160169 dur=53.9s speed=11.0MB/s
+[22:18:16] step=cleanup unlinked Out of Many, One (2018) EN CZ tit.mp4
+[22:18:16] step=film done upload_id=29162 total=88.6s (cdn=1.3s + download=33.4s + upload=53.9s)
+[22:18:16] step=state-saved upload_id=29162 (total uploads=786)
+[22:18:16] step=iteration 53/100
+[22:18:16] step=film start upload_id=24732 cr_film_id=30821 name='Donbass (2016) FR CZ Dabing'
+[22:18:16] step=cdn-resolve upload_id=24732 cdn=www
+[22:18:17] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/37e17f09b1b6a08f3e13519ef2c6475d
+[22:18:17] step=download curl https://www.sledujteto.cz/player/index/sledujteto/37e17f09b1b6a08f3e13519ef2c6475d
+[22:20:59] step=download done upload_id=24732 size=3084172648 dur=162.4s speed=19.0MB/s
+[22:20:59] step=upload start upload_id=24732 size=3084172648
+[22:24:57] step=upload done upload_id=24732 video_id=24160293 dur=237.5s speed=13.0MB/s
+[22:24:57] step=cleanup unlinked Donbass (2016) FR CZ Dabing.mp4
+[22:24:57] step=film done upload_id=24732 total=401.3s (cdn=1.0s + download=162.4s + upload=237.5s)
+[22:24:57] step=state-saved upload_id=24732 (total uploads=787)
+[22:24:57] step=iteration 54/100
+[22:24:57] step=film start upload_id=27666 cr_film_id=30823 name='Angela's Christmas (2017) EN CZ tit'
+[22:24:57] step=cdn-resolve upload_id=27666 cdn=www
+[22:24:58] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/9c8364718acebc74dfddbc6f43a67340
+[22:24:58] step=download curl https://www.sledujteto.cz/player/index/sledujteto/9c8364718acebc74dfddbc6f43a67340
+[22:25:26] step=download done upload_id=27666 size=433641650 dur=27.3s speed=15.9MB/s
+[22:25:26] step=upload start upload_id=27666 size=433641650
+[22:26:03] step=upload done upload_id=27666 video_id=24160446 dur=37.1s speed=11.7MB/s
+[22:26:03] step=cleanup unlinked Angela's Christmas (2017) EN CZ tit.mp4
+[22:26:03] step=film done upload_id=27666 total=65.5s (cdn=1.1s + download=27.3s + upload=37.1s)
+[22:26:03] step=state-saved upload_id=27666 (total uploads=788)
+[22:26:03] step=iteration 55/100
+[22:26:03] step=film start upload_id=31047 cr_film_id=30824 name='Curtiz (2019) HU CZ tit'
+[22:26:03] step=cdn-resolve upload_id=31047 cdn=www
+[22:26:04] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/4d17be78c160302879a7b8ddc0c88ca1
+[22:26:04] step=download curl https://www.sledujteto.cz/player/index/sledujteto/4d17be78c160302879a7b8ddc0c88ca1
+[22:26:45] step=download done upload_id=31047 size=724903822 dur=41.7s speed=17.4MB/s
+[22:26:45] step=upload start upload_id=31047 size=724903822
+[22:27:29] step=upload done upload_id=31047 video_id=24160491 dur=43.5s speed=16.7MB/s
+[22:27:29] step=cleanup unlinked Curtiz (2019) HU CZ tit.mp4
+[22:27:29] step=film done upload_id=31047 total=86.3s (cdn=1.0s + download=41.7s + upload=43.5s)
+[22:27:29] step=state-saved upload_id=31047 (total uploads=789)
+[22:27:29] step=iteration 56/100
+[22:27:29] step=film start upload_id=26116 cr_film_id=30827 name='Hail Satan? (2019) EN SK tit'
+[22:27:29] step=cdn-resolve upload_id=26116 cdn=www
+[22:27:30] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/2d284a60ed7962726222632f8bc60dc5
+[22:27:30] step=download curl https://www.sledujteto.cz/player/index/sledujteto/2d284a60ed7962726222632f8bc60dc5
+[22:27:59] step=download done upload_id=26116 size=530487424 dur=28.4s speed=18.7MB/s
+[22:27:59] step=upload start upload_id=26116 size=530487424
+[22:28:39] step=upload done upload_id=26116 video_id=24160531 dur=40.8s speed=13.0MB/s
+[22:28:39] step=cleanup unlinked Hail Satan? (2019) EN SK tit.mp4
+[22:28:39] step=film done upload_id=26116 total=70.4s (cdn=1.1s + download=28.4s + upload=40.8s)
+[22:28:39] step=state-saved upload_id=26116 (total uploads=790)
+[22:28:39] step=iteration 57/100
+[22:28:39] step=film start upload_id=26173 cr_film_id=30829 name='Untouchable (2019) EN CZ tit'
+[22:28:39] step=cdn-resolve upload_id=26173 cdn=www
+[22:28:41] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/620dac3376e1f648731fdac5e59c1e1d
+[22:28:41] step=download curl https://www.sledujteto.cz/player/index/sledujteto/620dac3376e1f648731fdac5e59c1e1d
+[22:30:29] step=download done upload_id=26173 size=2024839614 dur=108.3s speed=18.7MB/s
+[22:30:29] step=upload start upload_id=26173 size=2024839614
+[22:32:36] step=upload done upload_id=26173 video_id=24160609 dur=126.7s speed=16.0MB/s
+[22:32:36] step=cleanup unlinked Untouchable (2019) EN CZ tit.mp4
+[22:32:36] step=film done upload_id=26173 total=236.5s (cdn=1.2s + download=108.3s + upload=126.7s)
+[22:32:36] step=state-saved upload_id=26173 (total uploads=791)
+[22:32:36] step=iteration 58/100
+[22:32:36] step=film start upload_id=22676 cr_film_id=30839 name='The Last Laugh (2019) EN CZ tit'
+[22:32:36] step=cdn-resolve upload_id=22676 cdn=www
+[22:32:37] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/e033c1dbf0a5b8c6171aefa4b81c19d6
+[22:32:37] step=download curl https://www.sledujteto.cz/player/index/sledujteto/e033c1dbf0a5b8c6171aefa4b81c19d6
+[22:33:41] step=download done upload_id=22676 size=1202017824 dur=64.0s speed=18.8MB/s
+[22:33:41] step=upload start upload_id=22676 size=1202017824
+[22:34:55] step=upload done upload_id=22676 video_id=24160712 dur=74.3s speed=16.2MB/s
+[22:34:56] step=cleanup unlinked The Last Laugh (2019) EN CZ tit.mp4
+[22:34:56] step=film done upload_id=22676 total=139.6s (cdn=1.1s + download=64.0s + upload=74.3s)
+[22:34:56] step=state-saved upload_id=22676 (total uploads=792)
+[22:34:56] step=iteration 59/100
+[22:34:56] step=film start upload_id=23037 cr_film_id=30840 name='Bezohledný (2019) IT CZ tit'
+[22:34:56] step=cdn-resolve upload_id=23037 cdn=www
+[22:34:57] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/f40092563abac19831abea1e85753881
+[22:34:57] step=download curl https://www.sledujteto.cz/player/index/sledujteto/f40092563abac19831abea1e85753881
+[22:36:42] step=download done upload_id=23037 size=1996039003 dur=104.9s speed=19.0MB/s
+[22:36:42] step=upload start upload_id=23037 size=1996039003
+[22:38:39] step=upload done upload_id=23037 video_id=24160807 dur=117.2s speed=17.0MB/s
+[22:38:39] step=cleanup unlinked Bezohledný (2019) IT CZ tit.mp4
+[22:38:39] step=film done upload_id=23037 total=223.5s (cdn=1.1s + download=104.9s + upload=117.2s)
+[22:38:39] step=state-saved upload_id=23037 (total uploads=793)
+[22:38:39] step=iteration 60/100
+[22:38:39] step=film start upload_id=26739 cr_film_id=30841 name='Pláž Paradise (2019) FR CZ tit'
+[22:38:39] step=cdn-resolve upload_id=26739 cdn=www
+[22:38:40] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/f1c72b579c7963ede5b08efc2a98cfc0
+[22:38:40] step=download curl https://www.sledujteto.cz/player/index/sledujteto/f1c72b579c7963ede5b08efc2a98cfc0
+[22:40:31] step=download done upload_id=26739 size=2042538443 dur=110.9s speed=18.4MB/s
+[22:40:31] step=upload start upload_id=26739 size=2042538443
+[22:43:48] step=upload done upload_id=26739 video_id=24160910 dur=196.8s speed=10.4MB/s
+[22:43:48] step=cleanup unlinked Pláž Paradise (2019) FR CZ tit.mp4
+[22:43:48] step=film done upload_id=26739 total=309.2s (cdn=1.3s + download=110.9s + upload=196.8s)
+[22:43:48] step=state-saved upload_id=26739 (total uploads=794)
+[22:43:48] step=iteration 61/100
+[22:43:48] step=film start upload_id=29933 cr_film_id=30842 name='미스터 주: 사라진 VIP (2020) KO CZ tit'
+[22:43:48] step=cdn-resolve upload_id=29933 cdn=www
+[22:43:49] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/904a6053a1da7fac6e395f2a63dc637e
+[22:43:49] step=download curl https://www.sledujteto.cz/player/index/sledujteto/904a6053a1da7fac6e395f2a63dc637e
+[22:44:51] step=download done upload_id=29933 size=1248168037 dur=61.8s speed=20.2MB/s
+[22:44:51] step=upload start upload_id=29933 size=1248168037
+[22:46:11] step=upload done upload_id=29933 video_id=24161029 dur=80.0s speed=15.6MB/s
+[22:46:11] step=cleanup unlinked 미스터 주: 사라진 VIP (2020) KO CZ tit.mp4
+[22:46:11] step=film done upload_id=29933 total=143.0s (cdn=1.0s + download=61.8s + upload=80.0s)
+[22:46:11] step=state-saved upload_id=29933 (total uploads=795)
+[22:46:11] step=iteration 62/100
+[22:46:11] step=film start upload_id=24223 cr_film_id=30850 name='Fyre Fraud (2019) EN CZ tit'
+[22:46:11] step=cdn-resolve upload_id=24223 cdn=www
+[22:46:13] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/5f9d3be1e28b7d72110243d59dff02c7
+[22:46:13] step=download curl https://www.sledujteto.cz/player/index/sledujteto/5f9d3be1e28b7d72110243d59dff02c7
+[22:46:58] step=download done upload_id=24223 size=853817242 dur=45.1s speed=18.9MB/s
+[22:46:58] step=upload start upload_id=24223 size=853817242
+[22:47:53] step=upload done upload_id=24223 video_id=24161097 dur=55.0s speed=15.5MB/s
+[22:47:53] step=cleanup unlinked Fyre Fraud (2019) EN CZ tit.mp4
+[22:47:53] step=film done upload_id=24223 total=101.5s (cdn=1.3s + download=45.1s + upload=55.0s)
+[22:47:53] step=state-saved upload_id=24223 (total uploads=796)
+[22:47:53] step=iteration 63/100
+[22:47:53] step=film start upload_id=31307 cr_film_id=30851 name='The Wild Goose Lake (2019) ZH CZ tit'
+[22:47:53] step=cdn-resolve upload_id=31307 cdn=www
+[22:47:54] step=cdn-resolve done 1.4s → https://www.sledujteto.cz/player/index/sledujteto/a2aa7a47252c8f0444182651a1a20460
+[22:47:54] step=download curl https://www.sledujteto.cz/player/index/sledujteto/a2aa7a47252c8f0444182651a1a20460
+[22:49:44] step=download done upload_id=31307 size=2271296662 dur=110.1s speed=20.6MB/s
+[22:49:44] step=upload start upload_id=31307 size=2271296662
+[22:52:01] step=upload done upload_id=31307 video_id=24161178 dur=137.0s speed=16.6MB/s
+[22:52:02] step=cleanup unlinked The Wild Goose Lake (2019) ZH CZ tit.mp4
+[22:52:02] step=film done upload_id=31307 total=248.8s (cdn=1.4s + download=110.1s + upload=137.0s)
+[22:52:02] step=state-saved upload_id=31307 (total uploads=797)
+[22:52:02] step=iteration 64/100
+[22:52:02] step=film start upload_id=10345 cr_film_id=30853 name='Casablanca Beats (2021) AR CZ Dabing'
+[22:52:02] step=cdn-resolve upload_id=10345 cdn=www
+[22:52:03] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/29059d0cf097732a2144d0d368e0d2ab
+[22:52:03] step=download curl https://www.sledujteto.cz/player/index/sledujteto/29059d0cf097732a2144d0d368e0d2ab
+[22:52:44] step=download done upload_id=10345 size=809469638 dur=41.1s speed=19.7MB/s
+[22:52:44] step=upload start upload_id=10345 size=809469638
+[22:53:34] step=upload done upload_id=10345 video_id=24161274 dur=50.1s speed=16.2MB/s
+[22:53:34] step=cleanup unlinked Casablanca Beats (2021) AR CZ Dabing.mp4
+[22:53:34] step=film done upload_id=10345 total=92.3s (cdn=1.0s + download=41.1s + upload=50.1s)
+[22:53:34] step=state-saved upload_id=10345 (total uploads=798)
+[22:53:34] step=iteration 65/100
+[22:53:34] step=film start upload_id=26271 cr_film_id=30854 name='Unplanned (2019) EN SK tit'
+[22:53:34] step=cdn-resolve upload_id=26271 cdn=www
+[22:53:35] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/4db01f6a2b7c5a9114b29df5dc7c5756
+[22:53:35] step=download curl https://www.sledujteto.cz/player/index/sledujteto/4db01f6a2b7c5a9114b29df5dc7c5756
+[22:55:12] step=download done upload_id=26271 size=1908602862 dur=97.4s speed=19.6MB/s
+[22:55:12] step=upload start upload_id=26271 size=1908602862
+[22:57:08] step=upload done upload_id=26271 video_id=24161607 dur=115.4s speed=16.5MB/s
+[22:57:08] step=cleanup unlinked Unplanned (2019) EN SK tit.mp4
+[22:57:08] step=film done upload_id=26271 total=214.2s (cdn=1.1s + download=97.4s + upload=115.4s)
+[22:57:08] step=state-saved upload_id=26271 (total uploads=799)
+[22:57:08] step=iteration 66/100
+[22:57:08] step=film start upload_id=34198 cr_film_id=30855 name='Vesmírné srážky (2019) FR CZ Dabing'
+[22:57:08] step=cdn-resolve upload_id=34198 cdn=www
+[22:57:09] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/4f0e4b77b242dcfc1e883c2904ae39a4
+[22:57:09] step=download curl https://www.sledujteto.cz/player/index/sledujteto/4f0e4b77b242dcfc1e883c2904ae39a4
+[22:58:11] step=download done upload_id=34198 size=1251210056 dur=62.2s speed=20.1MB/s
+[22:58:11] step=upload start upload_id=34198 size=1251210056
+[22:59:37] step=upload done upload_id=34198 video_id=24162054 dur=85.5s speed=14.6MB/s
+[22:59:37] step=cleanup unlinked Vesmírné srážky (2019) FR CZ Dabing.mp4
+[22:59:37] step=film done upload_id=34198 total=148.9s (cdn=1.0s + download=62.2s + upload=85.5s)
+[22:59:37] step=state-saved upload_id=34198 (total uploads=800)
+[22:59:37] step=iteration 67/100
+[22:59:37] step=film start upload_id=29176 cr_film_id=30857 name='Feedback (2019) EN CZ tit'
+[22:59:37] step=cdn-resolve upload_id=29176 cdn=www
+[22:59:38] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/f332d2997311e6cf0f22a0ca3967be0b
+[22:59:38] step=download curl https://www.sledujteto.cz/player/index/sledujteto/f332d2997311e6cf0f22a0ca3967be0b
+[23:00:20] step=download done upload_id=29176 size=777105954 dur=41.9s speed=18.5MB/s
+[23:00:20] step=upload start upload_id=29176 size=777105954
+[23:01:15] step=upload done upload_id=29176 video_id=24162355 dur=54.8s speed=14.2MB/s
+[23:01:15] step=cleanup unlinked Feedback (2019) EN CZ tit.mp4
+[23:01:15] step=film done upload_id=29176 total=97.8s (cdn=1.0s + download=41.9s + upload=54.8s)
+[23:01:15] step=state-saved upload_id=29176 (total uploads=801)
+[23:01:15] step=iteration 68/100
+[23:01:15] step=film start upload_id=22629 cr_film_id=30860 name='Santa's Little Helpers (2019) EN SK tit'
+[23:01:15] step=cdn-resolve upload_id=22629 cdn=www
+[23:01:16] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/dd835141027f0ff9803dda3c5cac3272
+[23:01:16] step=download curl https://www.sledujteto.cz/player/index/sledujteto/dd835141027f0ff9803dda3c5cac3272
+[23:01:25] step=download done upload_id=22629 size=125999483 dur=8.6s speed=14.7MB/s
+[23:01:25] step=upload start upload_id=22629 size=125999483
+[23:01:41] step=upload done upload_id=22629 video_id=24162502 dur=16.9s speed=7.5MB/s
+[23:01:41] step=cleanup unlinked Santa's Little Helpers (2019) EN SK tit.mp4
+[23:01:41] step=film done upload_id=22629 total=26.6s (cdn=1.0s + download=8.6s + upload=16.9s)
+[23:01:41] step=state-saved upload_id=22629 (total uploads=802)
+[23:01:41] step=iteration 69/100
+[23:01:41] step=film start upload_id=31120 cr_film_id=30862 name='Snatchers (2019) EN CZ tit'
+[23:01:41] step=cdn-resolve upload_id=31120 cdn=www
+[23:01:42] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/934e7d077c4a5d2b9476847dc68b36ee
+[23:01:42] step=download curl https://www.sledujteto.cz/player/index/sledujteto/934e7d077c4a5d2b9476847dc68b36ee
+[23:03:03] step=download done upload_id=31120 size=1623983223 dur=80.2s speed=20.2MB/s
+[23:03:03] step=upload start upload_id=31120 size=1623983223
+[23:04:45] step=upload done upload_id=31120 video_id=24162717 dur=102.7s speed=15.8MB/s
+[23:04:46] step=cleanup unlinked Snatchers (2019) EN CZ tit.mp4
+[23:04:46] step=film done upload_id=31120 total=184.1s (cdn=1.0s + download=80.2s + upload=102.7s)
+[23:04:46] step=state-saved upload_id=31120 (total uploads=803)
+[23:04:46] step=iteration 70/100
+[23:04:46] step=film start upload_id=38390 cr_film_id=30869 name='Äiti (2019) FI CZ tit'
+[23:04:46] step=cdn-resolve upload_id=38390 cdn=www
+[23:04:47] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/1f2253c106f5aa41fca2313d208155f4
+[23:04:47] step=download curl https://www.sledujteto.cz/player/index/sledujteto/1f2253c106f5aa41fca2313d208155f4
+[23:06:22] step=download done upload_id=38390 size=1866288528 dur=95.1s speed=19.6MB/s
+[23:06:22] step=upload start upload_id=38390 size=1866288528
+[23:08:12] step=upload done upload_id=38390 video_id=24162812 dur=109.8s speed=17.0MB/s
+[23:08:12] step=cleanup unlinked Äiti (2019) FI CZ tit.mp4
+[23:08:12] step=film done upload_id=38390 total=206.4s (cdn=1.3s + download=95.1s + upload=109.8s)
+[23:08:12] step=state-saved upload_id=38390 (total uploads=804)
+[23:08:12] step=iteration 71/100
+[23:08:12] step=film start upload_id=27561 cr_film_id=30870 name='Pokoj v suterénu (2019) EN CZ Dabing'
+[23:08:12] step=cdn-resolve upload_id=27561 cdn=www
+[23:08:13] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/cb880285f00d6460719412cb728e7cfb
+[23:08:13] step=download curl https://www.sledujteto.cz/player/index/sledujteto/cb880285f00d6460719412cb728e7cfb
+[23:09:26] step=download done upload_id=27561 size=1424320618 dur=72.5s speed=19.6MB/s
+[23:09:26] step=upload start upload_id=27561 size=1424320618
+[23:11:06] step=upload done upload_id=27561 video_id=24162926 dur=100.5s speed=14.2MB/s
+[23:11:06] step=cleanup unlinked Pokoj v suterénu (2019) EN CZ Dabing.mp4
+[23:11:06] step=film done upload_id=27561 total=174.3s (cdn=1.1s + download=72.5s + upload=100.5s)
+[23:11:06] step=state-saved upload_id=27561 (total uploads=805)
+[23:11:06] step=iteration 72/100
+[23:11:06] step=film start upload_id=56264 cr_film_id=30875 name='Hlouběji! (2020) RU CZ tit'
+[23:11:06] step=cdn-resolve upload_id=56264 cdn=www
+[23:11:07] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/cff0f3694291c42a34e873e767acd636
+[23:11:07] step=download curl https://www.sledujteto.cz/player/index/sledujteto/cff0f3694291c42a34e873e767acd636
+[23:12:52] step=download done upload_id=56264 size=2031039675 dur=104.6s speed=19.4MB/s
+[23:12:52] step=upload start upload_id=56264 size=2031039675
+[23:15:14] step=upload done upload_id=56264 video_id=24163076 dur=141.8s speed=14.3MB/s
+[23:15:14] step=cleanup unlinked Hlouběji! (2020) RU CZ tit.mp4
+[23:15:14] step=film done upload_id=56264 total=247.9s (cdn=1.1s + download=104.6s + upload=141.8s)
+[23:15:14] step=state-saved upload_id=56264 (total uploads=806)
+[23:15:14] step=iteration 73/100
+[23:15:14] step=film start upload_id=54989 cr_film_id=30878 name='Fotografie (2020) EN CZ tit'
+[23:15:14] step=cdn-resolve upload_id=54989 cdn=www
+[23:15:15] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/24251a9b239792afbc78c0049a0393d0
+[23:15:15] step=download curl https://www.sledujteto.cz/player/index/sledujteto/24251a9b239792afbc78c0049a0393d0
+[23:16:59] step=download done upload_id=54989 size=2105464830 dur=103.3s speed=20.4MB/s
+[23:16:59] step=upload start upload_id=54989 size=2105464830
+[23:19:14] step=upload done upload_id=54989 video_id=24163261 dur=135.7s speed=15.5MB/s
+[23:19:15] step=cleanup unlinked Fotografie (2020) EN CZ tit.mp4
+[23:19:15] step=film done upload_id=54989 total=240.3s (cdn=1.0s + download=103.3s + upload=135.7s)
+[23:19:15] step=state-saved upload_id=54989 (total uploads=807)
+[23:19:15] step=iteration 74/100
+[23:19:15] step=film start upload_id=25099 cr_film_id=30882 name='Vampz! (2019) EN CZ tit'
+[23:19:15] step=cdn-resolve upload_id=25099 cdn=www
+[23:19:16] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/72cbf2f5fe5caf04a6afcbc06bc7dfc4
+[23:19:16] step=download curl https://www.sledujteto.cz/player/index/sledujteto/72cbf2f5fe5caf04a6afcbc06bc7dfc4
+[23:20:24] step=download done upload_id=25099 size=1300982207 dur=67.8s speed=19.2MB/s
+[23:20:24] step=upload start upload_id=25099 size=1300982207
+[23:21:41] step=upload done upload_id=25099 video_id=24163413 dur=77.7s speed=16.7MB/s
+[23:21:42] step=cleanup unlinked Vampz! (2019) EN CZ tit.mp4
+[23:21:42] step=film done upload_id=25099 total=147.0s (cdn=1.3s + download=67.8s + upload=77.7s)
+[23:21:42] step=state-saved upload_id=25099 (total uploads=808)
+[23:21:42] step=iteration 75/100
+[23:21:42] step=film start upload_id=23445 cr_film_id=30884 name='Hra o trůny: Poslední hlídka (2019) EN CZ tit'
+[23:21:42] step=cdn-resolve upload_id=23445 cdn=www
+[23:21:43] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/c8b17094d8e6a89b6f9d377d0aaad9ca
+[23:21:43] step=download curl https://www.sledujteto.cz/player/index/sledujteto/c8b17094d8e6a89b6f9d377d0aaad9ca
+[23:23:17] step=download done upload_id=23445 size=1866461379 dur=94.2s speed=19.8MB/s
+[23:23:17] step=upload start upload_id=23445 size=1866461379
+[23:25:49] step=upload done upload_id=23445 video_id=24163509 dur=151.9s speed=12.3MB/s
+[23:25:49] step=cleanup unlinked Hra o trůny: Poslední hlídka (2019) EN CZ tit.mp4
+[23:25:49] step=film done upload_id=23445 total=247.4s (cdn=1.0s + download=94.2s + upload=151.9s)
+[23:25:49] step=state-saved upload_id=23445 (total uploads=809)
+[23:25:49] step=iteration 76/100
+[23:25:49] step=film start upload_id=32164 cr_film_id=30887 name='Athiran (2019) ML SK tit'
+[23:25:49] step=cdn-resolve upload_id=32164 cdn=www
+[23:25:50] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/331b22c5a50ae7ce36c920172ab1b402
+[23:25:50] step=download curl https://www.sledujteto.cz/player/index/sledujteto/331b22c5a50ae7ce36c920172ab1b402
+[23:26:25] step=download done upload_id=32164 size=689783512 dur=34.7s speed=19.9MB/s
+[23:26:25] step=upload start upload_id=32164 size=689783512
+[23:27:09] step=upload done upload_id=32164 video_id=24163620 dur=44.1s speed=15.6MB/s
+[23:27:09] step=cleanup unlinked Athiran (2019) ML SK tit.mp4
+[23:27:09] step=film done upload_id=32164 total=79.9s (cdn=1.0s + download=34.7s + upload=44.1s)
+[23:27:09] step=state-saved upload_id=32164 (total uploads=810)
+[23:27:09] step=iteration 77/100
+[23:27:09] step=film start upload_id=49105 cr_film_id=30909 name='Mogadishu (2021) KO SK tit'
+[23:27:09] step=cdn-resolve upload_id=49105 cdn=www
+[23:27:10] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/38b8bf6e0681143bc6e7ae885e5fa82b
+[23:27:10] step=download curl https://www.sledujteto.cz/player/index/sledujteto/38b8bf6e0681143bc6e7ae885e5fa82b
+[23:29:15] step=download done upload_id=49105 size=2478164701 dur=125.2s speed=19.8MB/s
+[23:29:15] step=upload start upload_id=49105 size=2478164701
+[23:31:49] step=upload done upload_id=49105 video_id=24163711 dur=153.5s speed=16.1MB/s
+[23:31:49] step=cleanup unlinked Mogadishu (2021) KO SK tit.mp4
+[23:31:49] step=film done upload_id=49105 total=280.1s (cdn=1.1s + download=125.2s + upload=153.5s)
+[23:31:49] step=state-saved upload_id=49105 (total uploads=811)
+[23:31:49] step=iteration 78/100
+[23:31:49] step=film start upload_id=28361 cr_film_id=30910 name='Secrets in the Sky: The Untold Story of Skunk Works (2019) EN CZ tit'
+[23:31:49] step=cdn-resolve upload_id=28361 cdn=www
+[23:31:50] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/03fd29e144b331539deba4c364d7cb88
+[23:31:50] step=download curl https://www.sledujteto.cz/player/index/sledujteto/03fd29e144b331539deba4c364d7cb88
+[23:33:17] step=download done upload_id=28361 size=1762446141 dur=86.9s speed=20.3MB/s
+[23:33:17] step=upload start upload_id=28361 size=1762446141
+[23:35:12] step=upload done upload_id=28361 video_id=24163858 dur=114.7s speed=15.4MB/s
+[23:35:12] step=cleanup unlinked Secrets in the Sky: The Untold Story of Skunk Works (2019) EN CZ tit.mp4
+[23:35:12] step=film done upload_id=28361 total=202.9s (cdn=1.0s + download=86.9s + upload=114.7s)
+[23:35:12] step=state-saved upload_id=28361 (total uploads=812)
+[23:35:12] step=iteration 79/100
+[23:35:12] step=film start upload_id=23829 cr_film_id=30913 name='Adam DeVine: Nejlepší chvíle našeho života (2019) EN CZ tit'
+[23:35:12] step=cdn-resolve upload_id=23829 cdn=www
+[23:35:13] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/aa1d22af7eb2f0deedd199379529a555
+[23:35:13] step=download curl https://www.sledujteto.cz/player/index/sledujteto/aa1d22af7eb2f0deedd199379529a555
+[23:35:44] step=download done upload_id=23829 size=594408258 dur=31.0s speed=19.2MB/s
+[23:35:44] step=upload start upload_id=23829 size=594408258
+[23:36:21] step=upload done upload_id=23829 video_id=24163945 dur=37.0s speed=16.1MB/s
+[23:36:21] step=cleanup unlinked Adam DeVine: Nejlepší chvíle našeho života (2019) EN CZ tit.mp4
+[23:36:21] step=film done upload_id=23829 total=68.9s (cdn=0.9s + download=31.0s + upload=37.0s)
+[23:36:21] step=state-saved upload_id=23829 (total uploads=813)
+[23:36:21] step=iteration 80/100
+[23:36:21] step=film start upload_id=27800 cr_film_id=30914 name='Hudební odysea (2019) FR CZ tit'
+[23:36:21] step=cdn-resolve upload_id=27800 cdn=www
+[23:36:22] step=cdn-resolve done 0.8s → https://www.sledujteto.cz/player/index/sledujteto/7c4c6ffcd163c89a14f9ac81e3fde40b
+[23:36:22] step=download curl https://www.sledujteto.cz/player/index/sledujteto/7c4c6ffcd163c89a14f9ac81e3fde40b
+[23:37:55] step=download done upload_id=27800 size=1903587456 dur=93.7s speed=20.3MB/s
+[23:37:55] step=upload start upload_id=27800 size=1903587456
+[23:40:06] step=upload done upload_id=27800 video_id=24164018 dur=131.2s speed=14.5MB/s
+[23:40:07] step=cleanup unlinked Hudební odysea (2019) FR CZ tit.mp4
+[23:40:07] step=film done upload_id=27800 total=225.9s (cdn=0.8s + download=93.7s + upload=131.2s)
+[23:40:07] step=state-saved upload_id=27800 (total uploads=814)
+[23:40:07] step=iteration 81/100
+[23:40:07] step=film start upload_id=24498 cr_film_id=30931 name='Whitney Cummings: Můžu si sáhnout? (2019) EN CZ tit'
+[23:40:07] step=cdn-resolve upload_id=24498 cdn=www
+[23:40:08] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/624a33660cb2e5808967c5b418193321
+[23:40:08] step=download curl https://www.sledujteto.cz/player/index/sledujteto/624a33660cb2e5808967c5b418193321
+[23:40:44] step=download done upload_id=24498 size=709989520 dur=36.0s speed=19.7MB/s
+[23:40:44] step=upload start upload_id=24498 size=709989520
+[23:41:33] step=upload done upload_id=24498 video_id=24164090 dur=49.4s speed=14.4MB/s
+[23:41:33] step=cleanup unlinked Whitney Cummings: Můžu si sáhnout? (2019) EN CZ tit.mp4
+[23:41:33] step=film done upload_id=24498 total=86.6s (cdn=1.1s + download=36.0s + upload=49.4s)
+[23:41:33] step=state-saved upload_id=24498 (total uploads=815)
+[23:41:33] step=iteration 82/100
+[23:41:33] step=film start upload_id=55064 cr_film_id=30932 name='Armada EN CZ Dabing'
+[23:41:33] step=cdn-resolve upload_id=55064 cdn=www
+[23:41:34] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/fde11e0e6da61421c08b727580a0a914
+[23:41:34] step=download curl https://www.sledujteto.cz/player/index/sledujteto/fde11e0e6da61421c08b727580a0a914
+[23:42:50] step=download done upload_id=55064 size=1569282465 dur=75.8s speed=20.7MB/s
+[23:42:50] step=upload start upload_id=55064 size=1569282465
+[23:45:08] step=upload done upload_id=55064 video_id=24164143 dur=138.2s speed=11.4MB/s
+[23:45:09] step=cleanup unlinked Armada EN CZ Dabing.mp4
+[23:45:09] step=film done upload_id=55064 total=215.3s (cdn=1.0s + download=75.8s + upload=138.2s)
+[23:45:09] step=state-saved upload_id=55064 (total uploads=816)
+[23:45:09] step=iteration 83/100
+[23:45:09] step=film start upload_id=24676 cr_film_id=30933 name='Anime je tady (2019) EN CZ tit'
+[23:45:09] step=cdn-resolve upload_id=24676 cdn=www
+[23:45:10] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/9b60b6ea1540085d3ac3ec9107458934
+[23:45:10] step=download curl https://www.sledujteto.cz/player/index/sledujteto/9b60b6ea1540085d3ac3ec9107458934
+[23:46:04] step=download done upload_id=24676 size=1044787703 dur=54.4s speed=19.2MB/s
+[23:46:04] step=upload start upload_id=24676 size=1044787703
+[23:47:30] step=upload done upload_id=24676 video_id=24164220 dur=85.9s speed=12.2MB/s
+[23:47:30] step=cleanup unlinked Anime je tady (2019) EN CZ tit.mp4
+[23:47:30] step=film done upload_id=24676 total=141.6s (cdn=1.0s + download=54.4s + upload=85.9s)
+[23:47:30] step=state-saved upload_id=24676 (total uploads=817)
+[23:47:30] step=iteration 84/100
+[23:47:30] step=film start upload_id=16323 cr_film_id=30935 name='Harmonium - Viens voir le paysage (2016) FR CZ tit'
+[23:47:30] step=cdn-resolve upload_id=16323 cdn=www
+[23:47:31] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/81c12d7d2f489b0c65d7d1bc9e4f173d
+[23:47:31] step=download curl https://www.sledujteto.cz/player/index/sledujteto/81c12d7d2f489b0c65d7d1bc9e4f173d
+[23:48:05] step=download done upload_id=16323 size=632469822 dur=33.5s speed=18.9MB/s
+[23:48:05] step=upload start upload_id=16323 size=632469822
+[23:48:49] step=upload done upload_id=16323 video_id=24164290 dur=44.3s speed=14.3MB/s
+[23:48:49] step=cleanup unlinked Harmonium - Viens voir le paysage (2016) FR CZ tit.mp4
+[23:48:49] step=film done upload_id=16323 total=78.9s (cdn=1.0s + download=33.5s + upload=44.3s)
+[23:48:49] step=state-saved upload_id=16323 (total uploads=818)
+[23:48:49] step=iteration 85/100
+[23:48:49] step=film start upload_id=32395 cr_film_id=30936 name='Justice League Dark: Apokolips War (2020) EN CZ tit'
+[23:48:49] step=cdn-resolve upload_id=32395 cdn=www
+[23:48:50] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/d17cb3e74831bd8f6ccff2d2f8be3d61
+[23:48:50] step=download curl https://www.sledujteto.cz/player/index/sledujteto/d17cb3e74831bd8f6ccff2d2f8be3d61
+[23:50:17] step=download done upload_id=32395 size=1845397812 dur=87.1s speed=21.2MB/s
+[23:50:17] step=upload start upload_id=32395 size=1845397812
+[23:52:13] step=upload done upload_id=32395 video_id=24164359 dur=115.9s speed=15.9MB/s
+[23:52:13] step=cleanup unlinked Justice League Dark: Apokolips War (2020) EN CZ tit.mp4
+[23:52:13] step=film done upload_id=32395 total=204.4s (cdn=1.1s + download=87.1s + upload=115.9s)
+[23:52:14] step=state-saved upload_id=32395 (total uploads=819)
+[23:52:14] step=iteration 86/100
+[23:52:14] step=film start upload_id=64575 cr_film_id=30937 name='DC Showcase - Batman: Death in the Family (2020) EN CZ tit'
+[23:52:14] step=cdn-resolve upload_id=64575 cdn=www
+[23:52:15] step=cdn-resolve done 1.4s → https://www.sledujteto.cz/player/index/sledujteto/6e49e6f70605b58d85c041a508a849d1
+[23:52:15] step=download curl https://www.sledujteto.cz/player/index/sledujteto/6e49e6f70605b58d85c041a508a849d1
+[23:52:46] step=download done upload_id=64575 size=614099353 dur=31.1s speed=19.7MB/s
+[23:52:46] step=upload start upload_id=64575 size=614099353
+[23:53:30] step=upload done upload_id=64575 video_id=24164434 dur=43.8s speed=14.0MB/s
+[23:53:30] step=cleanup unlinked DC Showcase - Batman: Death in the Family (2020) EN CZ tit.mp4
+[23:53:30] step=film done upload_id=64575 total=76.4s (cdn=1.4s + download=31.1s + upload=43.8s)
+[23:53:30] step=state-saved upload_id=64575 (total uploads=820)
+[23:53:30] step=iteration 87/100
+[23:53:30] step=film start upload_id=35591 cr_film_id=30938 name='Superman: Man of Tomorrow (2020) EN CZ tit'
+[23:53:30] step=cdn-resolve upload_id=35591 cdn=www
+[23:53:31] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/d6eb3a3bcbde7b565f4aed9b780a9ca0
+[23:53:31] step=download curl https://www.sledujteto.cz/player/index/sledujteto/d6eb3a3bcbde7b565f4aed9b780a9ca0
+[23:54:55] step=download done upload_id=35591 size=1709759842 dur=84.1s speed=20.3MB/s
+[23:54:55] step=upload start upload_id=35591 size=1709759842
+[23:56:45] step=upload done upload_id=35591 video_id=24164501 dur=109.7s speed=15.6MB/s
+[23:56:45] step=cleanup unlinked Superman: Man of Tomorrow (2020) EN CZ tit.mp4
+[23:56:45] step=film done upload_id=35591 total=194.9s (cdn=0.9s + download=84.1s + upload=109.7s)
+[23:56:45] step=state-saved upload_id=35591 (total uploads=821)
+[23:56:45] step=iteration 88/100
+[23:56:45] step=film start upload_id=26257 cr_film_id=30948 name='Řekni mi, kdo vlastně jsem (2019) EN CZ tit'
+[23:56:45] step=cdn-resolve upload_id=26257 cdn=www
+[23:56:46] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/1ffa555803e8a7c450082bce852455fb
+[23:56:46] step=download curl https://www.sledujteto.cz/player/index/sledujteto/1ffa555803e8a7c450082bce852455fb
+[23:57:14] step=download done upload_id=26257 size=540887510 dur=27.9s speed=19.4MB/s
+[23:57:14] step=upload start upload_id=26257 size=540887510
+[23:57:48] step=upload done upload_id=26257 video_id=24164569 dur=33.7s speed=16.1MB/s
+[23:57:48] step=cleanup unlinked Řekni mi, kdo vlastně jsem (2019) EN CZ tit.mp4
+[23:57:48] step=film done upload_id=26257 total=62.7s (cdn=1.0s + download=27.9s + upload=33.7s)
+[23:57:48] step=state-saved upload_id=26257 (total uploads=822)
+[23:57:48] step=iteration 89/100
+[23:57:48] step=film start upload_id=26346 cr_film_id=30958 name='Když ptáci tančí (2019) EN CZ tit'
+[23:57:48] step=cdn-resolve upload_id=26346 cdn=www
+[23:57:49] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/07ff8ad7cc7acd3a9ea23a56f3cb285e
+[23:57:49] step=download curl https://www.sledujteto.cz/player/index/sledujteto/07ff8ad7cc7acd3a9ea23a56f3cb285e
+[23:58:37] step=download done upload_id=26346 size=948270442 dur=48.6s speed=19.5MB/s
+[23:58:37] step=upload start upload_id=26346 size=948270442
+[23:59:34] step=upload done upload_id=26346 video_id=24164615 dur=57.1s speed=16.6MB/s
+[23:59:34] step=cleanup unlinked Když ptáci tančí (2019) EN CZ tit.mp4
+[23:59:34] step=film done upload_id=26346 total=106.8s (cdn=1.0s + download=48.6s + upload=57.1s)
+[23:59:34] step=state-saved upload_id=26346 (total uploads=823)
+[23:59:34] step=iteration 90/100
+[23:59:34] step=film start upload_id=26509 cr_film_id=30959 name='Paradise v plamenech (2019) EN CZ tit'
+[23:59:34] step=cdn-resolve upload_id=26509 cdn=www
+[23:59:35] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/67495e1c97755bbfd1b474b72d1084ea
+[23:59:35] step=download curl https://www.sledujteto.cz/player/index/sledujteto/67495e1c97755bbfd1b474b72d1084ea
+[00:00:29] step=download done upload_id=26509 size=1066012495 dur=53.3s speed=20.0MB/s
+[00:00:29] step=upload start upload_id=26509 size=1066012495
+[00:01:43] step=upload done upload_id=26509 video_id=24164661 dur=74.1s speed=14.4MB/s
+[00:01:43] step=cleanup unlinked Paradise v plamenech (2019) EN CZ tit.mp4
+[00:01:43] step=film done upload_id=26509 total=128.6s (cdn=1.0s + download=53.3s + upload=74.1s)
+[00:01:43] step=state-saved upload_id=26509 (total uploads=824)
+[00:01:43] step=iteration 91/100
+[00:01:43] step=film start upload_id=26383 cr_film_id=30964 name='Chce to pořádného blázna (2019) EN CZ tit'
+[00:01:43] step=cdn-resolve upload_id=26383 cdn=www
+[00:01:44] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/d5144577fe39515bf15b8f80f1e7d8e2
+[00:01:44] step=download curl https://www.sledujteto.cz/player/index/sledujteto/d5144577fe39515bf15b8f80f1e7d8e2
+[00:02:53] step=download done upload_id=26383 size=1443816167 dur=69.0s speed=20.9MB/s
+[00:02:53] step=upload start upload_id=26383 size=1443816167
+[00:04:20] step=upload done upload_id=26383 video_id=24164726 dur=87.4s speed=16.5MB/s
+[00:04:21] step=cleanup unlinked Chce to pořádného blázna (2019) EN CZ tit.mp4
+[00:04:21] step=film done upload_id=26383 total=157.7s (cdn=1.1s + download=69.0s + upload=87.4s)
+[00:04:21] step=state-saved upload_id=26383 (total uploads=825)
+[00:04:21] step=iteration 92/100
+[00:04:21] step=film start upload_id=38403 cr_film_id=30966 name='Contracts (2019) EN CZ tit'
+[00:04:21] step=cdn-resolve upload_id=38403 cdn=www
+[00:04:22] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/515d515f836d22ca21daec4012f5138b
+[00:04:22] step=download curl https://www.sledujteto.cz/player/index/sledujteto/515d515f836d22ca21daec4012f5138b
+[00:05:26] step=download done upload_id=38403 size=1344650219 dur=64.1s speed=21.0MB/s
+[00:05:26] step=upload start upload_id=38403 size=1344650219
+[00:07:09] step=upload done upload_id=38403 video_id=24164798 dur=103.4s speed=13.0MB/s
+[00:07:09] step=cleanup unlinked Contracts (2019) EN CZ tit.mp4
+[00:07:09] step=film done upload_id=38403 total=168.7s (cdn=1.0s + download=64.1s + upload=103.4s)
+[00:07:09] step=state-saved upload_id=38403 (total uploads=826)
+[00:07:09] step=iteration 93/100
+[00:07:09] step=film start upload_id=27370 cr_film_id=30971 name='Upstarts (2019) HI CZ tit'
+[00:07:09] step=cdn-resolve upload_id=27370 cdn=www
+[00:07:10] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/b2f6197ca41120a320649049f4f46725
+[00:07:10] step=download curl https://www.sledujteto.cz/player/index/sledujteto/b2f6197ca41120a320649049f4f46725
+[00:08:11] step=download done upload_id=27370 size=1288807527 dur=61.0s speed=21.1MB/s
+[00:08:11] step=upload start upload_id=27370 size=1288807527
+[00:09:37] step=upload done upload_id=27370 video_id=24164872 dur=86.0s speed=15.0MB/s
+[00:09:38] step=cleanup unlinked Upstarts (2019) HI CZ tit.mp4
+[00:09:38] step=film done upload_id=27370 total=148.1s (cdn=1.0s + download=61.0s + upload=86.0s)
+[00:09:38] step=state-saved upload_id=27370 (total uploads=827)
+[00:09:38] step=iteration 94/100
+[00:09:38] step=film start upload_id=44818 cr_film_id=30975 name='Seance (2021) EN CZ tit'
+[00:09:38] step=cdn-resolve upload_id=44818 cdn=www
+[00:09:39] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/fd77c70fa6c4e630d9935184d49baca2
+[00:09:39] step=download curl https://www.sledujteto.cz/player/index/sledujteto/fd77c70fa6c4e630d9935184d49baca2
+[00:11:06] step=download done upload_id=44818 size=1895700371 dur=87.8s speed=21.6MB/s
+[00:11:06] step=upload start upload_id=44818 size=1895700371
+[00:13:03] step=upload done upload_id=44818 video_id=24164948 dur=116.5s speed=16.3MB/s
+[00:13:03] step=cleanup unlinked Seance (2021) EN CZ tit.mp4
+[00:13:03] step=film done upload_id=44818 total=205.5s (cdn=1.0s + download=87.8s + upload=116.5s)
+[00:13:03] step=state-saved upload_id=44818 (total uploads=828)
+[00:13:03] step=iteration 95/100
+[00:13:03] step=film start upload_id=27804 cr_film_id=30982 name='GO! Nezapomenutelný večírek (2019) ES CZ tit'
+[00:13:03] step=cdn-resolve upload_id=27804 cdn=www
+[00:13:04] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/aa06e345aaf10069b0263e34e053c25d
+[00:13:04] step=download curl https://www.sledujteto.cz/player/index/sledujteto/aa06e345aaf10069b0263e34e053c25d
+[00:14:29] step=download done upload_id=27804 size=1782485774 dur=84.8s speed=21.0MB/s
+[00:14:29] step=upload start upload_id=27804 size=1782485774
+[00:16:22] step=upload done upload_id=27804 video_id=24165051 dur=113.2s speed=15.7MB/s
+[00:16:22] step=cleanup unlinked GO! Nezapomenutelný večírek (2019) ES CZ tit.mp4
+[00:16:22] step=film done upload_id=27804 total=199.3s (cdn=0.9s + download=84.8s + upload=113.2s)
+[00:16:22] step=state-saved upload_id=27804 (total uploads=829)
+[00:16:22] step=iteration 96/100
+[00:16:22] step=film start upload_id=29773 cr_film_id=30983 name='Cesta do Romy (2020) ES CZ tit'
+[00:16:22] step=cdn-resolve upload_id=29773 cdn=www
+[00:16:23] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/a9a715e5a55ac5627cdc4ee2e197f98b
+[00:16:23] step=download curl https://www.sledujteto.cz/player/index/sledujteto/a9a715e5a55ac5627cdc4ee2e197f98b
+[00:17:51] step=download done upload_id=29773 size=1874953199 dur=87.5s speed=21.4MB/s
+[00:17:51] step=upload start upload_id=29773 size=1874953199
+[00:20:19] step=upload done upload_id=29773 video_id=24165135 dur=147.9s speed=12.7MB/s
+[00:20:19] step=cleanup unlinked Cesta do Romy (2020) ES CZ tit.mp4
+[00:20:19] step=film done upload_id=29773 total=236.6s (cdn=1.0s + download=87.5s + upload=147.9s)
+[00:20:19] step=state-saved upload_id=29773 (total uploads=830)
+[00:20:19] step=iteration 97/100
+[00:20:19] step=film start upload_id=27835 cr_film_id=30986 name='Irčan v rozhovorech (2019) EN CZ tit'
+[00:20:19] step=cdn-resolve upload_id=27835 cdn=www
+[00:20:20] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/7ec079f37cbbf550b3c8a819300869d7
+[00:20:20] step=download curl https://www.sledujteto.cz/player/index/sledujteto/7ec079f37cbbf550b3c8a819300869d7
+[00:20:51] step=download done upload_id=27835 size=602868462 dur=30.6s speed=19.7MB/s
+[00:20:51] step=upload start upload_id=27835 size=602868462
+[00:21:53] step=upload done upload_id=27835 video_id=24165225 dur=62.0s speed=9.7MB/s
+[00:21:53] step=cleanup unlinked Irčan v rozhovorech (2019) EN CZ tit.mp4
+[00:21:53] step=film done upload_id=27835 total=93.7s (cdn=1.0s + download=30.6s + upload=62.0s)
+[00:21:53] step=state-saved upload_id=27835 (total uploads=831)
+[00:21:53] step=iteration 98/100
+[00:21:53] step=film start upload_id=29905 cr_film_id=30994 name='How to Train Your Dragon: Snoggletog Log (2019) EN CZ tit'
+[00:21:53] step=cdn-resolve upload_id=29905 cdn=www
+[00:21:54] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/5eb41ef5119437b041dc30f4b727148a
+[00:21:54] step=download curl https://www.sledujteto.cz/player/index/sledujteto/5eb41ef5119437b041dc30f4b727148a
+[00:22:16] step=download done upload_id=29905 size=443265228 dur=22.6s speed=19.6MB/s
+[00:22:16] step=upload start upload_id=29905 size=443265228
+[00:22:48] step=upload done upload_id=29905 video_id=24165261 dur=31.5s speed=14.1MB/s
+[00:22:48] step=cleanup unlinked How to Train Your Dragon: Snoggletog Log (2019) EN CZ tit.mp4
+[00:22:48] step=film done upload_id=29905 total=55.2s (cdn=1.0s + download=22.6s + upload=31.5s)
+[00:22:48] step=state-saved upload_id=29905 (total uploads=832)
+[00:22:48] step=iteration 99/100
+[00:22:48] step=film start upload_id=52362 cr_film_id=31009 name='Fantastická zvířata: Přírodní historie (2022) EN CZ tit'
+[00:22:48] step=cdn-resolve upload_id=52362 cdn=www
+[00:22:49] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/9beccf19d4553aa1944f94bdba6ed9f9
+[00:22:49] step=download curl https://www.sledujteto.cz/player/index/sledujteto/9beccf19d4553aa1944f94bdba6ed9f9
+[00:23:44] step=download done upload_id=52362 size=1186275104 dur=55.1s speed=21.5MB/s
+[00:23:44] step=upload start upload_id=52362 size=1186275104
+[00:25:16] step=upload done upload_id=52362 video_id=24165306 dur=92.2s speed=12.9MB/s
+[00:25:17] step=cleanup unlinked Fantastická zvířata: Přírodní historie (2022) EN CZ tit.mp4
+[00:25:17] step=film done upload_id=52362 total=148.6s (cdn=1.2s + download=55.1s + upload=92.2s)
+[00:25:17] step=state-saved upload_id=52362 (total uploads=833)
+[00:25:17] step=iteration 100/100
+[00:25:17] step=film start upload_id=29300 cr_film_id=31017 name='Vir Das: For India (2020) EN CZ tit'
+[00:25:17] step=cdn-resolve upload_id=29300 cdn=www
+[00:25:18] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/d6728357d7feb7646e0a9a4b2845797a
+[00:25:18] step=download curl https://www.sledujteto.cz/player/index/sledujteto/d6728357d7feb7646e0a9a4b2845797a
+[00:26:39] step=download done upload_id=29300 size=1650126292 dur=81.8s speed=20.2MB/s
+[00:26:39] step=upload start upload_id=29300 size=1650126292
+[00:28:29] step=upload done upload_id=29300 video_id=24165396 dur=109.4s speed=15.1MB/s
+[00:28:29] step=cleanup unlinked Vir Das: For India (2020) EN CZ tit.mp4
+[00:28:29] step=film done upload_id=29300 total=192.4s (cdn=1.0s + download=81.8s + upload=109.4s)
+[00:28:29] step=state-saved upload_id=29300 (total uploads=834)
+[00:28:29] step=batch-end succeeded=99 failed=1 total_uploads=834 batch_dur=17451.7s avg_per_film=176.3s backlog_remaining=80 eta_hours=3.9
