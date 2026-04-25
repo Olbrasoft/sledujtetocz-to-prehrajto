@@ -2,7 +2,7 @@
   "schema_version": 1,
   "account": "filmy.prehrajto@email.cz",
   "source": "sledujteto.cz",
-  "last_updated": "2026-04-25T05:01:07Z",
+  "last_updated": "2026-04-25T10:44:20Z",
   "uploads": [
     {
       "sledujteto_file_id": 100943,
@@ -959,6 +959,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:44:42Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:29:48Z"
         }
       ]
     },
@@ -1029,6 +1033,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:44:46Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:29:50Z"
         }
       ]
     },
@@ -2277,6 +2285,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:46:02Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:30:09Z"
         }
       ]
     },
@@ -3791,6 +3803,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:48:16Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:30:18Z"
         }
       ]
     },
@@ -5089,6 +5105,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:50:23Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:30:24Z"
         }
       ]
     },
@@ -5138,6 +5158,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:50:26Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:30:26Z"
         }
       ]
     },
@@ -5164,6 +5188,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:50:27Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:30:27Z"
         }
       ]
     },
@@ -5280,6 +5308,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:50:36Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:30:29Z"
         }
       ]
     },
@@ -5564,6 +5596,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:50:50Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:30:35Z"
         }
       ]
     },
@@ -5676,6 +5712,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:50:55Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:30:38Z"
         }
       ]
     },
@@ -6143,6 +6183,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:51:07Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:30:50Z"
         }
       ]
     },
@@ -6274,6 +6318,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:51:11Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:30:54Z"
         }
       ]
     },
@@ -6657,6 +6705,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:51:21Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:31:04Z"
         }
       ]
     },
@@ -7569,6 +7621,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:51:47Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:31:26Z"
         }
       ]
     },
@@ -7616,6 +7672,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:51:49Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:31:28Z"
         }
       ]
     },
@@ -9725,6 +9785,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:52:44Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:32:19Z"
         }
       ]
     },
@@ -10024,6 +10088,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:52:52Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:32:27Z"
         }
       ]
     },
@@ -10218,6 +10286,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:52:57Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:32:33Z"
         }
       ]
     },
@@ -10412,6 +10484,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:53:02Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:32:38Z"
         }
       ]
     },
@@ -10501,6 +10577,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:53:05Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:32:41Z"
         }
       ]
     },
@@ -10632,6 +10712,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:53:09Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:32:45Z"
         }
       ]
     },
@@ -10658,6 +10742,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:53:10Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:32:46Z"
         }
       ]
     },
@@ -10747,6 +10835,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:53:12Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:32:49Z"
         }
       ]
     },
@@ -10815,6 +10907,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:53:15Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:32:52Z"
         }
       ]
     },
@@ -10946,6 +11042,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:53:18Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:32:56Z"
         }
       ]
     },
@@ -10972,6 +11072,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:53:19Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:32:57Z"
         }
       ]
     },
@@ -11019,6 +11123,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:53:21Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:32:59Z"
         }
       ]
     },
@@ -11045,6 +11153,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:53:22Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:33:00Z"
         }
       ]
     },
@@ -11071,6 +11183,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:53:23Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:33:02Z"
         }
       ]
     },
@@ -11139,6 +11255,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:53:25Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:33:04Z"
         }
       ]
     },
@@ -11249,6 +11369,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:53:29Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:33:07Z"
         }
       ]
     },
@@ -11319,6 +11443,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:53:33Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:33:09Z"
         }
       ]
     },
@@ -12991,6 +13119,10 @@
         {
           "reason": "add-file-link returned no subtitles",
           "failed_at": "2026-04-24T10:54:33Z"
+        },
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:33:46Z"
         }
       ]
     },
@@ -13852,7 +13984,8 @@
         "download_sec": 89.4,
         "upload_sec": 49.7,
         "total_sec": 140.5
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 16824,
@@ -13872,7 +14005,10 @@
         "download_sec": 26.6,
         "upload_sec": 33.5,
         "total_sec": 61.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:34:10Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 18181,
@@ -13892,7 +14028,8 @@
         "download_sec": 21.4,
         "upload_sec": 21.0,
         "total_sec": 43.4
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 68054,
@@ -13912,7 +14049,8 @@
         "download_sec": 260.4,
         "upload_sec": 162.9,
         "total_sec": 424.9
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 25543,
@@ -13932,7 +14070,8 @@
         "download_sec": 49.5,
         "upload_sec": 64.9,
         "total_sec": 115.5
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 10527,
@@ -13952,7 +14091,13 @@
         "download_sec": 71.9,
         "upload_sec": 43.3,
         "total_sec": 116.6
-      }
+      },
+      "subtitles_failures": [
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:34:13Z"
+        }
+      ]
     },
     {
       "sledujteto_file_id": 65103,
@@ -13972,7 +14117,8 @@
         "download_sec": 27.5,
         "upload_sec": 28.2,
         "total_sec": 56.7
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 8114,
@@ -13992,7 +14138,8 @@
         "download_sec": 30.1,
         "upload_sec": 30.7,
         "total_sec": 61.8
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 9744,
@@ -14012,7 +14159,8 @@
         "download_sec": 72.6,
         "upload_sec": 35.8,
         "total_sec": 109.4
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 53395,
@@ -14032,7 +14180,8 @@
         "download_sec": 12.8,
         "upload_sec": 28.6,
         "total_sec": 42.3
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 31311,
@@ -14052,7 +14201,10 @@
         "download_sec": 49.6,
         "upload_sec": 57.6,
         "total_sec": 108.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:34:18Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 18180,
@@ -14072,7 +14224,8 @@
         "download_sec": 45.0,
         "upload_sec": 17.8,
         "total_sec": 63.8
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 67161,
@@ -14092,7 +14245,10 @@
         "download_sec": 25.9,
         "upload_sec": 32.8,
         "total_sec": 59.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:34:21Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 36636,
@@ -14112,7 +14268,8 @@
         "download_sec": 32.8,
         "upload_sec": 32.1,
         "total_sec": 65.7
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 6473,
@@ -14132,7 +14289,8 @@
         "download_sec": 22.4,
         "upload_sec": 26.6,
         "total_sec": 50.0
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 19252,
@@ -14152,7 +14310,10 @@
         "download_sec": 67.1,
         "upload_sec": 52.9,
         "total_sec": 121.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:34:26Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 25494,
@@ -14172,7 +14333,8 @@
         "download_sec": 43.4,
         "upload_sec": 52.2,
         "total_sec": 96.6
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 6525,
@@ -14192,7 +14354,8 @@
         "download_sec": 17.3,
         "upload_sec": 24.2,
         "total_sec": 42.5
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 25176,
@@ -14212,7 +14375,8 @@
         "download_sec": 40.7,
         "upload_sec": 34.0,
         "total_sec": 75.5
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 18446,
@@ -14232,7 +14396,8 @@
         "download_sec": 20.7,
         "upload_sec": 44.6,
         "total_sec": 67.0
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 7137,
@@ -14252,7 +14417,8 @@
         "download_sec": 30.9,
         "upload_sec": 30.3,
         "total_sec": 62.2
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 52849,
@@ -14272,7 +14438,8 @@
         "download_sec": 133.7,
         "upload_sec": 71.2,
         "total_sec": 206.1
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 34727,
@@ -14292,7 +14459,8 @@
         "download_sec": 59.3,
         "upload_sec": 56.5,
         "total_sec": 117.0
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 17942,
@@ -14312,7 +14480,8 @@
         "download_sec": 22.9,
         "upload_sec": 19.6,
         "total_sec": 43.6
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 15861,
@@ -14332,7 +14501,8 @@
         "download_sec": 28.4,
         "upload_sec": 26.5,
         "total_sec": 55.6
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 31724,
@@ -14352,7 +14522,8 @@
         "download_sec": 26.5,
         "upload_sec": 44.4,
         "total_sec": 72.2
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 6127,
@@ -14372,7 +14543,8 @@
         "download_sec": 54.2,
         "upload_sec": 28.8,
         "total_sec": 83.9
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 42185,
@@ -14392,7 +14564,8 @@
         "download_sec": 43.1,
         "upload_sec": 32.4,
         "total_sec": 76.5
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 10541,
@@ -14412,7 +14585,13 @@
         "download_sec": 47.5,
         "upload_sec": 41.8,
         "total_sec": 90.0
-      }
+      },
+      "subtitles_failures": [
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:34:34Z"
+        }
+      ]
     },
     {
       "sledujteto_file_id": 42060,
@@ -14432,7 +14611,8 @@
         "download_sec": 192.6,
         "upload_sec": 191.1,
         "total_sec": 385.1
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 8688,
@@ -14452,7 +14632,8 @@
         "download_sec": 35.4,
         "upload_sec": 34.6,
         "total_sec": 71.4
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 21494,
@@ -14472,7 +14653,8 @@
         "download_sec": 41.0,
         "upload_sec": 25.4,
         "total_sec": 68.4
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 64888,
@@ -14492,7 +14674,10 @@
         "download_sec": 26.0,
         "upload_sec": 19.3,
         "total_sec": 46.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:34:38Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 8322,
@@ -14512,7 +14697,8 @@
         "download_sec": 20.5,
         "upload_sec": 17.2,
         "total_sec": 39.0
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 11594,
@@ -14532,7 +14718,8 @@
         "download_sec": 80.1,
         "upload_sec": 84.6,
         "total_sec": 165.8
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 24703,
@@ -14552,7 +14739,8 @@
         "download_sec": 26.7,
         "upload_sec": 18.5,
         "total_sec": 46.2
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 34216,
@@ -14572,7 +14760,10 @@
         "download_sec": 128.3,
         "upload_sec": 66.7,
         "total_sec": 196.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:34:42Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 9589,
@@ -14592,7 +14783,8 @@
         "download_sec": 38.5,
         "upload_sec": 37.0,
         "total_sec": 76.9
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 10431,
@@ -14612,7 +14804,8 @@
         "download_sec": 114.8,
         "upload_sec": 60.6,
         "total_sec": 176.5
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 32190,
@@ -14632,7 +14825,8 @@
         "download_sec": 497.8,
         "upload_sec": 273.7,
         "total_sec": 772.8
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 6432,
@@ -14652,7 +14846,8 @@
         "download_sec": 36.3,
         "upload_sec": 29.0,
         "total_sec": 66.3
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 42168,
@@ -14672,7 +14867,8 @@
         "download_sec": 110.9,
         "upload_sec": 53.2,
         "total_sec": 165.2
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 32732,
@@ -14692,7 +14888,8 @@
         "download_sec": 107.0,
         "upload_sec": 68.7,
         "total_sec": 176.6
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 8700,
@@ -14712,7 +14909,8 @@
         "download_sec": 133.1,
         "upload_sec": 62.8,
         "total_sec": 197.2
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 8834,
@@ -14732,7 +14930,8 @@
         "download_sec": 169.0,
         "upload_sec": 73.9,
         "total_sec": 244.1
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 6429,
@@ -14752,7 +14951,8 @@
         "download_sec": 22.4,
         "upload_sec": 24.7,
         "total_sec": 48.4
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 5917,
@@ -14772,7 +14972,8 @@
         "download_sec": 62.4,
         "upload_sec": 45.5,
         "total_sec": 108.9
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 10482,
@@ -14792,7 +14993,13 @@
         "download_sec": 23.1,
         "upload_sec": 21.6,
         "total_sec": 45.7
-      }
+      },
+      "subtitles_failures": [
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:34:49Z"
+        }
+      ]
     },
     {
       "sledujteto_file_id": 10437,
@@ -14812,7 +15019,13 @@
         "download_sec": 48.0,
         "upload_sec": 34.8,
         "total_sec": 83.7
-      }
+      },
+      "subtitles_failures": [
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:34:50Z"
+        }
+      ]
     },
     {
       "sledujteto_file_id": 10560,
@@ -14832,7 +15045,8 @@
         "download_sec": 69.6,
         "upload_sec": 29.1,
         "total_sec": 99.7
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 10819,
@@ -14852,7 +15066,13 @@
         "download_sec": 17.9,
         "upload_sec": 17.4,
         "total_sec": 36.5
-      }
+      },
+      "subtitles_failures": [
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:34:52Z"
+        }
+      ]
     },
     {
       "sledujteto_file_id": 20631,
@@ -14872,7 +15092,10 @@
         "download_sec": 95.8,
         "upload_sec": 80.0,
         "total_sec": 176.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:34:55Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 68147,
@@ -14892,7 +15115,10 @@
         "download_sec": 129.9,
         "upload_sec": 83.2,
         "total_sec": 214.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:34:57Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 17919,
@@ -14912,7 +15138,8 @@
         "download_sec": 38.8,
         "upload_sec": 18.1,
         "total_sec": 58.1
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 7271,
@@ -14932,7 +15159,8 @@
         "download_sec": 27.3,
         "upload_sec": 19.3,
         "total_sec": 47.6
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 10611,
@@ -14952,7 +15180,13 @@
         "download_sec": 25.8,
         "upload_sec": 25.6,
         "total_sec": 52.4
-      }
+      },
+      "subtitles_failures": [
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:35:00Z"
+        }
+      ]
     },
     {
       "sledujteto_file_id": 5206,
@@ -14972,7 +15206,8 @@
         "download_sec": 35.9,
         "upload_sec": 27.6,
         "total_sec": 64.2
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 18001,
@@ -14992,7 +15227,10 @@
         "download_sec": 122.2,
         "upload_sec": 59.0,
         "total_sec": 182.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:03Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 5350,
@@ -15012,7 +15250,8 @@
         "download_sec": 26.3,
         "upload_sec": 26.7,
         "total_sec": 54.0
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 5158,
@@ -15032,7 +15271,10 @@
         "download_sec": 60.8,
         "upload_sec": 20.3,
         "total_sec": 82.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:07Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 7896,
@@ -15052,7 +15294,10 @@
         "download_sec": 40.7,
         "upload_sec": 16.1,
         "total_sec": 58.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:11Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 10514,
@@ -15072,7 +15317,8 @@
         "download_sec": 25.1,
         "upload_sec": 17.7,
         "total_sec": 43.6
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 51910,
@@ -15092,7 +15338,8 @@
         "download_sec": 136.3,
         "upload_sec": 86.3,
         "total_sec": 223.7
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 22918,
@@ -15112,7 +15359,10 @@
         "download_sec": 78.9,
         "upload_sec": 32.4,
         "total_sec": 112.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:15Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 3659,
@@ -15132,7 +15382,8 @@
         "download_sec": 64.6,
         "upload_sec": 30.6,
         "total_sec": 96.5
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 7631,
@@ -15152,7 +15403,8 @@
         "download_sec": 38.9,
         "upload_sec": 25.7,
         "total_sec": 65.6
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 5815,
@@ -15172,7 +15424,8 @@
         "download_sec": 22.6,
         "upload_sec": 26.4,
         "total_sec": 50.7
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 30248,
@@ -15192,7 +15445,10 @@
         "download_sec": 173.2,
         "upload_sec": 90.4,
         "total_sec": 264.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:19Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 13807,
@@ -15212,7 +15468,8 @@
         "download_sec": 26.7,
         "upload_sec": 24.2,
         "total_sec": 52.3
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 20615,
@@ -15232,7 +15489,10 @@
         "download_sec": 83.2,
         "upload_sec": 37.5,
         "total_sec": 121.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:23Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 9368,
@@ -15252,7 +15512,10 @@
         "download_sec": 51.4,
         "upload_sec": 43.1,
         "total_sec": 95.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:26Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 3657,
@@ -15272,7 +15535,8 @@
         "download_sec": 41.5,
         "upload_sec": 28.6,
         "total_sec": 71.5
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 8633,
@@ -15292,7 +15556,10 @@
         "download_sec": 52.6,
         "upload_sec": 36.1,
         "total_sec": 89.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:29Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 3606,
@@ -15312,7 +15579,10 @@
         "download_sec": 50.7,
         "upload_sec": 19.5,
         "total_sec": 71.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:32Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 5392,
@@ -15332,7 +15602,8 @@
         "download_sec": 146.8,
         "upload_sec": 51.7,
         "total_sec": 199.5
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 4399,
@@ -15352,7 +15623,8 @@
         "download_sec": 74.1,
         "upload_sec": 34.1,
         "total_sec": 109.2
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 18293,
@@ -15372,7 +15644,10 @@
         "download_sec": 106.7,
         "upload_sec": 15.9,
         "total_sec": 123.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:35Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 26218,
@@ -15392,7 +15667,10 @@
         "download_sec": 149.2,
         "upload_sec": 38.0,
         "total_sec": 188.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:39Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 11059,
@@ -15412,7 +15690,8 @@
         "download_sec": 187.7,
         "upload_sec": 114.2,
         "total_sec": 303.3
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 33740,
@@ -15432,7 +15711,8 @@
         "download_sec": 345.9,
         "upload_sec": 127.6,
         "total_sec": 475.4
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 7473,
@@ -15452,7 +15732,10 @@
         "download_sec": 53.1,
         "upload_sec": 29.5,
         "total_sec": 83.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:43Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 22912,
@@ -15472,7 +15755,8 @@
         "download_sec": 65.8,
         "upload_sec": 37.0,
         "total_sec": 103.9
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 32188,
@@ -15492,7 +15776,8 @@
         "download_sec": 163.3,
         "upload_sec": 90.6,
         "total_sec": 255.1
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 8883,
@@ -15512,7 +15797,10 @@
         "download_sec": 109.8,
         "upload_sec": 53.2,
         "total_sec": 164.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:46Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 16907,
@@ -15532,7 +15820,8 @@
         "download_sec": 45.9,
         "upload_sec": 39.6,
         "total_sec": 86.5
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 9071,
@@ -15552,7 +15841,10 @@
         "download_sec": 43.1,
         "upload_sec": 25.7,
         "total_sec": 69.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:50Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 24308,
@@ -15572,7 +15864,10 @@
         "download_sec": 202.2,
         "upload_sec": 93.2,
         "total_sec": 296.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:54Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 20092,
@@ -15592,7 +15887,10 @@
         "download_sec": 67.4,
         "upload_sec": 42.4,
         "total_sec": 111.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:57Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 11650,
@@ -15612,7 +15910,10 @@
         "download_sec": 47.0,
         "upload_sec": 47.6,
         "total_sec": 95.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:35:59Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 16116,
@@ -15632,7 +15933,10 @@
         "download_sec": 38.9,
         "upload_sec": 32.5,
         "total_sec": 72.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:03Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 6985,
@@ -15652,7 +15956,10 @@
         "download_sec": 51.0,
         "upload_sec": 39.8,
         "total_sec": 92.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:05Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 14091,
@@ -15672,7 +15979,10 @@
         "download_sec": 61.5,
         "upload_sec": 40.0,
         "total_sec": 102.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:09Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 8218,
@@ -15692,7 +16002,10 @@
         "download_sec": 47.1,
         "upload_sec": 31.7,
         "total_sec": 79.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:12Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 28711,
@@ -15712,7 +16025,8 @@
         "download_sec": 52.4,
         "upload_sec": 40.2,
         "total_sec": 93.7
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 21514,
@@ -15732,7 +16046,10 @@
         "download_sec": 76.9,
         "upload_sec": 37.8,
         "total_sec": 116.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:16Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 20571,
@@ -15752,7 +16069,10 @@
         "download_sec": 58.8,
         "upload_sec": 32.4,
         "total_sec": 92.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:19Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 15904,
@@ -15772,7 +16092,10 @@
         "download_sec": 94.8,
         "upload_sec": 38.4,
         "total_sec": 135.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:22Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 10144,
@@ -15792,7 +16115,10 @@
         "download_sec": 78.8,
         "upload_sec": 65.9,
         "total_sec": 146.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:25Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 20578,
@@ -15812,7 +16138,10 @@
         "download_sec": 97.7,
         "upload_sec": 53.2,
         "total_sec": 152.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:29Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 70290,
@@ -15832,7 +16161,8 @@
         "download_sec": 52.2,
         "upload_sec": 52.2,
         "total_sec": 105.7
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 9398,
@@ -15852,7 +16182,8 @@
         "download_sec": 89.3,
         "upload_sec": 75.1,
         "total_sec": 166.0
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 12964,
@@ -15872,7 +16203,10 @@
         "download_sec": 55.1,
         "upload_sec": 41.3,
         "total_sec": 97.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:33Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 29260,
@@ -15892,7 +16226,10 @@
         "download_sec": 118.2,
         "upload_sec": 117.6,
         "total_sec": 237.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:36Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 19889,
@@ -15912,7 +16249,10 @@
         "download_sec": 90.4,
         "upload_sec": 68.3,
         "total_sec": 159.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:39Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 24857,
@@ -15932,7 +16272,10 @@
         "download_sec": 81.2,
         "upload_sec": 79.4,
         "total_sec": 162.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:42Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 39567,
@@ -15952,7 +16295,10 @@
         "download_sec": 118.6,
         "upload_sec": 114.8,
         "total_sec": 235.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:45Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 15246,
@@ -15972,7 +16318,8 @@
         "download_sec": 31.3,
         "upload_sec": 27.7,
         "total_sec": 61.2
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 29347,
@@ -15992,7 +16339,10 @@
         "download_sec": 37.5,
         "upload_sec": 30.3,
         "total_sec": 69.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:49Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 25923,
@@ -16012,7 +16362,10 @@
         "download_sec": 145.5,
         "upload_sec": 102.1,
         "total_sec": 249.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:52Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 18006,
@@ -16032,7 +16385,10 @@
         "download_sec": 66.7,
         "upload_sec": 53.1,
         "total_sec": 121.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:54Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 20827,
@@ -16052,7 +16408,10 @@
         "download_sec": 188.6,
         "upload_sec": 138.9,
         "total_sec": 329.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:36:57Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 29221,
@@ -16072,7 +16431,13 @@
         "download_sec": 138.8,
         "upload_sec": 119.2,
         "total_sec": 259.7
-      }
+      },
+      "subtitles_failures": [
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:36:58Z"
+        }
+      ]
     },
     {
       "sledujteto_file_id": 22483,
@@ -16092,7 +16457,10 @@
         "download_sec": 133.5,
         "upload_sec": 94.3,
         "total_sec": 229.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:02Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 29527,
@@ -16112,7 +16480,10 @@
         "download_sec": 233.7,
         "upload_sec": 140.4,
         "total_sec": 375.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:05Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 94135,
@@ -16132,7 +16503,10 @@
         "download_sec": 133.7,
         "upload_sec": 113.2,
         "total_sec": 248.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:09Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 58432,
@@ -16152,7 +16526,10 @@
         "download_sec": 153.1,
         "upload_sec": 147.5,
         "total_sec": 302.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:12Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 21380,
@@ -16172,7 +16549,10 @@
         "download_sec": 140.4,
         "upload_sec": 157.0,
         "total_sec": 298.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:15Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 7557,
@@ -16192,7 +16572,10 @@
         "download_sec": 71.3,
         "upload_sec": 61.4,
         "total_sec": 133.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:17Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 22865,
@@ -16212,7 +16595,10 @@
         "download_sec": 40.9,
         "upload_sec": 31.3,
         "total_sec": 73.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:22Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 22133,
@@ -16232,7 +16618,10 @@
         "download_sec": 46.3,
         "upload_sec": 41.7,
         "total_sec": 89.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:26Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 18382,
@@ -16252,7 +16641,8 @@
         "download_sec": 80.2,
         "upload_sec": 87.7,
         "total_sec": 169.1
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 21502,
@@ -16272,7 +16662,10 @@
         "download_sec": 49.9,
         "upload_sec": 44.1,
         "total_sec": 95.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:29Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 24050,
@@ -16292,7 +16685,10 @@
         "download_sec": 17.6,
         "upload_sec": 13.4,
         "total_sec": 31.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:31Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 19988,
@@ -16312,7 +16708,10 @@
         "download_sec": 90.3,
         "upload_sec": 88.2,
         "total_sec": 179.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:34Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 35183,
@@ -16332,7 +16731,10 @@
         "download_sec": 282.9,
         "upload_sec": 163.8,
         "total_sec": 448.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:37Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 3960,
@@ -16352,7 +16754,10 @@
         "download_sec": 63.2,
         "upload_sec": 43.8,
         "total_sec": 108.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:39Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 20441,
@@ -16372,7 +16777,10 @@
         "download_sec": 116.4,
         "upload_sec": 86.6,
         "total_sec": 204.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:44Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 29180,
@@ -16392,7 +16800,10 @@
         "download_sec": 149.2,
         "upload_sec": 178.8,
         "total_sec": 329.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:47Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 23448,
@@ -16412,7 +16823,10 @@
         "download_sec": 125.4,
         "upload_sec": 120.4,
         "total_sec": 247.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:50Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 19612,
@@ -16432,7 +16846,10 @@
         "download_sec": 58.9,
         "upload_sec": 73.6,
         "total_sec": 134.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:53Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 28798,
@@ -16452,7 +16869,10 @@
         "download_sec": 108.6,
         "upload_sec": 90.7,
         "total_sec": 200.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:56Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 28353,
@@ -16472,7 +16892,10 @@
         "download_sec": 84.6,
         "upload_sec": 84.3,
         "total_sec": 170.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:37:59Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 27929,
@@ -16492,7 +16915,10 @@
         "download_sec": 93.8,
         "upload_sec": 88.8,
         "total_sec": 183.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:01Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 24832,
@@ -16512,7 +16938,10 @@
         "download_sec": 110.2,
         "upload_sec": 161.8,
         "total_sec": 273.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:04Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 39427,
@@ -16532,7 +16961,10 @@
         "download_sec": 64.0,
         "upload_sec": 67.0,
         "total_sec": 132.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:06Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 22867,
@@ -16552,7 +16984,10 @@
         "download_sec": 40.1,
         "upload_sec": 52.1,
         "total_sec": 93.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:10Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 19994,
@@ -16572,7 +17007,10 @@
         "download_sec": 71.8,
         "upload_sec": 70.0,
         "total_sec": 143.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:13Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 29737,
@@ -16592,7 +17030,10 @@
         "download_sec": 83.8,
         "upload_sec": 94.5,
         "total_sec": 179.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:16Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 26566,
@@ -16612,7 +17053,10 @@
         "download_sec": 247.6,
         "upload_sec": 229.6,
         "total_sec": 479.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:19Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 24699,
@@ -16632,7 +17076,10 @@
         "download_sec": 133.8,
         "upload_sec": 195.6,
         "total_sec": 331.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:22Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 53168,
@@ -16652,7 +17099,10 @@
         "download_sec": 121.5,
         "upload_sec": 129.3,
         "total_sec": 252.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:24Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 22675,
@@ -16672,7 +17122,10 @@
         "download_sec": 43.1,
         "upload_sec": 46.1,
         "total_sec": 90.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:29Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 47647,
@@ -16692,7 +17145,10 @@
         "download_sec": 116.6,
         "upload_sec": 132.0,
         "total_sec": 250.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:32Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 23361,
@@ -16712,7 +17168,10 @@
         "download_sec": 74.5,
         "upload_sec": 90.1,
         "total_sec": 165.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:34Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 25948,
@@ -16732,7 +17191,10 @@
         "download_sec": 35.4,
         "upload_sec": 36.6,
         "total_sec": 73.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:37Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 25864,
@@ -16752,7 +17214,10 @@
         "download_sec": 52.3,
         "upload_sec": 50.6,
         "total_sec": 104.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:40Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 11654,
@@ -16772,7 +17237,10 @@
         "download_sec": 80.3,
         "upload_sec": 96.6,
         "total_sec": 177.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:43Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 21407,
@@ -16792,7 +17260,10 @@
         "download_sec": 21.6,
         "upload_sec": 27.8,
         "total_sec": 50.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:46Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 28552,
@@ -16812,7 +17283,10 @@
         "download_sec": 96.4,
         "upload_sec": 116.2,
         "total_sec": 213.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:48Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 29083,
@@ -16832,7 +17306,10 @@
         "download_sec": 61.8,
         "upload_sec": 74.7,
         "total_sec": 137.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:51Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 29162,
@@ -16852,7 +17329,10 @@
         "download_sec": 33.4,
         "upload_sec": 53.9,
         "total_sec": 88.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:54Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 24732,
@@ -16872,7 +17352,8 @@
         "download_sec": 162.4,
         "upload_sec": 237.5,
         "total_sec": 401.3
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 27666,
@@ -16892,7 +17373,10 @@
         "download_sec": 27.3,
         "upload_sec": 37.1,
         "total_sec": 65.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:38:57Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 31047,
@@ -16912,7 +17396,10 @@
         "download_sec": 41.7,
         "upload_sec": 43.5,
         "total_sec": 86.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:00Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 26116,
@@ -16932,7 +17419,13 @@
         "download_sec": 28.4,
         "upload_sec": 40.8,
         "total_sec": 70.4
-      }
+      },
+      "subtitles_failures": [
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:39:01Z"
+        }
+      ]
     },
     {
       "sledujteto_file_id": 26173,
@@ -16952,7 +17445,10 @@
         "download_sec": 108.3,
         "upload_sec": 126.7,
         "total_sec": 236.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:04Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 22676,
@@ -16972,7 +17468,10 @@
         "download_sec": 64.0,
         "upload_sec": 74.3,
         "total_sec": 139.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:08Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 23037,
@@ -16992,7 +17491,10 @@
         "download_sec": 104.9,
         "upload_sec": 117.2,
         "total_sec": 223.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:11Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 26739,
@@ -17012,7 +17514,10 @@
         "download_sec": 110.9,
         "upload_sec": 196.8,
         "total_sec": 309.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:14Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 29933,
@@ -17032,7 +17537,10 @@
         "download_sec": 61.8,
         "upload_sec": 80.0,
         "total_sec": 143.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:16Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 24223,
@@ -17052,7 +17560,10 @@
         "download_sec": 45.1,
         "upload_sec": 55.0,
         "total_sec": 101.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:20Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 31307,
@@ -17072,7 +17583,10 @@
         "download_sec": 110.1,
         "upload_sec": 137.0,
         "total_sec": 248.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:22Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 10345,
@@ -17092,7 +17606,8 @@
         "download_sec": 41.1,
         "upload_sec": 50.1,
         "total_sec": 92.3
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 26271,
@@ -17112,7 +17627,10 @@
         "download_sec": 97.4,
         "upload_sec": 115.4,
         "total_sec": 214.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:26Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 34198,
@@ -17132,7 +17650,8 @@
         "download_sec": 62.2,
         "upload_sec": 85.5,
         "total_sec": 148.9
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 29176,
@@ -17152,7 +17671,10 @@
         "download_sec": 41.9,
         "upload_sec": 54.8,
         "total_sec": 97.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:29Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 22629,
@@ -17172,7 +17694,10 @@
         "download_sec": 8.6,
         "upload_sec": 16.9,
         "total_sec": 26.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:32Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 31120,
@@ -17192,7 +17717,10 @@
         "download_sec": 80.2,
         "upload_sec": 102.7,
         "total_sec": 184.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:35Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 38390,
@@ -17212,7 +17740,10 @@
         "download_sec": 95.1,
         "upload_sec": 109.8,
         "total_sec": 206.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:37Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 27561,
@@ -17232,7 +17763,8 @@
         "download_sec": 72.5,
         "upload_sec": 100.5,
         "total_sec": 174.3
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 56264,
@@ -17252,7 +17784,10 @@
         "download_sec": 104.6,
         "upload_sec": 141.8,
         "total_sec": 247.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:40Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 54989,
@@ -17272,7 +17807,10 @@
         "download_sec": 103.3,
         "upload_sec": 135.7,
         "total_sec": 240.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:43Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 25099,
@@ -17292,7 +17830,10 @@
         "download_sec": 67.8,
         "upload_sec": 77.7,
         "total_sec": 147.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:46Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 23445,
@@ -17312,7 +17853,10 @@
         "download_sec": 94.2,
         "upload_sec": 151.9,
         "total_sec": 247.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:49Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 32164,
@@ -17332,7 +17876,10 @@
         "download_sec": 34.7,
         "upload_sec": 44.1,
         "total_sec": 79.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:52Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 49105,
@@ -17352,7 +17899,10 @@
         "download_sec": 125.2,
         "upload_sec": 153.5,
         "total_sec": 280.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:55Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 28361,
@@ -17372,7 +17922,10 @@
         "download_sec": 86.9,
         "upload_sec": 114.7,
         "total_sec": 202.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:39:58Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 23829,
@@ -17392,7 +17945,10 @@
         "download_sec": 31.0,
         "upload_sec": 37.0,
         "total_sec": 68.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:01Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 27800,
@@ -17412,7 +17968,10 @@
         "download_sec": 93.7,
         "upload_sec": 131.2,
         "total_sec": 225.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:04Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 24498,
@@ -17432,7 +17991,10 @@
         "download_sec": 36.0,
         "upload_sec": 49.4,
         "total_sec": 86.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:06Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 55064,
@@ -17452,7 +18014,8 @@
         "download_sec": 75.8,
         "upload_sec": 138.2,
         "total_sec": 215.3
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 24676,
@@ -17472,7 +18035,10 @@
         "download_sec": 54.4,
         "upload_sec": 85.9,
         "total_sec": 141.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:10Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 16323,
@@ -17492,7 +18058,10 @@
         "download_sec": 33.5,
         "upload_sec": 44.3,
         "total_sec": 78.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:14Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 32395,
@@ -17512,7 +18081,10 @@
         "download_sec": 87.1,
         "upload_sec": 115.9,
         "total_sec": 204.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:17Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 64575,
@@ -17532,7 +18104,10 @@
         "download_sec": 31.1,
         "upload_sec": 43.8,
         "total_sec": 76.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:19Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 35591,
@@ -17552,7 +18127,10 @@
         "download_sec": 84.1,
         "upload_sec": 109.7,
         "total_sec": 194.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:22Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 26257,
@@ -17572,7 +18150,10 @@
         "download_sec": 27.9,
         "upload_sec": 33.7,
         "total_sec": 62.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:25Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 26346,
@@ -17592,7 +18173,10 @@
         "download_sec": 48.6,
         "upload_sec": 57.1,
         "total_sec": 106.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:27Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 26509,
@@ -17612,7 +18196,10 @@
         "download_sec": 53.3,
         "upload_sec": 74.1,
         "total_sec": 128.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:30Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 26383,
@@ -17632,7 +18219,10 @@
         "download_sec": 69.0,
         "upload_sec": 87.4,
         "total_sec": 157.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:34Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 38403,
@@ -17652,7 +18242,10 @@
         "download_sec": 64.1,
         "upload_sec": 103.4,
         "total_sec": 168.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:37Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 27370,
@@ -17672,7 +18265,10 @@
         "download_sec": 61.0,
         "upload_sec": 86.0,
         "total_sec": 148.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:40Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 44818,
@@ -17692,7 +18288,10 @@
         "download_sec": 87.8,
         "upload_sec": 116.5,
         "total_sec": 205.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:43Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 27804,
@@ -17712,7 +18311,10 @@
         "download_sec": 84.8,
         "upload_sec": 113.2,
         "total_sec": 199.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:46Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 29773,
@@ -17732,7 +18334,10 @@
         "download_sec": 87.5,
         "upload_sec": 147.9,
         "total_sec": 236.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:48Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 27835,
@@ -17752,7 +18357,10 @@
         "download_sec": 30.6,
         "upload_sec": 62.0,
         "total_sec": 93.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:51Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 29905,
@@ -17772,7 +18380,10 @@
         "download_sec": 22.6,
         "upload_sec": 31.5,
         "total_sec": 55.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:53Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 52362,
@@ -17792,7 +18403,10 @@
         "download_sec": 55.1,
         "upload_sec": 92.2,
         "total_sec": 148.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:56Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 29300,
@@ -17812,7 +18426,10 @@
         "download_sec": 81.8,
         "upload_sec": 109.4,
         "total_sec": 192.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:40:59Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 34765,
@@ -17832,7 +18449,10 @@
         "download_sec": 111.6,
         "upload_sec": 146.4,
         "total_sec": 259.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:02Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 53631,
@@ -17852,7 +18472,8 @@
         "download_sec": 73.9,
         "upload_sec": 111.3,
         "total_sec": 186.4
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 34922,
@@ -17872,7 +18493,10 @@
         "download_sec": 39.7,
         "upload_sec": 59.3,
         "total_sec": 100.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:06Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 41776,
@@ -17892,7 +18516,10 @@
         "download_sec": 63.1,
         "upload_sec": 115.3,
         "total_sec": 179.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:09Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 21964,
@@ -17912,7 +18539,8 @@
         "download_sec": 77.4,
         "upload_sec": 112.8,
         "total_sec": 191.4
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 27172,
@@ -17932,7 +18560,8 @@
         "download_sec": 28.7,
         "upload_sec": 36.2,
         "total_sec": 65.8
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 39463,
@@ -17952,7 +18581,10 @@
         "download_sec": 66.8,
         "upload_sec": 85.6,
         "total_sec": 153.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:13Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 43919,
@@ -17972,7 +18604,10 @@
         "download_sec": 69.6,
         "upload_sec": 87.1,
         "total_sec": 157.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:16Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 32957,
@@ -17992,7 +18627,10 @@
         "download_sec": 156.4,
         "upload_sec": 202.2,
         "total_sec": 360.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:19Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 36172,
@@ -18012,7 +18650,10 @@
         "download_sec": 49.2,
         "upload_sec": 66.7,
         "total_sec": 117.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:22Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 52613,
@@ -18032,7 +18673,10 @@
         "download_sec": 77.2,
         "upload_sec": 147.6,
         "total_sec": 226.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:25Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 48947,
@@ -18052,7 +18696,10 @@
         "download_sec": 83.2,
         "upload_sec": 103.3,
         "total_sec": 188.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:28Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 94509,
@@ -18072,7 +18719,10 @@
         "download_sec": 90.9,
         "upload_sec": 149.6,
         "total_sec": 241.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:31Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 45169,
@@ -18092,7 +18742,10 @@
         "download_sec": 67.6,
         "upload_sec": 86.4,
         "total_sec": 155.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:33Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 6290,
@@ -18112,7 +18765,8 @@
         "download_sec": 21.0,
         "upload_sec": 28.0,
         "total_sec": 49.9
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 45699,
@@ -18132,7 +18786,10 @@
         "download_sec": 74.7,
         "upload_sec": 111.7,
         "total_sec": 187.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:38Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 57039,
@@ -18152,7 +18809,10 @@
         "download_sec": 82.5,
         "upload_sec": 128.7,
         "total_sec": 212.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:41Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 55364,
@@ -18172,7 +18832,10 @@
         "download_sec": 65.7,
         "upload_sec": 84.7,
         "total_sec": 151.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:43Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 46275,
@@ -18192,7 +18855,10 @@
         "download_sec": 47.8,
         "upload_sec": 69.5,
         "total_sec": 118.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:46Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 5296,
@@ -18212,7 +18878,8 @@
         "download_sec": 22.5,
         "upload_sec": 26.9,
         "total_sec": 50.6
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 52167,
@@ -18232,7 +18899,10 @@
         "download_sec": 77.3,
         "upload_sec": 110.0,
         "total_sec": 188.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:49Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 51127,
@@ -18252,7 +18922,10 @@
         "download_sec": 102.5,
         "upload_sec": 123.3,
         "total_sec": 227.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:53Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 17359,
@@ -18272,7 +18945,10 @@
         "download_sec": 56.8,
         "upload_sec": 78.1,
         "total_sec": 136.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:56Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 103388,
@@ -18292,7 +18968,10 @@
         "download_sec": 84.0,
         "upload_sec": 107.3,
         "total_sec": 193.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:41:58Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 48907,
@@ -18312,7 +18991,10 @@
         "download_sec": 89.6,
         "upload_sec": 124.3,
         "total_sec": 215.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:01Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 62133,
@@ -18332,7 +19014,10 @@
         "download_sec": 80.6,
         "upload_sec": 108.7,
         "total_sec": 190.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:04Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 54522,
@@ -18352,7 +19037,8 @@
         "download_sec": 55.8,
         "upload_sec": 64.2,
         "total_sec": 121.1
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 62658,
@@ -18372,7 +19058,10 @@
         "download_sec": 94.9,
         "upload_sec": 129.3,
         "total_sec": 225.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:08Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 63136,
@@ -18392,7 +19081,10 @@
         "download_sec": 88.8,
         "upload_sec": 123.5,
         "total_sec": 213.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:11Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 53742,
@@ -18412,7 +19104,10 @@
         "download_sec": 84.5,
         "upload_sec": 105.7,
         "total_sec": 191.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:14Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 57639,
@@ -18432,7 +19127,10 @@
         "download_sec": 14.1,
         "upload_sec": 16.9,
         "total_sec": 32.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:16Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 82879,
@@ -18452,7 +19150,13 @@
         "download_sec": 63.4,
         "upload_sec": 88.6,
         "total_sec": 153.4
-      }
+      },
+      "subtitles_failures": [
+        {
+          "reason": "add-file-link returned no subtitles",
+          "failed_at": "2026-04-25T10:42:18Z"
+        }
+      ]
     },
     {
       "sledujteto_file_id": 68629,
@@ -18472,7 +19176,10 @@
         "download_sec": 71.1,
         "upload_sec": 106.5,
         "total_sec": 179.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:21Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 57515,
@@ -18492,7 +19199,10 @@
         "download_sec": 76.9,
         "upload_sec": 97.9,
         "total_sec": 176.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:24Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 53021,
@@ -18512,7 +19222,10 @@
         "download_sec": 80.8,
         "upload_sec": 110.6,
         "total_sec": 193.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:26Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 48780,
@@ -18532,7 +19245,10 @@
         "download_sec": 29.4,
         "upload_sec": 35.7,
         "total_sec": 66.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:29Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 16655,
@@ -18552,7 +19268,10 @@
         "download_sec": 22.2,
         "upload_sec": 32.3,
         "total_sec": 55.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:34Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 64399,
@@ -18572,7 +19291,10 @@
         "download_sec": 122.6,
         "upload_sec": 172.0,
         "total_sec": 295.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:37Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 55774,
@@ -18592,7 +19314,10 @@
         "download_sec": 81.5,
         "upload_sec": 102.8,
         "total_sec": 185.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:40Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 73953,
@@ -18612,7 +19337,10 @@
         "download_sec": 101.9,
         "upload_sec": 145.0,
         "total_sec": 248.2
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:42Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 96334,
@@ -18632,7 +19360,10 @@
         "download_sec": 81.3,
         "upload_sec": 112.4,
         "total_sec": 195.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:45Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 54529,
@@ -18652,7 +19383,8 @@
         "download_sec": 28.5,
         "upload_sec": 39.3,
         "total_sec": 68.9
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 72147,
@@ -18672,7 +19404,10 @@
         "download_sec": 102.3,
         "upload_sec": 160.5,
         "total_sec": 264.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:48Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 40273,
@@ -18692,7 +19427,8 @@
         "download_sec": 7.9,
         "upload_sec": 14.0,
         "total_sec": 22.9
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 56955,
@@ -18712,7 +19448,10 @@
         "download_sec": 95.2,
         "upload_sec": 153.1,
         "total_sec": 249.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:52Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 57533,
@@ -18732,7 +19471,10 @@
         "download_sec": 84.0,
         "upload_sec": 96.3,
         "total_sec": 181.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:55Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 60108,
@@ -18752,7 +19494,10 @@
         "download_sec": 77.9,
         "upload_sec": 126.1,
         "total_sec": 205.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:42:58Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 70362,
@@ -18772,7 +19517,10 @@
         "download_sec": 38.0,
         "upload_sec": 56.6,
         "total_sec": 95.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:01Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 74710,
@@ -18792,7 +19540,10 @@
         "download_sec": 79.8,
         "upload_sec": 124.4,
         "total_sec": 205.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:04Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 48763,
@@ -18812,7 +19563,10 @@
         "download_sec": 66.1,
         "upload_sec": 149.9,
         "total_sec": 217.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:06Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 97753,
@@ -18832,7 +19586,10 @@
         "download_sec": 75.2,
         "upload_sec": 84.8,
         "total_sec": 161.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:09Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 62448,
@@ -18852,7 +19609,10 @@
         "download_sec": 71.5,
         "upload_sec": 104.0,
         "total_sec": 176.7
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:12Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 18311,
@@ -18872,7 +19632,8 @@
         "download_sec": 29.8,
         "upload_sec": 66.0,
         "total_sec": 97.1
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 83930,
@@ -18892,7 +19653,10 @@
         "download_sec": 76.8,
         "upload_sec": 94.1,
         "total_sec": 171.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:15Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 72077,
@@ -18912,7 +19676,10 @@
         "download_sec": 62.4,
         "upload_sec": 73.7,
         "total_sec": 137.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:18Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 79890,
@@ -18932,7 +19699,10 @@
         "download_sec": 90.9,
         "upload_sec": 99.9,
         "total_sec": 191.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:21Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 66558,
@@ -18952,7 +19722,10 @@
         "download_sec": 79.0,
         "upload_sec": 104.0,
         "total_sec": 184.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:24Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 68340,
@@ -18972,7 +19745,8 @@
         "download_sec": 179.9,
         "upload_sec": 216.8,
         "total_sec": 397.9
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 63366,
@@ -18992,7 +19766,10 @@
         "download_sec": 72.4,
         "upload_sec": 96.5,
         "total_sec": 170.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:28Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 103078,
@@ -19012,7 +19789,10 @@
         "download_sec": 41.0,
         "upload_sec": 51.3,
         "total_sec": 93.4
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:30Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 94239,
@@ -19032,7 +19812,10 @@
         "download_sec": 113.6,
         "upload_sec": 127.9,
         "total_sec": 242.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:34Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 58129,
@@ -19052,7 +19835,10 @@
         "download_sec": 110.3,
         "upload_sec": 126.3,
         "total_sec": 237.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:37Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 18787,
@@ -19072,7 +19858,10 @@
         "download_sec": 42.1,
         "upload_sec": 54.9,
         "total_sec": 98.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:41Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 102905,
@@ -19092,7 +19881,10 @@
         "download_sec": 70.3,
         "upload_sec": 128.1,
         "total_sec": 199.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:44Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 93223,
@@ -19112,7 +19904,10 @@
         "download_sec": 97.3,
         "upload_sec": 126.3,
         "total_sec": 224.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:48Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 70294,
@@ -19132,7 +19927,8 @@
         "download_sec": 133.2,
         "upload_sec": 185.1,
         "total_sec": 319.7
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 98614,
@@ -19152,7 +19948,10 @@
         "download_sec": 86.4,
         "upload_sec": 102.4,
         "total_sec": 190.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:51Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 94275,
@@ -19172,7 +19971,10 @@
         "download_sec": 90.1,
         "upload_sec": 139.0,
         "total_sec": 230.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:54Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 72097,
@@ -19192,7 +19994,10 @@
         "download_sec": 143.9,
         "upload_sec": 253.9,
         "total_sec": 399.3
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:43:57Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 78466,
@@ -19212,7 +20017,10 @@
         "download_sec": 34.4,
         "upload_sec": 39.5,
         "total_sec": 74.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:44:00Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 38035,
@@ -19232,7 +20040,10 @@
         "download_sec": 79.2,
         "upload_sec": 91.9,
         "total_sec": 172.5
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:44:03Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 78465,
@@ -19252,7 +20063,10 @@
         "download_sec": 89.3,
         "upload_sec": 99.2,
         "total_sec": 190.0
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:44:06Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 18791,
@@ -19272,7 +20086,10 @@
         "download_sec": 42.9,
         "upload_sec": 54.3,
         "total_sec": 98.1
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:44:10Z",
+      "subtitles_count": 2
     },
     {
       "sledujteto_file_id": 78265,
@@ -19292,7 +20109,10 @@
         "download_sec": 82.0,
         "upload_sec": 97.3,
         "total_sec": 180.6
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:44:12Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 18304,
@@ -19312,7 +20132,8 @@
         "download_sec": 36.1,
         "upload_sec": 38.4,
         "total_sec": 76.1
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 18752,
@@ -19332,7 +20153,8 @@
         "download_sec": 22.9,
         "upload_sec": 25.9,
         "total_sec": 49.8
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 17734,
@@ -19352,7 +20174,8 @@
         "download_sec": 27.5,
         "upload_sec": 34.1,
         "total_sec": 62.7
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 29370,
@@ -19372,7 +20195,8 @@
         "download_sec": 22.6,
         "upload_sec": 35.7,
         "total_sec": 59.1
-      }
+      },
+      "subtitles_skipped": "no subtitles available"
     },
     {
       "sledujteto_file_id": 103369,
@@ -19392,7 +20216,10 @@
         "download_sec": 87.9,
         "upload_sec": 100.5,
         "total_sec": 189.9
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:44:17Z",
+      "subtitles_count": 1
     },
     {
       "sledujteto_file_id": 65196,
@@ -19412,7 +20239,10 @@
         "download_sec": 103.0,
         "upload_sec": 119.6,
         "total_sec": 223.8
-      }
+      },
+      "subtitles_uploaded": true,
+      "subtitles_uploaded_at": "2026-04-25T10:44:20Z",
+      "subtitles_count": 1
     }
   ],
   "moderated_out": [
