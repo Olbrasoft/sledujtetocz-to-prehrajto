@@ -2,7 +2,7 @@
   "schema_version": 1,
   "account": "filmy.prehrajto@email.cz",
   "source": "sledujteto.cz",
-  "last_updated": "2026-05-06T12:20:27Z",
+  "last_updated": "2026-05-06T12:30:21Z",
   "uploads": [
     {
       "sledujteto_file_id": 100943,
@@ -20282,6 +20282,26 @@
         "download_sec": 17.5,
         "upload_sec": 41.5,
         "total_sec": 59.3
+      }
+    },
+    {
+      "sledujteto_file_id": 67611,
+      "sledujteto_cdn": null,
+      "cr_film_id": null,
+      "cr_slug": null,
+      "title": "Stopy v písku",
+      "year": 2022,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24556757,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-06T12:30:21Z",
+      "status": "processing",
+      "size_bytes": 3370199042,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 167.1,
+        "upload_sec": 225.0,
+        "total_sec": 394.0
       }
     }
   ],

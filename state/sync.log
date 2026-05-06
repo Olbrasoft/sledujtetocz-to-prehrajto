@@ -10191,3 +10191,20 @@
 [12:20:27] step=download curl https://www.sledujteto.cz/player/index/sledujteto/214fe0b9f5e34321673395a240a9d3fa
 [12:22:17] step=download done upload_id=67611 size=3370199042 dur=110.4s speed=30.5MB/s
 [12:22:17] step=upload start upload_id=67611 size=3370199042
+
+===== run 2026-05-06T12:23:45Z batch_size=1 lang=ALL (https://github.com/Olbrasoft/sledujtetocz-to-prehrajto/actions/runs/25434999282) =====
+[12:23:45] step=batch-start count=1 backlog=1004 uploads=916 moderated=2
+[12:23:45] step=login
+[12:23:47] step=login done
+[12:23:47] step=iteration 1/1
+[12:23:47] step=film start upload_id=67611 cr_film_id=None name='Stopy v písku (2022) CZ'
+[12:23:47] step=cdn-resolve upload_id=67611 cdn=None
+[12:23:49] step=cdn-resolve done 1.4s → https://www.sledujteto.cz/player/index/sledujteto/697191d6053b07c72dd186f7a67763d1
+[12:23:49] step=download curl https://www.sledujteto.cz/player/index/sledujteto/697191d6053b07c72dd186f7a67763d1
+[12:26:36] step=download done upload_id=67611 size=3370199042 dur=167.1s speed=20.2MB/s
+[12:26:36] step=upload start upload_id=67611 size=3370199042
+[12:30:21] step=upload done upload_id=67611 video_id=24556757 dur=225.0s speed=15.0MB/s
+[12:30:21] step=cleanup unlinked Stopy v písku (2022) CZ.mp4
+[12:30:21] step=film done upload_id=67611 total=394.0s (cdn=1.4s + download=167.1s + upload=225.0s)
+[12:30:21] step=state-saved upload_id=67611 (total uploads=917)
+[12:30:21] step=batch-end succeeded=1 failed=0 total_uploads=917 batch_dur=394.0s avg_per_film=394.0s backlog_remaining=85 eta_hours=9.3
