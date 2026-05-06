@@ -2,7 +2,7 @@
   "schema_version": 1,
   "account": "filmy.prehrajto@email.cz",
   "source": "sledujteto.cz",
-  "last_updated": "2026-04-25T10:44:20Z",
+  "last_updated": "2026-05-06T12:20:27Z",
   "uploads": [
     {
       "sledujteto_file_id": 100943,
@@ -20243,6 +20243,46 @@
       "subtitles_uploaded": true,
       "subtitles_uploaded_at": "2026-04-25T10:44:20Z",
       "subtitles_count": 1
+    },
+    {
+      "sledujteto_file_id": 51139,
+      "sledujteto_cdn": null,
+      "cr_film_id": null,
+      "cr_slug": null,
+      "title": "Bratříček Karel",
+      "year": 2016,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24556642,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-06T12:19:07Z",
+      "status": "processing",
+      "size_bytes": 917571855,
+      "timing": {
+        "cdn_resolve_sec": 0.3,
+        "download_sec": 30.5,
+        "upload_sec": 69.7,
+        "total_sec": 100.6
+      }
+    },
+    {
+      "sledujteto_file_id": 10700,
+      "sledujteto_cdn": null,
+      "cr_film_id": null,
+      "cr_slug": null,
+      "title": "Dita Saxová",
+      "year": 1968,
+      "lang_class": "CZ_DUB",
+      "prehrajto_video_id": 24556672,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-05-06T12:20:27Z",
+      "status": "processing",
+      "size_bytes": 538341950,
+      "timing": {
+        "cdn_resolve_sec": 0.2,
+        "download_sec": 17.5,
+        "upload_sec": 41.5,
+        "total_sec": 59.3
+      }
     }
   ],
   "moderated_out": [

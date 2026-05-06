@@ -10147,3 +10147,47 @@
 [05:01:07] step=film done upload_id=65196 total=223.8s (cdn=0.9s + download=103.0s + upload=119.6s)
 [05:01:07] step=state-saved upload_id=65196 (total uploads=914)
 [05:01:07] step=batch-end succeeded=80 failed=0 total_uploads=914 batch_dur=13850.7s avg_per_film=173.1s backlog_remaining=0 eta_hours=0.0
+[12:13:28] step=batch-start count=1 backlog=1003 uploads=914 moderated=2
+[12:13:28] step=login
+[12:13:28] step=login done
+[12:13:28] step=iteration 1/1
+[12:13:28] step=film start upload_id=39107 cr_film_id=None name='Bratříček Karel (2016) CZ'
+[12:13:28] step=cdn-resolve upload_id=39107 cdn=None
+[12:13:29] step=cdn-resolve FAILED upload_id=39107 after 0.3s
+[12:13:29] step=batch-end succeeded=0 failed=1 total_uploads=914 batch_dur=0.3s avg_per_film=0s backlog_remaining=87 eta_hours=None
+[12:17:26] step=batch-start count=1 backlog=1004 uploads=914 moderated=2
+[12:17:26] step=login
+[12:17:27] step=login done
+[12:17:27] step=iteration 1/1
+[12:17:27] step=film start upload_id=51139 cr_film_id=None name='Bratříček Karel (2016) CZ'
+[12:17:27] step=cdn-resolve upload_id=51139 cdn=None
+[12:17:27] step=cdn-resolve done 0.3s → https://www.sledujteto.cz/player/index/sledujteto/65e75928b434010062d3b4f275715bb0
+[12:17:27] step=download curl https://www.sledujteto.cz/player/index/sledujteto/65e75928b434010062d3b4f275715bb0
+[12:17:58] step=download done upload_id=51139 size=917571855 dur=30.5s speed=30.1MB/s
+[12:17:58] step=upload start upload_id=51139 size=917571855
+[12:19:07] step=upload done upload_id=51139 video_id=24556642 dur=69.7s speed=13.2MB/s
+[12:19:07] step=cleanup unlinked Bratříček Karel (2016) CZ.mp4
+[12:19:07] step=film done upload_id=51139 total=100.6s (cdn=0.3s + download=30.5s + upload=69.7s)
+[12:19:07] step=state-saved upload_id=51139 (total uploads=915)
+[12:19:07] step=batch-end succeeded=1 failed=0 total_uploads=915 batch_dur=100.6s avg_per_film=100.6s backlog_remaining=87 eta_hours=2.4
+[12:19:27] step=batch-start count=87 backlog=1004 uploads=915 moderated=2
+[12:19:27] step=login
+[12:19:28] step=login done
+[12:19:28] step=iteration 1/87
+[12:19:28] step=film start upload_id=10700 cr_film_id=None name='Dita Saxová (1968) CZ'
+[12:19:28] step=cdn-resolve upload_id=10700 cdn=None
+[12:19:28] step=cdn-resolve done 0.2s → https://www.sledujteto.cz/player/index/sledujteto/fa16afe84c260a3758e9bce5173cc450
+[12:19:28] step=download curl https://www.sledujteto.cz/player/index/sledujteto/fa16afe84c260a3758e9bce5173cc450
+[12:19:45] step=download done upload_id=10700 size=538341950 dur=17.5s speed=30.8MB/s
+[12:19:45] step=upload start upload_id=10700 size=538341950
+[12:20:27] step=upload done upload_id=10700 video_id=24556672 dur=41.5s speed=13.0MB/s
+[12:20:27] step=cleanup unlinked Dita Saxová (1968) CZ.mp4
+[12:20:27] step=film done upload_id=10700 total=59.3s (cdn=0.2s + download=17.5s + upload=41.5s)
+[12:20:27] step=state-saved upload_id=10700 (total uploads=916)
+[12:20:27] step=iteration 2/87
+[12:20:27] step=film start upload_id=67611 cr_film_id=None name='Stopy v písku (2022) CZ'
+[12:20:27] step=cdn-resolve upload_id=67611 cdn=None
+[12:20:27] step=cdn-resolve done 0.2s → https://www.sledujteto.cz/player/index/sledujteto/214fe0b9f5e34321673395a240a9d3fa
+[12:20:27] step=download curl https://www.sledujteto.cz/player/index/sledujteto/214fe0b9f5e34321673395a240a9d3fa
+[12:22:17] step=download done upload_id=67611 size=3370199042 dur=110.4s speed=30.5MB/s
+[12:22:17] step=upload start upload_id=67611 size=3370199042
