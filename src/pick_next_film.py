@@ -13,7 +13,14 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-BACKLOG = REPO_ROOT / "backlog" / "sledujteto-films.jsonl"
+# Allow override via BACKLOG_FILE env (e.g. for the local-only unplayable
+# pipeline that GitHub Actions can't run). Resolves relative to repo root.
+_backlog_env = os.environ.get("BACKLOG_FILE", "").strip()
+if _backlog_env:
+    BACKLOG = (Path(_backlog_env) if Path(_backlog_env).is_absolute()
+               else REPO_ROOT / _backlog_env)
+else:
+    BACKLOG = REPO_ROOT / "backlog" / "sledujteto-films.jsonl"
 STATE = REPO_ROOT / "state" / "uploaded.json"
 
 
