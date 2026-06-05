@@ -9,6 +9,7 @@ Spuštění:
 import json
 import os
 import sys
+import time
 from pathlib import Path
 import requests
 
@@ -18,6 +19,36 @@ USER_AGENT = (
 )
 SEC_CH_UA = '"Not:A-Brand";v="99", "Microsoft Edge";v="145", "Chromium";v="145"'
 ACCEPT_LANG = "cs,en;q=0.9,en-GB;q=0.8,en-US;q=0.7"
+
+
+def verify_uploaded_video(session: requests.Session, video_id: int) -> None:
+    """Fail unless the new video is visible in the account management UI."""
+    url = f"https://prehraj.to/profil/uprava-slozky-videa?videoId={video_id}"
+    last_status = None
+    for attempt in range(1, 7):
+        r = session.get(
+            url,
+            headers={
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+                "Accept-Language": ACCEPT_LANG,
+                "Referer": "https://prehraj.to/profil/nahrana-videa",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-Mode": "navigate",
+                "Sec-Fetch-Site": "same-origin",
+                "sec-ch-ua": SEC_CH_UA,
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": '"Linux"',
+            },
+            allow_redirects=False,
+        )
+        last_status = r.status_code
+        print(f"[upload] verify account video_id={video_id} attempt={attempt}/6 status={last_status}")
+        if r.status_code == 200:
+            return
+        if r.status_code in (401, 403):
+            raise RuntimeError(f"Uploaded video {video_id} is not manageable in this account: HTTP {r.status_code}")
+        time.sleep(10)
+    raise RuntimeError(f"Uploaded video {video_id} did not appear in account management, last HTTP {last_status}")
 
 
 def login(email: str, password: str) -> requests.Session:
@@ -53,6 +84,8 @@ def login(email: str, password: str) -> requests.Session:
     print(f"[login] /profil check status={check.status_code}")
     if check.status_code != 200:
         raise RuntimeError(f"Login failed — /profil vrací {check.status_code}")
+    if email.lower() not in check.text.lower():
+        raise RuntimeError("Login failed — /profil does not show the expected account e-mail")
     print(f"[login] OK, {len(s.cookies)} cookies uloženo")
     return s
 
@@ -188,6 +221,7 @@ def upload_video(
         print(f"[upload] rename status={rn.status_code}")
         rn.raise_for_status()
 
+    verify_uploaded_video(session, video_id)
     return video_id
 
 
