@@ -49,6 +49,7 @@ jobs:
         env:
           PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
           PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
+          PREHRAJTO_COOKIE_JSON: ${{ secrets.PREHRAJTO_COOKIE_JSON }}
           LANG_CLASSES: ${{ inputs.lang_classes }}
         run: |
           python src/sync_batch.py --count "${{ inputs.batch_size }}"

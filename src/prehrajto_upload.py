@@ -55,6 +55,27 @@ def login(email: str, password: str) -> requests.Session:
     s = requests.Session()
     s.headers["User-Agent"] = USER_AGENT
 
+    cookie_json = os.environ.get("PREHRAJTO_COOKIE_JSON")
+    if cookie_json:
+        cookies = json.loads(cookie_json)
+        for cookie in cookies:
+            if cookie.get("name") and cookie.get("value"):
+                s.cookies.set(
+                    cookie["name"],
+                    cookie["value"],
+                    domain=cookie.get("domain") or "prehraj.to",
+                    path=cookie.get("path") or "/",
+                )
+        print(f"[login] loaded {len(cookies)} cookies from PREHRAJTO_COOKIE_JSON")
+        check = s.get("https://prehraj.to/profil", allow_redirects=False)
+        print(f"[login] /profil cookie check status={check.status_code}")
+        if check.status_code != 200:
+            raise RuntimeError(f"Cookie login failed — /profil vrací {check.status_code}")
+        if email.lower() not in check.text.lower():
+            raise RuntimeError("Cookie login failed — /profil does not show the expected account e-mail")
+        print(f"[login] cookie OK, {len(s.cookies)} cookies loaded")
+        return s
+
     # Prime the session — visit homepage to get initial Nette cookies (csrf, session)
     prime = s.get("https://prehraj.to/")
     print(f"[login] prime GET status={prime.status_code}, cookies={dict(s.cookies)}")
