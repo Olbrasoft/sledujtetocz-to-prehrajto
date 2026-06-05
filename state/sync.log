@@ -23030,3 +23030,229 @@
 [20:22:20] step=film done upload_id=38542 total=179.6s (cdn=1.3s + download=98.8s + upload=79.3s)
 [20:22:20] step=state-saved upload_id=38542 (total uploads=1151)
 [20:22:20] step=batch-end succeeded=20 failed=0 total_uploads=1151 batch_dur=4754.9s avg_per_film=237.7s backlog_remaining=-79 eta_hours=-5.2
+
+===== run 2026-06-05T20:25:25Z batch_size=20 lang=CZ_DUB,CZ_SUB,SK_DUB,SK_SUB (https://github.com/Olbrasoft/sledujtetocz-to-prehrajto/actions/runs/27038260949) =====
+[20:25:26] step=batch-start count=20 backlog=1074 uploads=1151 moderated=2
+[20:25:26] step=login
+[20:25:26] step=login done
+[20:25:26] step=iteration 1/20
+[20:25:26] step=film start upload_id=34047 cr_film_id=36832 name='Into The Void (2019) CZ titulky'
+[20:25:26] step=cdn-resolve upload_id=34047 cdn=www
+[20:25:28] step=cdn-resolve done 1.7s → https://www.sledujteto.cz/player/index/sledujteto/73b40d9e118e9278ab21dcfabdba09b2
+[20:25:28] step=download curl https://www.sledujteto.cz/player/index/sledujteto/73b40d9e118e9278ab21dcfabdba09b2
+[20:27:32] step=download done upload_id=34047 size=1669037040 dur=123.5s speed=13.5MB/s
+[20:27:32] step=upload start upload_id=34047 size=1669037040
+[20:29:21] step=upload done upload_id=34047 video_id=25586079 dur=109.6s speed=15.2MB/s
+[20:29:21] step=cleanup unlinked Into The Void (2019) CZ titulky.mp4
+[20:29:21] step=film done upload_id=34047 total=234.9s (cdn=1.7s + download=123.5s + upload=109.6s)
+[20:29:21] step=state-saved upload_id=34047 (total uploads=1152)
+[20:29:21] step=iteration 2/20
+[20:29:21] step=film start upload_id=36949 cr_film_id=36835 name='Useless Humans (2021) CZ titulky'
+[20:29:21] step=cdn-resolve upload_id=36949 cdn=www
+[20:29:23] step=cdn-resolve done 1.5s → https://www.sledujteto.cz/player/index/sledujteto/e6cf263f05bc1c4e6c2ee92c9f058d8a
+[20:29:23] step=download curl https://www.sledujteto.cz/player/index/sledujteto/e6cf263f05bc1c4e6c2ee92c9f058d8a
+[20:31:57] step=download done upload_id=36949 size=1524375646 dur=153.9s speed=9.9MB/s
+[20:31:57] step=upload start upload_id=36949 size=1524375646
+[20:33:22] step=upload done upload_id=36949 video_id=25586171 dur=85.0s speed=17.9MB/s
+[20:33:22] step=cleanup unlinked Useless Humans (2021) CZ titulky.mp4
+[20:33:22] step=film done upload_id=36949 total=240.6s (cdn=1.5s + download=153.9s + upload=85.0s)
+[20:33:22] step=state-saved upload_id=36949 (total uploads=1153)
+[20:33:22] step=iteration 3/20
+[20:33:22] step=film start upload_id=40659 cr_film_id=36837 name='Attack of the Unknown (2020) CZ titulky'
+[20:33:22] step=cdn-resolve upload_id=40659 cdn=www
+[20:33:23] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/afb62dd9d402ddd3ace835fadf7a90c7
+[20:33:23] step=download curl https://www.sledujteto.cz/player/index/sledujteto/afb62dd9d402ddd3ace835fadf7a90c7
+[20:35:38] step=download done upload_id=40659 size=2046937882 dur=134.9s speed=15.2MB/s
+[20:35:38] step=upload start upload_id=40659 size=2046937882
+[20:37:46] step=upload done upload_id=40659 video_id=25586265 dur=127.6s speed=16.0MB/s
+[20:37:46] step=cleanup unlinked Attack of the Unknown (2020) CZ titulky.mp4
+[20:37:46] step=film done upload_id=40659 total=263.9s (cdn=1.2s + download=134.9s + upload=127.6s)
+[20:37:46] step=state-saved upload_id=40659 (total uploads=1154)
+[20:37:46] step=iteration 4/20
+[20:37:46] step=film start upload_id=49479 cr_film_id=36852 name='Hide and Seek (2021) CZ titulky'
+[20:37:46] step=cdn-resolve upload_id=49479 cdn=www
+[20:37:47] step=cdn-resolve done 1.4s → https://www.sledujteto.cz/player/index/sledujteto/87493203a8290885c92a0e3bea30db6a
+[20:37:47] step=download curl https://www.sledujteto.cz/player/index/sledujteto/87493203a8290885c92a0e3bea30db6a
+[20:39:25] step=download done upload_id=49479 size=1711275319 dur=97.6s speed=17.5MB/s
+[20:39:25] step=upload start upload_id=49479 size=1711275319
+[20:41:01] step=upload done upload_id=49479 video_id=25586342 dur=96.3s speed=17.8MB/s
+[20:41:01] step=cleanup unlinked Hide and Seek (2021) CZ titulky.mp4
+[20:41:01] step=film done upload_id=49479 total=195.4s (cdn=1.4s + download=97.6s + upload=96.3s)
+[20:41:01] step=state-saved upload_id=49479 (total uploads=1155)
+[20:41:01] step=iteration 5/20
+[20:41:01] step=film start upload_id=48465 cr_film_id=36853 name='The Mutation (2021) CZ titulky'
+[20:41:01] step=cdn-resolve upload_id=48465 cdn=www
+[20:41:03] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/068a448722a2c2c3e9322a4d9413c40b
+[20:41:03] step=download curl https://www.sledujteto.cz/player/index/sledujteto/068a448722a2c2c3e9322a4d9413c40b
+[20:43:01] step=download done upload_id=48465 size=1780959534 dur=118.1s speed=15.1MB/s
+[20:43:01] step=upload start upload_id=48465 size=1780959534
+[20:44:48] step=upload done upload_id=48465 video_id=25586402 dur=106.8s speed=16.7MB/s
+[20:44:48] step=cleanup unlinked The Mutation (2021) CZ titulky.mp4
+[20:44:48] step=film done upload_id=48465 total=226.4s (cdn=1.3s + download=118.1s + upload=106.8s)
+[20:44:48] step=state-saved upload_id=48465 (total uploads=1156)
+[20:44:48] step=iteration 6/20
+[20:44:48] step=film start upload_id=46960 cr_film_id=36862 name='Masquerade (2021) CZ titulky'
+[20:44:48] step=cdn-resolve upload_id=46960 cdn=www
+[20:44:49] step=cdn-resolve done 1.4s → https://www.sledujteto.cz/player/index/sledujteto/99bc0d8ff2de1e4d3c6596ea9888da52
+[20:44:49] step=download curl https://www.sledujteto.cz/player/index/sledujteto/99bc0d8ff2de1e4d3c6596ea9888da52
+[20:47:13] step=download done upload_id=46960 size=1641639659 dur=143.9s speed=11.4MB/s
+[20:47:13] step=upload start upload_id=46960 size=1641639659
+[20:48:52] step=upload done upload_id=46960 video_id=25586479 dur=99.2s speed=16.5MB/s
+[20:48:53] step=cleanup unlinked Masquerade (2021) CZ titulky.mp4
+[20:48:53] step=film done upload_id=46960 total=244.7s (cdn=1.4s + download=143.9s + upload=99.2s)
+[20:48:53] step=state-saved upload_id=46960 (total uploads=1157)
+[20:48:53] step=iteration 7/20
+[20:48:53] step=film start upload_id=65720 cr_film_id=36870 name='Pravědnik (2023) CZ titulky'
+[20:48:53] step=cdn-resolve upload_id=65720 cdn=www
+[20:48:54] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/63a7ecdd8827d94e8bcb5558181e316c
+[20:48:54] step=download curl https://www.sledujteto.cz/player/index/sledujteto/63a7ecdd8827d94e8bcb5558181e316c
+[20:53:58] step=download done upload_id=65720 size=4196479199 dur=304.9s speed=13.8MB/s
+[20:53:58] step=upload start upload_id=65720 size=4196479199
+[20:57:38] step=upload done upload_id=65720 video_id=25586601 dur=219.2s speed=19.1MB/s
+[20:57:38] step=cleanup unlinked Pravědnik (2023) CZ titulky.mp4
+[20:57:38] step=film done upload_id=65720 total=525.6s (cdn=0.9s + download=304.9s + upload=219.2s)
+[20:57:38] step=state-saved upload_id=65720 (total uploads=1158)
+[20:57:38] step=iteration 8/20
+[20:57:38] step=film start upload_id=54972 cr_film_id=36872 name='Venuseffekten (2021) CZ titulky'
+[20:57:38] step=cdn-resolve upload_id=54972 cdn=www
+[20:57:40] step=cdn-resolve done 1.7s → https://www.sledujteto.cz/player/index/sledujteto/b9a43b78318597f84f6f61b922c92604
+[20:57:40] step=download curl https://www.sledujteto.cz/player/index/sledujteto/b9a43b78318597f84f6f61b922c92604
+[21:00:40] step=download done upload_id=54972 size=2146182399 dur=180.0s speed=11.9MB/s
+[21:00:40] step=upload start upload_id=54972 size=2146182399
+[21:02:53] step=upload done upload_id=54972 video_id=25586736 dur=133.0s speed=16.1MB/s
+[21:02:53] step=cleanup unlinked Venuseffekten (2021) CZ titulky.mp4
+[21:02:53] step=film done upload_id=54972 total=315.0s (cdn=1.7s + download=180.0s + upload=133.0s)
+[21:02:53] step=state-saved upload_id=54972 (total uploads=1159)
+[21:02:53] step=iteration 9/20
+[21:02:53] step=film start upload_id=55362 cr_film_id=36873 name='World Ends at Camp Z (2021) CZ titulky'
+[21:02:53] step=cdn-resolve upload_id=55362 cdn=www
+[21:02:54] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/98f4a7fb46952750687f84a7ca437935
+[21:02:54] step=download curl https://www.sledujteto.cz/player/index/sledujteto/98f4a7fb46952750687f84a7ca437935
+[21:05:32] step=download done upload_id=55362 size=1808716224 dur=157.4s speed=11.5MB/s
+[21:05:32] step=upload start upload_id=55362 size=1808716224
+[21:07:17] step=upload done upload_id=55362 video_id=25586859 dur=105.6s speed=17.1MB/s
+[21:07:17] step=cleanup unlinked World Ends at Camp Z (2021) CZ titulky.mp4
+[21:07:17] step=film done upload_id=55362 total=264.2s (cdn=1.0s + download=157.4s + upload=105.6s)
+[21:07:17] step=state-saved upload_id=55362 (total uploads=1160)
+[21:07:17] step=iteration 10/20
+[21:07:17] step=film start upload_id=50387 cr_film_id=36885 name='The Gardener (2021) CZ titulky'
+[21:07:17] step=cdn-resolve upload_id=50387 cdn=www
+[21:07:19] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/b447ab4c23cc433fbabf13c14f707beb
+[21:07:19] step=download curl https://www.sledujteto.cz/player/index/sledujteto/b447ab4c23cc433fbabf13c14f707beb
+[21:09:40] step=download done upload_id=50387 size=1798691685 dur=141.5s speed=12.7MB/s
+[21:09:40] step=upload start upload_id=50387 size=1798691685
+[21:11:31] step=upload done upload_id=50387 video_id=25586968 dur=110.7s speed=16.2MB/s
+[21:11:31] step=cleanup unlinked The Gardener (2021) CZ titulky.mp4
+[21:11:31] step=film done upload_id=50387 total=253.6s (cdn=1.1s + download=141.5s + upload=110.7s)
+[21:11:31] step=state-saved upload_id=50387 (total uploads=1161)
+[21:11:31] step=iteration 11/20
+[21:11:31] step=film start upload_id=51261 cr_film_id=36889 name='Icahn: Neposedný miliardář (2022) CZ titulky'
+[21:11:31] step=cdn-resolve upload_id=51261 cdn=www
+[21:11:32] step=cdn-resolve done 1.4s → https://www.sledujteto.cz/player/index/sledujteto/291aa930cc4ea8321fe157bf2b71b1cc
+[21:11:32] step=download curl https://www.sledujteto.cz/player/index/sledujteto/291aa930cc4ea8321fe157bf2b71b1cc
+[21:14:20] step=download done upload_id=51261 size=2078597701 dur=167.3s speed=12.4MB/s
+[21:14:20] step=upload start upload_id=51261 size=2078597701
+[21:16:34] step=upload done upload_id=51261 video_id=25587093 dur=134.7s speed=15.4MB/s
+[21:16:35] step=cleanup unlinked Icahn: Neposedný miliardář (2022) CZ titulky.mp4
+[21:16:35] step=film done upload_id=51261 total=303.7s (cdn=1.4s + download=167.3s + upload=134.7s)
+[21:16:35] step=state-saved upload_id=51261 (total uploads=1162)
+[21:16:35] step=iteration 12/20
+[21:16:35] step=film start upload_id=54677 cr_film_id=36898 name='Assailant (2022) CZ titulky'
+[21:16:35] step=cdn-resolve upload_id=54677 cdn=www
+[21:16:36] step=cdn-resolve done 1.2s → https://www.sledujteto.cz/player/index/sledujteto/adb7fb38a49dac426afcb906ebb9b734
+[21:16:36] step=download curl https://www.sledujteto.cz/player/index/sledujteto/adb7fb38a49dac426afcb906ebb9b734
+[21:18:45] step=download done upload_id=54677 size=1928849660 dur=129.4s speed=14.9MB/s
+[21:18:45] step=upload start upload_id=54677 size=1928849660
+[21:20:43] step=upload done upload_id=54677 video_id=25587208 dur=117.2s speed=16.5MB/s
+[21:20:43] step=cleanup unlinked Assailant (2022) CZ titulky.mp4
+[21:20:43] step=film done upload_id=54677 total=248.0s (cdn=1.2s + download=129.4s + upload=117.2s)
+[21:20:43] step=state-saved upload_id=54677 (total uploads=1163)
+[21:20:43] step=iteration 13/20
+[21:20:43] step=film start upload_id=98972 cr_film_id=36920 name='Touhy žen (2025) CZ titulky'
+[21:20:43] step=cdn-resolve upload_id=98972 cdn=www
+[21:20:44] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/b29daf12a2ae50c65721e25bb7514cbe
+[21:20:44] step=download curl https://www.sledujteto.cz/player/index/sledujteto/b29daf12a2ae50c65721e25bb7514cbe
+[21:22:47] step=download done upload_id=98972 size=1961519409 dur=123.3s speed=15.9MB/s
+[21:22:47] step=upload start upload_id=98972 size=1961519409
+[21:24:36] step=upload done upload_id=98972 video_id=25587301 dur=108.1s speed=18.1MB/s
+[21:24:36] step=cleanup unlinked Touhy žen (2025) CZ titulky.mp4
+[21:24:36] step=film done upload_id=98972 total=233.0s (cdn=1.3s + download=123.3s + upload=108.1s)
+[21:24:36] step=state-saved upload_id=98972 (total uploads=1164)
+[21:24:36] step=iteration 14/20
+[21:24:36] step=film start upload_id=95071 cr_film_id=36934 name='My Dead Friend Zoe (2024) CZ titulky'
+[21:24:36] step=cdn-resolve upload_id=95071 cdn=www
+[21:24:37] step=cdn-resolve done 1.0s → https://www.sledujteto.cz/player/index/sledujteto/50e769b077549fd9d73b8daf41208866
+[21:24:37] step=download curl https://www.sledujteto.cz/player/index/sledujteto/50e769b077549fd9d73b8daf41208866
+[21:27:06] step=download done upload_id=95071 size=2031463849 dur=149.0s speed=13.6MB/s
+[21:27:06] step=upload start upload_id=95071 size=2031463849
+[21:29:16] step=upload done upload_id=95071 video_id=25587395 dur=130.3s speed=15.6MB/s
+[21:29:16] step=cleanup unlinked My Dead Friend Zoe (2024) CZ titulky.mp4
+[21:29:16] step=film done upload_id=95071 total=280.6s (cdn=1.0s + download=149.0s + upload=130.3s)
+[21:29:16] step=state-saved upload_id=95071 (total uploads=1165)
+[21:29:16] step=iteration 15/20
+[21:29:16] step=film start upload_id=78178 cr_film_id=36938 name='Omni Loop (2024) CZ titulky'
+[21:29:16] step=cdn-resolve upload_id=78178 cdn=www
+[21:29:18] step=cdn-resolve done 1.6s → https://www.sledujteto.cz/player/index/sledujteto/e6733aadaf7da0312bbca4991ef8a920
+[21:29:18] step=download curl https://www.sledujteto.cz/player/index/sledujteto/e6733aadaf7da0312bbca4991ef8a920
+[21:31:18] step=download done upload_id=78178 size=2203574943 dur=119.7s speed=18.4MB/s
+[21:31:18] step=upload start upload_id=78178 size=2203574943
+[21:33:25] step=upload done upload_id=78178 video_id=25587495 dur=127.3s speed=17.3MB/s
+[21:33:25] step=cleanup unlinked Omni Loop (2024) CZ titulky.mp4
+[21:33:25] step=film done upload_id=78178 total=248.9s (cdn=1.6s + download=119.7s + upload=127.3s)
+[21:33:25] step=state-saved upload_id=78178 (total uploads=1166)
+[21:33:25] step=iteration 16/20
+[21:33:25] step=film start upload_id=65100 cr_film_id=36940 name='El hombre del saco (2023) CZ titulky'
+[21:33:25] step=cdn-resolve upload_id=65100 cdn=www
+[21:33:27] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/b7148a49c407d5e06ad9dfe1a8c10e53
+[21:33:27] step=download curl https://www.sledujteto.cz/player/index/sledujteto/b7148a49c407d5e06ad9dfe1a8c10e53
+[21:34:56] step=download done upload_id=65100 size=1600784740 dur=89.0s speed=18.0MB/s
+[21:34:56] step=upload start upload_id=65100 size=1600784740
+[21:36:30] step=upload done upload_id=65100 video_id=25587571 dur=94.7s speed=16.9MB/s
+[21:36:31] step=cleanup unlinked El hombre del saco (2023) CZ titulky.mp4
+[21:36:31] step=film done upload_id=65100 total=185.2s (cdn=1.3s + download=89.0s + upload=94.7s)
+[21:36:31] step=state-saved upload_id=65100 (total uploads=1167)
+[21:36:31] step=iteration 17/20
+[21:36:31] step=film start upload_id=74336 cr_film_id=36941 name='H. P. Lovecraft's The Old Ones (2024) CZ titulky'
+[21:36:31] step=cdn-resolve upload_id=74336 cdn=www
+[21:36:32] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/cf7e71046dfee19cfb1b7361f439baf8
+[21:36:32] step=download curl https://www.sledujteto.cz/player/index/sledujteto/cf7e71046dfee19cfb1b7361f439baf8
+[21:37:58] step=download done upload_id=74336 size=1673167298 dur=86.7s speed=19.3MB/s
+[21:37:58] step=upload start upload_id=74336 size=1673167298
+[21:39:25] step=upload done upload_id=74336 video_id=25587633 dur=86.3s speed=19.4MB/s
+[21:39:25] step=cleanup unlinked H. P. Lovecraft's The Old Ones (2024) CZ titulky.mp4
+[21:39:25] step=film done upload_id=74336 total=174.3s (cdn=1.1s + download=86.7s + upload=86.3s)
+[21:39:25] step=state-saved upload_id=74336 (total uploads=1168)
+[21:39:25] step=iteration 18/20
+[21:39:25] step=film start upload_id=65213 cr_film_id=36944 name='The Engineer (2023) CZ titulky'
+[21:39:25] step=cdn-resolve upload_id=65213 cdn=www
+[21:39:26] step=cdn-resolve done 1.3s → https://www.sledujteto.cz/player/index/sledujteto/4dd6443f75016e1bdd01b66f48c750f1
+[21:39:26] step=download curl https://www.sledujteto.cz/player/index/sledujteto/4dd6443f75016e1bdd01b66f48c750f1
+[21:41:24] step=download done upload_id=65213 size=1837176129 dur=117.9s speed=15.6MB/s
+[21:41:24] step=upload start upload_id=65213 size=1837176129
+[21:43:05] step=upload done upload_id=65213 video_id=25587685 dur=101.3s speed=18.1MB/s
+[21:43:06] step=cleanup unlinked The Engineer (2023) CZ titulky.mp4
+[21:43:06] step=film done upload_id=65213 total=220.7s (cdn=1.3s + download=117.9s + upload=101.3s)
+[21:43:06] step=state-saved upload_id=65213 (total uploads=1169)
+[21:43:06] step=iteration 19/20
+[21:43:06] step=film start upload_id=64685 cr_film_id=36947 name='The Black Book (2023) CZ titulky'
+[21:43:06] step=cdn-resolve upload_id=64685 cdn=www
+[21:43:07] step=cdn-resolve done 1.1s → https://www.sledujteto.cz/player/index/sledujteto/94cb696648d7dfe1b26e3e1414f501b3
+[21:43:07] step=download curl https://www.sledujteto.cz/player/index/sledujteto/94cb696648d7dfe1b26e3e1414f501b3
+[21:45:25] step=download done upload_id=64685 size=2509734126 dur=138.1s speed=18.2MB/s
+[21:45:25] step=upload start upload_id=64685 size=2509734126
+[21:47:38] step=upload done upload_id=64685 video_id=25587753 dur=133.6s speed=18.8MB/s
+[21:47:39] step=cleanup unlinked The Black Book (2023) CZ titulky.mp4
+[21:47:39] step=film done upload_id=64685 total=273.2s (cdn=1.1s + download=138.1s + upload=133.6s)
+[21:47:39] step=state-saved upload_id=64685 (total uploads=1170)
+[21:47:39] step=iteration 20/20
+[21:47:39] step=film start upload_id=84932 cr_film_id=36953 name='Get Away (2024) CZ titulky'
+[21:47:39] step=cdn-resolve upload_id=84932 cdn=www
+[21:47:40] step=cdn-resolve done 0.9s → https://www.sledujteto.cz/player/index/sledujteto/f4f4b0d1ad805915d03eedf8ff1c8980
+[21:47:40] step=download curl https://www.sledujteto.cz/player/index/sledujteto/f4f4b0d1ad805915d03eedf8ff1c8980
+[21:49:16] step=download done upload_id=84932 size=1711014522 dur=96.4s speed=17.7MB/s
+[21:49:16] step=upload start upload_id=84932 size=1711014522
+[21:50:55] step=upload done upload_id=84932 video_id=25587836 dur=99.3s speed=17.2MB/s
+[21:50:56] step=cleanup unlinked Get Away (2024) CZ titulky.mp4
+[21:50:56] step=film done upload_id=84932 total=196.8s (cdn=0.9s + download=96.4s + upload=99.3s)
+[21:50:56] step=state-saved upload_id=84932 (total uploads=1171)
+[21:50:56] step=batch-end succeeded=20 failed=0 total_uploads=1171 batch_dur=5129.2s avg_per_film=256.5s backlog_remaining=-99 eta_hours=-7.1
