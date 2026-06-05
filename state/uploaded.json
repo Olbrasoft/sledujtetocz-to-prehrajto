@@ -2,7 +2,7 @@
   "schema_version": 1,
   "account": "filmy.prehrajto@email.cz",
   "source": "sledujteto.cz",
-  "last_updated": "2026-06-05T16:52:11Z",
+  "last_updated": "2026-06-05T20:22:20Z",
   "uploads": [
     {
       "sledujteto_file_id": 100943,
@@ -24582,6 +24582,406 @@
         "download_sec": 55.8,
         "upload_sec": 64.3,
         "total_sec": 121.3
+      }
+    },
+    {
+      "sledujteto_file_id": 23040,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36768,
+      "cr_slug": "scream-for-me-sarajevo",
+      "title": "Scream for Me Sarajevo",
+      "year": 2018,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25574146,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T19:06:00Z",
+      "status": "processing",
+      "size_bytes": 1357182406,
+      "timing": {
+        "cdn_resolve_sec": 1.6,
+        "download_sec": 114.7,
+        "upload_sec": 58.4,
+        "total_sec": 174.9
+      }
+    },
+    {
+      "sledujteto_file_id": 17047,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36771,
+      "cr_slug": "the-lullaby",
+      "title": "The Lullaby",
+      "year": 2018,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25574187,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T19:07:33Z",
+      "status": "processing",
+      "size_bytes": 776197148,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 49.4,
+        "upload_sec": 42.4,
+        "total_sec": 93.0
+      }
+    },
+    {
+      "sledujteto_file_id": 22702,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36784,
+      "cr_slug": "paddleton",
+      "title": "Paddleton",
+      "year": 2019,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25574235,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T19:09:32Z",
+      "status": "processing",
+      "size_bytes": 886512393,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 74.3,
+        "upload_sec": 43.3,
+        "total_sec": 119.0
+      }
+    },
+    {
+      "sledujteto_file_id": 47890,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36785,
+      "cr_slug": "nuclear",
+      "title": "Nuclear",
+      "year": 2019,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25574296,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T19:12:45Z",
+      "status": "processing",
+      "size_bytes": 1895864226,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 101.9,
+        "upload_sec": 89.5,
+        "total_sec": 192.5
+      }
+    },
+    {
+      "sledujteto_file_id": 20271,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36786,
+      "cr_slug": "gun-city",
+      "title": "Gun City",
+      "year": 2018,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25574383,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T19:16:13Z",
+      "status": "processing",
+      "size_bytes": 1419288538,
+      "timing": {
+        "cdn_resolve_sec": 1.3,
+        "download_sec": 146.9,
+        "upload_sec": 59.9,
+        "total_sec": 208.2
+      }
+    },
+    {
+      "sledujteto_file_id": 24584,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36789,
+      "cr_slug": "miss-baek",
+      "title": "Miss Baek",
+      "year": 2018,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25574568,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T19:25:22Z",
+      "status": "processing",
+      "size_bytes": 4013566545,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 388.3,
+        "upload_sec": 159.3,
+        "total_sec": 549.3
+      }
+    },
+    {
+      "sledujteto_file_id": 19808,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36790,
+      "cr_slug": "alien-predator",
+      "title": "Alien Predator",
+      "year": 2018,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25574676,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T19:28:25Z",
+      "status": "processing",
+      "size_bytes": 1497920337,
+      "timing": {
+        "cdn_resolve_sec": 0.8,
+        "download_sec": 119.2,
+        "upload_sec": 62.1,
+        "total_sec": 182.3
+      }
+    },
+    {
+      "sledujteto_file_id": 55982,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36791,
+      "cr_slug": "curse-of-the-blind-dead",
+      "title": "Curse of the Blind Dead",
+      "year": 2019,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25574746,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T19:31:44Z",
+      "status": "processing",
+      "size_bytes": 1724821100,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 126.7,
+        "upload_sec": 71.7,
+        "total_sec": 199.7
+      }
+    },
+    {
+      "sledujteto_file_id": 45220,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36793,
+      "cr_slug": "prijezdove-cesty",
+      "title": "Příjezdové cesty",
+      "year": 2020,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25576619,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T19:36:25Z",
+      "status": "processing",
+      "size_bytes": 1709355413,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 189.8,
+        "upload_sec": 89.6,
+        "total_sec": 280.5
+      }
+    },
+    {
+      "sledujteto_file_id": 31122,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36799,
+      "cr_slug": "verotika",
+      "title": "Verotika",
+      "year": 2019,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25584157,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T19:39:25Z",
+      "status": "processing",
+      "size_bytes": 1840891390,
+      "timing": {
+        "cdn_resolve_sec": 1.7,
+        "download_sec": 96.5,
+        "upload_sec": 81.8,
+        "total_sec": 180.2
+      }
+    },
+    {
+      "sledujteto_file_id": 42742,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36800,
+      "cr_slug": "last-call",
+      "title": "Last Call",
+      "year": 2020,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25585026,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T19:42:50Z",
+      "status": "processing",
+      "size_bytes": 1545904742,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 85.9,
+        "upload_sec": 118.2,
+        "total_sec": 205.1
+      }
+    },
+    {
+      "sledujteto_file_id": 66777,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36801,
+      "cr_slug": "kuwaresma",
+      "title": "Kuwaresma",
+      "year": 2019,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25585127,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T19:46:34Z",
+      "status": "processing",
+      "size_bytes": 1573501080,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 123.8,
+        "upload_sec": 98.6,
+        "total_sec": 223.6
+      }
+    },
+    {
+      "sledujteto_file_id": 31627,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36807,
+      "cr_slug": "recep-ivedik-6",
+      "title": "Recep İvedik 6",
+      "year": 2019,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25585236,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T19:51:23Z",
+      "status": "processing",
+      "size_bytes": 2235146404,
+      "timing": {
+        "cdn_resolve_sec": 1.2,
+        "download_sec": 180.7,
+        "upload_sec": 107.3,
+        "total_sec": 289.5
+      }
+    },
+    {
+      "sledujteto_file_id": 97197,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36808,
+      "cr_slug": "anchor",
+      "title": "Anchor",
+      "year": 2022,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25585358,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T19:55:48Z",
+      "status": "processing",
+      "size_bytes": 2211315548,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 167.5,
+        "upload_sec": 95.3,
+        "total_sec": 264.2
+      }
+    },
+    {
+      "sledujteto_file_id": 41457,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36809,
+      "cr_slug": "blind",
+      "title": "Blind",
+      "year": 2019,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25585460,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T19:59:38Z",
+      "status": "processing",
+      "size_bytes": 1752064571,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 149.3,
+        "upload_sec": 80.3,
+        "total_sec": 230.6
+      }
+    },
+    {
+      "sledujteto_file_id": 27162,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36815,
+      "cr_slug": "domaci-vezeni-2019",
+      "title": "Domácí vězení",
+      "year": 2019,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25585509,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T20:02:46Z",
+      "status": "processing",
+      "size_bytes": 1276076080,
+      "timing": {
+        "cdn_resolve_sec": 1.1,
+        "download_sec": 126.2,
+        "upload_sec": 60.6,
+        "total_sec": 188.1
+      }
+    },
+    {
+      "sledujteto_file_id": 42629,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36818,
+      "cr_slug": "assassins",
+      "title": "Assassins",
+      "year": 2021,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25585575,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T20:07:41Z",
+      "status": "processing",
+      "size_bytes": 2145552542,
+      "timing": {
+        "cdn_resolve_sec": 0.9,
+        "download_sec": 144.0,
+        "upload_sec": 149.8,
+        "total_sec": 295.0
+      }
+    },
+    {
+      "sledujteto_file_id": 28279,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36819,
+      "cr_slug": "quail-lake",
+      "title": "Quail Lake",
+      "year": 2019,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25585728,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T20:12:28Z",
+      "status": "processing",
+      "size_bytes": 1825127409,
+      "timing": {
+        "cdn_resolve_sec": 1.4,
+        "download_sec": 191.5,
+        "upload_sec": 93.6,
+        "total_sec": 286.7
+      }
+    },
+    {
+      "sledujteto_file_id": 83623,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36823,
+      "cr_slug": "unavena-nadeje",
+      "title": "Unavená naděje",
+      "year": 2023,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25585839,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T20:19:21Z",
+      "status": "processing",
+      "size_bytes": 3908321427,
+      "timing": {
+        "cdn_resolve_sec": 1.0,
+        "download_sec": 251.7,
+        "upload_sec": 159.4,
+        "total_sec": 412.5
+      }
+    },
+    {
+      "sledujteto_file_id": 38542,
+      "sledujteto_cdn": "www",
+      "cr_film_id": 36831,
+      "cr_slug": "money-plane",
+      "title": "Money Plane",
+      "year": 2020,
+      "lang_class": "CZ_SUB",
+      "prehrajto_video_id": 25585937,
+      "prehrajto_slug_path": null,
+      "uploaded_at": "2026-06-05T20:22:20Z",
+      "status": "processing",
+      "size_bytes": 1624312295,
+      "timing": {
+        "cdn_resolve_sec": 1.3,
+        "download_sec": 98.8,
+        "upload_sec": 79.3,
+        "total_sec": 179.6
       }
     }
   ],
