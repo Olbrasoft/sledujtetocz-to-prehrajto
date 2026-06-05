@@ -4,15 +4,23 @@ on:
   workflow_dispatch:
     inputs:
       batch_size:
-        description: "Kolik filmů nahrát v jednom běhu (default 1)"
+        description: "Kolik filmů nahrát v jednom běhu (default 20)"
         required: false
-        default: "1"
+        default: "20"
       lang_classes:
         description: "Lang filter (comma-sep, `ALL` = bez filtru)"
         required: false
-        default: "CZ_DUB,CZ_SUB"
-  # schedule:
-  #   - cron: "0 */6 * * *"  # enable až po ověření
+        default: "CZ_DUB,CZ_SUB,SK_DUB,SK_SUB"
+      auto_continue:
+        description: "Po úspěšné dávce automaticky spustit další"
+        required: false
+        default: "true"
+  schedule:
+    - cron: "*/15 * * * *"
+
+concurrency:
+  group: sync-main
+  cancel-in-progress: false
 
 jobs:
   upload-batch:
@@ -21,6 +29,7 @@ jobs:
     timeout-minutes: 350
     permissions:
       contents: write
+      actions: write
     steps:
       - uses: actions/checkout@v4
         with:
@@ -42,7 +51,7 @@ jobs:
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           {
             echo ""
-            echo "===== run $RUN_TS batch_size=${{ inputs.batch_size }} lang=${{ inputs.lang_classes }} ($RUN_URL) ====="
+            echo "===== run $RUN_TS batch_size=${{ inputs.batch_size || '20' }} lang=${{ inputs.lang_classes || 'CZ_DUB,CZ_SUB,SK_DUB,SK_SUB' }} ($RUN_URL) ====="
           } >> state/sync.log
 
       - name: Run sync batch
@@ -50,9 +59,9 @@ jobs:
           PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
           PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
           PREHRAJTO_COOKIE_JSON: ${{ secrets.PREHRAJTO_COOKIE_JSON }}
-          LANG_CLASSES: ${{ inputs.lang_classes }}
+          LANG_CLASSES: ${{ inputs.lang_classes || 'CZ_DUB,CZ_SUB,SK_DUB,SK_SUB' }}
         run: |
-          python src/sync_batch.py --count "${{ inputs.batch_size }}"
+          python src/sync_batch.py --count "${{ inputs.batch_size || '20' }}"
 
       - name: Commit state + log
         if: always()
@@ -70,4 +79,25 @@ jobs:
             git commit -m "chore(sync): batch run — total uploads now ${UP_COUNT}"
             git pull --rebase origin main || true
             git push
+          fi
+
+      - name: Continue overnight
+        if: success() && (github.event_name == 'schedule' || inputs.auto_continue != 'false')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BATCH_SIZE: ${{ inputs.batch_size || '20' }}
+          LANG_CLASSES: ${{ inputs.lang_classes || 'CZ_DUB,CZ_SUB,SK_DUB,SK_SUB' }}
+        run: |
+          set -e
+          last=$(grep 'step=batch-end' state/sync.log | tail -1 || true)
+          echo "last batch: $last"
+          succeeded=$(printf '%s' "$last" | sed -n 's/.*succeeded=\([0-9][0-9]*\).*/\1/p')
+          remaining=$(printf '%s' "$last" | sed -n 's/.*backlog_remaining=\([-0-9][0-9]*\).*/\1/p')
+          succeeded=${succeeded:-0}
+          remaining=${remaining:-0}
+          if [ "$succeeded" -gt 0 ] && [ "$remaining" -gt 0 ]; then
+            echo "Dispatching next batch_size=$BATCH_SIZE lang=$LANG_CLASSES; remaining=$remaining"
+            gh workflow run sync.yml -f batch_size="$BATCH_SIZE" -f lang_classes="$LANG_CLASSES" -f auto_continue=true
+          else
+            echo "Not dispatching next batch; succeeded=$succeeded remaining=$remaining"
           fi
