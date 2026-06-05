@@ -15,8 +15,6 @@ on:
         description: "Po úspěšné dávce automaticky spustit další"
         required: false
         default: "true"
-  schedule:
-    - cron: "*/15 * * * *"
 
 concurrency:
   group: sync-main
